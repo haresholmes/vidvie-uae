@@ -1,4 +1,5 @@
-// Public product data derived from the VIDVIE UAE catalog issued 1 September 2026. Wholesale pricing is intentionally omitted.
+// Public product data derived from the VIDVIE UAE catalog issued 1 September 2026.
+// Enriched with Begad.ae live platform product mapping and URLs.
 const catalogProducts = [
   {
     "id": "BE-2659",
@@ -6,7 +7,12 @@ const catalogProducts = [
     "name": "Fast Wall Charger 20W Type-C Port UK Plug with PPS Support - White",
     "category": "Wall Chargers",
     "retail": 52.0,
-    "image": "assets/catalog/product-000.webp"
+    "image": "assets/catalog/product-000.webp",
+    "begad_id": 10001858,
+    "begad_sku": "ELE1000720",
+    "begad_url": "https://begad.ae/product/plb170-wall-charger-w-o-cable-white-vidvie",
+    "begad_price": 51.0,
+    "in_stock": true
   },
   {
     "id": "BE-2660",
@@ -14,7 +20,12 @@ const catalogProducts = [
     "name": "Fast Wall Charger 20W Dual Port (Type-C PD & USB-A) Support PPS - White",
     "category": "Wall Chargers",
     "retail": 54.0,
-    "image": "assets/catalog/product-001.webp"
+    "image": "assets/catalog/product-001.webp",
+    "begad_id": 10001859,
+    "begad_sku": "ELE1000721",
+    "begad_url": "https://begad.ae/product/plb173-usb-type-c-fast-charger",
+    "begad_price": 54.0,
+    "in_stock": true
   },
   {
     "id": "BE-2661",
@@ -22,7 +33,12 @@ const catalogProducts = [
     "name": "Fast Wall Charger 33W GaN with Type-C & USB Ports Support PPS - Black",
     "category": "Wall Chargers",
     "retail": 54.0,
-    "image": "assets/catalog/product-002.webp"
+    "image": "assets/catalog/product-002.webp",
+    "begad_id": 10001860,
+    "begad_sku": "ELE1000722",
+    "begad_url": "https://begad.ae/product/plb176-usb-type-c-fast-charger",
+    "begad_price": 54.0,
+    "in_stock": true
   },
   {
     "id": "BE-2663",
@@ -30,7 +46,12 @@ const catalogProducts = [
     "name": "Type-C GaN Fast Wall Charger 33W Dual PD 30W & PPS for iPhone & Samsung - White",
     "category": "Wall Chargers",
     "retail": 55.0,
-    "image": "assets/catalog/product-003.webp"
+    "image": "assets/catalog/product-003.webp",
+    "begad_id": 10001022,
+    "begad_sku": "ELE1000227",
+    "begad_url": "https://begad.ae/product/vidvie-plb182-30w-gan-fast-wall-charger-usb-c-pd-usb-a-dual-port-white",
+    "begad_price": 55.0,
+    "in_stock": true
   },
   {
     "id": "BE-2657",
@@ -38,7 +59,12 @@ const catalogProducts = [
     "name": "Type-C 20W PD and USB 18W Dual Port Fast Wall Charger - White",
     "category": "Wall Chargers",
     "retail": 65.0,
-    "image": "assets/catalog/product-004.webp"
+    "image": "assets/catalog/product-004.webp",
+    "begad_id": 10001855,
+    "begad_sku": "ELE1000717",
+    "begad_url": "https://begad.ae/product/plb167-type-c-usb-pd-fast-charger",
+    "begad_price": 56.0,
+    "in_stock": true
   },
   {
     "id": "BE-2662",
@@ -46,7 +72,12 @@ const catalogProducts = [
     "name": "Fast Wall Charger 30W GaN with Digital Power Display Screen, Type-C PD & USB Ports - White",
     "category": "Wall Chargers",
     "retail": 60.0,
-    "image": "assets/catalog/product-005.webp"
+    "image": "assets/catalog/product-005.webp",
+    "begad_id": 10001023,
+    "begad_sku": "ELE1000228",
+    "begad_url": "https://begad.ae/product/vidvie-plb177-30w-gan-fast-wall-charger-with-led-power-display-usb-c-pd-usb-a-white",
+    "begad_price": 59.0,
+    "in_stock": true
   },
   {
     "id": "BE-2658",
@@ -54,7 +85,12 @@ const catalogProducts = [
     "name": "Dual Port Fast Wall Charger Type-C 30W PD & USB-A 18W QC UK Plug PPS 33W - White",
     "category": "Wall Chargers",
     "retail": 60.0,
-    "image": "assets/catalog/product-006.webp"
+    "image": "assets/catalog/product-006.webp",
+    "begad_id": 10001856,
+    "begad_sku": "ELE1000718",
+    "begad_url": "https://begad.ae/product/plb169-type-c-usb-pd-fast-charger",
+    "begad_price": 60.0,
+    "in_stock": true
   },
   {
     "id": "BE-2654",
@@ -62,7 +98,12 @@ const catalogProducts = [
     "name": "Fast Wall Charger 33W GaN Dual Type-C Ports Support iPhone 15/16 Pro Max & PPS - White",
     "category": "Wall Chargers",
     "retail": 62.0,
-    "image": "assets/catalog/product-007.webp"
+    "image": "assets/catalog/product-007.webp",
+    "begad_id": 10001851,
+    "begad_sku": "HOM1000303",
+    "begad_url": "https://begad.ae/product/vidvie-plb160-dual-type-c-gan-fast-charger",
+    "begad_price": 62.0,
+    "in_stock": true
   },
   {
     "id": "BE-2655",
@@ -70,7 +111,12 @@ const catalogProducts = [
     "name": "Type-C GaN Fast Wall Charger 45W Dual with PPS Super Fast Charging - White",
     "category": "Wall Chargers",
     "retail": 74.0,
-    "image": "assets/catalog/product-008.webp"
+    "image": "assets/catalog/product-008.webp",
+    "begad_id": 10001853,
+    "begad_sku": "ELE1000715",
+    "begad_url": "https://begad.ae/product/vidvie-plb161-dual-type-c-gan-fast-charger",
+    "begad_price": 74.0,
+    "in_stock": true
   },
   {
     "id": "BE-2666",
@@ -78,7 +124,12 @@ const catalogProducts = [
     "name": "Fast Wall Charger 40W GaN with Retractable Type-C Cable, USB-A & Type-C Ports",
     "category": "Wall Chargers",
     "retail": 82.0,
-    "image": "assets/catalog/product-009.webp"
+    "image": "assets/catalog/product-009.webp",
+    "begad_id": 10001866,
+    "begad_sku": "ELE1000728",
+    "begad_url": "https://begad.ae/product/wall-charger-xl-plb127-retractable-cord-gan-fast-charger",
+    "begad_price": 81.0,
+    "in_stock": true
   },
   {
     "id": "BE-2656",
@@ -86,23 +137,38 @@ const catalogProducts = [
     "name": "Fast Wall Charger 65W GaN Triple Ports (Dual Type-C & USB) for Laptops & Phones - White",
     "category": "Wall Chargers",
     "retail": 83.0,
-    "image": "assets/catalog/product-010.webp"
+    "image": "assets/catalog/product-010.webp",
+    "begad_id": 10001854,
+    "begad_sku": "ELE1000716",
+    "begad_url": "https://begad.ae/product/plb162-dual-type-c-usb-gan-fast-charger",
+    "begad_price": 83.0,
+    "in_stock": true
   },
   {
     "id": "BE-2653",
     "model": "PLB142",
-    "name": "Fast Wall Charger GaN 67W with 2 Type-C + USB-A Ports – PD/PPS High Power Charger",
+    "name": "Fast Wall Charger GaN 67W with 2 Type-C + USB-A Ports \u2013 PD/PPS High Power Charger",
     "category": "Wall Chargers",
     "retail": 85.0,
-    "image": "assets/catalog/product-011.webp"
+    "image": "assets/catalog/product-011.webp",
+    "begad_id": 10001770,
+    "begad_sku": "ELE1000659",
+    "begad_url": "https://begad.ae/product/plb142-gan-67w-high-power-charger-compact-fast-charging-solution",
+    "begad_price": 85.0,
+    "in_stock": true
   },
   {
     "id": "BE-2664",
     "model": "XL-PLB122",
-    "name": "Fast Wall Charger70W GaN with Dual Type-C & Dual USB-A Ports – High Power Charger for Phones, Tablets & Laptops",
+    "name": "Fast Wall Charger70W GaN with Dual Type-C & Dual USB-A Ports \u2013 High Power Charger for Phones, Tablets & Laptops",
     "category": "Wall Chargers",
     "retail": 89.0,
-    "image": "assets/catalog/product-012.webp"
+    "image": "assets/catalog/product-012.webp",
+    "begad_id": 10001864,
+    "begad_sku": "ELE1000726",
+    "begad_url": "https://begad.ae/product/wall-charger-xl-plb122-gan-dual-usb-dual-type-c-70w-fast-charger",
+    "begad_price": 89.0,
+    "in_stock": true
   },
   {
     "id": "BE-2667",
@@ -110,7 +176,12 @@ const catalogProducts = [
     "name": "Retractable Cord GaN Fast Charger [w/o Cable] - [Beige GaN",
     "category": "Wall Chargers",
     "retail": 92.0,
-    "image": "assets/catalog/product-013.webp"
+    "image": "assets/catalog/product-013.webp",
+    "begad_id": 10001867,
+    "begad_sku": "ELE1000729",
+    "begad_url": "https://begad.ae/product/wall-charger-xl-plb124-retractable-cord-gan-fast-charger",
+    "begad_price": 91.0,
+    "in_stock": true
   },
   {
     "id": "BE-2665",
@@ -118,7 +189,12 @@ const catalogProducts = [
     "name": "Desktop Charger 70W GaN with 4 Ports (Dual Type-C & Dual USB) 1.5m Extension Cord - White",
     "category": "Wall Chargers",
     "retail": 92.0,
-    "image": "assets/catalog/product-014.webp"
+    "image": "assets/catalog/product-014.webp",
+    "begad_id": 10001865,
+    "begad_sku": "ELE1000727",
+    "begad_url": "https://begad.ae/product/wall-charger-xl-plb123-gan-70w-desktop-charger",
+    "begad_price": 91.0,
+    "in_stock": true
   },
   {
     "id": "BE-2694",
@@ -126,7 +202,12 @@ const catalogProducts = [
     "name": "33W GaN Wall Charger Power Cube - Multi-Outlet UK Plug Fast Charger Adapter with AC Sockets & USB Ports - White",
     "category": "Wall Chargers",
     "retail": 93.0,
-    "image": "assets/catalog/product-015.webp"
+    "image": "assets/catalog/product-015.webp",
+    "begad_id": null,
+    "begad_sku": "BE-2694",
+    "begad_url": "https://begad.ae/search?q=XL-PSB03",
+    "begad_price": 93.0,
+    "in_stock": true
   },
   {
     "id": "BE-2668",
@@ -134,7 +215,12 @@ const catalogProducts = [
     "name": "Fast Wall Charger 100W GaN 4 Ports (3x Type-C + 1x USB-A) for Laptop & Smartphones - White",
     "category": "Wall Chargers",
     "retail": 124.0,
-    "image": "assets/catalog/product-016.webp"
+    "image": "assets/catalog/product-016.webp",
+    "begad_id": 10001869,
+    "begad_sku": "ELE1000730",
+    "begad_url": "https://begad.ae/product/wall-charger-xl-plb125-single-usb-three-type-c-gan-fast-charger",
+    "begad_price": 117.12,
+    "in_stock": true
   },
   {
     "id": "BE-2669",
@@ -142,7 +228,12 @@ const catalogProducts = [
     "name": "Ultra-Fast Wall Charger140W GaN with Multi-Ports - White",
     "category": "Wall Chargers",
     "retail": 169.0,
-    "image": "assets/catalog/product-017.webp"
+    "image": "assets/catalog/product-017.webp",
+    "begad_id": 10001870,
+    "begad_sku": "ELE1000731",
+    "begad_url": "https://begad.ae/product/wall-charger-xl-plb126-single-usb-three-type-c-gan-fast-charger",
+    "begad_price": 160.06,
+    "in_stock": true
   },
   {
     "id": "BE-2707",
@@ -150,7 +241,12 @@ const catalogProducts = [
     "name": "USB to Type-C 3A Fast Charging & Data Braided Cable 1M - Grey",
     "category": "Cables",
     "retail": 49.0,
-    "image": "assets/catalog/product-018.webp"
+    "image": "assets/catalog/product-018.webp",
+    "begad_id": 10001930,
+    "begad_sku": "ELE1000770",
+    "begad_url": "https://begad.ae/product/vidvie-cb4057t-type-c-data-cable",
+    "begad_price": 48.0,
+    "in_stock": true
   },
   {
     "id": "BE-2701",
@@ -158,7 +254,12 @@ const catalogProducts = [
     "name": "Type-C to Type-C Fast Charging & Data Cable (1M) 60W - White",
     "category": "Cables",
     "retail": 49.0,
-    "image": "assets/catalog/product-019.webp"
+    "image": "assets/catalog/product-019.webp",
+    "begad_id": 10001916,
+    "begad_sku": "ELE1000763",
+    "begad_url": "https://begad.ae/product/data-cable-cb4031c-c-type-c-to-type-c-data-cable",
+    "begad_price": 48.0,
+    "in_stock": true
   },
   {
     "id": "BE-2702",
@@ -166,7 +267,12 @@ const catalogProducts = [
     "name": "Type-C to Type-C Data Cable [2 m TC-TC (60W)] [Black] [White]",
     "category": "Cables",
     "retail": 50.0,
-    "image": "assets/catalog/product-020.webp"
+    "image": "assets/catalog/product-020.webp",
+    "begad_id": 10001917,
+    "begad_sku": "ELE1000764",
+    "begad_url": "https://begad.ae/product/type-c-to-type-c-data-cable-2-m-tc-tc-60w-black-white-cb4038-2c-c",
+    "begad_price": 98.0,
+    "in_stock": true
   },
   {
     "id": "BE-2705",
@@ -174,7 +280,12 @@ const catalogProducts = [
     "name": "Type-C to Lightning 30W Fast Charging & Data Cable Liquid Silicone (1m) - White]",
     "category": "Cables",
     "retail": 50.0,
-    "image": "assets/catalog/product-021.webp"
+    "image": "assets/catalog/product-021.webp",
+    "begad_id": 10001921,
+    "begad_sku": "ELE1000768",
+    "begad_url": "https://begad.ae/product/cb4050c-i-type-c-to-ip-30w-data-cable",
+    "begad_price": 49.0,
+    "in_stock": true
   },
   {
     "id": "BE-2703",
@@ -182,7 +293,12 @@ const catalogProducts = [
     "name": "Type-C to Lightning Fast Charging 30W Nylon Braided Data Cable 1m - Black",
     "category": "Cables",
     "retail": 50.0,
-    "image": "assets/catalog/product-022.webp"
+    "image": "assets/catalog/product-022.webp",
+    "begad_id": 10001918,
+    "begad_sku": "ELE1000765",
+    "begad_url": "https://begad.ae/product/data-cable-cb4038c-i-type-c-to-ip-data-cable",
+    "begad_price": 49.0,
+    "in_stock": true
   },
   {
     "id": "BE-2710",
@@ -190,7 +306,12 @@ const catalogProducts = [
     "name": "Type-C to Type-C Fast Charging & Data Cable 66W Liquid Silicone (1 Meter) - White",
     "category": "Cables",
     "retail": 50.0,
-    "image": "assets/catalog/product-023.webp"
+    "image": "assets/catalog/product-023.webp",
+    "begad_id": 10001932,
+    "begad_sku": "ELE1000771",
+    "begad_url": "https://begad.ae/product/vidvie-cb4059c-c-type-c-to-type-c-data-cable",
+    "begad_price": 49.0,
+    "in_stock": true
   },
   {
     "id": "BE-2704",
@@ -198,7 +319,12 @@ const catalogProducts = [
     "name": "3 in 1 Data Cable [Black]",
     "category": "Cables",
     "retail": 51.0,
-    "image": "assets/catalog/product-024.webp"
+    "image": "assets/catalog/product-024.webp",
+    "begad_id": 10001961,
+    "begad_sku": "BE-2704",
+    "begad_url": "https://begad.ae/product/cb4039-3-in-1-data-cable",
+    "begad_price": 50.0,
+    "in_stock": true
   },
   {
     "id": "BE-2713",
@@ -206,7 +332,12 @@ const catalogProducts = [
     "name": "3 in 1 Multi Charging Data Cable 1.2M (80cm+40cm) 5V/3A (Black) 1.2M",
     "category": "Cables",
     "retail": 51.0,
-    "image": "assets/catalog/product-025.webp"
+    "image": "assets/catalog/product-025.webp",
+    "begad_id": 10001937,
+    "begad_sku": "ELE1000774",
+    "begad_url": "https://begad.ae/product/vidvie-cb4022-3-in-1-multi-charging-data-cable",
+    "begad_price": 50.0,
+    "in_stock": true
   },
   {
     "id": "BE-2709",
@@ -214,7 +345,12 @@ const catalogProducts = [
     "name": "Type-C to Type-C Data Cable (Black)",
     "category": "Cables",
     "retail": 52.0,
-    "image": "assets/catalog/product-026.webp"
+    "image": "assets/catalog/product-026.webp",
+    "begad_id": null,
+    "begad_sku": "BE-2709",
+    "begad_url": "https://begad.ae/search?q=CB4058C%26C",
+    "begad_price": 52.0,
+    "in_stock": true
   },
   {
     "id": "BE-2708",
@@ -222,7 +358,12 @@ const catalogProducts = [
     "name": "MFi-Compatible Type-C to Lightning PD Fast Charging & Data Cable with Reinforced Connectors - Black",
     "category": "Cables",
     "retail": 52.0,
-    "image": "assets/catalog/product-027.webp"
+    "image": "assets/catalog/product-027.webp",
+    "begad_id": null,
+    "begad_sku": "BE-2708",
+    "begad_url": "https://begad.ae/search?q=CB4058C%26I",
+    "begad_price": 52.0,
+    "in_stock": true
   },
   {
     "id": "BE-2712",
@@ -230,7 +371,12 @@ const catalogProducts = [
     "name": "Type-C to iP PD Fast Charging Cable 36W with Built-in Phone Stand & Flat Braided Wire 1.5M - Black",
     "category": "Cables",
     "retail": 53.0,
-    "image": "assets/catalog/product-028.webp"
+    "image": "assets/catalog/product-028.webp",
+    "begad_id": 10001936,
+    "begad_sku": "ELE1000773",
+    "begad_url": "https://begad.ae/product/vidvie-cb4068c-i-36w-type-c-to-ip-bracket-data-cable",
+    "begad_price": 52.0,
+    "in_stock": true
   },
   {
     "id": "BE-2697",
@@ -238,7 +384,12 @@ const catalogProducts = [
     "name": "Type-C to 3.5mm Audio Adapter Braided Cable Support Calling & Music - Grey",
     "category": "Cables",
     "retail": 52.0,
-    "image": "assets/catalog/product-029.webp"
+    "image": "assets/catalog/product-029.webp",
+    "begad_id": 10001913,
+    "begad_sku": "ELE1000760",
+    "begad_url": "https://begad.ae/product/vidvie-al1124-type-c-to-3-5mm-audio-adapter",
+    "begad_price": 51.0,
+    "in_stock": true
   },
   {
     "id": "BE-2711",
@@ -246,15 +397,25 @@ const catalogProducts = [
     "name": "Type-C to Type-C Braided Flat Data Cable with Built-in Phone Stand 1.5M 66W- Black",
     "category": "Cables",
     "retail": 52.0,
-    "image": "assets/catalog/product-030.webp"
+    "image": "assets/catalog/product-030.webp",
+    "begad_id": 10001934,
+    "begad_sku": "ELE1000772",
+    "begad_url": "https://begad.ae/product/vidvie-cb4068c-c-66w-type-c-to-type-c-bracket-data-cable",
+    "begad_price": 51.0,
+    "in_stock": true
   },
   {
     "id": "BE-2642",
     "model": "HD04",
-    "name": "DisplayPort to DisplayPort Cable – 18Gbps High-Definition Braided DP Cable 18Gbps",
+    "name": "DisplayPort to DisplayPort Cable \u2013 18Gbps High-Definition Braided DP Cable 18Gbps",
     "category": "Cables",
     "retail": 60.0,
-    "image": "assets/catalog/product-031.webp"
+    "image": "assets/catalog/product-031.webp",
+    "begad_id": 10001876,
+    "begad_sku": "ELE1000733",
+    "begad_url": "https://begad.ae/product/hd04-dp-high-definition-cable",
+    "begad_price": 60.0,
+    "in_stock": true
   },
   {
     "id": "BE-2674",
@@ -262,7 +423,12 @@ const catalogProducts = [
     "name": "USB Aluminum Alloy QC3.0 Fast Car Charger 36W Dual - Grey",
     "category": "Car Chargers",
     "retail": 53.0,
-    "image": "assets/catalog/product-032.webp"
+    "image": "assets/catalog/product-032.webp",
+    "begad_id": 10001926,
+    "begad_sku": "AUT1000046",
+    "begad_url": "https://begad.ae/product/vidvie-cc536-aluminum-alloy-qc3-0-fast-car-charger",
+    "begad_price": 52.0,
+    "in_stock": true
   },
   {
     "id": "BE-2676",
@@ -270,7 +436,12 @@ const catalogProducts = [
     "name": "Single Type-C Fast Car Charger 33W PPS & 30W PD Compact Metal Shell - Grey",
     "category": "Car Chargers",
     "retail": 54.0,
-    "image": "assets/catalog/product-033.webp"
+    "image": "assets/catalog/product-033.webp",
+    "begad_id": 10001964,
+    "begad_sku": "BE-2676",
+    "begad_url": "https://begad.ae/product/vidvie-single-type-c-fast-car-charger-tc-tc-100cm-60w-grey-vidvie",
+    "begad_price": 53.0,
+    "in_stock": true
   },
   {
     "id": "BE-2677",
@@ -278,7 +449,12 @@ const catalogProducts = [
     "name": "Single Type-C 33W Fast Car Charger with Premium Aluminum Alloy Body - Grey",
     "category": "Car Chargers",
     "retail": 55.0,
-    "image": "assets/catalog/product-034.webp"
+    "image": "assets/catalog/product-034.webp",
+    "begad_id": 10001928,
+    "begad_sku": "AUT1000048",
+    "begad_url": "https://begad.ae/product/cc541-single-type-c-fast-car-charger-33w",
+    "begad_price": 54.0,
+    "in_stock": true
   },
   {
     "id": "BE-2678",
@@ -286,7 +462,12 @@ const catalogProducts = [
     "name": "Type-C 33W PD and USB 18W QC Dual Port Fast Car Charger- Grey",
     "category": "Car Chargers",
     "retail": 56.0,
-    "image": "assets/catalog/product-035.webp"
+    "image": "assets/catalog/product-035.webp",
+    "begad_id": 10001962,
+    "begad_sku": "BE-2678",
+    "begad_url": "https://begad.ae/product/vidvie-type-c-usb-fast-car-charger-type-c-tc-tc-metal-car-charger-grey",
+    "begad_price": 110.0,
+    "in_stock": true
   },
   {
     "id": "BE-2670",
@@ -294,7 +475,12 @@ const catalogProducts = [
     "name": "Mini Metal Car Charger 20W Fast Charging with Type-C PD & USB QC3.0 Ports - Dark Grey",
     "category": "Car Chargers",
     "retail": 57.0,
-    "image": "assets/catalog/product-036.webp"
+    "image": "assets/catalog/product-036.webp",
+    "begad_id": 10001904,
+    "begad_sku": "AUT1000042",
+    "begad_url": "https://begad.ae/product/vidvie-in-car-cc522-car-charger",
+    "begad_price": 112.0,
+    "in_stock": true
   },
   {
     "id": "BE-2680",
@@ -302,7 +488,12 @@ const catalogProducts = [
     "name": "4-in-1 Retractable Fast Car Charger with Built-in Type 60W & Lightning 27W Cables + USB/Type-C Ports - Grey",
     "category": "Car Chargers",
     "retail": 58.0,
-    "image": "assets/catalog/product-037.webp"
+    "image": "assets/catalog/product-037.webp",
+    "begad_id": 10001929,
+    "begad_sku": "AUT1000049",
+    "begad_url": "https://begad.ae/product/vidvie-cc543-dual-type-c-fast-car-charger",
+    "begad_price": 57.0,
+    "in_stock": true
   },
   {
     "id": "BE-2681",
@@ -310,7 +501,12 @@ const catalogProducts = [
     "name": "Port Fast Car Charger 48W Dual (Type-C 30W + USB 18W) with Digital Display - Grey",
     "category": "Car Chargers",
     "retail": 60.0,
-    "image": "assets/catalog/product-038.webp"
+    "image": "assets/catalog/product-038.webp",
+    "begad_id": 10001931,
+    "begad_sku": "AUT1000050",
+    "begad_url": "https://begad.ae/product/vidvie-cc547-type-c-usb-fast-car-charger",
+    "begad_price": 118.0,
+    "in_stock": true
   },
   {
     "id": "BE-2672",
@@ -318,7 +514,12 @@ const catalogProducts = [
     "name": "In-Car Bluetooth V5.0 Receiver & FM Transmitter with Coiled Cable & TF Card Slot - Black",
     "category": "Car Chargers",
     "retail": 64.0,
-    "image": "assets/catalog/product-039.webp"
+    "image": "assets/catalog/product-039.webp",
+    "begad_id": 10001924,
+    "begad_sku": "AUT1000044",
+    "begad_url": "https://begad.ae/product/vidvie-fm01-in-car-wireless-receiver",
+    "begad_price": 63.0,
+    "in_stock": true
   },
   {
     "id": "BE-2671",
@@ -326,7 +527,12 @@ const catalogProducts = [
     "name": "Dual USB Aluminum Alloy Mini Car Charger 2.4A Max Output - Blue",
     "category": "Car Chargers",
     "retail": 69.0,
-    "image": "assets/catalog/product-040.webp"
+    "image": "assets/catalog/product-040.webp",
+    "begad_id": 10001923,
+    "begad_sku": "AUT1000043",
+    "begad_url": "https://begad.ae/product/vidvie-cc528-car-charger",
+    "begad_price": 68.0,
+    "in_stock": true
   },
   {
     "id": "BE-2682",
@@ -334,7 +540,12 @@ const catalogProducts = [
     "name": "Fast Car Charger 65W 3 Ports (Dual Type-C + USB-A) PD 3.0 & PPS for Laptops & Smartphones - Black",
     "category": "Car Chargers",
     "retail": 71.0,
-    "image": "assets/catalog/product-041.webp"
+    "image": "assets/catalog/product-041.webp",
+    "begad_id": 10001933,
+    "begad_sku": "AUT1000051",
+    "begad_url": "https://begad.ae/product/vidvie-cc548-dual-type-c-usb-fast-car-charger",
+    "begad_price": 70.0,
+    "in_stock": true
   },
   {
     "id": "BE-2675",
@@ -342,7 +553,12 @@ const catalogProducts = [
     "name": "Double Retractable Cord Fast Car Charger with Built-in Type-C 60W & Lightning 27W Cables, Digital Display - Dark Grey",
     "category": "Car Chargers",
     "retail": 96.0,
-    "image": "assets/catalog/product-042.webp"
+    "image": "assets/catalog/product-042.webp",
+    "begad_id": 10001586,
+    "begad_sku": "ELE1000497",
+    "begad_url": "https://begad.ae/product/vidvie-4-in-1-60w-fast-car-charger-with-dual-retractable-cables-cc539",
+    "begad_price": 95.0,
+    "in_stock": true
   },
   {
     "id": "BE-2689",
@@ -350,7 +566,12 @@ const catalogProducts = [
     "name": "Portable Mini Magnetic Wireless Charger for Apple Watch with Type-C Female Port (2.5W) - Zinc Alloy -White",
     "category": "Wireless Chargers",
     "retail": 65.0,
-    "image": "assets/catalog/product-043.webp"
+    "image": "assets/catalog/product-043.webp",
+    "begad_id": 10001905,
+    "begad_sku": "ELE1000752",
+    "begad_url": "https://begad.ae/product/wall-charger-wlc1412-l-mini-magnetic-lightning-watch-wireless-charge",
+    "begad_price": 64.0,
+    "in_stock": true
   },
   {
     "id": "BE-2673",
@@ -358,7 +579,12 @@ const catalogProducts = [
     "name": "Wireless Bluetooth FM Transmitter & 35W Fast Car Charger with Type-C, USB & RGB Lights - Black",
     "category": "Wireless Chargers",
     "retail": 66.0,
-    "image": "assets/catalog/product-044.webp"
+    "image": "assets/catalog/product-044.webp",
+    "begad_id": 10001925,
+    "begad_sku": "AUT1000045",
+    "begad_url": "https://begad.ae/product/fm05-wireless-fm-transmitter-fast-car-charger",
+    "begad_price": 65.0,
+    "in_stock": true
   },
   {
     "id": "BE-2727",
@@ -366,7 +592,12 @@ const catalogProducts = [
     "name": "15W Magnetic Wireless Car Charger & Air Vent Mount Phone Holder - Black 15W",
     "category": "Wireless Chargers",
     "retail": 69.0,
-    "image": "assets/catalog/product-045.webp"
+    "image": "assets/catalog/product-045.webp",
+    "begad_id": 10001941,
+    "begad_sku": "AUT1000053",
+    "begad_url": "https://begad.ae/product/vidvie-hc1523-car-holder-15w-magnetic-suction-wireless-charging-car-holder",
+    "begad_price": 68.0,
+    "in_stock": true
   },
   {
     "id": "BE-2688",
@@ -374,15 +605,25 @@ const catalogProducts = [
     "name": "Fast Magnetic Wireless Charger 25W Qi2 Pad with RGB Ambient Light - Black",
     "category": "Wireless Chargers",
     "retail": 76.0,
-    "image": "assets/catalog/product-046.webp"
+    "image": "assets/catalog/product-046.webp",
+    "begad_id": 10001920,
+    "begad_sku": "ELE1000767",
+    "begad_url": "https://begad.ae/product/wall-charger-wlc1428-qi2-25w-double-sided-magnetic-wireless-charger-with-atmosphere-light",
+    "begad_price": 75.0,
+    "in_stock": true
   },
   {
     "id": "BE-2687",
     "model": "WLC1427 QI2",
-    "name": "Qi2 Certified 15W Fast Magnetic Wireless Charger Pad (MagSafe Compatible) -– Black",
+    "name": "Qi2 Certified 15W Fast Magnetic Wireless Charger Pad (MagSafe Compatible) -\u2013 Black",
     "category": "Wireless Chargers",
     "retail": 79.0,
-    "image": "assets/catalog/product-047.webp"
+    "image": "assets/catalog/product-047.webp",
+    "begad_id": 10001897,
+    "begad_sku": "ELE1000751",
+    "begad_url": "https://begad.ae/product/wlc1427-qi2-magnetic-wireless-charger",
+    "begad_price": 79.0,
+    "in_stock": true
   },
   {
     "id": "BE-2684",
@@ -390,7 +631,12 @@ const catalogProducts = [
     "name": "Qi2 Certified Desktop Folding Magnetic Wireless Charging Stand 15W Aluminum Alloy - Dark Gray",
     "category": "Wireless Chargers",
     "retail": 87.0,
-    "image": "assets/catalog/product-048.webp"
+    "image": "assets/catalog/product-048.webp",
+    "begad_id": 10001938,
+    "begad_sku": "ELE1000775",
+    "begad_url": "https://begad.ae/product/vidvie-wlc1423-qi2-desktop-folding-magnetic-wireless-charging-stand",
+    "begad_price": 86.0,
+    "in_stock": true
   },
   {
     "id": "BE-2685",
@@ -398,7 +644,12 @@ const catalogProducts = [
     "name": "4-in-1 Foldable Magnetic Wireless Charging Stand 15W for Smartphones, Earphones & Apple/Samsung Watches - White",
     "category": "Wireless Chargers",
     "retail": 78.0,
-    "image": "assets/catalog/product-049.webp"
+    "image": "assets/catalog/product-049.webp",
+    "begad_id": 10001884,
+    "begad_sku": "ELE1000738",
+    "begad_url": "https://begad.ae/product/wlc1425-4-in-1-folding-magnetic-wireless-charging-stand",
+    "begad_price": 78.0,
+    "in_stock": true
   },
   {
     "id": "BE-2801",
@@ -406,7 +657,12 @@ const catalogProducts = [
     "name": "Creative Lifestyle GM02 Magnetic Cooling Wireless Charger - Black",
     "category": "Wireless Chargers",
     "retail": 97.0,
-    "image": "assets/catalog/product-050.webp"
+    "image": "assets/catalog/product-050.webp",
+    "begad_id": 10002183,
+    "begad_sku": "BE-2801",
+    "begad_url": "https://begad.ae/product/gm02-magnetic-cooling-wireless-charging",
+    "begad_price": 96.0,
+    "in_stock": true
   },
   {
     "id": "BE-2718",
@@ -414,7 +670,12 @@ const catalogProducts = [
     "name": "Half In-Ear Wired Earphones with Mic & 3.5mm Jack High Sound Quality (1.2m) - White",
     "category": "Audio",
     "retail": 49.0,
-    "image": "assets/catalog/product-051.webp"
+    "image": "assets/catalog/product-051.webp",
+    "begad_id": 10001946,
+    "begad_sku": "ELE1000781",
+    "begad_url": "https://begad.ae/product/vidvie-hs662-half-in-ear-wired-headset",
+    "begad_price": 48.0,
+    "in_stock": true
   },
   {
     "id": "BE-2716",
@@ -422,7 +683,12 @@ const catalogProducts = [
     "name": "Type-C In-Ear Wired Earphone Digital Audio with Mic & Remote Control - (White/Black)",
     "category": "Audio",
     "retail": 49.0,
-    "image": "assets/catalog/product-052.webp"
+    "image": "assets/catalog/product-052.webp",
+    "begad_id": 10001942,
+    "begad_sku": "ELE1000778",
+    "begad_url": "https://begad.ae/product/vidvie-hs653-wired-earphone",
+    "begad_price": 48.0,
+    "in_stock": true
   },
   {
     "id": "BE-2717",
@@ -430,7 +696,12 @@ const catalogProducts = [
     "name": "Half In-Ear Wired Headset with Microphone 3.5mm AUX Plug (14.2mm Driver) 1.2M - White",
     "category": "Audio",
     "retail": 50.0,
-    "image": "assets/catalog/product-053.webp"
+    "image": "assets/catalog/product-053.webp",
+    "begad_id": 10001944,
+    "begad_sku": "ELE1000779",
+    "begad_url": "https://begad.ae/product/vidvie-hs655-wired-earphones",
+    "begad_price": 49.0,
+    "in_stock": true
   },
   {
     "id": "BE-2723",
@@ -438,7 +709,12 @@ const catalogProducts = [
     "name": "Type-C Semi-In-Ear Wired Headset with Integrated Microphone and Control Button - White",
     "category": "Audio",
     "retail": 50.0,
-    "image": "assets/catalog/product-054.webp"
+    "image": "assets/catalog/product-054.webp",
+    "begad_id": 10001957,
+    "begad_sku": "ELE1000791",
+    "begad_url": "https://begad.ae/product/vidvie-hs685t-half-in-ear-type-c-wired-earphone",
+    "begad_price": 98.0,
+    "in_stock": true
   },
   {
     "id": "BE-2722",
@@ -446,7 +722,12 @@ const catalogProducts = [
     "name": "Type-C In-Ear Wired Headset with Silicone Ear Tips and Integrated Microphone - White",
     "category": "Audio",
     "retail": 50.0,
-    "image": "assets/catalog/product-055.webp"
+    "image": "assets/catalog/product-055.webp",
+    "begad_id": 10001955,
+    "begad_sku": "ELE1000789",
+    "begad_url": "https://begad.ae/product/vidvie-hs684t-in-ear-type-c-wired-earphone",
+    "begad_price": 49.0,
+    "in_stock": true
   },
   {
     "id": "BE-2720",
@@ -454,7 +735,12 @@ const catalogProducts = [
     "name": "In-Ear Wired Earphone 3.5mm Audio Jack with Mic & Control - Black 3.5mm",
     "category": "Audio",
     "retail": 51.0,
-    "image": "assets/catalog/product-056.webp"
+    "image": "assets/catalog/product-056.webp",
+    "begad_id": 10001950,
+    "begad_sku": "ELE1000784",
+    "begad_url": "https://begad.ae/product/hs669-wired-earphone",
+    "begad_price": 50.0,
+    "in_stock": true
   },
   {
     "id": "BE-2696",
@@ -462,7 +748,12 @@ const catalogProducts = [
     "name": "Type-C to 3.5mm Braided AUX Audio Cable - 1.8m, Black",
     "category": "Audio",
     "retail": 53.0,
-    "image": "assets/catalog/product-057.webp"
+    "image": "assets/catalog/product-057.webp",
+    "begad_id": 10001912,
+    "begad_sku": "ELE1000759",
+    "begad_url": "https://begad.ae/product/vidvie-al1111-type-c-audio-cable",
+    "begad_price": 52.0,
+    "in_stock": true
   },
   {
     "id": "BE-2714",
@@ -470,7 +761,12 @@ const catalogProducts = [
     "name": "Type-C In-Ear Wired Earphone (White)",
     "category": "Audio",
     "retail": 55.0,
-    "image": "assets/catalog/product-058.webp"
+    "image": "assets/catalog/product-058.webp",
+    "begad_id": 10001939,
+    "begad_sku": "ELE1000776",
+    "begad_url": "https://begad.ae/product/vidvie-xl-hs605-type-c-in-ear-wired-earphone",
+    "begad_price": 54.0,
+    "in_stock": true
   },
   {
     "id": "BE-2721",
@@ -478,7 +774,12 @@ const catalogProducts = [
     "name": "Type-C Semi-In-Ear Digital Audio Headphones with Mic for iPhone 15/16 & Android - Black",
     "category": "Audio",
     "retail": 55.0,
-    "image": "assets/catalog/product-059.webp"
+    "image": "assets/catalog/product-059.webp",
+    "begad_id": 10001953,
+    "begad_sku": "ELE1000787",
+    "begad_url": "https://begad.ae/product/hs682-type-c-semi-in-ear-wired-headset-black",
+    "begad_price": 54.0,
+    "in_stock": true
   },
   {
     "id": "BE-2719",
@@ -486,7 +787,12 @@ const catalogProducts = [
     "name": "Type-C Semi-In-Ear Wired Headset with Integrated Microphone and Inline Controls - White",
     "category": "Audio",
     "retail": 55.0,
-    "image": "assets/catalog/product-060.webp"
+    "image": "assets/catalog/product-060.webp",
+    "begad_id": 10001947,
+    "begad_sku": "ELE1000782",
+    "begad_url": "https://begad.ae/product/hs666-type-c-plug-digital-wired-earphone",
+    "begad_price": 54.0,
+    "in_stock": true
   },
   {
     "id": "BE-2715",
@@ -494,7 +800,12 @@ const catalogProducts = [
     "name": "Sports Gaming In-Ear Wired Headset with Detachable Microphone & 3.5mm Jack - Black/Red 3.5mm",
     "category": "Audio",
     "retail": 59.0,
-    "image": "assets/catalog/product-061.webp"
+    "image": "assets/catalog/product-061.webp",
+    "begad_id": 10001940,
+    "begad_sku": "ELE1000777",
+    "begad_url": "https://begad.ae/product/gm03-e-sports-mobile-game-wire-heaset",
+    "begad_price": 58.0,
+    "in_stock": true
   },
   {
     "id": "BE-2725",
@@ -502,7 +813,12 @@ const catalogProducts = [
     "name": "Mini Magnetic Phone Car Holder (Black)",
     "category": "Holders & Mounts",
     "retail": 50.0,
-    "image": "assets/catalog/product-062.webp"
+    "image": "assets/catalog/product-062.webp",
+    "begad_id": 10001959,
+    "begad_sku": "AUT1000057",
+    "begad_url": "https://begad.ae/product/hc1520-car-holder",
+    "begad_price": 49.0,
+    "in_stock": true
   },
   {
     "id": "BE-2724",
@@ -510,15 +826,25 @@ const catalogProducts = [
     "name": "Magnetic Car Phone Holder - 360 Degree Rotatable Air Vent Mount for Smartphones - Universal Air Vent Clip, Black",
     "category": "Holders & Mounts",
     "retail": 50.0,
-    "image": "assets/catalog/product-063.webp"
+    "image": "assets/catalog/product-063.webp",
+    "begad_id": 10001958,
+    "begad_sku": "AUT1000056",
+    "begad_url": "https://begad.ae/product/hc1519-car-holder",
+    "begad_price": 49.0,
+    "in_stock": true
   },
   {
     "id": "BE-2728",
     "model": "HC1547",
-    "name": "Suction Cup Car Phone Holder Telescopic Extendable Arm 360° Rotation - Black",
+    "name": "Suction Cup Car Phone Holder Telescopic Extendable Arm 360\u00b0 Rotation - Black",
     "category": "Holders & Mounts",
     "retail": 56.0,
-    "image": "assets/catalog/product-064.webp"
+    "image": "assets/catalog/product-064.webp",
+    "begad_id": 10001943,
+    "begad_sku": "AUT1000054",
+    "begad_url": "https://begad.ae/product/vidvie-hc1547-suction-cup-foldable-car-holder",
+    "begad_price": 55.0,
+    "in_stock": true
   },
   {
     "id": "BE-2726",
@@ -526,7 +852,12 @@ const catalogProducts = [
     "name": "Adjustable Suction Cup Dashboard & Windshield Car Phone Holder for 4.7-7 Inch Smartphones - Black",
     "category": "Holders & Mounts",
     "retail": 57.0,
-    "image": "assets/catalog/product-065.webp"
+    "image": "assets/catalog/product-065.webp",
+    "begad_id": 10001960,
+    "begad_sku": "AUT1000058",
+    "begad_url": "https://begad.ae/product/hc1522-center-console-suction-cup-car-holder-black",
+    "begad_price": 56.0,
+    "in_stock": true
   },
   {
     "id": "BE-2730",
@@ -534,7 +865,12 @@ const catalogProducts = [
     "name": "Metal Foldable Phone Holder With Built-in Silicone Anti-Slip Base (Gray)",
     "category": "Holders & Mounts",
     "retail": 57.0,
-    "image": "assets/catalog/product-066.webp"
+    "image": "assets/catalog/product-066.webp",
+    "begad_id": 10001948,
+    "begad_sku": "AUT1000055",
+    "begad_url": "https://begad.ae/product/hc1575-metal-foldable-phone-holder-with-built-in-silicone-anti-slip-base",
+    "begad_price": 56.0,
+    "in_stock": true
   },
   {
     "id": "BE-2731",
@@ -542,7 +878,12 @@ const catalogProducts = [
     "name": "Metal Foldable/Rotating Phone & Tablet Holder With Built-in Silicone Anti-Slip Base (Gray)",
     "category": "Holders & Mounts",
     "retail": 66.0,
-    "image": "assets/catalog/product-067.webp"
+    "image": "assets/catalog/product-067.webp",
+    "begad_id": 10001949,
+    "begad_sku": "ELE1000783",
+    "begad_url": "https://begad.ae/product/hc1576-metal-foldable-rotating-phone-tablet-holder-with-built-in-silicone-anti-slip-base",
+    "begad_price": 65.0,
+    "in_stock": true
   },
   {
     "id": "BE-2729",
@@ -550,7 +891,12 @@ const catalogProducts = [
     "name": "Foldable Neck-Hanging Magnetic Shooting Bracket (Gray)",
     "category": "Holders & Mounts",
     "retail": 84.0,
-    "image": "assets/catalog/product-068.webp"
+    "image": "assets/catalog/product-068.webp",
+    "begad_id": 10001945,
+    "begad_sku": "ELE1000780",
+    "begad_url": "https://begad.ae/product/hc1552-foldable-neck-hanging-magnetic-shooting-bracket",
+    "begad_price": 83.0,
+    "in_stock": true
   },
   {
     "id": "BE-2790",
@@ -558,7 +904,12 @@ const catalogProducts = [
     "name": "New Upgraded USB 3.2 Flash Disk 64GB Silver",
     "category": "Storage",
     "retail": 81.0,
-    "image": "assets/catalog/product-069.webp"
+    "image": "assets/catalog/product-069.webp",
+    "begad_id": 10002253,
+    "begad_sku": "BE-2790",
+    "begad_url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-64gb",
+    "begad_price": 71.0,
+    "in_stock": true
   },
   {
     "id": "BE-2789",
@@ -566,7 +917,12 @@ const catalogProducts = [
     "name": "Metal USB Flash Drive USB 2.0/3.0 Portable Memory Stick - Gray",
     "category": "Storage",
     "retail": 82.0,
-    "image": "assets/catalog/product-070.webp"
+    "image": "assets/catalog/product-070.webp",
+    "begad_id": 10002247,
+    "begad_sku": "BE-2789",
+    "begad_url": "https://begad.ae/product/usb2603-usb2-0-3-0usb-flash-disk",
+    "begad_price": 81.0,
+    "in_stock": true
   },
   {
     "id": "BE-2786",
@@ -574,7 +930,12 @@ const catalogProducts = [
     "name": "New Upgraded Micro SDXC Card 64GB White 64GB",
     "category": "Storage",
     "retail": 87.0,
-    "image": "assets/catalog/product-071.webp"
+    "image": "assets/catalog/product-071.webp",
+    "begad_id": 10002185,
+    "begad_sku": "BE-2786",
+    "begad_url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-64gb",
+    "begad_price": 86.0,
+    "in_stock": true
   },
   {
     "id": "BE-2791",
@@ -582,7 +943,12 @@ const catalogProducts = [
     "name": "High-Speed USB 3.2 Metal Flash Drive 128GB Zinc Alloy Shell - Silver",
     "category": "Storage",
     "retail": 111.0,
-    "image": "assets/catalog/product-072.webp"
+    "image": "assets/catalog/product-072.webp",
+    "begad_id": 10002255,
+    "begad_sku": "BE-2791",
+    "begad_url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-128gb",
+    "begad_price": 110.0,
+    "in_stock": true
   },
   {
     "id": "BE-2787",
@@ -590,7 +956,12 @@ const catalogProducts = [
     "name": "New Upgraded Micro SDXC Card 128GB White 128GB",
     "category": "Storage",
     "retail": 125.0,
-    "image": "assets/catalog/product-073.webp"
+    "image": "assets/catalog/product-073.webp",
+    "begad_id": 10002186,
+    "begad_sku": "BE-2787",
+    "begad_url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-128gb",
+    "begad_price": 118.4,
+    "in_stock": true
   },
   {
     "id": "BE-2792",
@@ -598,7 +969,12 @@ const catalogProducts = [
     "name": "New Upgraded USB 3.2 Flash Disk 256GB Silver",
     "category": "Storage",
     "retail": 220.0,
-    "image": "assets/catalog/product-074.webp"
+    "image": "assets/catalog/product-074.webp",
+    "begad_id": 10002258,
+    "begad_sku": "BE-2792",
+    "begad_url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-256gb",
+    "begad_price": 208.8,
+    "in_stock": true
   },
   {
     "id": "BE-2788",
@@ -606,7 +982,12 @@ const catalogProducts = [
     "name": "New Upgraded Micro SDXC Card 256GB White 256GB",
     "category": "Storage",
     "retail": 264.0,
-    "image": "assets/catalog/product-075.webp"
+    "image": "assets/catalog/product-075.webp",
+    "begad_id": 10002188,
+    "begad_sku": "BE-2788",
+    "begad_url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-256gb",
+    "begad_price": 250.0,
+    "in_stock": true
   },
   {
     "id": "BE-2700",
@@ -614,7 +995,12 @@ const catalogProducts = [
     "name": "Type-C to USB 3.0 OTG Adapter (5Gbps Fast Data Transfer) Aluminum Alloy with Lanyard - Silver",
     "category": "Hubs & Adapters",
     "retail": 50.0,
-    "image": "assets/catalog/product-076.webp"
+    "image": "assets/catalog/product-076.webp",
+    "begad_id": 10001915,
+    "begad_sku": "ELE1000762",
+    "begad_url": "https://begad.ae/product/vidvie-al1129-type-c-otg-adapter",
+    "begad_price": 49.0,
+    "in_stock": true
   },
   {
     "id": "BE-2699",
@@ -622,7 +1008,12 @@ const catalogProducts = [
     "name": "Type-C to iP OTG-Charger Cable Adapter [Dark Grey]",
     "category": "Hubs & Adapters",
     "retail": 52.0,
-    "image": "assets/catalog/product-077.webp"
+    "image": "assets/catalog/product-077.webp",
+    "begad_id": 10001914,
+    "begad_sku": "ELE1000761",
+    "begad_url": "https://begad.ae/product/vidvie-type-c-to-ip-otg-charger-cable-adapter-dark-grey",
+    "begad_price": 51.0,
+    "in_stock": true
   },
   {
     "id": "BE-2809",
@@ -630,7 +1021,12 @@ const catalogProducts = [
     "name": "6-in-1 Type-C Hub Docking Station with 4K HDMI, 100W PD Charging, USB 3.0 & SD/TF Card Reader - Grey",
     "category": "Hubs & Adapters",
     "retail": 78.0,
-    "image": "assets/catalog/product-078.webp"
+    "image": "assets/catalog/product-078.webp",
+    "begad_id": 10002252,
+    "begad_sku": "BE-2809",
+    "begad_url": "https://begad.ae/product/vidvie-hub03-6-in-1-hub-docking-station",
+    "begad_price": 77.0,
+    "in_stock": true
   },
   {
     "id": "BE-2698",
@@ -638,7 +1034,12 @@ const catalogProducts = [
     "name": "IP Male to TC Female converter [Dark Grey]",
     "category": "Lifestyle & Home",
     "retail": 51.0,
-    "image": "assets/catalog/product-079.webp"
+    "image": "assets/catalog/product-079.webp",
+    "begad_id": 10001919,
+    "begad_sku": "ELE1000766",
+    "begad_url": "https://begad.ae/product/ip-male-to-tc-female-converter-dark-grey-al1126",
+    "begad_price": 50.0,
+    "in_stock": true
   },
   {
     "id": "BE-2692",
@@ -646,7 +1047,12 @@ const catalogProducts = [
     "name": "Compact All-in-One Universal Travel Adapter with Sleek Matte-Black",
     "category": "Lifestyle & Home",
     "retail": 61.0,
-    "image": "assets/catalog/product-080.webp"
+    "image": "assets/catalog/product-080.webp",
+    "begad_id": 10001908,
+    "begad_sku": "ELE1000755",
+    "begad_url": "https://begad.ae/product/vidvie-ta4409-global-universal-travel-charger",
+    "begad_price": 60.0,
+    "in_stock": true
   },
   {
     "id": "BE-2691",
@@ -654,7 +1060,12 @@ const catalogProducts = [
     "name": "Portable Magnetic Wireless Watch Charger for Apple Watch with Type-C Port & Cyberpunk Transparent Design - Black/White",
     "category": "Lifestyle & Home",
     "retail": 64.0,
-    "image": "assets/catalog/product-081.webp"
+    "image": "assets/catalog/product-081.webp",
+    "begad_id": 10001907,
+    "begad_sku": "ELE1000754",
+    "begad_url": "https://begad.ae/product/wlc1412-c02-portable-apple-watch-magnetic-wireless-charging",
+    "begad_price": 64.0,
+    "in_stock": true
   },
   {
     "id": "BE-2690",
@@ -662,7 +1073,12 @@ const catalogProducts = [
     "name": "Mini Magnetic Type-C Female Seat Wireless Watch Charger for Apple Watch with Loop Strap - White/Black",
     "category": "Lifestyle & Home",
     "retail": 65.0,
-    "image": "assets/catalog/product-082.webp"
+    "image": "assets/catalog/product-082.webp",
+    "begad_id": 10001906,
+    "begad_sku": "ELE1000753",
+    "begad_url": "https://begad.ae/product/wlc1412-c01-mini-magnetic-type-c-female-seat-watch-wireless-charger",
+    "begad_price": 64.0,
+    "in_stock": true
   },
   {
     "id": "BE-2695",
@@ -670,7 +1086,12 @@ const catalogProducts = [
     "name": "Heavy Duty Power Strip 2500W 10A with 4 AC Sockets + 4 USB & 4 Type-C Ports (2m Cable) - [Black] / [White]",
     "category": "Lifestyle & Home",
     "retail": 75.0,
-    "image": "assets/catalog/product-083.webp"
+    "image": "assets/catalog/product-083.webp",
+    "begad_id": 10001911,
+    "begad_sku": "ELE1000758",
+    "begad_url": "https://begad.ae/product/psb07-4-usb-4-type-c-power-strip",
+    "begad_price": 74.0,
+    "in_stock": true
   },
   {
     "id": "BE-2693",
@@ -678,7 +1099,12 @@ const catalogProducts = [
     "name": "Universal Travel Adapter & Wall Charger 20W PD Type-C & Dual USB-A with Dual 8A Fuse - Black",
     "category": "Lifestyle & Home",
     "retail": 80.0,
-    "image": "assets/catalog/product-084.webp"
+    "image": "assets/catalog/product-084.webp",
+    "begad_id": 10001909,
+    "begad_sku": "ELE1000756",
+    "begad_url": "https://begad.ae/product/vidvie-ta4404-global-universal-conversion-charger",
+    "begad_price": 79.0,
+    "in_stock": true
   },
   {
     "id": "BE-2638",
@@ -686,7 +1112,12 @@ const catalogProducts = [
     "name": "High-Speed 1400W Hair Dryer 105,000 RPM Brushless Motor with Smoothing & Diffuser Nozzles - Grey/Pink 1400W",
     "category": "Lifestyle & Home",
     "retail": 89.0,
-    "image": "assets/catalog/product-085.webp"
+    "image": "assets/catalog/product-085.webp",
+    "begad_id": 10001873,
+    "begad_sku": "BEA1000178",
+    "begad_url": "https://begad.ae/product/shd01-universal-1400w-105-000-rpm-high-speed-hair-dryer",
+    "begad_price": 88.0,
+    "in_stock": true
   },
   {
     "id": "BE-2803",
@@ -694,7 +1125,12 @@ const catalogProducts = [
     "name": "Portable Waterproof & Anti-Fall Business Laptop Bag with YKK Zipper & Corner Protection - (Blue)",
     "category": "Lifestyle & Home",
     "retail": 90.0,
-    "image": "assets/catalog/product-086.webp"
+    "image": "assets/catalog/product-086.webp",
+    "begad_id": 10002403,
+    "begad_sku": "BE-2803",
+    "begad_url": "https://begad.ae/product/vidvie-bh02-portable-business-computer-laptop-bag-blue",
+    "begad_price": 89.0,
+    "in_stock": true
   },
   {
     "id": "BE-2802",
@@ -702,7 +1138,12 @@ const catalogProducts = [
     "name": "Portable Waterproof & Anti-Fall Business Laptop Bag with YKK Zipper & Corner Protection - (Black)",
     "category": "Lifestyle & Home",
     "retail": 90.0,
-    "image": "assets/catalog/product-087.webp"
+    "image": "assets/catalog/product-087.webp",
+    "begad_id": 10002184,
+    "begad_sku": "BE-2802",
+    "begad_url": "https://begad.ae/product/portable-business-computer-laptop-bag-14inch-black",
+    "begad_price": 89.0,
+    "in_stock": true
   },
   {
     "id": "BE-2639",
@@ -710,7 +1151,12 @@ const catalogProducts = [
     "name": "Professional High-Speed Hair Dryer 1800W 105,000 RPM Brushless Motor with Smooth & Diffuser Nozzles - Black 1800W",
     "category": "Lifestyle & Home",
     "retail": 107.0,
-    "image": "assets/catalog/product-088.webp"
+    "image": "assets/catalog/product-088.webp",
+    "begad_id": 10001874,
+    "begad_sku": "BE-2639",
+    "begad_url": "https://begad.ae/product/shd02-universal-1800w-105-000-rpm-high-speed-hair-dryer",
+    "begad_price": 104.0,
+    "in_stock": true
   },
   {
     "id": "BE-2627",
@@ -718,7 +1164,12 @@ const catalogProducts = [
     "name": "Smart streaming device and 4K HDR TV converter, Android 10.0 operating system, 2GB RAM + 16GB storage, dual-band Wi-Fi with remote control, black",
     "category": "Lifestyle & Home",
     "retail": 135.0,
-    "image": "assets/catalog/product-089.webp"
+    "image": "assets/catalog/product-089.webp",
+    "begad_id": 10001852,
+    "begad_sku": "ELE1000714",
+    "begad_url": "https://begad.ae/product/vidvie-vd01-streaming-device-4k-hdr",
+    "begad_price": 127.85,
+    "in_stock": true
   },
   {
     "id": "BE-2629",
@@ -726,7 +1177,12 @@ const catalogProducts = [
     "name": "Full HD 1080P Smart Portable Projector | Android 12 with Built-in Netflix, Auto Focus & Auto Keystone, 120-Inch Display, Rotating Stand for Home Cinema",
     "category": "Lifestyle & Home",
     "retail": 340.0,
-    "image": "assets/catalog/product-090.webp"
+    "image": "assets/catalog/product-090.webp",
+    "begad_id": 10001862,
+    "begad_sku": "ELE1000724",
+    "begad_url": "https://begad.ae/product/ts004-led-full-hd-intelligent-projector",
+    "begad_price": 322.17,
+    "in_stock": true
   },
   {
     "id": "BE-2628",
@@ -734,6 +1190,11 @@ const catalogProducts = [
     "name": "Portable FULL HD Intelligent Projector - Smart Mini Movie Projector with Auto-Focus, Built-in Handle, HD Resolution - White",
     "category": "Lifestyle & Home",
     "retail": 452.0,
-    "image": "assets/catalog/product-091.webp"
+    "image": "assets/catalog/product-091.webp",
+    "begad_id": 10001857,
+    "begad_sku": "ELE1000719",
+    "begad_url": "https://begad.ae/product/ts002-multifunctional-hd-intelligent-projector",
+    "begad_price": 428.45,
+    "in_stock": true
   }
 ];

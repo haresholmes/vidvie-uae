@@ -1,8 +1,8 @@
-# VIDVIE UAE website preview
+# VIDVIE UAE Official Website
 
-A static marketing and product discovery site for VIDVIE's official UAE distributor, Begad General Trading L.L.C. It includes the 92-product UAE catalog, searchable categories, a saved product shortlist, WhatsApp order enquiries, and an email-based wholesale enquiry builder.
+A high-performance marketing and e-commerce discovery website for VIDVIE's official UAE distributor, Begad General Trading L.L.C. It includes the 92-product UAE catalog, searchable categories, an interactive shopping bag, seamless checkout handoff to Begad.ae, WhatsApp order enquiries, and a wholesale enquiry builder.
 
-The site is intentionally a **preview**. Suggested retail prices from the catalog issued 1 September 2026 are shown through 1 October 2026, then automatically change to “Price on enquiry.” These are indicative prices excluding 5% VAT, not a live checkout price. Customers can enquire or request an order through WhatsApp; wholesale buyers can prepare an email to `Contact@begad.ae`. The site does not process payment or store lead data.
+Retail orders, UAE delivery (Dubai Binjrash warehouse), customer service, and secure payments (Credit/Debit Card, Tabby, Apple Pay, Cash on Delivery) are powered directly through the Begad platform (`begad.ae`). Customers can add items to their shopping bag and transfer their entire cart directly into Begad's checkout in one click. Wholesale and B2B buyers can prepare an email to `Contact@begad.ae` or chat via WhatsApp.
 
 ## Development
 
