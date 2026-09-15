@@ -1,0 +1,5 @@
+.DS_Store
+node_modules/
+catalog.txt
+catalog-parse.json
+VIDVIE_UAE_Full_Catalog*.pdf
