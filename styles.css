@@ -871,7 +871,7 @@ section[id] {
    ========================================================================== */
 .category-tiles {
   display: grid;
-  grid-template-columns: repeat(9, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
   gap: 12px;
   margin-bottom: 24px;
 }
@@ -894,7 +894,8 @@ section[id] {
   position: relative;
   width: 100%;
   aspect-ratio: 1 / 1;
-  background: #faf4f0;
+  background: #fff;
+  border-bottom: 1px solid var(--line-light);
 }
 
 .category-tile-img img {
@@ -1003,7 +1004,8 @@ section[id] {
 
 .product-image-wrap {
   position: relative;
-  background: #faf4f0; /* the backdrop colour of the catalogue photos */
+  background: #fff; /* Begad product photos are shot on white */
+  border-bottom: 1px solid var(--line-light);
   aspect-ratio: 1 / 1;
   display: flex;
   align-items: center;

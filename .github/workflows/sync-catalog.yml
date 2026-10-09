@@ -1,0 +1,36 @@
+name: Refresh catalog snapshot from Begad
+on:
+  schedule:
+    - cron: "15 */6 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: write
+concurrency:
+  group: sync-catalog
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Rebuild catalog.js from Begad
+        run: node tools/sync-catalog.mjs
+      - name: Commit and deploy if the list changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- catalog.js; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Refresh catalog.js snapshot from Begad" -- catalog.js
+          git push -q
+          # A push made with the workflow token does not start other workflows,
+          # so the deploy is started explicitly.
+          gh workflow run aws.yml --ref main

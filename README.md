@@ -1,12 +1,19 @@
 # VIDVIE UAE Official Website
 
-A high-performance marketing and e-commerce discovery website for VIDVIE's official UAE distributor, Begad General Trading L.L.C. It includes the 92-product UAE catalog, searchable categories, an interactive shopping bag, seamless checkout handoff to Begad.ae, WhatsApp order enquiries, and a wholesale enquiry builder.
+A high-performance marketing and e-commerce discovery website for VIDVIE's official UAE distributor, Begad General Trading L.L.C. It lists every VIDVIE product sold on Begad.ae, with searchable categories, an interactive shopping bag, seamless checkout handoff to Begad.ae, WhatsApp order enquiries, and a wholesale enquiry builder.
 
 Retail orders, UAE delivery (Dubai Binjrash warehouse), customer service, and secure payments (Credit/Debit Card, Tabby, Apple Pay, Cash on Delivery) are powered directly through the Begad platform (`begad.ae`). Customers can add items to their shopping bag and transfer their entire cart directly into Begad's checkout in one click. Wholesale and B2B buyers can prepare an email to `Contact@begad.ae` or chat via WhatsApp.
 
-## Live prices and stock
+## Products come from Begad
 
-`catalog.js` holds each product's Begad id and a fallback price. On every page load `loadLivePrices()` in `app.js` asks Begad for the current values: `GET https://begad.ae/api/agent/prices?ids=<begad ids>` (public, no key, answers within about a second, cached on Begad's side for 60 seconds). The page then shows Begad's price including VAT, the struck-through normal price and discount when a deal is running, and "Out of stock" with the bag button disabled when Begad has none or no longer lists the product. If the call fails, the page keeps the `catalog.js` values. The three products without a `begad_id` always show their `catalog.js` price.
+Nothing about a product is kept here. The page lists every published product of the **Vidvie** brand on Begad.ae, with Begad's name, photo, price (including VAT, and the deal price when one is running) and stock:
+
+- On every visit `loadCatalog()` in `app.js` calls `GET https://begad.ae/api/agent/prices?brand=vidvie&details=1` (public, no key, cached on Begad's side for about a minute) and rebuilds the grid, the category tiles and the counts from the answer. Photos are Begad's own 400px thumbnails, loaded from begad.ae.
+- `catalog.js` is a snapshot of the same answer, so the page has something to paint before the call returns and something to show if Begad cannot be reached. `.github/workflows/sync-catalog.yml` regenerates it every six hours with `node tools/sync-catalog.mjs`, commits it if it changed and starts the deploy.
+- To add, remove, rename, re-photograph or re-price a product, do it on Begad. It shows here within about a minute. A VIDVIE product that is missing here is either not `Published` on Begad or does not have the Vidvie brand set.
+- Begad's categories are folded into this site's groups by `CATEGORY_GROUPS` in `app.js`. A Begad category that is not in that table appears under "More"; add it to the right group there.
+- Out-of-stock products stay listed, at the end, with the bag button disabled.
+- The bag sends Begad product ids to `begad.ae/en/cart?add_items=<id>:<qty>,...`.
 
 The endpoint lives in the Begad repository (`app/api-agent-prices.php`).
 
@@ -31,8 +38,7 @@ The live site is hosted in Begad's AWS account (279706066043): a private S3 buck
 ## Before retail launch
 
 - Confirm customer-service hours, UAE address, and the approved public contact details.
-- Refresh the SKU assortment, stock, and prices after the current price list expires.
 - Add payment, fulfilment, returns, privacy, and terms flows before enabling checkout.
 - Decide whether to keep email/WhatsApp enquiries or add a hosted form endpoint.
 
-Product names, category placement, suggested retail prices, and images were derived from the provided `VIDVIE_UAE_Full_Catalog (6).pdf`. The B2B wholesale unit prices and the source PDF are excluded from the public repository. The deployed site contains only public product data in `catalog.js` and optimized product images in `assets/catalog/`. The header and footer use [VIDVIE's official wordmark](https://www.vidvie.hk/Public/public/img/logos.png), stored locally in `assets/vidvie-official-logo.png`. The charcoal, white and orange palette and the “Spice Up People's Life” and “Creative · Exquisite · Affordable” messaging follow [VIDVIE's global site](https://www.vidvie.hk/).
+The header and footer use [VIDVIE's official wordmark](https://www.vidvie.hk/Public/public/img/logos.png), stored locally in `assets/vidvie-official-logo.png`. The charcoal, white and orange palette and the “Spice Up People's Life” and “Creative · Exquisite · Affordable” messaging follow [VIDVIE's global site](https://www.vidvie.hk/).

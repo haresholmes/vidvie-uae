@@ -1,11 +1,85 @@
-const products = catalogProducts;
 const $ = s => document.querySelector(s);
 const $$ = s => document.querySelectorAll(s);
 
-// Featured product IDs
-const featuredIds = ['BE-2629','BE-2659','BE-2698','BE-2809','BE-2660','BE-2792'];
-const featured = featuredIds.map(id => products.find(p => p.id === id)).filter(Boolean);
-const ordered = [...featured, ...products.filter(p => !featured.includes(p))];
+// The product list is Begad's: every published product of the Vidvie brand
+// on begad.ae, with Begad's names, photos, prices and stock. catalog.js is a
+// snapshot of that list (refreshed by tools/sync-catalog.mjs) for the first
+// paint; loadCatalog() replaces it with the current list on every visit.
+const CATALOG_API = 'https://begad.ae/api/agent/prices?brand=vidvie&details=1';
+
+// Begad's categories, folded into the groups this site shows. A Begad
+// category that is not listed here lands in "More".
+const CATEGORY_GROUPS = {
+  'Power Banks': ['Power Banks'],
+  'Wall Chargers': ['Chargers', 'extensions & Plugs'],
+  'Car Chargers': ['Car Chargers'],
+  'Cables': ['Cables'],
+  'Wireless Chargers': ['Wireless Chargers'],
+  'Audio': ['Headphones', 'Earbuds', 'Gaming Headsets', 'Microphones'],
+  'Speakers': ['Bluetooth Speakers'],
+  'Smart Watches': ['Smart Watches'],
+  'Holders & Mounts': ['Car Mounts', 'Mounts & Holders'],
+  'Storage': ['USB Flash Drives', 'External Storage'],
+  'Computer Accessories': ['Keyboards', 'Mouse', 'USB Hubs & Docking', 'Stylus Pens', 'Laptop Bags', 'Bags & Luggage'],
+  'Lifestyle & Home': ['Fans', 'Grooming Kits', 'Hair Tools', 'Projectors', 'Electric Toothbrush', 'Lighting', 'Wellness',
+    'Tools & Equipment', 'Streaming Devices', 'Mobile Accessories', 'Car Accessories', 'Car Care & Cleaning']
+};
+const GROUP_ORDER = [...Object.keys(CATEGORY_GROUPS), 'More'];
+const GROUP_OF = {};
+Object.entries(CATEGORY_GROUPS).forEach(([group, names]) => names.forEach(n => { GROUP_OF[n.toLowerCase()] = group; }));
+
+// Begad product ids shown first under "Featured First"
+const FEATURED_IDS = [10001862, 10001858, 10001919, 10002252, 10001859, 10002258];
+
+const escapeHtml = s => String(s).replace(/[&<>"']/g, ch => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+
+// VIDVIE model code inside a product name ("... PLB170 ..."), '' if none.
+// Charging specs such as PD30W or QC18W look similar and are skipped.
+function modelOf(name) {
+  const found = name.match(/\b(?:XL-)?[A-Z]{2,4}\d{2,5}(?:[A-Z0-9]|[&-](?=[A-Za-z0-9]))*/g) || [];
+  const model = found.find(m => !/^(?:PD|QC)\d/.test(m) && !/\d(?:W|MAH)$/.test(m));
+  return model ? model.replace(/[&-]$/, '') : '';
+}
+
+// One item of Begad's feed -> the product object the page works with
+function toProduct(item) {
+  const price = item.price || {};
+  const amount = Number(price.amount) || 0;
+  const withTax = Number(price.amount_with_tax) || amount;
+  const compareAt = Number(price.compare_at_amount) || 0;
+  const name = String(item.name || '').trim();
+  return {
+    id: String(item.id),
+    begad_id: item.id,
+    sku: String(item.sku || ''),
+    name,
+    model: modelOf(name),
+    category: GROUP_OF[String(item.category || '').toLowerCase()] || 'More',
+    image: item.thumb || item.image || '',
+    begad_url: item.url || `https://begad.ae/search?q=${encodeURIComponent(name)}`,
+    begad_price: withTax,
+    // compare_at is on the same basis as "amount"; bring it to the VAT-inclusive basis too
+    compare_at: compareAt > amount && amount > 0 ? compareAt * (withTax / amount) : 0,
+    in_stock: item.in_stock !== false
+  };
+}
+
+let products = [];
+let ordered = [];
+
+function setProducts(items) {
+  products = items.map(toProduct).filter(p => p.name && p.begad_price > 0);
+  const rank = p => {
+    const featured = FEATURED_IDS.indexOf(p.begad_id);
+    return (p.in_stock ? 0 : 1000) + (featured === -1 ? 500 : featured);
+  };
+  // Featured first, out-of-stock last; otherwise Begad's order (newest first)
+  ordered = products.map((p, index) => ({ p, index }))
+    .sort((x, y) => rank(x.p) - rank(y.p) || x.index - y.index)
+    .map(x => x.p);
+}
+
+setProducts(typeof catalogProducts !== 'undefined' ? catalogProducts : []);
 
 let filter = 'All';
 let sortBy = 'featured';
@@ -77,7 +151,7 @@ function addToCart(id, qty = 1) {
     cart.push({ id, qty: Math.min(50, qty) });
   }
   saveCart();
-  toast(`✓ Added ${p.model} to your bag`);
+  toast(`✓ Added ${p.model || 'item'} to your bag`);
 }
 
 function updateCartQty(id, delta) {
@@ -96,7 +170,7 @@ function removeFromCart(id) {
   const p = products.find(x => x.id === id);
   cart = cart.filter(x => x.id !== id);
   saveCart();
-  if (p) toast(`Removed ${p.model} from bag`);
+  if (p) toast(`Removed ${p.model || 'item'} from bag`);
 }
 
 function clearCart() {
@@ -121,7 +195,7 @@ function cartSummaryText() {
   const lines = cart.map(item => {
     const p = products.find(x => x.id === item.id);
     const price = (p && (p.begad_price || p.retail)) || 0;
-    return `• ${item.qty}x ${p.name} (VIDVIE ${p.model}, SKU ${p.id}) — AED ${(price * item.qty).toFixed(2)}`;
+    return `• ${item.qty}x ${p.name} (Begad SKU ${p.sku}) — AED ${(price * item.qty).toFixed(2)}`;
   });
   return `VIDVIE UAE Shopping Bag\n\n${lines.join('\n')}\n\nEstimated Subtotal: AED ${subtotal.toFixed(2)}\n\nOrder fulfilled across the UAE by Begad General Trading L.L.C.`;
 }
@@ -131,7 +205,7 @@ function buildWhatsAppCartMessage() {
   const lines = cart.map(item => {
     const p = products.find(x => x.id === item.id);
     const price = (p && (p.begad_price || p.retail)) || 0;
-    return `• ${item.qty}x ${p.name} (VIDVIE ${p.model}, SKU ${p.id}) — AED ${(price * item.qty).toFixed(2)}`;
+    return `• ${item.qty}x ${p.name} (Begad SKU ${p.sku}) — AED ${(price * item.qty).toFixed(2)}`;
   });
   return `Hello VIDVIE UAE, I would like to order the following items:\n\n${lines.join('\n')}\n\nSubtotal: AED ${subtotal.toFixed(2)}\n\nPlease confirm availability and payment options.`;
 }
@@ -143,7 +217,7 @@ function renderFilters() {
     categoryCounts[p.category] = (categoryCounts[p.category] || 0) + 1;
   });
 
-  const categories = ['All', ...Object.keys(categoryCounts).sort()];
+  const categories = ['All', ...GROUP_ORDER.filter(c => categoryCounts[c])];
   
   const html = categories.map(c => {
     const count = c === 'All' ? products.length : categoryCounts[c];
@@ -159,36 +233,33 @@ function renderFilters() {
   $('#filters').innerHTML = html;
 }
 
-// Category tiles: one photo per category above the product grid
-const categoryTileImages = {
-  'Wall Chargers': 'assets/catalog/product-011.webp',
-  'Cables': 'assets/catalog/product-027.webp',
-  'Car Chargers': 'assets/catalog/product-036.webp',
-  'Wireless Chargers': 'assets/catalog/product-049.webp',
-  'Audio': 'assets/catalog/product-059.webp',
-  'Holders & Mounts': 'assets/catalog/product-065.webp',
-  'Storage': 'assets/catalog/product-070.webp',
-  'Hubs & Adapters': 'assets/catalog/product-078.webp',
-  'Lifestyle & Home': 'assets/catalog/product-090.webp'
-};
-
+// Category tiles: one photo per group above the product grid
 function renderCategoryTiles() {
   const el = $('#categoryTiles');
   if (!el) return;
   const counts = {};
   products.forEach(p => { counts[p.category] = (counts[p.category] || 0) + 1; });
-  el.innerHTML = Object.keys(counts)
-    .sort((x, y) => counts[y] - counts[x])
-    .map(c => {
-      const image = categoryTileImages[c] || products.find(p => p.category === c).image;
-      return `
-        <button class="category-tile ${c === filter ? 'active' : ''}" data-filter="${c}" type="button">
-          <span class="category-tile-img"><img src="${image}" alt="" loading="lazy" /></span>
-          <span class="category-tile-name">${c}</span>
-          <span class="category-tile-count">${counts[c]} products</span>
-        </button>
-      `;
-    }).join('');
+  el.innerHTML = GROUP_ORDER.filter(c => counts[c]).map(c => {
+    const sample = ordered.find(p => p.category === c);
+    return `
+      <button class="category-tile ${c === filter ? 'active' : ''}" data-filter="${c}" type="button">
+        <span class="category-tile-img"><img src="${escapeHtml(sample.image)}" alt="" loading="lazy" /></span>
+        <span class="category-tile-name">${c}</span>
+        <span class="category-tile-count">${counts[c]} product${counts[c] === 1 ? '' : 's'}</span>
+      </button>
+    `;
+  }).join('');
+}
+
+// Everything on the page that depends on the product list
+function renderCatalog() {
+  if (filter !== 'All' && !products.some(p => p.category === filter)) filter = 'All';
+  const groups = new Set(products.map(p => p.category)).size;
+  $$('[data-product-count]').forEach(el => { el.textContent = products.length; });
+  $$('[data-group-count]').forEach(el => { el.textContent = groups; });
+  renderFilters();
+  renderCategoryTiles();
+  renderProducts();
 }
 
 function setFilter(value) {
@@ -206,7 +277,7 @@ function renderProducts() {
   // Filter
   let list = ordered.filter(p => {
     const matchesCat = filter === 'All' || p.category === filter;
-    const matchesSearch = !q || `${p.name} ${p.model} ${p.id} ${p.category}`.toLowerCase().includes(q);
+    const matchesSearch = !q || `${p.name} ${p.model} ${p.sku} ${p.id} ${p.category}`.toLowerCase().includes(q);
     return matchesCat && matchesSearch;
   });
 
@@ -230,7 +301,9 @@ function renderProducts() {
   const visible = list.slice(0, limit);
   $('#productGrid').innerHTML = visible.map(p => {
     const price = p.begad_price || p.retail;
-    const begadUrl = p.begad_url || `https://begad.ae/search?q=${encodeURIComponent(p.model)}`;
+    const begadUrl = escapeHtml(p.begad_url);
+    const name = escapeHtml(p.name);
+    const label = p.model || 'this product';
     const out = p.in_stock === false;
     const off = p.compare_at > price ? Math.round((1 - price / p.compare_at) * 100) : 0;
     return `
@@ -238,14 +311,14 @@ function renderProducts() {
         <div class="product-image-wrap">
           <span class="card-badge-top">${p.category}</span>
           <span class="card-stock-tag ${out ? 'out' : ''}">${out ? 'Out of stock' : '✓ UAE Stock'}</span>
-          <img src="${p.image}" alt="VIDVIE ${p.model} ${p.name}" loading="lazy" />
+          <img src="${escapeHtml(p.image)}" alt="${name}" loading="lazy" />
         </div>
         <div class="product-body">
           <div class="product-meta-row">
-            <span class="product-model-code">VIDVIE ${p.model}</span>
-            <span class="product-sku">${p.id}</span>
+            <span class="product-model-code">VIDVIE ${escapeHtml(p.model)}</span>
+            <span class="product-sku">${escapeHtml(p.sku)}</span>
           </div>
-          <h3 class="product-title" title="${p.name}">${p.name}</h3>
+          <h3 class="product-title" title="${name}">${name}</h3>
           <div class="product-price-row">
             <div class="price-main">
               <span class="currency-symbol">AED</span>
@@ -255,7 +328,7 @@ function renderProducts() {
             <span class="vat-tag">5% VAT Incl.</span>
           </div>
           <div class="product-card-actions">
-            <button class="btn-card-cart" type="button" data-add="${p.id}" aria-label="Add ${p.model} to shopping bag" ${out ? 'disabled' : ''}>
+            <button class="btn-card-cart" type="button" data-add="${p.id}" aria-label="Add ${escapeHtml(label)} to shopping bag" ${out ? 'disabled' : ''}>
               <svg width="15" height="15" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
               <span>${out ? 'Out of Stock' : 'Add to Bag'}</span>
             </button>
@@ -346,13 +419,13 @@ function renderCart() {
       if (!p) return '';
       const unitPrice = p.begad_price || p.retail;
       const lineTotal = unitPrice * item.qty;
-      const begadUrl = p.begad_url || `https://begad.ae/search?q=${encodeURIComponent(p.model)}`;
+      const begadUrl = escapeHtml(p.begad_url);
       return `
         <div class="cart-item" data-id="${p.id}">
-          <img class="cart-item-img" src="${p.image}" alt="${p.name}" />
+          <img class="cart-item-img" src="${escapeHtml(p.image)}" alt="" />
           <div class="cart-item-details">
-            <h3>${p.name}</h3>
-            <p class="cart-item-meta">VIDVIE ${p.model} · <a href="${begadUrl}" target="_blank" rel="noopener noreferrer">Begad Product ↗</a></p>
+            <h3>${escapeHtml(p.name)}</h3>
+            <p class="cart-item-meta">VIDVIE ${escapeHtml(p.model)} · <a href="${begadUrl}" target="_blank" rel="noopener noreferrer">Begad Product ↗</a></p>
             <div class="cart-item-controls">
               <div class="cart-qty-control">
                 <button type="button" class="cart-qty-btn" data-cart-qty="${p.id}" data-delta="-1" aria-label="Decrease quantity">−</button>
@@ -362,7 +435,7 @@ function renderCart() {
               <span class="cart-item-line-total">AED ${lineTotal.toFixed(2)}</span>
             </div>
           </div>
-          <button type="button" class="cart-item-remove" data-remove="${p.id}" aria-label="Remove ${p.model}" title="Remove item">×</button>
+          <button type="button" class="cart-item-remove" data-remove="${p.id}" aria-label="Remove ${escapeHtml(p.model || 'item')}" title="Remove item">×</button>
         </div>
       `;
     }).join('');
@@ -386,47 +459,40 @@ function closeDrawer() {
   $('#cartTrigger').focus();
 }
 
-// Live prices: ask Begad for the current price and stock of every product
-// on the page. catalog.js only holds the values from the last time the file
-// was edited; if this call fails the page simply keeps showing those.
-const PRICE_API = 'https://begad.ae/api/agent/prices';
-
-async function loadLivePrices() {
-  const ids = products.map(p => p.begad_id).filter(Boolean);
-  if (!ids.length) return;
+// Ask Begad for the current product list. If the call fails the page keeps
+// showing the catalog.js snapshot.
+async function loadCatalog() {
   try {
-    const res = await fetch(`${PRICE_API}?ids=${ids.join(',')}`, { credentials: 'omit' });
+    const res = await fetch(CATALOG_API, { credentials: 'omit' });
     if (!res.ok) return;
     const data = await res.json();
-    if (!data || !data.ok || !Array.isArray(data.items)) return;
-    const live = new Map(data.items.map(item => [item.id, item]));
-    const missing = new Set(data.missing || []);
-    products.forEach(p => {
-      const item = live.get(p.begad_id);
-      if (item && item.price && item.price.amount_with_tax > 0) {
-        const { amount, amount_with_tax: withTax, compare_at_amount: compareAt } = item.price;
-        p.begad_price = withTax;
-        // compare_at is on the same basis as "amount"; bring it to the VAT-inclusive basis too
-        p.compare_at = compareAt && amount > 0 ? compareAt * (withTax / amount) : 0;
-        p.in_stock = item.in_stock !== false;
-      } else if (missing.has(p.begad_id)) {
-        // No longer published on Begad, so it cannot be bought there
-        p.in_stock = false;
-        p.compare_at = 0;
-      }
-    });
-    renderProducts();
-    renderCart();
+    if (!data || !data.ok || !Array.isArray(data.items) || !data.items.length) return;
+    setProducts(data.items);
+    // Drop bag lines for products Begad no longer lists
+    const before = cart.length;
+    cart = cart.filter(item => products.some(p => p.id === item.id));
+    renderCatalog();
+    if (cart.length !== before) saveCart(); else renderCart();
   } catch {
-    // Offline or Begad unreachable: keep the catalog.js prices
+    // Offline or Begad unreachable: keep the snapshot
   }
 }
+
+// A product photo that fails to load leaves an empty frame, not a broken-image icon
+document.addEventListener('error', e => {
+  if (e.target.tagName === 'IMG' && e.target.closest('#productGrid, #categoryTiles, #selectionItems')) {
+    e.target.style.visibility = 'hidden';
+  }
+}, true);
 
 // Hero scene: a product in the picture jumps to that product in the grid
 $('#heroScene').addEventListener('click', e => {
   const item = e.target.closest('[data-find]');
   if (!item) return;
-  $('#catalogSearch').value = item.dataset.find;
+  // data-find is a Begad product id; its SKU finds exactly that product
+  const p = products.find(x => x.id === item.dataset.find);
+  if (!p) return;
+  $('#catalogSearch').value = p.sku;
   setFilter('All');
   $('.collection-toolbar').scrollIntoView({ behavior: 'smooth' });
 });
@@ -563,8 +629,6 @@ $('#editInquiry').addEventListener('click', () => {
 
 // Initialization
 $('#year').textContent = new Date().getFullYear();
-renderFilters();
-renderCategoryTiles();
 saveCart();
-renderProducts();
-loadLivePrices();
+renderCatalog();
+loadCatalog();
