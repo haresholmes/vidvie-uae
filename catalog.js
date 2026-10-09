@@ -2193,7 +2193,7 @@ const catalogProducts = [
   "name": "SHD02 Universal 1800W 105,000 RPM High-Speed Hair Dryer",
   "category": "Hair Tools",
   "url": "https://begad.ae/product/shd02-universal-1800w-105-000-rpm-high-speed-hair-dryer",
-  "thumb": "https://begad.ae/images/I/413rqDrOl2L._AC_SL1200_.jpg",
+  "thumb": "https://m.media-amazon.com/images/I/413rqDrOl2L._AC_SL1200_.jpg",
   "price": {
    "amount": 104,
    "amount_with_tax": 104,
