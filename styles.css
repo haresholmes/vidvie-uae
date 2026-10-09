@@ -122,57 +122,6 @@ section[id] {
 }
 
 /* ==========================================================================
-   Top Announcement Bar
-   ========================================================================== */
-.topbar {
-  background: var(--dark);
-  color: #fff;
-  border-bottom: 1px solid var(--dark-border);
-  padding: 8px 5%;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-
-.topbar-left {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.topbar-flag {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  background: rgba(255, 255, 255, 0.08);
-  padding: 2px 8px;
-  border-radius: var(--radius-full);
-  font-size: 10px;
-  color: var(--brand);
-}
-
-.topbar-right {
-  display: inline-flex;
-  align-items: center;
-  gap: 16px;
-  color: var(--muted-light);
-}
-
-.topbar-link {
-  color: #fff;
-  font-weight: 700;
-  transition: var(--transition);
-}
-
-.topbar-link:hover {
-  color: var(--brand);
-}
-
-/* ==========================================================================
    Site Header (Sticky & Frosted)
    ========================================================================== */
 .site-header {
@@ -1947,9 +1896,6 @@ section[id] {
 }
 
 @media (max-width: 768px) {
-  .topbar-right {
-    display: none;
-  }
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 12px;
@@ -1987,10 +1933,6 @@ section[id] {
 }
 
 @media (max-width: 480px) {
-  .topbar {
-    font-size: 10px;
-    justify-content: center;
-  }
   .brand-logo {
     height: 22px;
   }
