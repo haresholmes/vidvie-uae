@@ -66,6 +66,10 @@ function saveCart() {
 function addToCart(id, qty = 1) {
   const p = products.find(x => x.id === id);
   if (!p) return;
+  if (p.in_stock === false) {
+    toast(`${p.model} is out of stock right now`);
+    return;
+  }
   const existing = cart.find(x => x.id === id);
   if (existing) {
     existing.qty = Math.min(50, existing.qty + qty);
@@ -155,6 +159,46 @@ function renderFilters() {
   $('#filters').innerHTML = html;
 }
 
+// Category tiles: one photo per category above the product grid
+const categoryTileImages = {
+  'Wall Chargers': 'assets/catalog/product-011.webp',
+  'Cables': 'assets/catalog/product-027.webp',
+  'Car Chargers': 'assets/catalog/product-036.webp',
+  'Wireless Chargers': 'assets/catalog/product-049.webp',
+  'Audio': 'assets/catalog/product-059.webp',
+  'Holders & Mounts': 'assets/catalog/product-065.webp',
+  'Storage': 'assets/catalog/product-070.webp',
+  'Hubs & Adapters': 'assets/catalog/product-078.webp',
+  'Lifestyle & Home': 'assets/catalog/product-090.webp'
+};
+
+function renderCategoryTiles() {
+  const el = $('#categoryTiles');
+  if (!el) return;
+  const counts = {};
+  products.forEach(p => { counts[p.category] = (counts[p.category] || 0) + 1; });
+  el.innerHTML = Object.keys(counts)
+    .sort((x, y) => counts[y] - counts[x])
+    .map(c => {
+      const image = categoryTileImages[c] || products.find(p => p.category === c).image;
+      return `
+        <button class="category-tile ${c === filter ? 'active' : ''}" data-filter="${c}" type="button">
+          <span class="category-tile-img"><img src="${image}" alt="" loading="lazy" /></span>
+          <span class="category-tile-name">${c}</span>
+          <span class="category-tile-count">${counts[c]} products</span>
+        </button>
+      `;
+    }).join('');
+}
+
+function setFilter(value) {
+  filter = value;
+  limit = 12;
+  renderFilters();
+  renderCategoryTiles();
+  renderProducts();
+}
+
 // Render Products Grid with Filtering & Sorting
 function renderProducts() {
   const q = $('#catalogSearch').value.trim().toLowerCase();
@@ -187,11 +231,13 @@ function renderProducts() {
   $('#productGrid').innerHTML = visible.map(p => {
     const price = p.begad_price || p.retail;
     const begadUrl = p.begad_url || `https://begad.ae/search?q=${encodeURIComponent(p.model)}`;
+    const out = p.in_stock === false;
+    const off = p.compare_at > price ? Math.round((1 - price / p.compare_at) * 100) : 0;
     return `
-      <article class="product-card" data-id="${p.id}">
+      <article class="product-card ${out ? 'is-out' : ''}" data-id="${p.id}">
         <div class="product-image-wrap">
           <span class="card-badge-top">${p.category}</span>
-          <span class="card-stock-tag">✓ UAE Stock</span>
+          <span class="card-stock-tag ${out ? 'out' : ''}">${out ? 'Out of stock' : '✓ UAE Stock'}</span>
           <img src="${p.image}" alt="VIDVIE ${p.model} ${p.name}" loading="lazy" />
         </div>
         <div class="product-body">
@@ -204,13 +250,14 @@ function renderProducts() {
             <div class="price-main">
               <span class="currency-symbol">AED</span>
               <span class="price-amount">${price.toFixed(2)}</span>
+              ${off > 0 ? `<span class="price-was">${p.compare_at.toFixed(2)}</span><span class="price-off">-${off}%</span>` : ''}
             </div>
             <span class="vat-tag">5% VAT Incl.</span>
           </div>
           <div class="product-card-actions">
-            <button class="btn-card-cart" type="button" data-add="${p.id}" aria-label="Add ${p.model} to shopping bag">
+            <button class="btn-card-cart" type="button" data-add="${p.id}" aria-label="Add ${p.model} to shopping bag" ${out ? 'disabled' : ''}>
               <svg width="15" height="15" viewBox="0 0 24 24"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
-              <span>Add to Bag</span>
+              <span>${out ? 'Out of Stock' : 'Add to Bag'}</span>
             </button>
             <a class="btn-card-begad" href="${begadUrl}" target="_blank" rel="noopener noreferrer" title="View product on Begad.ae">
               Begad ↗
@@ -339,64 +386,64 @@ function closeDrawer() {
   $('#cartTrigger').focus();
 }
 
-// Hero Spotlight Rotator
-const heroSpotlights = [
-  {
-    title: 'VIDVIE TS004-UK Smart Projector',
-    specs: '1080P Full HD · Android 12 · Built-in Netflix',
-    image: 'assets/catalog/product-090.webp',
-    pills: ['📽️ 120-Inch Display', '🎯 Auto Focus & Keystone', '🚚 UAE Stock']
-  },
-  {
-    title: 'VIDVIE TA4404 Universal Travel Adapter',
-    specs: '20W PD Type-C · Dual USB-A · Dual 8A Fuse',
-    image: 'assets/catalog/product-084.webp',
-    pills: ['⚡ 20W PD', '🌍 Worldwide Plugs', '🚚 UAE Stock']
-  },
-  {
-    title: 'VIDVIE PLB142 67W GaN Wall Charger',
-    specs: 'GaN · 2 Type-C + USB-A Ports · PD/PPS',
-    image: 'assets/catalog/product-011.webp',
-    pills: ['⚡ 67W GaN', '🔌 3 Ports', '🚚 UAE Stock']
-  }
-];
-let heroIndex = 0;
-function cycleHeroSpotlight() {
-  heroIndex = (heroIndex + 1) % heroSpotlights.length;
-  const spot = heroSpotlights[heroIndex];
-  const img = $('#heroSpotlightImg');
-  const title = $('#heroSpotlightTitle');
-  const specs = $('#heroSpotlightSpecs');
-  if (img && title && specs) {
-    img.style.opacity = '0';
-    setTimeout(() => {
-      img.src = spot.image;
-      img.alt = spot.title;
-      title.textContent = spot.title;
-      specs.textContent = spot.specs;
-      const pills = $('#heroSpotlightPills');
-      if (pills) {
-        pills.replaceChildren(...spot.pills.map(text => {
-          const pill = document.createElement('span');
-          pill.className = 'hero-pill';
-          pill.textContent = text;
-          return pill;
-        }));
+// Live prices: ask Begad for the current price and stock of every product
+// on the page. catalog.js only holds the values from the last time the file
+// was edited; if this call fails the page simply keeps showing those.
+const PRICE_API = 'https://begad.ae/api/agent/prices';
+
+async function loadLivePrices() {
+  const ids = products.map(p => p.begad_id).filter(Boolean);
+  if (!ids.length) return;
+  try {
+    const res = await fetch(`${PRICE_API}?ids=${ids.join(',')}`, { credentials: 'omit' });
+    if (!res.ok) return;
+    const data = await res.json();
+    if (!data || !data.ok || !Array.isArray(data.items)) return;
+    const live = new Map(data.items.map(item => [item.id, item]));
+    const missing = new Set(data.missing || []);
+    products.forEach(p => {
+      const item = live.get(p.begad_id);
+      if (item && item.price && item.price.amount_with_tax > 0) {
+        const { amount, amount_with_tax: withTax, compare_at_amount: compareAt } = item.price;
+        p.begad_price = withTax;
+        // compare_at is on the same basis as "amount"; bring it to the VAT-inclusive basis too
+        p.compare_at = compareAt && amount > 0 ? compareAt * (withTax / amount) : 0;
+        p.in_stock = item.in_stock !== false;
+      } else if (missing.has(p.begad_id)) {
+        // No longer published on Begad, so it cannot be bought there
+        p.in_stock = false;
+        p.compare_at = 0;
       }
-      img.style.opacity = '1';
-    }, 200);
+    });
+    renderProducts();
+    renderCart();
+  } catch {
+    // Offline or Begad unreachable: keep the catalog.js prices
   }
 }
-setInterval(cycleHeroSpotlight, 6000);
+
+// Hero scene: a product in the picture jumps to that product in the grid
+$('#heroScene').addEventListener('click', e => {
+  const item = e.target.closest('[data-find]');
+  if (!item) return;
+  $('#catalogSearch').value = item.dataset.find;
+  setFilter('All');
+  $('.collection-toolbar').scrollIntoView({ behavior: 'smooth' });
+});
 
 // Setup Event Handlers
 $('#filters').addEventListener('click', e => {
   const btn = e.target.closest('[data-filter]');
   if (!btn) return;
-  filter = btn.dataset.filter;
-  limit = 12;
-  renderFilters();
-  renderProducts();
+  setFilter(btn.dataset.filter);
+});
+
+$('#categoryTiles').addEventListener('click', e => {
+  const tile = e.target.closest('[data-filter]');
+  if (!tile) return;
+  // A second click on the selected tile shows everything again
+  setFilter(tile.dataset.filter === filter ? 'All' : tile.dataset.filter);
+  $('.collection-toolbar').scrollIntoView({ behavior: 'smooth' });
 });
 
 $('#catalogSearch').addEventListener('input', () => {
@@ -517,5 +564,7 @@ $('#editInquiry').addEventListener('click', () => {
 // Initialization
 $('#year').textContent = new Date().getFullYear();
 renderFilters();
+renderCategoryTiles();
 saveCart();
 renderProducts();
+loadLivePrices();

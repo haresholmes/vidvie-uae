@@ -1,5 +1,7 @@
 // Public product data derived from the VIDVIE UAE catalog issued 1 September 2026.
 // Enriched with Begad.ae live platform product mapping and URLs.
+// begad_price and in_stock are only the fallback: app.js replaces them on
+// every page load with Begad's current values (loadLivePrices).
 const catalogProducts = [
   {
     "id": "BE-2659",
@@ -11,7 +13,7 @@ const catalogProducts = [
     "begad_id": 10001858,
     "begad_sku": "ELE1000720",
     "begad_url": "https://begad.ae/product/plb170-wall-charger-w-o-cable-white-vidvie",
-    "begad_price": 51.0,
+    "begad_price": 43.35,
     "in_stock": true
   },
   {
@@ -50,7 +52,7 @@ const catalogProducts = [
     "begad_id": 10001022,
     "begad_sku": "ELE1000227",
     "begad_url": "https://begad.ae/product/vidvie-plb182-30w-gan-fast-wall-charger-usb-c-pd-usb-a-dual-port-white",
-    "begad_price": 55.0,
+    "begad_price": 46.75,
     "in_stock": true
   },
   {
@@ -76,7 +78,7 @@ const catalogProducts = [
     "begad_id": 10001023,
     "begad_sku": "ELE1000228",
     "begad_url": "https://begad.ae/product/vidvie-plb177-30w-gan-fast-wall-charger-with-led-power-display-usb-c-pd-usb-a-white",
-    "begad_price": 59.0,
+    "begad_price": 50.15,
     "in_stock": true
   },
   {
@@ -102,7 +104,7 @@ const catalogProducts = [
     "begad_id": 10001851,
     "begad_sku": "HOM1000303",
     "begad_url": "https://begad.ae/product/vidvie-plb160-dual-type-c-gan-fast-charger",
-    "begad_price": 62.0,
+    "begad_price": 52.7,
     "in_stock": true
   },
   {
@@ -115,7 +117,7 @@ const catalogProducts = [
     "begad_id": 10001853,
     "begad_sku": "ELE1000715",
     "begad_url": "https://begad.ae/product/vidvie-plb161-dual-type-c-gan-fast-charger",
-    "begad_price": 74.0,
+    "begad_price": 62.9,
     "in_stock": true
   },
   {
@@ -147,7 +149,7 @@ const catalogProducts = [
   {
     "id": "BE-2653",
     "model": "PLB142",
-    "name": "Fast Wall Charger GaN 67W with 2 Type-C + USB-A Ports \u2013 PD/PPS High Power Charger",
+    "name": "Fast Wall Charger GaN 67W with 2 Type-C + USB-A Ports – PD/PPS High Power Charger",
     "category": "Wall Chargers",
     "retail": 85.0,
     "image": "assets/catalog/product-011.webp",
@@ -160,7 +162,7 @@ const catalogProducts = [
   {
     "id": "BE-2664",
     "model": "XL-PLB122",
-    "name": "Fast Wall Charger70W GaN with Dual Type-C & Dual USB-A Ports \u2013 High Power Charger for Phones, Tablets & Laptops",
+    "name": "Fast Wall Charger70W GaN with Dual Type-C & Dual USB-A Ports – High Power Charger for Phones, Tablets & Laptops",
     "category": "Wall Chargers",
     "retail": 89.0,
     "image": "assets/catalog/product-012.webp",
@@ -245,7 +247,7 @@ const catalogProducts = [
     "begad_id": 10001930,
     "begad_sku": "ELE1000770",
     "begad_url": "https://begad.ae/product/vidvie-cb4057t-type-c-data-cable",
-    "begad_price": 48.0,
+    "begad_price": 40.8,
     "in_stock": true
   },
   {
@@ -310,7 +312,7 @@ const catalogProducts = [
     "begad_id": 10001932,
     "begad_sku": "ELE1000771",
     "begad_url": "https://begad.ae/product/vidvie-cb4059c-c-type-c-to-type-c-data-cable",
-    "begad_price": 49.0,
+    "begad_price": 41.65,
     "in_stock": true
   },
   {
@@ -336,7 +338,7 @@ const catalogProducts = [
     "begad_id": 10001937,
     "begad_sku": "ELE1000774",
     "begad_url": "https://begad.ae/product/vidvie-cb4022-3-in-1-multi-charging-data-cable",
-    "begad_price": 50.0,
+    "begad_price": 42.5,
     "in_stock": true
   },
   {
@@ -375,7 +377,7 @@ const catalogProducts = [
     "begad_id": 10001936,
     "begad_sku": "ELE1000773",
     "begad_url": "https://begad.ae/product/vidvie-cb4068c-i-36w-type-c-to-ip-bracket-data-cable",
-    "begad_price": 52.0,
+    "begad_price": 44.2,
     "in_stock": true
   },
   {
@@ -388,7 +390,7 @@ const catalogProducts = [
     "begad_id": 10001913,
     "begad_sku": "ELE1000760",
     "begad_url": "https://begad.ae/product/vidvie-al1124-type-c-to-3-5mm-audio-adapter",
-    "begad_price": 51.0,
+    "begad_price": 43.35,
     "in_stock": true
   },
   {
@@ -401,13 +403,13 @@ const catalogProducts = [
     "begad_id": 10001934,
     "begad_sku": "ELE1000772",
     "begad_url": "https://begad.ae/product/vidvie-cb4068c-c-66w-type-c-to-type-c-bracket-data-cable",
-    "begad_price": 51.0,
+    "begad_price": 43.35,
     "in_stock": true
   },
   {
     "id": "BE-2642",
     "model": "HD04",
-    "name": "DisplayPort to DisplayPort Cable \u2013 18Gbps High-Definition Braided DP Cable 18Gbps",
+    "name": "DisplayPort to DisplayPort Cable – 18Gbps High-Definition Braided DP Cable 18Gbps",
     "category": "Cables",
     "retail": 60.0,
     "image": "assets/catalog/product-031.webp",
@@ -427,7 +429,7 @@ const catalogProducts = [
     "begad_id": 10001926,
     "begad_sku": "AUT1000046",
     "begad_url": "https://begad.ae/product/vidvie-cc536-aluminum-alloy-qc3-0-fast-car-charger",
-    "begad_price": 52.0,
+    "begad_price": 44.2,
     "in_stock": true
   },
   {
@@ -440,7 +442,7 @@ const catalogProducts = [
     "begad_id": 10001964,
     "begad_sku": "BE-2676",
     "begad_url": "https://begad.ae/product/vidvie-single-type-c-fast-car-charger-tc-tc-100cm-60w-grey-vidvie",
-    "begad_price": 53.0,
+    "begad_price": 45.05,
     "in_stock": true
   },
   {
@@ -466,7 +468,7 @@ const catalogProducts = [
     "begad_id": 10001962,
     "begad_sku": "BE-2678",
     "begad_url": "https://begad.ae/product/vidvie-type-c-usb-fast-car-charger-type-c-tc-tc-metal-car-charger-grey",
-    "begad_price": 110.0,
+    "begad_price": 93.5,
     "in_stock": true
   },
   {
@@ -479,7 +481,7 @@ const catalogProducts = [
     "begad_id": 10001904,
     "begad_sku": "AUT1000042",
     "begad_url": "https://begad.ae/product/vidvie-in-car-cc522-car-charger",
-    "begad_price": 112.0,
+    "begad_price": 95.2,
     "in_stock": true
   },
   {
@@ -492,7 +494,7 @@ const catalogProducts = [
     "begad_id": 10001929,
     "begad_sku": "AUT1000049",
     "begad_url": "https://begad.ae/product/vidvie-cc543-dual-type-c-fast-car-charger",
-    "begad_price": 57.0,
+    "begad_price": 48.45,
     "in_stock": true
   },
   {
@@ -505,7 +507,7 @@ const catalogProducts = [
     "begad_id": 10001931,
     "begad_sku": "AUT1000050",
     "begad_url": "https://begad.ae/product/vidvie-cc547-type-c-usb-fast-car-charger",
-    "begad_price": 118.0,
+    "begad_price": 100.3,
     "in_stock": true
   },
   {
@@ -518,7 +520,7 @@ const catalogProducts = [
     "begad_id": 10001924,
     "begad_sku": "AUT1000044",
     "begad_url": "https://begad.ae/product/vidvie-fm01-in-car-wireless-receiver",
-    "begad_price": 63.0,
+    "begad_price": 53.55,
     "in_stock": true
   },
   {
@@ -531,7 +533,7 @@ const catalogProducts = [
     "begad_id": 10001923,
     "begad_sku": "AUT1000043",
     "begad_url": "https://begad.ae/product/vidvie-cc528-car-charger",
-    "begad_price": 68.0,
+    "begad_price": 57.8,
     "in_stock": true
   },
   {
@@ -544,7 +546,7 @@ const catalogProducts = [
     "begad_id": 10001933,
     "begad_sku": "AUT1000051",
     "begad_url": "https://begad.ae/product/vidvie-cc548-dual-type-c-usb-fast-car-charger",
-    "begad_price": 70.0,
+    "begad_price": 59.5,
     "in_stock": true
   },
   {
@@ -557,7 +559,7 @@ const catalogProducts = [
     "begad_id": 10001586,
     "begad_sku": "ELE1000497",
     "begad_url": "https://begad.ae/product/vidvie-4-in-1-60w-fast-car-charger-with-dual-retractable-cables-cc539",
-    "begad_price": 95.0,
+    "begad_price": 75.65,
     "in_stock": true
   },
   {
@@ -596,7 +598,7 @@ const catalogProducts = [
     "begad_id": 10001941,
     "begad_sku": "AUT1000053",
     "begad_url": "https://begad.ae/product/vidvie-hc1523-car-holder-15w-magnetic-suction-wireless-charging-car-holder",
-    "begad_price": 68.0,
+    "begad_price": 57.8,
     "in_stock": true
   },
   {
@@ -615,7 +617,7 @@ const catalogProducts = [
   {
     "id": "BE-2687",
     "model": "WLC1427 QI2",
-    "name": "Qi2 Certified 15W Fast Magnetic Wireless Charger Pad (MagSafe Compatible) -\u2013 Black",
+    "name": "Qi2 Certified 15W Fast Magnetic Wireless Charger Pad (MagSafe Compatible) -– Black",
     "category": "Wireless Chargers",
     "retail": 79.0,
     "image": "assets/catalog/product-047.webp",
@@ -635,7 +637,7 @@ const catalogProducts = [
     "begad_id": 10001938,
     "begad_sku": "ELE1000775",
     "begad_url": "https://begad.ae/product/vidvie-wlc1423-qi2-desktop-folding-magnetic-wireless-charging-stand",
-    "begad_price": 86.0,
+    "begad_price": 73.1,
     "in_stock": true
   },
   {
@@ -674,7 +676,7 @@ const catalogProducts = [
     "begad_id": 10001946,
     "begad_sku": "ELE1000781",
     "begad_url": "https://begad.ae/product/vidvie-hs662-half-in-ear-wired-headset",
-    "begad_price": 48.0,
+    "begad_price": 40.8,
     "in_stock": true
   },
   {
@@ -687,7 +689,7 @@ const catalogProducts = [
     "begad_id": 10001942,
     "begad_sku": "ELE1000778",
     "begad_url": "https://begad.ae/product/vidvie-hs653-wired-earphone",
-    "begad_price": 48.0,
+    "begad_price": 40.8,
     "in_stock": true
   },
   {
@@ -700,7 +702,7 @@ const catalogProducts = [
     "begad_id": 10001944,
     "begad_sku": "ELE1000779",
     "begad_url": "https://begad.ae/product/vidvie-hs655-wired-earphones",
-    "begad_price": 49.0,
+    "begad_price": 41.65,
     "in_stock": true
   },
   {
@@ -713,7 +715,7 @@ const catalogProducts = [
     "begad_id": 10001957,
     "begad_sku": "ELE1000791",
     "begad_url": "https://begad.ae/product/vidvie-hs685t-half-in-ear-type-c-wired-earphone",
-    "begad_price": 98.0,
+    "begad_price": 83.3,
     "in_stock": true
   },
   {
@@ -726,7 +728,7 @@ const catalogProducts = [
     "begad_id": 10001955,
     "begad_sku": "ELE1000789",
     "begad_url": "https://begad.ae/product/vidvie-hs684t-in-ear-type-c-wired-earphone",
-    "begad_price": 49.0,
+    "begad_price": 41.65,
     "in_stock": true
   },
   {
@@ -752,7 +754,7 @@ const catalogProducts = [
     "begad_id": 10001912,
     "begad_sku": "ELE1000759",
     "begad_url": "https://begad.ae/product/vidvie-al1111-type-c-audio-cable",
-    "begad_price": 52.0,
+    "begad_price": 44.2,
     "in_stock": true
   },
   {
@@ -765,7 +767,7 @@ const catalogProducts = [
     "begad_id": 10001939,
     "begad_sku": "ELE1000776",
     "begad_url": "https://begad.ae/product/vidvie-xl-hs605-type-c-in-ear-wired-earphone",
-    "begad_price": 54.0,
+    "begad_price": 45.9,
     "in_stock": true
   },
   {
@@ -836,14 +838,14 @@ const catalogProducts = [
   {
     "id": "BE-2728",
     "model": "HC1547",
-    "name": "Suction Cup Car Phone Holder Telescopic Extendable Arm 360\u00b0 Rotation - Black",
+    "name": "Suction Cup Car Phone Holder Telescopic Extendable Arm 360° Rotation - Black",
     "category": "Holders & Mounts",
     "retail": 56.0,
     "image": "assets/catalog/product-064.webp",
     "begad_id": 10001943,
     "begad_sku": "AUT1000054",
     "begad_url": "https://begad.ae/product/vidvie-hc1547-suction-cup-foldable-car-holder",
-    "begad_price": 55.0,
+    "begad_price": 46.75,
     "in_stock": true
   },
   {
@@ -1012,7 +1014,7 @@ const catalogProducts = [
     "begad_id": 10001914,
     "begad_sku": "ELE1000761",
     "begad_url": "https://begad.ae/product/vidvie-type-c-to-ip-otg-charger-cable-adapter-dark-grey",
-    "begad_price": 51.0,
+    "begad_price": 43.35,
     "in_stock": true
   },
   {
@@ -1025,7 +1027,7 @@ const catalogProducts = [
     "begad_id": 10002252,
     "begad_sku": "BE-2809",
     "begad_url": "https://begad.ae/product/vidvie-hub03-6-in-1-hub-docking-station",
-    "begad_price": 77.0,
+    "begad_price": 65.45,
     "in_stock": true
   },
   {
@@ -1051,7 +1053,7 @@ const catalogProducts = [
     "begad_id": 10001908,
     "begad_sku": "ELE1000755",
     "begad_url": "https://begad.ae/product/vidvie-ta4409-global-universal-travel-charger",
-    "begad_price": 60.0,
+    "begad_price": 51,
     "in_stock": true
   },
   {
@@ -1090,7 +1092,7 @@ const catalogProducts = [
     "begad_id": 10001911,
     "begad_sku": "ELE1000758",
     "begad_url": "https://begad.ae/product/psb07-4-usb-4-type-c-power-strip",
-    "begad_price": 74.0,
+    "begad_price": 50.15,
     "in_stock": true
   },
   {
@@ -1103,7 +1105,7 @@ const catalogProducts = [
     "begad_id": 10001909,
     "begad_sku": "ELE1000756",
     "begad_url": "https://begad.ae/product/vidvie-ta4404-global-universal-conversion-charger",
-    "begad_price": 79.0,
+    "begad_price": 67.15,
     "in_stock": true
   },
   {
@@ -1129,7 +1131,7 @@ const catalogProducts = [
     "begad_id": 10002403,
     "begad_sku": "BE-2803",
     "begad_url": "https://begad.ae/product/vidvie-bh02-portable-business-computer-laptop-bag-blue",
-    "begad_price": 89.0,
+    "begad_price": 75.65,
     "in_stock": true
   },
   {
@@ -1168,7 +1170,7 @@ const catalogProducts = [
     "begad_id": 10001852,
     "begad_sku": "ELE1000714",
     "begad_url": "https://begad.ae/product/vidvie-vd01-streaming-device-4k-hdr",
-    "begad_price": 127.85,
+    "begad_price": 108.67,
     "in_stock": true
   },
   {
@@ -1181,7 +1183,7 @@ const catalogProducts = [
     "begad_id": 10001862,
     "begad_sku": "ELE1000724",
     "begad_url": "https://begad.ae/product/ts004-led-full-hd-intelligent-projector",
-    "begad_price": 322.17,
+    "begad_price": 273.84,
     "in_stock": true
   },
   {
@@ -1194,7 +1196,7 @@ const catalogProducts = [
     "begad_id": 10001857,
     "begad_sku": "ELE1000719",
     "begad_url": "https://begad.ae/product/ts002-multifunctional-hd-intelligent-projector",
-    "begad_price": 428.45,
+    "begad_price": 364.18,
     "in_stock": true
   }
 ];

@@ -4,6 +4,16 @@ A high-performance marketing and e-commerce discovery website for VIDVIE's offic
 
 Retail orders, UAE delivery (Dubai Binjrash warehouse), customer service, and secure payments (Credit/Debit Card, Tabby, Apple Pay, Cash on Delivery) are powered directly through the Begad platform (`begad.ae`). Customers can add items to their shopping bag and transfer their entire cart directly into Begad's checkout in one click. Wholesale and B2B buyers can prepare an email to `Contact@begad.ae` or chat via WhatsApp.
 
+## Live prices and stock
+
+`catalog.js` holds each product's Begad id and a fallback price. On every page load `loadLivePrices()` in `app.js` asks Begad for the current values: `GET https://begad.ae/api/agent/prices?ids=<begad ids>` (public, no key, answers within about a second, cached on Begad's side for 60 seconds). The page then shows Begad's price including VAT, the struck-through normal price and discount when a deal is running, and "Out of stock" with the bag button disabled when Begad has none or no longer lists the product. If the call fails, the page keeps the `catalog.js` values. The three products without a `begad_id` always show their `catalog.js` price.
+
+The endpoint lives in the Begad repository (`app/api-agent-prices.php`).
+
+## Hero picture
+
+The hero is seven product cut-outs in `assets/hero/`, positioned by the `.scene-*` rules in `styles.css`; clicking one searches the grid for that model. The cut-outs were made from Begad's full-size product photos (white studio background) with `tools/cutout.py <photo> <out.webp> [max side] [keep left fraction]` (needs `numpy`, `scipy`, `pillow`). It only works on products that are clearly darker than their background: white chargers and light metal lose parts of themselves. `tools/` is not uploaded to the site.
+
 ## Development
 
 Serve the directory with `python3 -m http.server 8000` and open `http://localhost:8000`. There is no build step or dependency install.

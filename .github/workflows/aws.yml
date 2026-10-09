@@ -22,7 +22,7 @@ jobs:
         run: |
           aws s3 sync . s3://vidvie-site-279706066043/ --delete \
             --exclude ".git/*" --exclude ".github/*" \
-            --exclude "README.md" --exclude ".gitignore" \
+            --exclude "README.md" --exclude ".gitignore" --exclude "tools/*" \
             --cache-control "public,max-age=300" --only-show-errors
       - name: Clear the CloudFront cache
         run: aws cloudfront create-invalidation --distribution-id E1J25ISXSFTE16 --paths "/*"
