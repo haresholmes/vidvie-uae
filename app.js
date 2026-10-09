@@ -345,19 +345,19 @@ const heroSpotlights = [
     title: 'VIDVIE TS004-UK Smart Projector',
     specs: '1080P Full HD · Android 12 · Built-in Netflix',
     image: 'assets/catalog/product-090.webp',
-    pills: ['⚡ 120-Inch Display', '🛡️ Auto-Keystone', '🚚 Begad Fulfilled']
+    pills: ['📽️ 120-Inch Display', '🎯 Auto Focus & Keystone', '🚚 UAE Stock']
   },
   {
-    title: 'VIDVIE KB05 Wireless Keyboard',
-    specs: 'Transparent RGB · Multi-Device Bluetooth · Type-C',
+    title: 'VIDVIE TA4404 Universal Travel Adapter',
+    specs: '20W PD Type-C · Dual USB-A · Dual 8A Fuse',
     image: 'assets/catalog/product-084.webp',
-    pills: ['⚡ 3 Devices', '🛡️ 30-Day Battery', '🚚 In Stock Dubai']
+    pills: ['⚡ 20W PD', '🌍 Worldwide Plugs', '🚚 UAE Stock']
   },
   {
-    title: 'VIDVIE 67W GaN Fast Wall Charger',
-    specs: 'Ultra-Compact GaN · Dual Type-C & USB-A Ports',
-    image: 'assets/catalog/product-000.webp',
-    pills: ['⚡ 67W Super Fast', '🛡️ Multi-Protect', '🚚 Same-Day']
+    title: 'VIDVIE PLB142 67W GaN Wall Charger',
+    specs: 'GaN · 2 Type-C + USB-A Ports · PD/PPS',
+    image: 'assets/catalog/product-011.webp',
+    pills: ['⚡ 67W GaN', '🔌 3 Ports', '🚚 UAE Stock']
   }
 ];
 let heroIndex = 0;
@@ -374,6 +374,15 @@ function cycleHeroSpotlight() {
       img.alt = spot.title;
       title.textContent = spot.title;
       specs.textContent = spot.specs;
+      const pills = $('#heroSpotlightPills');
+      if (pills) {
+        pills.replaceChildren(...spot.pills.map(text => {
+          const pill = document.createElement('span');
+          pill.className = 'hero-pill';
+          pill.textContent = text;
+          return pill;
+        }));
+      }
       img.style.opacity = '1';
     }, 200);
   }
