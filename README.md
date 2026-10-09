@@ -10,9 +10,13 @@ Serve the directory with `python3 -m http.server 8000` and open `http://localhos
 
 ## Deployment
 
-The GitHub Actions workflow in `.github/workflows/pages.yml` deploys the repository to GitHub Pages on each push to `main`. GitHub Pages must be set to **GitHub Actions** as its source.
+The live site is hosted in Begad's AWS account (279706066043): a private S3 bucket, `vidvie-site-279706066043` (us-east-1), behind CloudFront distribution `E1J25ISXSFTE16` (`d85jadl1m139k.cloudfront.net`). The bucket is not public; only that distribution can read it.
 
-When `vidvie.ae` is purchased, configure its DNS with GitHub Pages and add the custom domain in repository Pages settings. Keep the preview URL until the official domain is ready.
+`.github/workflows/aws.yml` deploys on each push to `main`: it syncs the repository to the bucket (without `.git`, `.github`, `README.md`, `.gitignore`) and clears the CloudFront cache. It signs in with GitHub OIDC as the IAM role `vidvie-github-deploy`, which can only write to that bucket and invalidate that distribution. There are no stored AWS keys.
+
+`vidvie.ae` is registered at AESERVER. Its DNS is the Route 53 hosted zone `Z02139873CGVQFOOKAUIY`, which also carries the domain's MXroute email records (MX, SPF, `x._domainkey`); do not remove them. The HTTPS certificate is in ACM (us-east-1) and renews itself as long as its two validation CNAMEs stay in the zone.
+
+`.github/workflows/pages.yml` still publishes the GitHub Pages preview at `https://haresholmes.eu.org/vidvie-uae/`.
 
 ## Before retail launch
 

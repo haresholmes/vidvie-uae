@@ -1,0 +1,28 @@
+name: Deploy VIDVIE UAE to AWS
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: aws-deploy
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::279706066043:role/vidvie-github-deploy
+          aws-region: us-east-1
+      - name: Upload site to S3
+        run: |
+          aws s3 sync . s3://vidvie-site-279706066043/ --delete \
+            --exclude ".git/*" --exclude ".github/*" \
+            --exclude "README.md" --exclude ".gitignore" \
+            --cache-control "public,max-age=300" --only-show-errors
+      - name: Clear the CloudFront cache
+        run: aws cloudfront create-invalidation --distribution-id E1J25ISXSFTE16 --paths "/*"
