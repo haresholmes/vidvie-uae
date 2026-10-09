@@ -1223,127 +1223,68 @@ section[id] {
 }
 
 /* ==========================================================================
-   Bento Grid Section (Brand Story & Pillars)
+   Why Buy Here
    ========================================================================== */
-.bento-section {
-  background: var(--dark);
-  color: #fff;
-  padding: 90px 5%;
-  position: relative;
-  overflow: hidden;
+.why-section {
+  background: #fff;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 96px 5%;
 }
 
-.bento-glow {
-  position: absolute;
-  width: 700px;
-  height: 700px;
-  background: radial-gradient(circle, rgba(255, 90, 0, 0.12) 0%, transparent 70%);
-  bottom: -200px;
-  left: -100px;
-  pointer-events: none;
-}
-
-.bento-container {
+.why-wrap {
   max-width: var(--container-max);
   margin: 0 auto;
-  position: relative;
-  z-index: 2;
-}
-
-.bento-header {
-  text-align: center;
-  max-width: 680px;
-  margin: 0 auto 50px;
-}
-
-.bento-header .section-eyebrow {
-  justify-content: center;
-}
-
-.bento-header .section-eyebrow::before {
-  display: none;
-}
-
-.bento-header h2 {
-  font-family: var(--font-display);
-  font-size: clamp(32px, 3.5vw, 46px);
-  font-weight: 800;
-  line-height: 1.15;
-  margin-bottom: 16px;
-}
-
-.bento-header p {
-  color: var(--muted-light);
-  font-size: 15px;
-}
-
-.bento-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: 72px;
+  align-items: start;
 }
 
-.bento-card {
-  background: var(--dark-card);
-  border: 1px solid var(--dark-border);
-  border-radius: var(--radius-xl);
-  padding: 34px;
-  display: flex;
-  flex-direction: column;
-  transition: var(--transition);
-  position: relative;
-}
-
-.bento-card:hover {
-  transform: translateY(-3px);
-  border-color: rgba(255, 90, 0, 0.4);
-  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
-}
-
-.bento-card.span-2 {
-  grid-column: span 2;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  align-items: center;
-}
-
-.bento-icon {
-  width: 48px;
-  height: 48px;
-  border-radius: var(--radius-md);
-  background: rgba(255, 90, 0, 0.15);
-  color: var(--brand);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.bento-icon svg {
-  width: 24px;
-  height: 24px;
-}
-
-.bento-card h3 {
+.why-intro h2 {
   font-family: var(--font-display);
-  font-size: 19px;
+  font-size: clamp(30px, 3.4vw, 46px);
   font-weight: 800;
-  margin-bottom: 10px;
-  line-height: 1.25;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+  color: var(--ink);
+  max-width: 13ch;
 }
 
-.bento-card p {
-  color: var(--muted-light);
-  font-size: 13px;
+.why-intro p {
+  margin-top: 20px;
+  font-size: 16px;
   line-height: 1.6;
+  color: var(--muted);
+  max-width: 36ch;
 }
 
-.bento-img {
-  width: 100%;
-  max-height: 240px;
-  object-fit: contain;
-  filter: drop-shadow(0 15px 25px rgba(0, 0, 0, 0.5));
+.why-list {
+  margin: 0;
+  border-top: 2px solid var(--ink);
+}
+
+.why-row {
+  display: grid;
+  grid-template-columns: minmax(0, 4fr) minmax(0, 7fr);
+  gap: 32px;
+  padding: 26px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.why-row dt {
+  font-family: var(--font-display);
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+.why-row dd {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink-secondary);
 }
 
 /* ==========================================================================
@@ -1974,12 +1915,6 @@ section[id] {
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  .bento-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .bento-card.span-2 {
-    grid-column: span 2;
-  }
   .footer-top {
     grid-template-columns: 1fr 1fr;
   }
@@ -2003,6 +1938,16 @@ section[id] {
 }
 
 @media (max-width: 960px) {
+  .why-section {
+    padding: 64px 5%;
+  }
+  .why-wrap {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .why-intro h2 {
+    max-width: none;
+  }
   .hero {
     grid-template-columns: 1fr;
     padding-top: 40px;
@@ -2034,6 +1979,11 @@ section[id] {
 }
 
 @media (max-width: 768px) {
+  .why-row {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 20px 0;
+  }
   .section-head {
     flex-direction: column;
     align-items: flex-start;
@@ -2052,13 +2002,6 @@ section[id] {
   }
   .price-amount {
     font-size: 16px;
-  }
-  .bento-grid {
-    grid-template-columns: 1fr;
-  }
-  .bento-card.span-2 {
-    grid-column: span 1;
-    grid-template-columns: 1fr;
   }
   .form-row-2 {
     grid-template-columns: 1fr;
