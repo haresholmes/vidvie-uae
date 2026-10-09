@@ -2692,20 +2692,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001727,
-  "sku": "ELE1000627",
-  "name": "Vidvie CSP001 Car Power Bank with Emergency Jump Starter and Air Compressor",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-csp001-car-power-bank-with-emergency-jump-starter-and-air-compressor",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001727.jpg.webp",
-  "price": {
-   "amount": 400.95,
-   "amount_with_tax": 400.95,
-   "compare_at_amount": 471.71
-  },
-  "in_stock": true
- },
- {
   "id": 10001726,
   "sku": "ELE1000626",
   "name": "PB7003 145W High Power Power Bank – Fast, Reliable, Portable Charging",
