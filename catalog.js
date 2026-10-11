@@ -291,9 +291,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-tc-gray",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260805123729-1358.png.webp",
   "price": {
-   "amount": 61.2,
-   "amount_with_tax": 61.2,
-   "compare_at_amount": 72
+   "amount": 62.05,
+   "amount_with_tax": 62.05,
+   "compare_at_amount": 73
   },
   "in_stock": true
  },
@@ -305,9 +305,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-tc-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232515-3479.png.webp",
   "price": {
-   "amount": 61.2,
-   "amount_with_tax": 61.2,
-   "compare_at_amount": 72
+   "amount": 62.05,
+   "amount_with_tax": 62.05,
+   "compare_at_amount": 73
   },
   "in_stock": true
  },
@@ -2660,20 +2660,6 @@ const catalogProducts = [
    "amount": 445,
    "amount_with_tax": 445,
    "compare_at_amount": 500
-  },
-  "in_stock": true
- },
- {
-  "id": 10001729,
-  "sku": "ELE1000629",
-  "name": "KB07 Transparent Wireless Mouse - Clear Design, Smooth Performance",
-  "category": "Mouse",
-  "url": "https://begad.ae/product/kb07-transparent-wireless-mouse-clear-design-smooth-performance",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001729.jpg.webp",
-  "price": {
-   "amount": 190,
-   "amount_with_tax": 190,
-   "compare_at_amount": 230
   },
   "in_stock": true
  },
