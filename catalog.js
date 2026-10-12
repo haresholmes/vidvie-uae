@@ -4,6 +4,48 @@
 // on Begad.ae, and app.js replaces this list with the live one on every visit.
 const catalogProducts = [
  {
+  "id": 10009846,
+  "sku": "ELE1002288",
+  "name": "Vidvie USB-C to USB-C Data and Charging Cable, Type-C Charge and Sync Cord for Android Phones, Tablets and USB-C Devices, Black, CB4058C&C",
+  "category": "Cables",
+  "url": "https://begad.ae/product/vidvie-usb-c-to-usb-c-data-and-charging-cable-type-c-charge-and-sync-cord-for-android-phones-tablets-and-usb-c-devices-black-cb4058c-c",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261010_034745_30f473050d.png.webp",
+  "price": {
+   "amount": 51,
+   "amount_with_tax": 51,
+   "compare_at_amount": 61.2
+  },
+  "in_stock": false
+ },
+ {
+  "id": 10007323,
+  "sku": "ELE1002201",
+  "name": "Vidvie Half In-Ear Wired Earphones with USB-C Plug, Type-C Headphones with Comfortable Fit for Android Phones and USB-C Devices, White, HS685T",
+  "category": "Headphones",
+  "url": "https://begad.ae/product/vidvie-half-in-ear-wired-earphones-with-usb-c-plug-type-c-headphones-with-comfortable-fit-for-android-phones-and-usb-c-devices-white-hs685t",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012191813-6410.jpg.webp",
+  "price": {
+   "amount": 49,
+   "amount_with_tax": 49,
+   "compare_at_amount": 58.8
+  },
+  "in_stock": false
+ },
+ {
+  "id": 10007307,
+  "sku": "ELE1002187",
+  "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 2m, Long Type-C Charge and Data Sync Cord for Phones, Tablets and Laptops, Black, CB4038-2C&C",
+  "category": "Cables",
+  "url": "https://begad.ae/product/vidvie-60w-usb-c-to-usb-c-fast-charging-cable-2m-long-type-c-charge-and-data-sync-cord-for-phones-tablets-and-laptops-black-cb4038-2c-c",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012202402-3990.jpg.webp",
+  "price": {
+   "amount": 14.6,
+   "amount_with_tax": 14.6,
+   "compare_at_amount": 17.18
+  },
+  "in_stock": true
+ },
+ {
   "id": 10007059,
   "sku": "ELE1002033",
   "name": "Vidvie 36W USB-C to Lightning Fast Charging Cable, Nylon Braided Data Sync Cord with Smart Overload Protection for iPhone, iPad and iPod, Black, CB4058C&i",
@@ -25,9 +67,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-power-strip-extension-uk-plug-2500w-4-ac-outlets-4-usb-4-type-c-fast-charging-ports-psb07-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925135834-1948.png.webp",
   "price": {
-   "amount": 59,
-   "amount_with_tax": 59,
-   "compare_at_amount": 140
+   "amount": 50.15,
+   "amount_with_tax": 50.15,
+   "compare_at_amount": 59
   },
   "in_stock": true
  },
@@ -81,9 +123,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1624-wireless-calling-smart-sports-watch",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002401.jpg.webp",
   "price": {
-   "amount": 82,
-   "amount_with_tax": 82,
-   "compare_at_amount": 110
+   "amount": 69.7,
+   "amount_with_tax": 69.7,
+   "compare_at_amount": 82
   },
   "in_stock": true
  },
@@ -95,9 +137,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1623-wireless-calling-smart-sports-watch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002396.jpg.webp",
   "price": {
-   "amount": 71,
-   "amount_with_tax": 71,
-   "compare_at_amount": 100
+   "amount": 60.35,
+   "amount_with_tax": 60.35,
+   "compare_at_amount": 71
   },
   "in_stock": true
  },
@@ -109,9 +151,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1621-wireless-calling-gps-sports-watch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709174626-2940.png.webp",
   "price": {
-   "amount": 116.04,
-   "amount_with_tax": 116.04,
-   "compare_at_amount": 150
+   "amount": 98.63,
+   "amount_with_tax": 98.63,
+   "compare_at_amount": 116.04
   },
   "in_stock": true
  },
@@ -123,9 +165,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1620-wireless-calling-smart-sports-watch",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002388.jpg.webp",
   "price": {
-   "amount": 96,
-   "amount_with_tax": 96,
-   "compare_at_amount": 130
+   "amount": 81.6,
+   "amount_with_tax": 81.6,
+   "compare_at_amount": 96
   },
   "in_stock": true
  },
@@ -137,9 +179,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1619-amoled-ultra-clear-screen-wireless-call-smart-watch-rose-gold",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709171837-5043.png.webp",
   "price": {
-   "amount": 110,
-   "amount_with_tax": 110,
-   "compare_at_amount": 150
+   "amount": 93.5,
+   "amount_with_tax": 93.5,
+   "compare_at_amount": 110
   },
   "in_stock": true
  },
@@ -151,9 +193,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1617-amoled-ultra-clear-screen-wireless-call-smart-watch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231443-3451.png.webp",
   "price": {
-   "amount": 110,
-   "amount_with_tax": 110,
-   "compare_at_amount": 150
+   "amount": 93.5,
+   "amount_with_tax": 93.5,
+   "compare_at_amount": 110
   },
   "in_stock": true
  },
@@ -165,9 +207,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-sw1615-smart-watch-with-health-tracking-hd-screen-bluetooth-cal",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231910-9521.jpg.webp",
   "price": {
-   "amount": 106,
-   "amount_with_tax": 106,
-   "compare_at_amount": 140
+   "amount": 90.1,
+   "amount_with_tax": 90.1,
+   "compare_at_amount": 106
   },
   "in_stock": true
  },
@@ -193,9 +235,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-256gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002258.jpg.webp",
   "price": {
-   "amount": 208.8,
-   "amount_with_tax": 208.8,
-   "compare_at_amount": 280
+   "amount": 177.48,
+   "amount_with_tax": 177.48,
+   "compare_at_amount": 208.8
   },
   "in_stock": true
  },
@@ -207,9 +249,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/pb7012-1000mah-portable-power-bank-tc-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002257.jpg.webp",
   "price": {
-   "amount": 86,
-   "amount_with_tax": 86,
-   "compare_at_amount": 190
+   "amount": 72.25,
+   "amount_with_tax": 72.25,
+   "compare_at_amount": 85
   },
   "in_stock": true
  },
@@ -235,9 +277,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-128gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002255.jpg.webp",
   "price": {
-   "amount": 110,
-   "amount_with_tax": 110,
-   "compare_at_amount": 150
+   "amount": 93.5,
+   "amount_with_tax": 93.5,
+   "compare_at_amount": 110
   },
   "in_stock": true
  },
@@ -249,9 +291,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/ap06-universal-active-capacitive-pen",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002254.jpg.webp",
   "price": {
-   "amount": 75,
-   "amount_with_tax": 75,
-   "compare_at_amount": 100
+   "amount": 63.75,
+   "amount_with_tax": 63.75,
+   "compare_at_amount": 75
   },
   "in_stock": true
  },
@@ -263,9 +305,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-64gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917043719-6980.png.webp",
   "price": {
-   "amount": 71,
-   "amount_with_tax": 71,
-   "compare_at_amount": 119
+   "amount": 68.85,
+   "amount_with_tax": 68.85,
+   "compare_at_amount": 81
   },
   "in_stock": true
  },
@@ -291,9 +333,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-tc-gray",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260805123729-1358.png.webp",
   "price": {
-   "amount": 62.05,
-   "amount_with_tax": 62.05,
-   "compare_at_amount": 73
+   "amount": 61.2,
+   "amount_with_tax": 61.2,
+   "compare_at_amount": 72
   },
   "in_stock": true
  },
@@ -305,9 +347,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-tc-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232515-3479.png.webp",
   "price": {
-   "amount": 62.05,
-   "amount_with_tax": 62.05,
-   "compare_at_amount": 73
+   "amount": 61.2,
+   "amount_with_tax": 61.2,
+   "compare_at_amount": 72
   },
   "in_stock": true
  },
@@ -319,9 +361,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/kb05-transparent-smart-wireless-keyboard-tc-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002249.jpg.webp",
   "price": {
-   "amount": 80,
-   "amount_with_tax": 80,
-   "compare_at_amount": 110
+   "amount": 68,
+   "amount_with_tax": 68,
+   "compare_at_amount": 80
   },
   "in_stock": true
  },
@@ -344,12 +386,12 @@ const catalogProducts = [
   "sku": "ELE1001350",
   "name": "Vidvie USB Flash Drive, USB 3.0 and USB 2.0 Compatible Memory Stick, Plug and Play Portable Storage for Laptop, PC, Smart TV and Car Stereo, USB2603",
   "category": "USB Flash Drives",
-  "url": "https://begad.ae/product/usb2603-usb2-0-3-0usb-flash-disk",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260919004820-2014.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-usb-flash-drive-usb-3-0-and-usb-2-0-compatible-memory-stick-plug-and-play-portable-storage-for-laptop-pc-smart-tv-and-car-stereo-usb2603",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260919004821-2681.png.webp",
   "price": {
-   "amount": 81,
-   "amount_with_tax": 81,
-   "compare_at_amount": 130
+   "amount": 68.85,
+   "amount_with_tax": 68.85,
+   "compare_at_amount": 81
   },
   "in_stock": true
  },
@@ -361,9 +403,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-256gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002188.jpg.webp",
   "price": {
-   "amount": 250,
-   "amount_with_tax": 250,
-   "compare_at_amount": 300
+   "amount": 212.5,
+   "amount_with_tax": 212.5,
+   "compare_at_amount": 250
   },
   "in_stock": true
  },
@@ -375,9 +417,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/kb03-portable-wireless-folding-keyboard",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002187.jpg.webp",
   "price": {
-   "amount": 122.38,
-   "amount_with_tax": 122.38,
-   "compare_at_amount": 160
+   "amount": 104.02,
+   "amount_with_tax": 104.02,
+   "compare_at_amount": 122.38
   },
   "in_stock": true
  },
@@ -389,9 +431,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-128gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002186.jpg.webp",
   "price": {
-   "amount": 118.4,
-   "amount_with_tax": 118.4,
-   "compare_at_amount": 140
+   "amount": 100.64,
+   "amount_with_tax": 100.64,
+   "compare_at_amount": 118.4
   },
   "in_stock": true
  },
@@ -403,9 +445,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-64gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002185.jpg.webp",
   "price": {
-   "amount": 86,
-   "amount_with_tax": 86,
-   "compare_at_amount": 100
+   "amount": 73.1,
+   "amount_with_tax": 73.1,
+   "compare_at_amount": 86
   },
   "in_stock": true
  },
@@ -417,9 +459,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/portable-business-computer-laptop-bag-14inch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172859-3874.jpg.webp",
   "price": {
-   "amount": 89,
-   "amount_with_tax": 89,
-   "compare_at_amount": 106
+   "amount": 75.65,
+   "amount_with_tax": 75.65,
+   "compare_at_amount": 89
   },
   "in_stock": true
  },
@@ -431,9 +473,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/gm02-magnetic-cooling-wireless-charging",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915170051-9767.jpg.webp",
   "price": {
-   "amount": 96,
-   "amount_with_tax": 96,
-   "compare_at_amount": 130
+   "amount": 81.6,
+   "amount_with_tax": 81.6,
+   "compare_at_amount": 96
   },
   "in_stock": true
  },
@@ -442,8 +484,8 @@ const catalogProducts = [
   "sku": "ELE1001344",
   "name": "Vidvie 3-in-1 Magnetic Power Bank 10000mAh with Built-in USB-C and Lightning Cables and Foldable Phone Stand, 22.5W Fast Charging, 20W PD, Magnetic Wireless Charging, HD Digital Display, PB7029",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7029-3-in-1-magnetic-holder-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709132751-5018.png.webp",
+  "url": "https://begad.ae/product/vidvie-3-in-1-magnetic-power-bank-10000mah-with-built-in-usb-c-and-lightning-cables-and-foldable-phone-stand-22-5w-fast-charging-20w-pd-magnetic-wireless-charging-hd-digital-display-pb7029",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012180034-8062.png.webp",
   "price": {
    "amount": 83.3,
    "amount_with_tax": 83.3,
@@ -456,8 +498,8 @@ const catalogProducts = [
   "sku": "ELE1001343",
   "name": "Vidvie 10000mAh Magnetic Wireless Power Bank, 15W Wireless and 20W PD USB-C Fast Charging, Slim Portable Charger with Overheat and Short-Circuit Protection, PB7024",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7024-10000mah-wireless-charging-powerbank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709132428-3330.png.webp",
+  "url": "https://begad.ae/product/vidvie-10000mah-magnetic-wireless-power-bank-15w-wireless-and-20w-pd-usb-c-fast-charging-slim-portable-charger-with-overheat-and-short-circuit-protection-pb7024",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012180203-6516.jpg.webp",
   "price": {
    "amount": 67.15,
    "amount_with_tax": 67.15,
@@ -470,8 +512,8 @@ const catalogProducts = [
   "sku": "ELE1001342",
   "name": "Vidvie Multifunctional Fast Charging Power Bank with USB-A and USB-C Ports, LED Battery Indicator, Smart Overcharge and Short-Circuit Protection, Portable Charger for Phones and Earbuds, PB796",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb796-multifunctional-fast-charging-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709132051-9762.png.webp",
+  "url": "https://begad.ae/product/vidvie-multifunctional-fast-charging-power-bank-with-usb-a-and-usb-c-ports-led-battery-indicator-smart-overcharge-and-short-circuit-protection-portable-charger-for-phones-and-earbuds-pb796",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200007-1563.jpg.webp",
   "price": {
    "amount": 85,
    "amount_with_tax": 85,
@@ -487,9 +529,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/xl-sp934-portable-outdoor-40w-tws-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002179.jpg.webp",
   "price": {
-   "amount": 169.51,
-   "amount_with_tax": 169.51,
-   "compare_at_amount": 339
+   "amount": 144.08,
+   "amount_with_tax": 144.08,
+   "compare_at_amount": 169.51
   },
   "in_stock": true
  },
@@ -501,9 +543,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/pb791-l-mini-bracket-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002178.jpg.webp",
   "price": {
-   "amount": 69,
-   "amount_with_tax": 69,
-   "compare_at_amount": 100
+   "amount": 58.65,
+   "amount_with_tax": 58.65,
+   "compare_at_amount": 69
   },
   "in_stock": true
  },
@@ -515,9 +557,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/xl-sp933-portable-outdoor-12w-tws-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002177.jpg.webp",
   "price": {
-   "amount": 101,
-   "amount_with_tax": 101,
-   "compare_at_amount": 202
+   "amount": 85.85,
+   "amount_with_tax": 85.85,
+   "compare_at_amount": 101
   },
   "in_stock": true
  },
@@ -540,8 +582,8 @@ const catalogProducts = [
   "sku": "ELE1001337",
   "name": "Vidvie 2-in-1 Power Bank with Dual Built-in Charging Cables, Fast Charging Portable Charger, Charge 2 Devices at Once, LED Battery Indicator, Overcharge and Temperature Protection, PB7018",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7018-2-in-1-comes-with-dual-wire-charging-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709125817-4452.png.webp",
+  "url": "https://begad.ae/product/vidvie-2-in-1-power-bank-with-dual-built-in-charging-cables-fast-charging-portable-charger-charge-2-devices-at-once-led-battery-indicator-overcharge-and-temperature-protection-pb7018",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200412-5859.png.webp",
   "price": {
    "amount": 72.25,
    "amount_with_tax": 72.25,
@@ -554,8 +596,8 @@ const catalogProducts = [
   "sku": "ELE1001336",
   "name": "Vidvie 2-in-1 Power Bank with Dual Built-in Charging Cables, Fast Charging Portable Charger, Charge 2 Devices at Once, LED Battery Indicator, Overcharge and Temperature Protection, PB7017",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7017-2-in-1-comes-with-dual-wire-charging-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709125006-9165.png.webp",
+  "url": "https://begad.ae/product/vidvie-2-in-1-power-bank-with-dual-built-in-charging-cables-fast-charging-portable-charger-charge-2-devices-at-once-led-battery-indicator-overcharge-and-temperature-protection-pb7017",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200652-2022.jpg.webp",
   "price": {
    "amount": 62.9,
    "amount_with_tax": 62.9,
@@ -568,8 +610,8 @@ const catalogProducts = [
   "sku": "ELE1001335",
   "name": "Vidvie 20000mAh Power Bank, High-Capacity Portable Charger with USB-A and USB-C Outputs, LED Battery Indicator, Smart Overcharge and Short-Circuit Protection for Phones, Tablets and Earbuds, PB7013",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7013-20000mah-portable-power-bank-2",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709123009-8600.png.webp",
+  "url": "https://begad.ae/product/vidvie-20000mah-power-bank-high-capacity-portable-charger-with-usb-a-and-usb-c-outputs-led-battery-indicator-smart-overcharge-and-short-circuit-protection-for-phones-tablets-and-earbuds-pb7013",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012181514-9723.png.webp",
   "price": {
    "amount": 63.75,
    "amount_with_tax": 63.75,
@@ -596,8 +638,8 @@ const catalogProducts = [
   "sku": "ELE1001333",
   "name": "Vidvie 5000mAh Ultra-Thin Magnetic Wireless Power Bank, MagSafe Compatible Slim Charger with USB-C Input and Output, LED Battery Indicator and Safety Protection, PB7007",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7007-5000mah-ultra-thin-magnetic-wireless-charging-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708202052-9067.png.webp",
+  "url": "https://begad.ae/product/vidvie-5000mah-ultra-thin-magnetic-wireless-power-bank-magsafe-compatible-slim-charger-with-usb-c-input-and-output-led-battery-indicator-and-safety-protection-pb7007",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012175921-3738.jpg.webp",
   "price": {
    "amount": 72.25,
    "amount_with_tax": 72.25,
@@ -610,7 +652,7 @@ const catalogProducts = [
   "sku": "ELE1001332",
   "name": "Vidvie 10000mAh Power Bank, Slim Portable Charger with Dual USB-A and USB-C Ports, LED Battery Indicator, Fast Charging External Battery for iPhone, Samsung, Huawei and Android Phones, White, PB7012",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7012-1000mah-portable-power-bank-white",
+  "url": "https://begad.ae/product/vidvie-10000mah-power-bank-slim-portable-charger-with-dual-usb-a-and-usb-c-ports-led-battery-indicator-fast-charging-external-battery-for-iphone-samsung-huawei-and-android-phones-white-pb7012",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708201618-3172.png.webp",
   "price": {
    "amount": 53.55,
@@ -624,12 +666,12 @@ const catalogProducts = [
   "sku": "ELE1001331",
   "name": "Vidvie 10000mAh Power Bank with Built-in Retractable USB-C Cable, Portable Charger with Overcharge, Overheat and Short-Circuit Protection for USB-C Phones and Tablets, PB7028",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7028-10000mah-retractable-type-c-charging-cable-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708201142-7487.png.webp",
+  "url": "https://begad.ae/product/vidvie-10000mah-power-bank-with-built-in-retractable-usb-c-cable-portable-charger-with-overcharge-overheat-and-short-circuit-protection-for-usb-c-phones-and-tablets-pb7028",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708201142-8145.png.webp",
   "price": {
-   "amount": 92,
-   "amount_with_tax": 92,
-   "compare_at_amount": 150
+   "amount": 78.2,
+   "amount_with_tax": 78.2,
+   "compare_at_amount": 92
   },
   "in_stock": true
  },
@@ -638,8 +680,8 @@ const catalogProducts = [
   "sku": "ELE1001330",
   "name": "Vidvie 10000mAh Ultra-Thin Magnetic Wireless Power Bank, MagSafe Compatible, Wireless and USB-C Wired Fast Charging, LED Battery Indicator, Overheat and Short-Circuit Protection, PB7008",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7008-10000mah-ultra-thin-magnetic-wireless-charging-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200809-9869.png.webp",
+  "url": "https://begad.ae/product/vidvie-10000mah-ultra-thin-magnetic-wireless-power-bank-magsafe-compatible-wireless-and-usb-c-wired-fast-charging-led-battery-indicator-overheat-and-short-circuit-protection-pb7008",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012175729-7937.jpg.webp",
   "price": {
    "amount": 79.9,
    "amount_with_tax": 79.9,
@@ -655,9 +697,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-pb7036-2-in-1-comes-with-charging-cable-portable-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200739-9776.png.webp",
   "price": {
-   "amount": 106,
-   "amount_with_tax": 106,
-   "compare_at_amount": 200
+   "amount": 90.1,
+   "amount_with_tax": 90.1,
+   "compare_at_amount": 106
   },
   "in_stock": true
  },
@@ -666,12 +708,12 @@ const catalogProducts = [
   "sku": "ELE1001328",
   "name": "Vidvie 10000mAh Mini Power Bank with Built-in Cables, Compact Portable Charger with Overcharge, Overheat and Short-Circuit Protection for Smartphones, PB7030",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7030-10000mah-mini-powerbank-with-built-in-cables",
+  "url": "https://begad.ae/product/vidvie-10000mah-mini-power-bank-with-built-in-cables-compact-portable-charger-with-overcharge-overheat-and-short-circuit-protection-for-smartphones-pb7030",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200406-7342.png.webp",
   "price": {
-   "amount": 100,
-   "amount_with_tax": 100,
-   "compare_at_amount": 200
+   "amount": 85,
+   "amount_with_tax": 85,
+   "compare_at_amount": 100
   },
   "in_stock": true
  },
@@ -680,8 +722,8 @@ const catalogProducts = [
   "sku": "ELE1001327",
   "name": "Vidvie 20000mAh Power Bank with Dual Built-in Charging Cables, Charge 2 Devices at Once, Fast Charging, LED Battery Indicator, Overcharge and Temperature Protection, XL-PB711",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-xl-pb711-20000mah-2-in-1-comes-with-dual-wire-charging-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200313-4121.png.webp",
+  "url": "https://begad.ae/product/vidvie-20000mah-power-bank-with-dual-built-in-charging-cables-charge-2-devices-at-once-fast-charging-led-battery-indicator-overcharge-and-temperature-protection-xl-pb711",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012175556-6235.jpg.webp",
   "price": {
    "amount": 100.46,
    "amount_with_tax": 100.46,
@@ -697,9 +739,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-pb7027-20000mah-porable-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200052-8997.webp.webp",
   "price": {
-   "amount": 79,
-   "amount_with_tax": 79,
-   "compare_at_amount": 100
+   "amount": 67.15,
+   "amount_with_tax": 67.15,
+   "compare_at_amount": 79
   },
   "in_stock": true
  },
@@ -708,8 +750,8 @@ const catalogProducts = [
   "sku": "ELE1001325",
   "name": "Vidvie 30000mAh Power Bank with Built-in USB-C and Lightning Cables, 22.5W Fast Charging, 20W PD, Multiple USB-A and USB-C Ports, LED Battery Display, PB7033",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7033-30000mah-extra-large-capacity-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708195155-5592.webp.webp",
+  "url": "https://begad.ae/product/vidvie-30000mah-power-bank-with-built-in-usb-c-and-lightning-cables-22-5w-fast-charging-20w-pd-multiple-usb-a-and-usb-c-ports-led-battery-display-pb7033",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012175410-8852.png.webp",
   "price": {
    "amount": 102.74,
    "amount_with_tax": 102.74,
@@ -725,9 +767,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/pb7026-10000mah-portable-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002046.jpg.webp",
   "price": {
-   "amount": 68,
-   "amount_with_tax": 68,
-   "compare_at_amount": 150
+   "amount": 57.8,
+   "amount_with_tax": 57.8,
+   "compare_at_amount": 68
   },
   "in_stock": true
  },
@@ -739,9 +781,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-pb7039-10000mah-4-in-1-multifunctional-portable-10000mah-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708193932-7771.png.webp",
   "price": {
-   "amount": 70,
-   "amount_with_tax": 70,
-   "compare_at_amount": 174.36
+   "amount": 59.5,
+   "amount_with_tax": 59.5,
+   "compare_at_amount": 70
   },
   "in_stock": true
  },
@@ -753,9 +795,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/pb7035-3000mah-portable-led-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002044.jpg.webp",
   "price": {
-   "amount": 94,
-   "amount_with_tax": 94,
-   "compare_at_amount": 130
+   "amount": 79.9,
+   "amount_with_tax": 79.9,
+   "compare_at_amount": 94
   },
   "in_stock": true
  },
@@ -764,8 +806,8 @@ const catalogProducts = [
   "sku": "ELE1001321",
   "name": "Vidvie 50000mAh Extra Large Capacity Power Bank, High-Capacity Portable Charger for Multiple Devices with Overcharge, Overheat and Short-Circuit Protection, for Travel, Camping and Emergency Backup, PB7034",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7034-50000mah-extra-large-capacity-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708193419-6780.png.webp",
+  "url": "https://begad.ae/product/vidvie-50000mah-extra-large-capacity-power-bank-high-capacity-portable-charger-for-multiple-devices-with-overcharge-overheat-and-short-circuit-protection-for-travel-camping-and-emergency-backup-pb7034",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012175150-6414.png.webp",
   "price": {
    "amount": 136.96,
    "amount_with_tax": 136.96,
@@ -781,9 +823,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sp920-portable-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002042.jpg.webp",
   "price": {
-   "amount": 249.16,
-   "amount_with_tax": 249.16,
-   "compare_at_amount": 370
+   "amount": 211.79,
+   "amount_with_tax": 211.79,
+   "compare_at_amount": 249.16
   },
   "in_stock": true
  },
@@ -792,12 +834,12 @@ const catalogProducts = [
   "sku": "ELE1001319",
   "name": "Vidvie Portable Wireless Bluetooth Speaker, Compact Rechargeable Speaker with Clear Balanced Sound for Home, Office, Travel and Outdoor, SP919",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-sp919-portable-wireless-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708191910-2960.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-portable-wireless-bluetooth-speaker-compact-rechargeable-speaker-with-clear-balanced-sound-for-home-office-travel-and-outdoor-sp919",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012180652-1333.png.webp",
   "price": {
-   "amount": 84.15,
-   "amount_with_tax": 84.15,
-   "compare_at_amount": 99
+   "amount": 94.07,
+   "amount_with_tax": 94.07,
+   "compare_at_amount": 110.67
   },
   "in_stock": true
  },
@@ -809,9 +851,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sp906-extra-bass-portable-splash-proof-wireless-speaker-with-bluetooth-and-nfc",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002040.jpg.webp",
   "price": {
-   "amount": 186.9,
-   "amount_with_tax": 186.9,
-   "compare_at_amount": 373.8
+   "amount": 158.87,
+   "amount_with_tax": 158.87,
+   "compare_at_amount": 186.9
   },
   "in_stock": true
  },
@@ -820,8 +862,8 @@ const catalogProducts = [
   "sku": "ELE1001317",
   "name": "Vidvie 15W Mini Portable Bluetooth Speaker, Compact Rechargeable Wireless Speaker with Clear Balanced Sound for Home, Travel and Outdoor, SP929",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-15w-mini-portable-wireless-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708185600-8907.webp.webp",
+  "url": "https://begad.ae/product/vidvie-15w-mini-portable-bluetooth-speaker-compact-rechargeable-wireless-speaker-with-clear-balanced-sound-for-home-travel-and-outdoor-sp929",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012180912-6007.jpg.webp",
   "price": {
    "amount": 78.2,
    "amount_with_tax": 78.2,
@@ -837,9 +879,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/portable-wireless-speaker-40w",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708185221-8525.webp.webp",
   "price": {
-   "amount": 106,
-   "amount_with_tax": 106,
-   "compare_at_amount": 212
+   "amount": 90.1,
+   "amount_with_tax": 90.1,
+   "compare_at_amount": 106
   },
   "in_stock": true
  },
@@ -851,9 +893,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt882-open-ear-ows-wireless-earbuds",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708184811-5572.png.webp",
   "price": {
-   "amount": 72,
-   "amount_with_tax": 72,
-   "compare_at_amount": 100
+   "amount": 61.2,
+   "amount_with_tax": 61.2,
+   "compare_at_amount": 72
   },
   "in_stock": true
  },
@@ -865,9 +907,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/mini-outdoor-cycling-wireless-speaker-30w",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001984.jpg.webp",
   "price": {
-   "amount": 95,
-   "amount_with_tax": 95,
-   "compare_at_amount": 190
+   "amount": 80.75,
+   "amount_with_tax": 80.75,
+   "compare_at_amount": 95
   },
   "in_stock": true
  },
@@ -879,9 +921,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt8014-ai-tws-translation-tws-earbuds",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001983.jpg.webp",
   "price": {
-   "amount": 86,
-   "amount_with_tax": 86,
-   "compare_at_amount": 120
+   "amount": 73.1,
+   "amount_with_tax": 73.1,
+   "compare_at_amount": 86
   },
   "in_stock": true
  },
@@ -893,9 +935,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/portable-rgb-light-wireless-speaker-tc-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001982.jpg.webp",
   "price": {
-   "amount": 142.88,
-   "amount_with_tax": 142.88,
-   "compare_at_amount": 285.76
+   "amount": 121.45,
+   "amount_with_tax": 121.45,
+   "compare_at_amount": 142.88
   },
   "in_stock": true
  },
@@ -904,8 +946,8 @@ const catalogProducts = [
   "sku": "ELE1001311",
   "name": "Vidvie In-Ear TWS Wireless Earbuds with ENC Noise Reduction, HD Sound, Touch Controls, Comfort-Fit Silicone Tips and Portable Charging Case, for Calls, Music and Workouts, BT8010",
   "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-bt8010-enc-in-ear-tws-wireless-earbuds",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708184029-7237.png.webp",
+  "url": "https://begad.ae/product/vidvie-in-ear-tws-wireless-earbuds-with-enc-noise-reduction-hd-sound-touch-controls-comfort-fit-silicone-tips-and-portable-charging-case-for-calls-music-and-workouts-bt8010",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012190004-6815.png.webp",
   "price": {
    "amount": 60.35,
    "amount_with_tax": 60.35,
@@ -918,12 +960,12 @@ const catalogProducts = [
   "sku": "ELE1001310",
   "name": "Vidvie Portable Wireless Bluetooth Speaker, Compact Rechargeable Speaker with Clear Balanced Sound and Easy Controls, for Home, Travel and Outdoor, SP926",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/sp926-wireless-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708183835-8560.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-portable-wireless-bluetooth-speaker-compact-rechargeable-speaker-with-clear-balanced-sound-and-easy-controls-for-home-travel-and-outdoor-sp926",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012181724-3417.jpg.webp",
   "price": {
-   "amount": 91,
-   "amount_with_tax": 91,
-   "compare_at_amount": 182
+   "amount": 77.35,
+   "amount_with_tax": 77.35,
+   "compare_at_amount": 91
   },
   "in_stock": true
  },
@@ -932,8 +974,8 @@ const catalogProducts = [
   "sku": "ELE1001309",
   "name": "Vidvie ANC Wireless Earbuds with Hybrid ANC and ENC Noise Cancelling, 4-Mic Clear Calls, In-Ear TWS Bluetooth Earphones with Touch Controls and Charging Case, BT8009",
   "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-bt8009-anc-enc-4-mic-noise-canceling-in-ear-tws-earbuds",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708183619-3136.png.webp",
+  "url": "https://begad.ae/product/vidvie-anc-wireless-earbuds-with-hybrid-anc-and-enc-noise-cancelling-4-mic-clear-calls-in-ear-tws-bluetooth-earphones-with-touch-controls-and-charging-case-bt8009",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012190151-9800.png.webp",
   "price": {
    "amount": 62.9,
    "amount_with_tax": 62.9,
@@ -946,12 +988,12 @@ const catalogProducts = [
   "sku": "ELE1001308",
   "name": "Vidvie Portable Bluetooth Speaker with 3.5mm AUX Input, USB-C Charging, Rechargeable Wireless Speaker with Clear Sound, AUX Cable Included, Black, SP914",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/sp914-portable-wireless-speaker-tc-3-5mm-3-5mm-aux-cable-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708183521-8796.png.webp",
+  "url": "https://begad.ae/product/vidvie-portable-bluetooth-speaker-with-3-5mm-aux-input-usb-c-charging-rechargeable-wireless-speaker-with-clear-sound-aux-cable-included-black-sp914",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012181908-9519.png.webp",
   "price": {
-   "amount": 97,
-   "amount_with_tax": 97,
-   "compare_at_amount": 194
+   "amount": 82.45,
+   "amount_with_tax": 82.45,
+   "compare_at_amount": 97
   },
   "in_stock": true
  },
@@ -960,12 +1002,12 @@ const catalogProducts = [
   "sku": "ELE1001307",
   "name": "Vidvie Sleep Earbuds, Mini Bean In-Ear TWS Wireless Earphones for Side Sleepers with ENC Call Noise Reduction, Touch Controls and Charging Case, BT8008",
   "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-bt8008-enc-in-ear-bean-sleeping-tws-wireless-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708182324-9999.png.webp",
+  "url": "https://begad.ae/product/vidvie-sleep-earbuds-mini-bean-in-ear-tws-wireless-earphones-for-side-sleepers-with-enc-call-noise-reduction-touch-controls-and-charging-case-bt8008",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012190305-7086.png.webp",
   "price": {
-   "amount": 66,
-   "amount_with_tax": 66,
-   "compare_at_amount": 99
+   "amount": 56.1,
+   "amount_with_tax": 56.1,
+   "compare_at_amount": 66
   },
   "in_stock": true
  },
@@ -974,12 +1016,12 @@ const catalogProducts = [
   "sku": "ELE1001306",
   "name": "Vidvie Outdoor Camping Bluetooth Speaker with Colorful Breathing Lights, Portable Rechargeable Wireless Speaker for Camping, Parties and Travel, CL01",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/outdoor-camping-colorful-breathing-light-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708182318-3631.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-outdoor-camping-bluetooth-speaker-with-colorful-breathing-lights-portable-rechargeable-wireless-speaker-for-camping-parties-and-travel-cl01",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184221-2366.jpg.webp",
   "price": {
-   "amount": 80,
-   "amount_with_tax": 80,
-   "compare_at_amount": 160
+   "amount": 68,
+   "amount_with_tax": 68,
+   "compare_at_amount": 80
   },
   "in_stock": true
  },
@@ -988,12 +1030,12 @@ const catalogProducts = [
   "sku": "ELE1001305",
   "name": "Vidvie 10W HiFi Portable Outdoor Bluetooth Speaker, TWS Stereo Pairing, Rich Bass, Rechargeable Wireless Speaker for Travel and Outdoor, SP930",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/portable-10w-hifi-outdoor-tws-wirelss-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708182004-9534.webp.webp",
+  "url": "https://begad.ae/product/vidvie-10w-hifi-portable-outdoor-bluetooth-speaker-tws-stereo-pairing-rich-bass-rechargeable-wireless-speaker-for-travel-and-outdoor-sp930",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184351-9877.jpg.webp",
   "price": {
-   "amount": 87,
-   "amount_with_tax": 87,
-   "compare_at_amount": 174
+   "amount": 73.95,
+   "amount_with_tax": 73.95,
+   "compare_at_amount": 87
   },
   "in_stock": true
  },
@@ -1016,8 +1058,8 @@ const catalogProducts = [
   "sku": "ELE1001303",
   "name": "Vidvie 2-in-1 Wireless Headphones and Speaker, Bluetooth Over-Ear Headset with Built-in Speaker Mode and Microphone for Music, Movies, Gaming and Calls, XL-BBH01",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-xl-bbh01-speaker-headphone-2-in-1-multifunctional-wireless-headphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708181623-4202.webp.webp",
+  "url": "https://begad.ae/product/vidvie-2-in-1-wireless-headphones-and-speaker-bluetooth-over-ear-headset-with-built-in-speaker-mode-and-microphone-for-music-movies-gaming-and-calls-xl-bbh01",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184527-9109.jpg.webp",
   "price": {
    "amount": 106.21,
    "amount_with_tax": 106.21,
@@ -1030,12 +1072,12 @@ const catalogProducts = [
   "sku": "ELE1001302",
   "name": "Vidvie Gaming Headset with Detachable Microphone, 4 Connection Modes, Over-Ear Stereo Gaming Headphones with Cushioned Ear Cups for PC, Consoles and Phones, BBH2119",
   "category": "Gaming Headsets",
-  "url": "https://begad.ae/product/bbh2119-four-modes-gaming-headphone-with-detachable-microphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708181121-8031.webp.webp",
+  "url": "https://begad.ae/product/vidvie-gaming-headset-with-detachable-microphone-4-connection-modes-over-ear-stereo-gaming-headphones-with-cushioned-ear-cups-for-pc-consoles-and-phones-bbh2119",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184657-5961.png.webp",
   "price": {
-   "amount": 110.65,
-   "amount_with_tax": 110.65,
-   "compare_at_amount": 150
+   "amount": 94.05,
+   "amount_with_tax": 94.05,
+   "compare_at_amount": 110.65
   },
   "in_stock": true
  },
@@ -1044,8 +1086,8 @@ const catalogProducts = [
   "sku": "ELE1001301",
   "name": "Vidvie Wireless Bluetooth Over-Ear Headphones with Built-in Microphone, Clear Balanced Sound, Rechargeable, Lightweight Comfortable Fit for Music, Movies and Calls, BBH2116",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-bbh2116-head-mounted-wireless-headphones",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708180714-2572.webp.webp",
+  "url": "https://begad.ae/product/vidvie-wireless-bluetooth-over-ear-headphones-with-built-in-microphone-clear-balanced-sound-rechargeable-lightweight-comfortable-fit-for-music-movies-and-calls-bbh2116",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184831-7023.png.webp",
   "price": {
    "amount": 67.15,
    "amount_with_tax": 67.15,
@@ -1058,12 +1100,12 @@ const catalogProducts = [
   "sku": "ELE1001300",
   "name": "Vidvie ANC Wireless Headphones, Active Noise Cancelling Bluetooth Over-Ear Headphones for Music, Travel and Calls, BBH2113",
   "category": "Headphones",
-  "url": "https://begad.ae/product/bbh2113-anc-active-noise-cancelling-wireless-headphones",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708180355-1400.webp.webp",
+  "url": "https://begad.ae/product/vidvie-anc-wireless-headphones-active-noise-cancelling-bluetooth-over-ear-headphones-for-music-travel-and-calls-bbh2113",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184943-8114.jpg.webp",
   "price": {
-   "amount": 90,
-   "amount_with_tax": 90,
-   "compare_at_amount": 120
+   "amount": 76.5,
+   "amount_with_tax": 76.5,
+   "compare_at_amount": 90
   },
   "in_stock": true
  },
@@ -1075,9 +1117,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bbh2111-heavy-bass-lightweight-foldable-wireless-headphones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175930-1565.png.webp",
   "price": {
-   "amount": 85,
-   "amount_with_tax": 85,
-   "compare_at_amount": 110
+   "amount": 72.25,
+   "amount_with_tax": 72.25,
+   "compare_at_amount": 85
   },
   "in_stock": true
  },
@@ -1089,9 +1131,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt896-oper-ear-ows-wireless-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175608-4426.jpg.webp",
   "price": {
-   "amount": 70,
-   "amount_with_tax": 70,
-   "compare_at_amount": 100
+   "amount": 59.5,
+   "amount_with_tax": 59.5,
+   "compare_at_amount": 70
   },
   "in_stock": true
  },
@@ -1100,12 +1142,12 @@ const catalogProducts = [
   "sku": "ELE1001297",
   "name": "Vidvie Semi-In-Ear Noise Cancelling Wireless Earbuds, TWS Bluetooth Earphones with Built-in Mic, Comfortable Fit and Portable Charging Case, for Work, Travel and Fitness, BT894",
   "category": "Earbuds",
-  "url": "https://begad.ae/product/bt894-semi-in-ear-noise-cancelling-tws-wireless-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175200-4245.webp.webp",
+  "url": "https://begad.ae/product/vidvie-semi-in-ear-noise-cancelling-wireless-earbuds-tws-bluetooth-earphones-with-built-in-mic-comfortable-fit-and-portable-charging-case-for-work-travel-and-fitness-bt894",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012185156-2892.jpg.webp",
   "price": {
-   "amount": 67,
-   "amount_with_tax": 67,
-   "compare_at_amount": 100
+   "amount": 56.95,
+   "amount_with_tax": 56.95,
+   "compare_at_amount": 67
   },
   "in_stock": true
  },
@@ -1114,12 +1156,12 @@ const catalogProducts = [
   "sku": "ELE1001296",
   "name": "Vidvie TWS In-Ear Wireless Earbuds, Bluetooth Earphones with Clear Sound, Built-in Mic for Calls, Secure Comfortable Fit and Charging Case, BT890",
   "category": "Earbuds",
-  "url": "https://begad.ae/product/bt890-tws-in-ear-wireless-earbuds",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708174804-3701.webp.webp",
+  "url": "https://begad.ae/product/vidvie-tws-in-ear-wireless-earbuds-bluetooth-earphones-with-clear-sound-built-in-mic-for-calls-secure-comfortable-fit-and-charging-case-bt890",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012185318-3869.jpg.webp",
   "price": {
-   "amount": 61,
-   "amount_with_tax": 61,
-   "compare_at_amount": 90
+   "amount": 51.85,
+   "amount_with_tax": 51.85,
+   "compare_at_amount": 61
   },
   "in_stock": true
  },
@@ -1187,9 +1229,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/cb4039-3-in-1-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001961.jpg.webp",
   "price": {
-   "amount": 50,
-   "amount_with_tax": 50,
-   "compare_at_amount": 80
+   "amount": 42.5,
+   "amount_with_tax": 42.5,
+   "compare_at_amount": 50
   },
   "in_stock": true
  },
@@ -1201,9 +1243,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1522-center-console-suction-cup-car-holder-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915171325-4939.png.webp",
   "price": {
-   "amount": 56,
-   "amount_with_tax": 56,
-   "compare_at_amount": 90
+   "amount": 47.6,
+   "amount_with_tax": 47.6,
+   "compare_at_amount": 56
   },
   "in_stock": true
  },
@@ -1215,9 +1257,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1520-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001959.jpg.webp",
   "price": {
-   "amount": 49,
-   "amount_with_tax": 49,
-   "compare_at_amount": 70
+   "amount": 41.65,
+   "amount_with_tax": 41.65,
+   "compare_at_amount": 49
   },
   "in_stock": true
  },
@@ -1229,9 +1271,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1519-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173228-8434.jpg.webp",
   "price": {
-   "amount": 49,
-   "amount_with_tax": 49,
-   "compare_at_amount": 70
+   "amount": 41.65,
+   "amount_with_tax": 41.65,
+   "compare_at_amount": 49
   },
   "in_stock": true
  },
@@ -1257,9 +1299,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt8002-in-ear-tws-earbud",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001956.jpg.webp",
   "price": {
-   "amount": 62,
-   "amount_with_tax": 62,
-   "compare_at_amount": 100
+   "amount": 52.7,
+   "amount_with_tax": 52.7,
+   "compare_at_amount": 62
   },
   "in_stock": true
  },
@@ -1285,9 +1327,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt8001-semi-in-ear-tws-earbud",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708163428-9933.png.webp",
   "price": {
-   "amount": 62,
-   "amount_with_tax": 62,
-   "compare_at_amount": 110
+   "amount": 52.7,
+   "amount_with_tax": 52.7,
+   "compare_at_amount": 62
   },
   "in_stock": true
  },
@@ -1296,12 +1338,12 @@ const catalogProducts = [
   "sku": "ELE1000787",
   "name": "Vidvie Semi-In-Ear Wired Headset with USB-C Plug, Type-C Digital Earphones with Built-in Mic, Lightweight Comfortable Fit, Plug and Play, Black, HS682",
   "category": "Headphones",
-  "url": "https://begad.ae/product/hs682-type-c-semi-in-ear-wired-headset-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916182629-1009.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-semi-in-ear-wired-headset-with-usb-c-plug-type-c-digital-earphones-with-built-in-mic-lightweight-comfortable-fit-plug-and-play-black-hs682",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012191444-5472.png.webp",
   "price": {
-   "amount": 54,
-   "amount_with_tax": 54,
-   "compare_at_amount": 90
+   "amount": 45.9,
+   "amount_with_tax": 45.9,
+   "compare_at_amount": 54
   },
   "in_stock": true
  },
@@ -1313,9 +1355,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt8000-in-ear-tws-earbud",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001952.jpg.webp",
   "price": {
-   "amount": 63,
-   "amount_with_tax": 63,
-   "compare_at_amount": 100
+   "amount": 53.55,
+   "amount_with_tax": 53.55,
+   "compare_at_amount": 63
   },
   "in_stock": true
  },
@@ -1324,12 +1366,12 @@ const catalogProducts = [
   "sku": "ELE1000784",
   "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Phones and Audio Devices, HS669",
   "category": "Headphones",
-  "url": "https://begad.ae/product/hs669-wired-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916181830-2359.png.webp",
+  "url": "https://begad.ae/product/vidvie-wired-earphones-clear-sound-headphones-with-comfortable-fit-lightweight-and-portable-plug-and-play-for-phones-and-audio-devices-hs669",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012191321-3264.png.webp",
   "price": {
-   "amount": 50,
-   "amount_with_tax": 50,
-   "compare_at_amount": 80
+   "amount": 42.5,
+   "amount_with_tax": 42.5,
+   "compare_at_amount": 50
   },
   "in_stock": true
  },
@@ -1341,9 +1383,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1576-metal-foldable-rotating-phone-tablet-holder-with-built-in-silicone-anti-slip-base",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915043016-5119.jpg.webp",
   "price": {
-   "amount": 65,
-   "amount_with_tax": 65,
-   "compare_at_amount": 100
+   "amount": 55.25,
+   "amount_with_tax": 55.25,
+   "compare_at_amount": 65
   },
   "in_stock": true
  },
@@ -1355,9 +1397,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1575-metal-foldable-phone-holder-with-built-in-silicone-anti-slip-base",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708161817-7439.png.webp",
   "price": {
-   "amount": 56,
-   "amount_with_tax": 56,
-   "compare_at_amount": 90
+   "amount": 47.6,
+   "amount_with_tax": 47.6,
+   "compare_at_amount": 56
   },
   "in_stock": true
  },
@@ -1369,9 +1411,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hs666-type-c-plug-digital-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708161755-5041.png.webp",
   "price": {
-   "amount": 54,
-   "amount_with_tax": 54,
-   "compare_at_amount": 90
+   "amount": 45.9,
+   "amount_with_tax": 45.9,
+   "compare_at_amount": 54
   },
   "in_stock": true
  },
@@ -1397,9 +1439,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1552-foldable-neck-hanging-magnetic-shooting-bracket",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916074403-9716.jpg.webp",
   "price": {
-   "amount": 83,
-   "amount_with_tax": 83,
-   "compare_at_amount": 110
+   "amount": 70.55,
+   "amount_with_tax": 70.55,
+   "compare_at_amount": 83
   },
   "in_stock": true
  },
@@ -1436,8 +1478,8 @@ const catalogProducts = [
   "sku": "ELE1000778",
   "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Smartphones, HS653",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-hs653-wired-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173350-3246.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-wired-earphones-clear-sound-headphones-with-comfortable-fit-lightweight-and-portable-plug-and-play-for-smartphones-hs653",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012192012-8346.jpg.webp",
   "price": {
    "amount": 40.8,
    "amount_with_tax": 40.8,
@@ -1467,9 +1509,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/gm03-e-sports-mobile-game-wire-heaset",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916181520-7370.jpg.webp",
   "price": {
-   "amount": 58,
-   "amount_with_tax": 58,
-   "compare_at_amount": 90
+   "amount": 49.3,
+   "amount_with_tax": 49.3,
+   "compare_at_amount": 58
   },
   "in_stock": true
  },
@@ -1635,9 +1677,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/cc541-single-type-c-fast-car-charger-33w",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708134052-8945.png.webp",
   "price": {
-   "amount": 54,
-   "amount_with_tax": 54,
-   "compare_at_amount": 80
+   "amount": 45.9,
+   "amount_with_tax": 45.9,
+   "compare_at_amount": 54
   },
   "in_stock": true
  },
@@ -1646,8 +1688,8 @@ const catalogProducts = [
   "sku": "AUT1000047",
   "name": "Vidvie Double Retractable Cord Fast Car Charger, Dual Built-in Cables with Smart Auto-ID, Fast Charging and Tangle-Free Cable Management for Android and iPhone, CC539",
   "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc539-double-retractable-cord-fast-charge-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260919003800-8647.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-double-retractable-cord-fast-car-charger-dual-built-in-cables-with-smart-auto-id-fast-charging-and-tangle-free-cable-management-for-android-and-iphone-cc539",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260919003800-6581.png.webp",
   "price": {
    "amount": 80.75,
    "amount_with_tax": 80.75,
@@ -1677,9 +1719,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/fm05-wireless-fm-transmitter-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001925.jpg.webp",
   "price": {
-   "amount": 65,
-   "amount_with_tax": 65,
-   "compare_at_amount": 90
+   "amount": 55.25,
+   "amount_with_tax": 55.25,
+   "compare_at_amount": 65
   },
   "in_stock": true
  },
@@ -1719,9 +1761,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/cb4050c-c-type-c-to-type-c-60w-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001922.jpg.webp",
   "price": {
-   "amount": 48,
-   "amount_with_tax": 48,
-   "compare_at_amount": 70
+   "amount": 40.8,
+   "amount_with_tax": 40.8,
+   "compare_at_amount": 48
   },
   "in_stock": true
  },
@@ -1733,9 +1775,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/cb4050c-i-type-c-to-ip-30w-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194034-9290.jpg.webp",
   "price": {
-   "amount": 49,
-   "amount_with_tax": 49,
-   "compare_at_amount": 70
+   "amount": 41.65,
+   "amount_with_tax": 41.65,
+   "compare_at_amount": 49
   },
   "in_stock": true
  },
@@ -1744,12 +1786,12 @@ const catalogProducts = [
   "sku": "ELE1000767",
   "name": "Vidvie Qi2 25W Double-Sided Magnetic Wireless Charger with Atmosphere Light, Wall Charger for MagSafe Compatible Phones and Wireless Charging Devices, WLC1428",
   "category": "Chargers",
-  "url": "https://begad.ae/product/wall-charger-wlc1428-qi2-25w-double-sided-magnetic-wireless-charger-with-atmosphere-light",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917025457-9933.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-qi2-25w-double-sided-magnetic-wireless-charger-with-atmosphere-light-wall-charger-for-magsafe-compatible-phones-and-wireless-charging-devices-wlc1428",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917025457-3429.png.webp",
   "price": {
-   "amount": 75,
-   "amount_with_tax": 75,
-   "compare_at_amount": 105
+   "amount": 63.75,
+   "amount_with_tax": 63.75,
+   "compare_at_amount": 75
   },
   "in_stock": true
  },
@@ -1775,9 +1817,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/data-cable-cb4038c-i-type-c-to-ip-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194238-6096.jpg.webp",
   "price": {
-   "amount": 49,
-   "amount_with_tax": 49,
-   "compare_at_amount": 80
+   "amount": 41.65,
+   "amount_with_tax": 41.65,
+   "compare_at_amount": 49
   },
   "in_stock": true
  },
@@ -1786,12 +1828,12 @@ const catalogProducts = [
   "sku": "ELE1000764",
   "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 2m, Nylon Braided Type-C Data Cable with Aluminum Connectors for Phones, Tablets, Laptops and Power Banks, Black/White, CB4038-2C&C",
   "category": "Cables",
-  "url": "https://begad.ae/product/type-c-to-type-c-data-cable-2-m-tc-tc-60w-black-white-cb4038-2c-c",
+  "url": "https://begad.ae/product/vidvie-60w-usb-c-to-usb-c-fast-charging-cable-2m-nylon-braided-type-c-data-cable-with-aluminum-connectors-for-phones-tablets-laptops-and-power-banks-black-white-cb4038-2c-c",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001917.jpg.webp",
   "price": {
-   "amount": 98,
-   "amount_with_tax": 98,
-   "compare_at_amount": 120
+   "amount": 41.65,
+   "amount_with_tax": 41.65,
+   "compare_at_amount": 49
   },
   "in_stock": true
  },
@@ -1803,9 +1845,23 @@ const catalogProducts = [
   "url": "https://begad.ae/product/data-cable-cb4031c-c-type-c-to-type-c-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194427-9366.jpg.webp",
   "price": {
-   "amount": 48,
-   "amount_with_tax": 48,
-   "compare_at_amount": 70
+   "amount": 40.8,
+   "amount_with_tax": 40.8,
+   "compare_at_amount": 48
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10001915,
+  "sku": "ELE1000762",
+  "name": "Vidvie USB-C OTG Adapter, Type-C to USB-A 3.0 Converter with 5Gbps Data Transfer, Aluminum Alloy Body and Lanyard, for Phones, Tablets and Laptops, AL1129",
+  "category": "USB Hubs & Docking",
+  "url": "https://begad.ae/product/vidvie-usb-c-otg-adapter-type-c-to-usb-a-3-0-converter-with-5gbps-data-transfer-aluminum-alloy-body-and-lanyard-for-phones-tablets-and-laptops-al1129",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012192952-9848.png.webp",
+  "price": {
+   "amount": 41.65,
+   "amount_with_tax": 41.65,
+   "compare_at_amount": 49
   },
   "in_stock": true
  },
@@ -1859,9 +1915,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-power-strip-extension-uk-plug-2500w-4-ac-outlets-4-usb-4-type-c-fast-charging-ports-psb07-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925015041-3432.png.webp",
   "price": {
-   "amount": 50.15,
-   "amount_with_tax": 50.15,
-   "compare_at_amount": 59
+   "amount": 49.3,
+   "amount_with_tax": 49.3,
+   "compare_at_amount": 58
   },
   "in_stock": true
  },
@@ -1870,8 +1926,8 @@ const catalogProducts = [
   "sku": "ELE1000757",
   "name": "Vidvie UK Plug Wall Charger, Compact White Charger with Stable Charging and Overcharge, Overcurrent, Overvoltage and Short-Circuit Protection, XL-PSB03",
   "category": "Chargers",
-  "url": "https://begad.ae/product/wall-charger-uk-plug-white-vidvie",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916232053-7912.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-uk-plug-wall-charger-compact-white-charger-with-stable-charging-and-overcharge-overcurrent-overvoltage-and-short-circuit-protection-xl-psb03",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012193446-1464.png.webp",
   "price": {
    "amount": 78.2,
    "amount_with_tax": 78.2,
@@ -1912,12 +1968,12 @@ const catalogProducts = [
   "sku": "ELE1000754",
   "name": "Vidvie Portable Apple Watch Magnetic Wireless Charger, Mini USB-C Watch Charging Puck with Strong Magnetic Hold and LED Indicator, Travel-Friendly, WLC1412-C02",
   "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/wlc1412-c02-portable-apple-watch-magnetic-wireless-charging",
+  "url": "https://begad.ae/product/vidvie-portable-apple-watch-magnetic-wireless-charger-mini-usb-c-watch-charging-puck-with-strong-magnetic-hold-and-led-indicator-travel-friendly-wlc1412-c02",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917024700-4866.png.webp",
   "price": {
-   "amount": 64,
-   "amount_with_tax": 64,
-   "compare_at_amount": 99
+   "amount": 53.55,
+   "amount_with_tax": 53.55,
+   "compare_at_amount": 63
   },
   "in_stock": true
  },
@@ -1929,9 +1985,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/wlc1412-c01-mini-magnetic-type-c-female-seat-watch-wireless-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917024832-6355.png.webp",
   "price": {
-   "amount": 64,
-   "amount_with_tax": 64,
-   "compare_at_amount": 99
+   "amount": 54.4,
+   "amount_with_tax": 54.4,
+   "compare_at_amount": 64
   },
   "in_stock": true
  },
@@ -1943,9 +1999,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/wall-charger-wlc1412-l-mini-magnetic-lightning-watch-wireless-charge",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917025119-3484.jpg.webp",
   "price": {
-   "amount": 64,
-   "amount_with_tax": 64,
-   "compare_at_amount": 99
+   "amount": 54.4,
+   "amount_with_tax": 54.4,
+   "compare_at_amount": 64
   },
   "in_stock": true
  },
@@ -1971,9 +2027,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/et02-electric-toothbrush",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260707140740-2719.png.webp",
   "price": {
-   "amount": 69,
-   "amount_with_tax": 69,
-   "compare_at_amount": 100
+   "amount": 58.65,
+   "amount_with_tax": 58.65,
+   "compare_at_amount": 69
   },
   "in_stock": true
  },
@@ -1985,9 +2041,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/dl01-3in1-desktop-lamp",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260707140333-9333.png.webp",
   "price": {
-   "amount": 90,
-   "amount_with_tax": 90,
-   "compare_at_amount": 103
+   "amount": 76.5,
+   "amount_with_tax": 76.5,
+   "compare_at_amount": 90
   },
   "in_stock": true
  },
@@ -1999,9 +2055,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/3-in-1-hair-clippers-type-c-black-vidvie",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001901.jpg.webp",
   "price": {
-   "amount": 122.4,
-   "amount_with_tax": 122.4,
-   "compare_at_amount": 144
+   "amount": 61.2,
+   "amount_with_tax": 61.2,
+   "compare_at_amount": 72
   },
   "in_stock": true
  },
@@ -2013,9 +2069,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-ht01-high-power-hair-clippers",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001900.jpg.webp",
   "price": {
-   "amount": 103.7,
-   "amount_with_tax": 103.7,
-   "compare_at_amount": 122
+   "amount": 51.85,
+   "amount_with_tax": 51.85,
+   "compare_at_amount": 61
   },
   "in_stock": true
  },
@@ -2024,12 +2080,12 @@ const catalogProducts = [
   "sku": "HEA1000007",
   "name": "Vidvie Electric Water Flosser, Cordless Rechargeable Oral Irrigator with Built-in Water Tank, High-Pressure Pulse Cleaning, Multiple Modes and Waterproof Design, WF01",
   "category": "Wellness",
-  "url": "https://begad.ae/product/wf01-electric-water-reservoir-equipped-water-flosser",
+  "url": "https://begad.ae/product/vidvie-electric-water-flosser-cordless-rechargeable-oral-irrigator-with-built-in-water-tank-high-pressure-pulse-cleaning-multiple-modes-and-waterproof-design-wf01",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001899.jpg.webp",
   "price": {
-   "amount": 168,
-   "amount_with_tax": 168,
-   "compare_at_amount": 200
+   "amount": 71.4,
+   "amount_with_tax": 71.4,
+   "compare_at_amount": 84
   },
   "in_stock": true
  },
@@ -2095,7 +2151,7 @@ const catalogProducts = [
   "name": "FN05 100-speed Desktop Turbo Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn05-100-speed-desktop-turbo-fan",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260813201536-2073.png.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200538-5860.jpg.webp",
   "price": {
    "amount": 76,
    "amount_with_tax": 76,
@@ -2139,9 +2195,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-mc03-portable-high-definition-wireless-microphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801192649-3641.png.webp",
   "price": {
-   "amount": 101.15,
-   "amount_with_tax": 101.15,
-   "compare_at_amount": 119
+   "amount": 46.75,
+   "amount_with_tax": 46.75,
+   "compare_at_amount": 55
   },
   "in_stock": true
  },
@@ -2223,8 +2279,8 @@ const catalogProducts = [
   "url": "https://begad.ae/product/es02-multifunctional-metal-electric-shaver",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001872.jpg.webp",
   "price": {
-   "amount": 182,
-   "amount_with_tax": 182,
+   "amount": 91,
+   "amount_with_tax": 91,
    "compare_at_amount": 197
   },
   "in_stock": true
@@ -2279,9 +2335,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/csp001-car-emergency-starter-power-supply-and-air-pump",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001868.jpg.webp",
   "price": {
-   "amount": 471.71,
-   "amount_with_tax": 471.71,
-   "compare_at_amount": 530
+   "amount": 299,
+   "amount_with_tax": 299,
+   "compare_at_amount": 499
   },
   "in_stock": true
  },
@@ -2433,9 +2489,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/plb167-type-c-usb-pd-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001855.jpg.webp",
   "price": {
-   "amount": 56,
-   "amount_with_tax": 56,
-   "compare_at_amount": 90
+   "amount": 47.6,
+   "amount_with_tax": 47.6,
+   "compare_at_amount": 56
   },
   "in_stock": true
  },
@@ -2643,9 +2699,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-vc004-all-in-one-car-vacuum-cleaner-powerful-portable-detailing-solution",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001735.jpg.webp",
   "price": {
-   "amount": 266.44,
-   "amount_with_tax": 266.44,
-   "compare_at_amount": 285
+   "amount": 113.05,
+   "amount_with_tax": 113.05,
+   "compare_at_amount": 133
   },
   "in_stock": true
  },
@@ -2669,7 +2725,7 @@ const catalogProducts = [
   "name": "Vidvie WB01 Waterproof Phone Pouch – Your Waterproof Phone Solution",
   "category": "Mobile Accessories",
   "url": "https://begad.ae/product/vidvie-wb01-waterproof-phone-pouch-your-waterproof-phone-solution",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260702190055-9238.png.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012195843-9966.jpg.webp",
   "price": {
    "amount": 33.36,
    "amount_with_tax": 33.36,
@@ -2923,9 +2979,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-4-in-1-60w-fast-car-charger-with-dual-retractable-cables-cc539",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001586.jpg.webp",
   "price": {
-   "amount": 75.65,
-   "amount_with_tax": 75.65,
-   "compare_at_amount": 89
+   "amount": 80.75,
+   "amount_with_tax": 80.75,
+   "compare_at_amount": 95
   },
   "in_stock": true
  },
@@ -3117,7 +3173,7 @@ const catalogProducts = [
   "name": "VIDVIE PLB182 30W GaN Fast Wall Charger USB-C PD & USB-A Dual Port - White",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-plb182-30w-gan-fast-wall-charger-usb-c-pd-usb-a-dual-port-white",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260704171722-2458.png.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012195301-7310.jpg.webp",
   "price": {
    "amount": 46.75,
    "amount_with_tax": 46.75,
