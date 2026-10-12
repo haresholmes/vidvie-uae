@@ -6,7 +6,7 @@ const catalogProducts = [
  {
   "id": 10007059,
   "sku": "ELE1002033",
-  "name": "VIDVIE 36W Type-C to Lightning Fast Charging Nylon Braided Data Cable with Smart Overload Protection - Model CB4058C&i - Black",
+  "name": "Vidvie 36W USB-C to Lightning Fast Charging Cable, Nylon Braided Data Sync Cord with Smart Overload Protection for iPhone, iPad and iPod, Black, CB4058C&i",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-36w-type-c-to-lightning-fast-charging-nylon-braided-data-cable-with-smart-overload-protection-model-cb4058c-i-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260929181831-3678.jpeg.webp",
@@ -20,7 +20,7 @@ const catalogProducts = [
  {
   "id": 10006845,
   "sku": "ELE1001204",
-  "name": "Vidvie Power Strip Extension UK Plug 2500W 4 AC Outlets 4 USB 4 Type-C Fast Charging Ports (PSB07) - White",
+  "name": "Vidvie 12-in-1 Power Strip Extension 2500W, 4 UK AC Outlets with 4 USB-A and 4 USB-C Fast Charging Ports, Surge and Overload Protection, Heavy-Duty Copper Cord for Home and Office, White, PSB07",
   "category": "extensions & Plugs",
   "url": "https://begad.ae/product/vidvie-power-strip-extension-uk-plug-2500w-4-ac-outlets-4-usb-4-type-c-fast-charging-ports-psb07-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925135834-1948.png.webp",
@@ -34,7 +34,7 @@ const catalogProducts = [
  {
   "id": 10006736,
   "sku": "ELE1001126",
-  "name": "VIDVIE CC522C 38W Dual Port Car Charger, 20W USB-C PD + 18W QC 3.0 USB Fast Charging, Metal Mini Car Adapter – Gray",
+  "name": "Vidvie 38W Dual Port Car Charger, 20W USB-C PD and 18W QC 3.0 USB-A Fast Charging, Mini Zinc Alloy Metal Car Adapter for 12V-24V Vehicles, iPhone, Samsung and Android Phones, Gray, CC522C",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-cc522c-38w-dual-port-car-charger-20w-usb-c-pd-18w-qc-3-0-usb-fast-charging-metal-mini-car-adapter-gray",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260921184226-4315.jpg.webp",
@@ -48,7 +48,7 @@ const catalogProducts = [
  {
   "id": 10006720,
   "sku": "ELE1001110",
-  "name": "VIDVIE MC02-T AI Smart Noise-Cancelling Wireless Microphone with Type-C Receiver, Dual Mic & Charging Case – Black",
+  "name": "Vidvie Wireless Microphone with USB-C Receiver, AI Noise Cancelling Dual Mic Set with Charging Case, 2.4GHz 15ms Low Latency, 8H per Mic and 32H with Case, for Vlogging, Interviews and Live Streaming, Black, MC02-T",
   "category": "Microphones",
   "url": "https://begad.ae/product/vidvie-mc02-t-ai-smart-noise-cancelling-wireless-microphone-with-type-c-receiver-dual-mic-charging-case-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10006720.jpg.webp",
@@ -62,7 +62,7 @@ const catalogProducts = [
  {
   "id": 10002403,
   "sku": "ELE1001389",
-  "name": "Vidvie BH02 Portable Business Computer Laptop Bag Blue",
+  "name": "Vidvie Portable Business Laptop Bag, Padded Multi-Compartment Computer Carry Bag with Front Pocket and Handles for Office, Travel and School, Blue, BH02",
   "category": "Laptop Bags",
   "url": "https://begad.ae/product/vidvie-bh02-portable-business-computer-laptop-bag-blue",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915165907-8566.jpg.webp",
@@ -76,7 +76,7 @@ const catalogProducts = [
  {
   "id": 10002401,
   "sku": "ELE1000792",
-  "name": "SW1624 Wireless Calling Smart Sports Watch",
+  "name": "Vidvie Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1624",
   "category": "Smart Watches",
   "url": "https://begad.ae/product/sw1624-wireless-calling-smart-sports-watch",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002401.jpg.webp",
@@ -90,7 +90,7 @@ const catalogProducts = [
  {
   "id": 10002396,
   "sku": "ELE1001383",
-  "name": "SW1623 Wireless Calling Smart Sports Watch Black",
+  "name": "Vidvie Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Black, SW1623",
   "category": "Smart Watches",
   "url": "https://begad.ae/product/sw1623-wireless-calling-smart-sports-watch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002396.jpg.webp",
@@ -104,7 +104,7 @@ const catalogProducts = [
  {
   "id": 10002393,
   "sku": "ELE1001380",
-  "name": "SW1621 Wireless Calling GPS Sports Watch Black",
+  "name": "Vidvie GPS Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Tracking, Multi-Sport Modes, Smart Notifications, Water Resistant Rugged Design, Black, SW1621",
   "category": "Smart Watches",
   "url": "https://begad.ae/product/sw1621-wireless-calling-gps-sports-watch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709174626-2940.png.webp",
@@ -118,7 +118,7 @@ const catalogProducts = [
  {
   "id": 10002388,
   "sku": "ELE1001375",
-  "name": "SW1620 Wireless Calling Smart Sports Watch",
+  "name": "Vidvie Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Monitoring, Sedentary Reminder, Multi-Sport Modes, Smart Notifications, Splash Resistant, Black, SW1620",
   "category": "Smart Watches",
   "url": "https://begad.ae/product/sw1620-wireless-calling-smart-sports-watch",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002388.jpg.webp",
@@ -132,7 +132,7 @@ const catalogProducts = [
  {
   "id": 10002386,
   "sku": "ELE1001373",
-  "name": "SW1619 AMOLED Ultra-clear Screen Wireless Call Smart Watch Rose Gold",
+  "name": "Vidvie AMOLED Smart Watch with Bluetooth Calling, Ultra-Clear Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Rose Gold, SW1619",
   "category": "Smart Watches",
   "url": "https://begad.ae/product/sw1619-amoled-ultra-clear-screen-wireless-call-smart-watch-rose-gold",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709171837-5043.png.webp",
@@ -146,7 +146,7 @@ const catalogProducts = [
  {
   "id": 10002383,
   "sku": "ELE1001370",
-  "name": "SW1617 AMOLED Ultra-clear Screen Wireless Call Smart Watch Black",
+  "name": "Vidvie AMOLED Smart Watch with Bluetooth Calling, Ultra-Clear Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Black, SW1617",
   "category": "Smart Watches",
   "url": "https://begad.ae/product/sw1617-amoled-ultra-clear-screen-wireless-call-smart-watch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231443-3451.png.webp",
@@ -160,7 +160,7 @@ const catalogProducts = [
  {
   "id": 10002262,
   "sku": "ELE1001365",
-  "name": "Vidvie SW1615 Smart Watch with Health Tracking, HD Screen & Bluetooth Cal",
+  "name": "Vidvie Smart Watch with Bluetooth Calling, HD Color Display, Heart Rate, Blood Pressure, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1615",
   "category": "Smart Watches",
   "url": "https://begad.ae/product/vidvie-sw1615-smart-watch-with-health-tracking-hd-screen-bluetooth-cal",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231910-9521.jpg.webp",
@@ -174,7 +174,7 @@ const catalogProducts = [
  {
   "id": 10002259,
   "sku": "ELE1001362",
-  "name": "Vidvie SW1608 Smart Watch Ultra – HD Display & Bluetooth Calling",
+  "name": "Vidvie Ultra Smart Watch with Bluetooth Calling, Large HD Display, Metallic Frame, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1608",
   "category": "Smart Watches",
   "url": "https://begad.ae/product/vidvie-sw1608-smart-watch-ultra-hd-display-bluetooth-calling",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232149-1346.jpg.webp",
@@ -188,7 +188,7 @@ const catalogProducts = [
  {
   "id": 10002258,
   "sku": "ELE1001361",
-  "name": "USB2608 New Upgraded USB 3.2 Flash Disk 256gb",
+  "name": "Vidvie 256GB USB 3.2 Flash Drive, High-Speed Metal USB Memory Stick, Plug and Play for Laptop, PC, Smart TV and Car, Backward Compatible with USB 3.0 and 2.0, USB2608",
   "category": "USB Flash Drives",
   "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-256gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002258.jpg.webp",
@@ -202,7 +202,7 @@ const catalogProducts = [
  {
   "id": 10002257,
   "sku": "ELE1001360",
-  "name": "PB7012 1000mAh Portable Power Bank TC (Black)",
+  "name": "Vidvie 10000mAh Power Bank, Slim Portable Charger with Dual USB-A and USB-C Ports, LED Battery Indicator, Fast Charging External Battery for iPhone, Samsung, Huawei and Android Phones, Black, PB7012",
   "category": "Power Banks",
   "url": "https://begad.ae/product/pb7012-1000mah-portable-power-bank-tc-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002257.jpg.webp",
@@ -216,7 +216,7 @@ const catalogProducts = [
  {
   "id": 10002256,
   "sku": "ELE1001359",
-  "name": "VIDVIE AP07 3-in-1 Magnetic Stylus Pen, Universal Touch Pen, White",
+  "name": "Vidvie 3-in-1 Magnetic Stylus Pen, Universal Capacitive Touch Pen with Precision Tip for Tablets and Smartphones, Writing, Drawing and Note-Taking, White, AP07",
   "category": "Stylus Pens",
   "url": "https://begad.ae/product/vidvie-ap07-3-in-1-magnetic-stylus-pen-universal-touch-pen-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002256.jpg.webp",
@@ -230,7 +230,7 @@ const catalogProducts = [
  {
   "id": 10002255,
   "sku": "ELE1001358",
-  "name": "USB2608 New Upgraded USB 3.2 Flash Disk 128gb",
+  "name": "Vidvie 128GB USB 3.2 Flash Drive, Zinc Alloy Metal High-Speed USB Memory Stick up to 100MB/s Read, Plug and Play for Laptop, PC, Mac, Smart TV and Car, USB2608",
   "category": "USB Flash Drives",
   "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-128gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002255.jpg.webp",
@@ -244,7 +244,7 @@ const catalogProducts = [
  {
   "id": 10002254,
   "sku": "ELE1001357",
-  "name": "AP06 Universal Active Capacitive Pen",
+  "name": "Vidvie Universal Active Capacitive Stylus Pen, Rechargeable USB-C Digital Pen with Precision Tip and Lightweight Aluminum Body for iOS, Android and Windows Tablets and Phones, AP06",
   "category": "Stylus Pens",
   "url": "https://begad.ae/product/ap06-universal-active-capacitive-pen",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002254.jpg.webp",
@@ -258,7 +258,7 @@ const catalogProducts = [
  {
   "id": 10002253,
   "sku": "ELE1001356",
-  "name": "USB2608 New Upgraded USB 3.2 Flash Disk 64gb",
+  "name": "Vidvie 64GB USB 3.2 Flash Drive, High-Speed USB Memory Stick, Plug and Play for Laptop, PC, Smart TV and Car, Backward Compatible with USB 2.0, USB2608",
   "category": "USB Flash Drives",
   "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-64gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917043719-6980.png.webp",
@@ -272,7 +272,7 @@ const catalogProducts = [
  {
   "id": 10002252,
   "sku": "ELE1001355",
-  "name": "Vidvie HUB03 6-IN-1 HUB Docking Station",
+  "name": "Vidvie 6-in-1 USB-C Hub Docking Station, Aluminum Alloy Multiport Adapter with HD Video Output, USB Ports, Memory Card Slots and Charging, Plug and Play for Laptops, Tablets and USB-C Phones, HUB03",
   "category": "USB Hubs & Docking",
   "url": "https://begad.ae/product/vidvie-hub03-6-in-1-hub-docking-station",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172240-9325.jpg.webp",
@@ -286,7 +286,7 @@ const catalogProducts = [
  {
   "id": 10002251,
   "sku": "ELE1001354",
-  "name": "Vidvie KB07 Transparent Wireless Mouse TC Gray",
+  "name": "Vidvie Transparent Wireless Mouse, 2.4GHz Rechargeable USB-C Mouse with Precise Optical Tracking, Slim Ergonomic Design for Windows, macOS, ChromeOS and Linux, Gray, KB07",
   "category": "Mouse",
   "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-tc-gray",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260805123729-1358.png.webp",
@@ -300,7 +300,7 @@ const catalogProducts = [
  {
   "id": 10002250,
   "sku": "ELE1001353",
-  "name": "Vidvie KB07 Transparent Wireless Mouse TC White",
+  "name": "Vidvie Transparent Wireless Mouse, 2.4GHz Rechargeable USB-C Mouse with Precise Optical Tracking, Slim Ergonomic Design for Windows, macOS, ChromeOS and Linux, White, KB07",
   "category": "Mouse",
   "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-tc-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232515-3479.png.webp",
@@ -314,7 +314,7 @@ const catalogProducts = [
  {
   "id": 10002249,
   "sku": "ELE1001352",
-  "name": "KB05 Transparent Smart Wireless Keyboard TC Black",
+  "name": "Vidvie Transparent Wireless Bluetooth Keyboard with LED Backlight, Connects up to 3 Devices, 420mAh Rechargeable USB-C, Ultra-Slim for Windows, macOS, iOS and Android, Black, KB05",
   "category": "Keyboards",
   "url": "https://begad.ae/product/kb05-transparent-smart-wireless-keyboard-tc-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002249.jpg.webp",
@@ -328,7 +328,7 @@ const catalogProducts = [
  {
   "id": 10002248,
   "sku": "ELE1001351",
-  "name": "Vidvie KB05 Transparent Smart Wireless Keyboard TC White",
+  "name": "Vidvie Transparent Wireless Bluetooth Keyboard with LED Backlight, 78 Keys, Connects up to 3 Devices, 420mAh Rechargeable USB-C, Ultra-Slim for Windows, macOS, iOS and Android, White, KB05",
   "category": "Keyboards",
   "url": "https://begad.ae/product/vidvie-kb05-transparent-smart-wireless-keyboard-tc-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232658-4848.png.webp",
@@ -342,7 +342,7 @@ const catalogProducts = [
  {
   "id": 10002247,
   "sku": "ELE1001350",
-  "name": "USB2603 USB2.0/3.0USB Flash Disk",
+  "name": "Vidvie USB Flash Drive, USB 3.0 and USB 2.0 Compatible Memory Stick, Plug and Play Portable Storage for Laptop, PC, Smart TV and Car Stereo, USB2603",
   "category": "USB Flash Drives",
   "url": "https://begad.ae/product/usb2603-usb2-0-3-0usb-flash-disk",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260919004820-2014.jpg.webp",
@@ -356,7 +356,7 @@ const catalogProducts = [
  {
   "id": 10002188,
   "sku": "ELE1001349",
-  "name": "SD2502 New Upgraded Micro SDXC Card 256gb",
+  "name": "Vidvie 256GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
   "category": "External Storage",
   "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-256gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002188.jpg.webp",
@@ -370,7 +370,7 @@ const catalogProducts = [
  {
   "id": 10002187,
   "sku": "ELE1001348",
-  "name": "KB03 Portable Wireless Folding Keyboard",
+  "name": "Vidvie Foldable Bluetooth 5.1 Keyboard, Portable Tri-Fold Wireless Keyboard with Aluminum Alloy Body, 140mAh Rechargeable, 45H Use and 90 Days Standby, for Windows, iOS and Android, KB03",
   "category": "Keyboards",
   "url": "https://begad.ae/product/kb03-portable-wireless-folding-keyboard",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002187.jpg.webp",
@@ -384,7 +384,7 @@ const catalogProducts = [
  {
   "id": 10002186,
   "sku": "ELE1001347",
-  "name": "SD2502 New Upgraded Micro SDXC Card 128gb",
+  "name": "Vidvie 128GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
   "category": "External Storage",
   "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-128gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002186.jpg.webp",
@@ -398,7 +398,7 @@ const catalogProducts = [
  {
   "id": 10002185,
   "sku": "ELE1001346",
-  "name": "SD2502 New Upgraded Micro SDXC Card 64gb",
+  "name": "Vidvie 64GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
   "category": "External Storage",
   "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-64gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002185.jpg.webp",
@@ -412,7 +412,7 @@ const catalogProducts = [
  {
   "id": 10002184,
   "sku": "FAS1000064",
-  "name": "Portable Business Computer Laptop Bag 14inch (Black)",
+  "name": "Vidvie 14 Inch Portable Business Laptop Bag, Padded Water-Resistant Computer Carry Bag with Multiple Pockets and Handles for Office, School and Travel, Black, BH02",
   "category": "Bags & Luggage",
   "url": "https://begad.ae/product/portable-business-computer-laptop-bag-14inch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172859-3874.jpg.webp",
@@ -426,7 +426,7 @@ const catalogProducts = [
  {
   "id": 10002183,
   "sku": "ELE1001345",
-  "name": "GM02 Magnetic Cooling Wireless Charging",
+  "name": "Vidvie 15W Magnetic Wireless Charger with Cooling Fan, Fast Charging Phone Cooler for Gaming and Streaming, USB-C Input, Overheat and Overcharge Protection, GM02",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/gm02-magnetic-cooling-wireless-charging",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915170051-9767.jpg.webp",
@@ -440,7 +440,7 @@ const catalogProducts = [
  {
   "id": 10002182,
   "sku": "ELE1001344",
-  "name": "Vidvie PB7029 3-in-1 Magnetic Holder Power Bank",
+  "name": "Vidvie 3-in-1 Magnetic Power Bank 10000mAh with Built-in USB-C and Lightning Cables and Foldable Phone Stand, 22.5W Fast Charging, 20W PD, Magnetic Wireless Charging, HD Digital Display, PB7029",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7029-3-in-1-magnetic-holder-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709132751-5018.png.webp",
@@ -454,7 +454,7 @@ const catalogProducts = [
  {
   "id": 10002181,
   "sku": "ELE1001343",
-  "name": "Vidvie PB7024 10000mAh Wireless Charging Powerbank",
+  "name": "Vidvie 10000mAh Magnetic Wireless Power Bank, 15W Wireless and 20W PD USB-C Fast Charging, Slim Portable Charger with Overheat and Short-Circuit Protection, PB7024",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7024-10000mah-wireless-charging-powerbank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709132428-3330.png.webp",
@@ -468,7 +468,7 @@ const catalogProducts = [
  {
   "id": 10002180,
   "sku": "ELE1001342",
-  "name": "Vidvie PB796 Multifunctional Fast Charging power Bank",
+  "name": "Vidvie Multifunctional Fast Charging Power Bank with USB-A and USB-C Ports, LED Battery Indicator, Smart Overcharge and Short-Circuit Protection, Portable Charger for Phones and Earbuds, PB796",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb796-multifunctional-fast-charging-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709132051-9762.png.webp",
@@ -482,7 +482,7 @@ const catalogProducts = [
  {
   "id": 10002179,
   "sku": "ELE1001341",
-  "name": "XL-SP934 Portable Outdoor 40W TWS Wireless Speaker",
+  "name": "Vidvie 40W Portable Outdoor Bluetooth Speaker, Bluetooth 5.4, IP67 Waterproof and Dustproof, TWS Stereo Pairing, 16H Playtime, Hands-Free Calls, with Bike Mount and Carabiner, XL-SP934",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/xl-sp934-portable-outdoor-40w-tws-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002179.jpg.webp",
@@ -496,7 +496,7 @@ const catalogProducts = [
  {
   "id": 10002178,
   "sku": "ELE1001340",
-  "name": "PB791-L Mini Bracket Power Bank",
+  "name": "Vidvie Mini Power Bank with Foldable Phone Stand, Compact Portable Charger with Fast Charging, LED Battery Indicator and Smart Protection for Smartphones and Earbuds, PB791-L",
   "category": "Power Banks",
   "url": "https://begad.ae/product/pb791-l-mini-bracket-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002178.jpg.webp",
@@ -510,7 +510,7 @@ const catalogProducts = [
  {
   "id": 10002177,
   "sku": "ELE1001339",
-  "name": "XL-SP933 Portable Outdoor 12W TWS Wireless Speaker",
+  "name": "Vidvie 12W Portable Outdoor Bluetooth Speaker, Bluetooth 5.4, IP67 Waterproof, TWS Stereo Pairing, 10H Playtime, Built-in Mic for Calls, with Bike Mount, Arm Strap and Carabiner, XL-SP933",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/xl-sp933-portable-outdoor-12w-tws-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002177.jpg.webp",
@@ -524,7 +524,7 @@ const catalogProducts = [
  {
   "id": 10002176,
   "sku": "ELE1001338",
-  "name": "Vidvie XL-SP928 200W TWS Speaker With Dual Wireless Microphone and Remote Control",
+  "name": "Vidvie 200W Bluetooth Party Speaker with 2 Wireless Karaoke Microphones and Remote Control, TWS Stereo Pairing, XL-SP928",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/vidvie-xl-sp928-200w-tws-speaker-with-dual-wireless-microphone-and-remote-control",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002176.jpg.webp",
@@ -538,7 +538,7 @@ const catalogProducts = [
  {
   "id": 10002175,
   "sku": "ELE1001337",
-  "name": "Vidvie PB7018 2-IN-1 Comes With Dual-Wire Charging Power Bank",
+  "name": "Vidvie 2-in-1 Power Bank with Dual Built-in Charging Cables, Fast Charging Portable Charger, Charge 2 Devices at Once, LED Battery Indicator, Overcharge and Temperature Protection, PB7018",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7018-2-in-1-comes-with-dual-wire-charging-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709125817-4452.png.webp",
@@ -552,7 +552,7 @@ const catalogProducts = [
  {
   "id": 10002174,
   "sku": "ELE1001336",
-  "name": "Vidvie PB7017 2-IN-1 Comes With Dual-Wire Charging Power Bank",
+  "name": "Vidvie 2-in-1 Power Bank with Dual Built-in Charging Cables, Fast Charging Portable Charger, Charge 2 Devices at Once, LED Battery Indicator, Overcharge and Temperature Protection, PB7017",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7017-2-in-1-comes-with-dual-wire-charging-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709125006-9165.png.webp",
@@ -566,7 +566,7 @@ const catalogProducts = [
  {
   "id": 10002173,
   "sku": "ELE1001335",
-  "name": "Vidvie PB7013 20000mAh Portable Power Bank",
+  "name": "Vidvie 20000mAh Power Bank, High-Capacity Portable Charger with USB-A and USB-C Outputs, LED Battery Indicator, Smart Overcharge and Short-Circuit Protection for Phones, Tablets and Earbuds, PB7013",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7013-20000mah-portable-power-bank-2",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709123009-8600.png.webp",
@@ -580,10 +580,10 @@ const catalogProducts = [
  {
   "id": 10002172,
   "sku": "ELE1001334",
-  "name": "Vidvie XL-SP908 Wireless Speaker",
+  "name": "Vidvie Portable Bluetooth Party Speaker 60W with 2 Wireless Karaoke Microphones & Remote, Bluetooth 5.0, IPX6 Waterproof, 8000mAh Battery, 20H Playtime, TWS Pairing, AUX/USB/TF Card, Black - XL-SP908",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/vidvie-xl-sp908-wireless-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002172.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261012_041528_54b6d24195.jpg.webp",
   "price": {
    "amount": 259.24,
    "amount_with_tax": 259.24,
@@ -594,7 +594,7 @@ const catalogProducts = [
  {
   "id": 10002055,
   "sku": "ELE1001333",
-  "name": "Vidvie PB7007 5000mAh Ultra-thin Magnetic Wireless Charging Power Bank",
+  "name": "Vidvie 5000mAh Ultra-Thin Magnetic Wireless Power Bank, MagSafe Compatible Slim Charger with USB-C Input and Output, LED Battery Indicator and Safety Protection, PB7007",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7007-5000mah-ultra-thin-magnetic-wireless-charging-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708202052-9067.png.webp",
@@ -608,7 +608,7 @@ const catalogProducts = [
  {
   "id": 10002054,
   "sku": "ELE1001332",
-  "name": "Vidvie PB7012 1000mAh Portable Power Bank White",
+  "name": "Vidvie 10000mAh Power Bank, Slim Portable Charger with Dual USB-A and USB-C Ports, LED Battery Indicator, Fast Charging External Battery for iPhone, Samsung, Huawei and Android Phones, White, PB7012",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7012-1000mah-portable-power-bank-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708201618-3172.png.webp",
@@ -622,7 +622,7 @@ const catalogProducts = [
  {
   "id": 10002053,
   "sku": "ELE1001331",
-  "name": "Vidvie PB7028 10000mAh Retractable Type-C Charging Cable Power Bank",
+  "name": "Vidvie 10000mAh Power Bank with Built-in Retractable USB-C Cable, Portable Charger with Overcharge, Overheat and Short-Circuit Protection for USB-C Phones and Tablets, PB7028",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7028-10000mah-retractable-type-c-charging-cable-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708201142-7487.png.webp",
@@ -636,7 +636,7 @@ const catalogProducts = [
  {
   "id": 10002052,
   "sku": "ELE1001330",
-  "name": "Vidvie PB7008 10000mAh Ultra-thin Magnetic Wireless Charging Power Bank",
+  "name": "Vidvie 10000mAh Ultra-Thin Magnetic Wireless Power Bank, MagSafe Compatible, Wireless and USB-C Wired Fast Charging, LED Battery Indicator, Overheat and Short-Circuit Protection, PB7008",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7008-10000mah-ultra-thin-magnetic-wireless-charging-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200809-9869.png.webp",
@@ -650,7 +650,7 @@ const catalogProducts = [
  {
   "id": 10002051,
   "sku": "ELE1001329",
-  "name": "Vidvie PB7036 2-in-1 Comes With Charging Cable Portable Power Bank",
+  "name": "Vidvie 2-in-1 Portable Power Bank with Built-in Charging Cable, Compact Lightweight Charger with Overcharge, Overheat and Short-Circuit Protection for Smartphones, PB7036",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7036-2-in-1-comes-with-charging-cable-portable-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200739-9776.png.webp",
@@ -664,7 +664,7 @@ const catalogProducts = [
  {
   "id": 10002050,
   "sku": "ELE1001328",
-  "name": "Vidvie PB7030 10000mAh Mini Powerbank With Built-in Cables",
+  "name": "Vidvie 10000mAh Mini Power Bank with Built-in Cables, Compact Portable Charger with Overcharge, Overheat and Short-Circuit Protection for Smartphones, PB7030",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7030-10000mah-mini-powerbank-with-built-in-cables",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200406-7342.png.webp",
@@ -678,7 +678,7 @@ const catalogProducts = [
  {
   "id": 10002049,
   "sku": "ELE1001327",
-  "name": "Vidvie XL-PB711 20000mAh 2-in-1 Comes With Dual-Wire Charging Power Bank",
+  "name": "Vidvie 20000mAh Power Bank with Dual Built-in Charging Cables, Charge 2 Devices at Once, Fast Charging, LED Battery Indicator, Overcharge and Temperature Protection, XL-PB711",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-xl-pb711-20000mah-2-in-1-comes-with-dual-wire-charging-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200313-4121.png.webp",
@@ -692,7 +692,7 @@ const catalogProducts = [
  {
   "id": 10002048,
   "sku": "ELE1001326",
-  "name": "Vidvie PB7027 20000mAh Porable Power Bank",
+  "name": "Vidvie 20000mAh Portable Power Bank, High-Capacity USB Charger with Overcharge, Overheat and Short-Circuit Protection for Phones and Tablets, PB7027",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7027-20000mah-porable-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708200052-8997.webp.webp",
@@ -706,7 +706,7 @@ const catalogProducts = [
  {
   "id": 10002047,
   "sku": "ELE1001325",
-  "name": "Vidvie PB7033 30000mAh Extra Large Capacity Power Bank",
+  "name": "Vidvie 30000mAh Power Bank with Built-in USB-C and Lightning Cables, 22.5W Fast Charging, 20W PD, Multiple USB-A and USB-C Ports, LED Battery Display, PB7033",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7033-30000mah-extra-large-capacity-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708195155-5592.webp.webp",
@@ -720,7 +720,7 @@ const catalogProducts = [
  {
   "id": 10002046,
   "sku": "ELE1001324",
-  "name": "PB7026 10000mAh Portable Power Bank",
+  "name": "Vidvie 10000mAh Portable Power Bank, Slim Lightweight Charger with Overcharge, Overheat and Short-Circuit Protection for Phones and Tablets, PB7026",
   "category": "Power Banks",
   "url": "https://begad.ae/product/pb7026-10000mah-portable-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002046.jpg.webp",
@@ -734,7 +734,7 @@ const catalogProducts = [
  {
   "id": 10002045,
   "sku": "ELE1001323",
-  "name": "Vidvie PB7039 10000mAh 4-in-1 Multifunctional Portable 10000mAh Power Bank",
+  "name": "Vidvie 10000mAh 4-in-1 Multifunctional Power Bank, Portable Charger for Multiple Devices with Overcharge, Overheat and Short-Circuit Protection for Phones and Tablets, PB7039",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7039-10000mah-4-in-1-multifunctional-portable-10000mah-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708193932-7771.png.webp",
@@ -748,7 +748,7 @@ const catalogProducts = [
  {
   "id": 10002044,
   "sku": "ELE1001322",
-  "name": "PB7035 3000mAh Portable LED Power Bank",
+  "name": "Vidvie 3000mAh Mini Power Bank with Built-in LED Light, Compact Lightweight Emergency Charger for Smartphones and Small USB Devices, Travel and Outdoor, PB7035",
   "category": "Power Banks",
   "url": "https://begad.ae/product/pb7035-3000mah-portable-led-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002044.jpg.webp",
@@ -762,7 +762,7 @@ const catalogProducts = [
  {
   "id": 10002043,
   "sku": "ELE1001321",
-  "name": "Vidvie PB7034 50000mAh Extra Large Capacity Power Bank",
+  "name": "Vidvie 50000mAh Extra Large Capacity Power Bank, High-Capacity Portable Charger for Multiple Devices with Overcharge, Overheat and Short-Circuit Protection, for Travel, Camping and Emergency Backup, PB7034",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-pb7034-50000mah-extra-large-capacity-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708193419-6780.png.webp",
@@ -776,7 +776,7 @@ const catalogProducts = [
  {
   "id": 10002042,
   "sku": "ELE1001320",
-  "name": "SP920 Portable Wireless Speaker",
+  "name": "Vidvie Portable Wireless Bluetooth Speaker, Rechargeable Speaker with Clear Sound and Easy Controls for Home, Travel and Outdoor, SP920",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/sp920-portable-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002042.jpg.webp",
@@ -790,7 +790,7 @@ const catalogProducts = [
  {
   "id": 10002041,
   "sku": "ELE1001319",
-  "name": "Vidvie SP919 Portable Wireless Speaker",
+  "name": "Vidvie Portable Wireless Bluetooth Speaker, Compact Rechargeable Speaker with Clear Balanced Sound for Home, Office, Travel and Outdoor, SP919",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/vidvie-sp919-portable-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708191910-2960.jpg.webp",
@@ -804,7 +804,7 @@ const catalogProducts = [
  {
   "id": 10002040,
   "sku": "ELE1001318",
-  "name": "SP906 Extra Bass Portable Splash-Proof Wireless Speaker with Bluetooth and NFC",
+  "name": "Vidvie Extra Bass Portable Bluetooth Speaker with NFC Pairing, Splash-Proof Wireless Speaker, Rechargeable, for Music, Calls and Outdoor Use, SP906",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/sp906-extra-bass-portable-splash-proof-wireless-speaker-with-bluetooth-and-nfc",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002040.jpg.webp",
@@ -818,7 +818,7 @@ const catalogProducts = [
  {
   "id": 10001987,
   "sku": "ELE1001317",
-  "name": "Vidvie 15W Mini Portable Wireless Speaker",
+  "name": "Vidvie 15W Mini Portable Bluetooth Speaker, Compact Rechargeable Wireless Speaker with Clear Balanced Sound for Home, Travel and Outdoor, SP929",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/vidvie-15w-mini-portable-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708185600-8907.webp.webp",
@@ -832,7 +832,7 @@ const catalogProducts = [
  {
   "id": 10001986,
   "sku": "ELE1001316",
-  "name": "Portable Wireless Speaker 40W",
+  "name": "Vidvie 40W Portable Bluetooth Speaker, Powerful Wireless Speaker with Enhanced Bass, Rechargeable Battery, for Home, Parties, Travel and Camping, Black, SP934",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/portable-wireless-speaker-40w",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708185221-8525.webp.webp",
@@ -846,7 +846,7 @@ const catalogProducts = [
  {
   "id": 10001985,
   "sku": "ELE1001315",
-  "name": "BT882 Open-Ear OWS Wireless Earbuds",
+  "name": "Vidvie Open-Ear Wireless Earbuds, OWS Bluetooth Headphones with ENC Noise-Reduction Mics, Lightweight Comfortable Fit and Charging Case, for Calls, Work, Walking and Sports, BT882",
   "category": "Earbuds",
   "url": "https://begad.ae/product/bt882-open-ear-ows-wireless-earbuds",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708184811-5572.png.webp",
@@ -860,7 +860,7 @@ const catalogProducts = [
  {
   "id": 10001984,
   "sku": "ELE1001314",
-  "name": "Mini Outdoor Cycling Wireless Speaker 30W",
+  "name": "Vidvie 30W Mini Outdoor Bluetooth Speaker for Cycling, Portable Wireless Speaker with Clear Sound, Rechargeable Battery, for Bike, Travel and Outdoor Use, Black, SP933",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/mini-outdoor-cycling-wireless-speaker-30w",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001984.jpg.webp",
@@ -874,7 +874,7 @@ const catalogProducts = [
  {
   "id": 10001983,
   "sku": "ELE1001313",
-  "name": "BT8014 AI TWS Translation TWS Earbuds",
+  "name": "Vidvie AI Translation Wireless Earbuds, TWS Bluetooth Earphones with Real-Time Two-Way Translation, ENC Noise-Reduction Mics, Touch Control and Charging Case, for Travel and Business, BT8014",
   "category": "Earbuds",
   "url": "https://begad.ae/product/bt8014-ai-tws-translation-tws-earbuds",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001983.jpg.webp",
@@ -888,7 +888,7 @@ const catalogProducts = [
  {
   "id": 10001982,
   "sku": "ELE1001312",
-  "name": "Portable RGB Light Wireless Speaker TC (Black)",
+  "name": "Vidvie Portable Bluetooth Speaker with RGB Lights, Colorful Light Modes, USB-C Charging, Rechargeable Wireless Speaker for Parties, Gaming and Outdoor, Black, SP927",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/portable-rgb-light-wireless-speaker-tc-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001982.jpg.webp",
@@ -902,7 +902,7 @@ const catalogProducts = [
  {
   "id": 10001981,
   "sku": "ELE1001311",
-  "name": "Vidvie BT8010 ENC In-Ear TWS Wireless Earbuds",
+  "name": "Vidvie In-Ear TWS Wireless Earbuds with ENC Noise Reduction, HD Sound, Touch Controls, Comfort-Fit Silicone Tips and Portable Charging Case, for Calls, Music and Workouts, BT8010",
   "category": "Earbuds",
   "url": "https://begad.ae/product/vidvie-bt8010-enc-in-ear-tws-wireless-earbuds",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708184029-7237.png.webp",
@@ -916,7 +916,7 @@ const catalogProducts = [
  {
   "id": 10001980,
   "sku": "ELE1001310",
-  "name": "SP926 Wireless Speaker",
+  "name": "Vidvie Portable Wireless Bluetooth Speaker, Compact Rechargeable Speaker with Clear Balanced Sound and Easy Controls, for Home, Travel and Outdoor, SP926",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/sp926-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708183835-8560.jpg.webp",
@@ -930,7 +930,7 @@ const catalogProducts = [
  {
   "id": 10001979,
   "sku": "ELE1001309",
-  "name": "Vidvie BT8009 ANC+ENC 4-Mic Noise Canceling In-Ear TWS Earbuds",
+  "name": "Vidvie ANC Wireless Earbuds with Hybrid ANC and ENC Noise Cancelling, 4-Mic Clear Calls, In-Ear TWS Bluetooth Earphones with Touch Controls and Charging Case, BT8009",
   "category": "Earbuds",
   "url": "https://begad.ae/product/vidvie-bt8009-anc-enc-4-mic-noise-canceling-in-ear-tws-earbuds",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708183619-3136.png.webp",
@@ -944,7 +944,7 @@ const catalogProducts = [
  {
   "id": 10001978,
   "sku": "ELE1001308",
-  "name": "SP914 Portable Wireless Speaker TC & 3.5mm-3.5mm AUX Cable (Black)",
+  "name": "Vidvie Portable Bluetooth Speaker with 3.5mm AUX Input, USB-C Charging, Rechargeable Wireless Speaker with Clear Sound, AUX Cable Included, Black, SP914",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/sp914-portable-wireless-speaker-tc-3-5mm-3-5mm-aux-cable-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708183521-8796.png.webp",
@@ -958,7 +958,7 @@ const catalogProducts = [
  {
   "id": 10001977,
   "sku": "ELE1001307",
-  "name": "Vidvie BT8008 ENC In-Ear Bean Sleeping TWS Wireless Earphone",
+  "name": "Vidvie Sleep Earbuds, Mini Bean In-Ear TWS Wireless Earphones for Side Sleepers with ENC Call Noise Reduction, Touch Controls and Charging Case, BT8008",
   "category": "Earbuds",
   "url": "https://begad.ae/product/vidvie-bt8008-enc-in-ear-bean-sleeping-tws-wireless-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708182324-9999.png.webp",
@@ -972,7 +972,7 @@ const catalogProducts = [
  {
   "id": 10001976,
   "sku": "ELE1001306",
-  "name": "Outdoor Camping Colorful Breathing Light Speaker",
+  "name": "Vidvie Outdoor Camping Bluetooth Speaker with Colorful Breathing Lights, Portable Rechargeable Wireless Speaker for Camping, Parties and Travel, CL01",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/outdoor-camping-colorful-breathing-light-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708182318-3631.jpg.webp",
@@ -986,7 +986,7 @@ const catalogProducts = [
  {
   "id": 10001975,
   "sku": "ELE1001305",
-  "name": "Portable 10W HiFi Outdoor TWS Wirelss Speaker",
+  "name": "Vidvie 10W HiFi Portable Outdoor Bluetooth Speaker, TWS Stereo Pairing, Rich Bass, Rechargeable Wireless Speaker for Travel and Outdoor, SP930",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/portable-10w-hifi-outdoor-tws-wirelss-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708182004-9534.webp.webp",
@@ -1000,7 +1000,7 @@ const catalogProducts = [
  {
   "id": 10001974,
   "sku": "ELE1001304",
-  "name": "Vidvie BT871 Air conduction Sports Wireless Headset",
+  "name": "Vidvie Open-Ear Air Conduction Sports Headphones, Wireless Bluetooth Headset with Built-in Mic, Lightweight Wrap-Around Fit, Sweat Resistant, for Running, Cycling and Gym, BT871",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-bt871-air-conduction-sports-wireless-headset",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001974.jpg.webp",
@@ -1014,7 +1014,7 @@ const catalogProducts = [
  {
   "id": 10001973,
   "sku": "ELE1001303",
-  "name": "Vidvie XL-BBH01 Speaker & Headphone 2-in-1 Multifunctional Wireless Headphone",
+  "name": "Vidvie 2-in-1 Wireless Headphones and Speaker, Bluetooth Over-Ear Headset with Built-in Speaker Mode and Microphone for Music, Movies, Gaming and Calls, XL-BBH01",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-xl-bbh01-speaker-headphone-2-in-1-multifunctional-wireless-headphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708181623-4202.webp.webp",
@@ -1028,7 +1028,7 @@ const catalogProducts = [
  {
   "id": 10001972,
   "sku": "ELE1001302",
-  "name": "BBH2119 Four Modes Gaming Headphone With Detachable Microphone",
+  "name": "Vidvie Gaming Headset with Detachable Microphone, 4 Connection Modes, Over-Ear Stereo Gaming Headphones with Cushioned Ear Cups for PC, Consoles and Phones, BBH2119",
   "category": "Gaming Headsets",
   "url": "https://begad.ae/product/bbh2119-four-modes-gaming-headphone-with-detachable-microphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708181121-8031.webp.webp",
@@ -1042,7 +1042,7 @@ const catalogProducts = [
  {
   "id": 10001971,
   "sku": "ELE1001301",
-  "name": "Vidvie BBH2116 Head-Mounted Wireless Headphones",
+  "name": "Vidvie Wireless Bluetooth Over-Ear Headphones with Built-in Microphone, Clear Balanced Sound, Rechargeable, Lightweight Comfortable Fit for Music, Movies and Calls, BBH2116",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-bbh2116-head-mounted-wireless-headphones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708180714-2572.webp.webp",
@@ -1056,7 +1056,7 @@ const catalogProducts = [
  {
   "id": 10001970,
   "sku": "ELE1001300",
-  "name": "BBH2113 ANC Active Noise Cancelling Wireless Headphones",
+  "name": "Vidvie ANC Wireless Headphones, Active Noise Cancelling Bluetooth Over-Ear Headphones for Music, Travel and Calls, BBH2113",
   "category": "Headphones",
   "url": "https://begad.ae/product/bbh2113-anc-active-noise-cancelling-wireless-headphones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708180355-1400.webp.webp",
@@ -1070,7 +1070,7 @@ const catalogProducts = [
  {
   "id": 10001969,
   "sku": "ELE1001299",
-  "name": "BBH2111 Heavy Bass Lightweight Foldable Wireless Headphones",
+  "name": "Vidvie Heavy Bass Wireless Headphones, Lightweight Foldable Bluetooth Over-Ear Headphones with Built-in Mic, Cushioned Ear Cups, Rechargeable, for Music, Movies and Calls, BBH2111",
   "category": "Headphones",
   "url": "https://begad.ae/product/bbh2111-heavy-bass-lightweight-foldable-wireless-headphones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175930-1565.png.webp",
@@ -1084,7 +1084,7 @@ const catalogProducts = [
  {
   "id": 10001968,
   "sku": "ELE1001298",
-  "name": "BT896 Oper-Ear OWS Wireless Earphone",
+  "name": "Vidvie Open-Ear OWS Wireless Earphones, Bluetooth Earbuds with Built-in Mic, Lightweight Ergonomic Fit and Charging Case, Stay Aware for Commuting, Work and Outdoor, BT896",
   "category": "Earbuds",
   "url": "https://begad.ae/product/bt896-oper-ear-ows-wireless-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175608-4426.jpg.webp",
@@ -1098,7 +1098,7 @@ const catalogProducts = [
  {
   "id": 10001967,
   "sku": "ELE1001297",
-  "name": "BT894 Semi-In-Ear Noise Cancelling TWS Wireless Earphone",
+  "name": "Vidvie Semi-In-Ear Noise Cancelling Wireless Earbuds, TWS Bluetooth Earphones with Built-in Mic, Comfortable Fit and Portable Charging Case, for Work, Travel and Fitness, BT894",
   "category": "Earbuds",
   "url": "https://begad.ae/product/bt894-semi-in-ear-noise-cancelling-tws-wireless-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175200-4245.webp.webp",
@@ -1112,7 +1112,7 @@ const catalogProducts = [
  {
   "id": 10001966,
   "sku": "ELE1001296",
-  "name": "BT890 TWS In-Ear Wireless Earbuds",
+  "name": "Vidvie TWS In-Ear Wireless Earbuds, Bluetooth Earphones with Clear Sound, Built-in Mic for Calls, Secure Comfortable Fit and Charging Case, BT890",
   "category": "Earbuds",
   "url": "https://begad.ae/product/bt890-tws-in-ear-wireless-earbuds",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708174804-3701.webp.webp",
@@ -1126,7 +1126,7 @@ const catalogProducts = [
  {
   "id": 10001965,
   "sku": "ELE1001295",
-  "name": "Vidvie BT888 Silicone neckband wireless sports semi in-ear headphones",
+  "name": "Vidvie Neckband Wireless Sports Earphones, Flexible Silicone Bluetooth Semi In-Ear Headphones with Built-in Mic, Lightweight, Rechargeable, for Workouts and Commuting, BT888",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-bt888-silicone-neckband-wireless-sports-semi-in-ear-headphones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260804202053-8595.jpg.webp",
@@ -1140,7 +1140,7 @@ const catalogProducts = [
  {
   "id": 10001964,
   "sku": "AUT1000128",
-  "name": "Vidvie Single Type-C Fast Car Charger TC-TC (100CM/60W) - Grey - Vidvie",
+  "name": "Vidvie 60W USB-C PD Fast Car Charger with 1m USB-C to USB-C Cable, Compact Single Port Car Adapter for 12V/24V, Overheat and Short-Circuit Protection, for Phones, Tablets and Laptops, Grey, CC541",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-single-type-c-fast-car-charger-tc-tc-100cm-60w-grey-vidvie",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001964.jpg.webp",
@@ -1154,7 +1154,7 @@ const catalogProducts = [
  {
   "id": 10001963,
   "sku": "AUT1000127",
-  "name": "Vidvie Type -C & USB Fast Car Charger - Type -C [TC-Ip] Metal Car Charger - Grey",
+  "name": "Vidvie Dual Port Fast Car Charger, USB-C and USB-A Metal Car Adapter with USB-C to Lightning Cable for iPhone, Charge 2 Devices at Once, Grey, CC542",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-type-c-usb-fast-car-charger-type-c-tc-ip-metal-car-charger-grey",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001963.jpg.webp",
@@ -1168,7 +1168,7 @@ const catalogProducts = [
  {
   "id": 10001962,
   "sku": "AUT1000126",
-  "name": "Vidvie Type -C & USB Fast Car Charger - Type -C [TC-TC] Metal Car Charger - Grey",
+  "name": "Vidvie Dual Port Fast Car Charger, USB-C and USB-A Metal Car Adapter with USB-C to USB-C Cable, Charge 2 Devices at Once, for Phones, Tablets and GPS, Grey",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-type-c-usb-fast-car-charger-type-c-tc-tc-metal-car-charger-grey",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708173207-5576.webp.webp",
@@ -1182,7 +1182,7 @@ const catalogProducts = [
  {
   "id": 10001961,
   "sku": "ELE1001294",
-  "name": "CB4039 3 in 1 Data Cable",
+  "name": "Vidvie 3-in-1 Charging and Data Cable, Multi-Connector Charge and Sync Cord for Multiple Phones and Devices, Durable for Home, Office and Travel, CB4039",
   "category": "Cables",
   "url": "https://begad.ae/product/cb4039-3-in-1-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001961.jpg.webp",
@@ -1196,7 +1196,7 @@ const catalogProducts = [
  {
   "id": 10001960,
   "sku": "AUT1000058",
-  "name": "HC1522 Center Console Suction Cup Car Holder (Black)",
+  "name": "Vidvie Suction Cup Car Phone Holder for Center Console, Adjustable Viewing Angle, Hands-Free Mount for Navigation and Calls, Fits Most Smartphones, Black, HC1522",
   "category": "Car Mounts",
   "url": "https://begad.ae/product/hc1522-center-console-suction-cup-car-holder-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915171325-4939.png.webp",
@@ -1210,7 +1210,7 @@ const catalogProducts = [
  {
   "id": 10001959,
   "sku": "AUT1000057",
-  "name": "HC1520 Car Holder",
+  "name": "Vidvie Car Phone Holder, Secure Hands-Free Smartphone Mount for Navigation and Calls, Easy Phone Placement and Removal, Compact Design, Fits Most Smartphones, HC1520",
   "category": "Car Mounts",
   "url": "https://begad.ae/product/hc1520-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001959.jpg.webp",
@@ -1224,7 +1224,7 @@ const catalogProducts = [
  {
   "id": 10001958,
   "sku": "AUT1000056",
-  "name": "HC1519 Car Holder",
+  "name": "Vidvie Car Phone Holder, Secure Hands-Free Smartphone Mount for Navigation and Calls, Easy Phone Placement and Removal, Space-Saving Design, Fits Most Smartphones, HC1519",
   "category": "Car Mounts",
   "url": "https://begad.ae/product/hc1519-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173228-8434.jpg.webp",
@@ -1238,7 +1238,7 @@ const catalogProducts = [
  {
   "id": 10001957,
   "sku": "ELE1000791",
-  "name": "Vidvie HS685T Half In-Ear Type-C Wired Earphone",
+  "name": "Vidvie Half In-Ear Wired Earphones with USB-C Plug, Type-C Digital Headphones with Built-in Mic for Calls, Lightweight Comfortable Fit, Plug and Play, HS685T",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-hs685t-half-in-ear-type-c-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001957.jpg.webp",
@@ -1252,7 +1252,7 @@ const catalogProducts = [
  {
   "id": 10001956,
   "sku": "ELE1000790",
-  "name": "BT8002 In-Ear TWS Earbud",
+  "name": "Vidvie In-Ear TWS Wireless Earbuds with Deep Bass, Bluetooth Earphones with Built-in Mic, Noise Isolating Fit and Charging Case, for Music, Calls and Workouts, BT8002",
   "category": "Earbuds",
   "url": "https://begad.ae/product/bt8002-in-ear-tws-earbud",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001956.jpg.webp",
@@ -1266,7 +1266,7 @@ const catalogProducts = [
  {
   "id": 10001955,
   "sku": "ELE1000789",
-  "name": "Vidvie HS684T In-Ear Type-C Wired Earphone",
+  "name": "Vidvie In-Ear Wired Earphones with USB-C Plug, Type-C Digital Headphones with Built-in Mic, Lightweight, Plug and Play for Phones and Tablets, HS684T",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-hs684t-in-ear-type-c-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001955.jpg.webp",
@@ -1280,7 +1280,7 @@ const catalogProducts = [
  {
   "id": 10001954,
   "sku": "ELE1000788",
-  "name": "BT8001 Semi-In-Ear TWS Earbud",
+  "name": "Vidvie Semi-In-Ear TWS Wireless Earbuds, Lightweight Bluetooth Earphones with Clear Calls, Touch Controls and Portable Charging Case, BT8001",
   "category": "Earbuds",
   "url": "https://begad.ae/product/bt8001-semi-in-ear-tws-earbud",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708163428-9933.png.webp",
@@ -1294,7 +1294,7 @@ const catalogProducts = [
  {
   "id": 10001953,
   "sku": "ELE1000787",
-  "name": "HS682 Type-C Semi-In-Ear Wired Headset (Black)",
+  "name": "Vidvie Semi-In-Ear Wired Headset with USB-C Plug, Type-C Digital Earphones with Built-in Mic, Lightweight Comfortable Fit, Plug and Play, Black, HS682",
   "category": "Headphones",
   "url": "https://begad.ae/product/hs682-type-c-semi-in-ear-wired-headset-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916182629-1009.jpg.webp",
@@ -1308,7 +1308,7 @@ const catalogProducts = [
  {
   "id": 10001952,
   "sku": "ELE1000786",
-  "name": "BT8000 In-Ear TWS Earbud",
+  "name": "Vidvie In-Ear TWS Wireless Earbuds, HD Sound with Boosted Bass, Noise Isolation, Touch Controls, Silicone Ear Tips and Portable Charging Case, BT8000",
   "category": "Earbuds",
   "url": "https://begad.ae/product/bt8000-in-ear-tws-earbud",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001952.jpg.webp",
@@ -1322,7 +1322,7 @@ const catalogProducts = [
  {
   "id": 10001950,
   "sku": "ELE1000784",
-  "name": "HS669 Wired Earphone",
+  "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Phones and Audio Devices, HS669",
   "category": "Headphones",
   "url": "https://begad.ae/product/hs669-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916181830-2359.png.webp",
@@ -1336,7 +1336,7 @@ const catalogProducts = [
  {
   "id": 10001949,
   "sku": "ELE1000783",
-  "name": "HC1576 Metal Foldable/Rotating Phone & Tablet Holder With Built-in Silicone Anti-Slip Base",
+  "name": "Vidvie Metal Phone and Tablet Stand, Foldable 360° Rotating Desk Holder with Silicone Anti-Slip Base, for Video Calls, Watching, Reading and Typing, HC1576",
   "category": "Mounts & Holders",
   "url": "https://begad.ae/product/hc1576-metal-foldable-rotating-phone-tablet-holder-with-built-in-silicone-anti-slip-base",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915043016-5119.jpg.webp",
@@ -1350,7 +1350,7 @@ const catalogProducts = [
  {
   "id": 10001948,
   "sku": "AUT1000055",
-  "name": "HC1575 Metal Foldable Phone Holder With Built-in Silicone Anti-Slip Base",
+  "name": "Vidvie Metal Foldable Phone Stand, Adjustable Angle Desk Holder with Silicone Anti-Slip Base, Compact and Travel-Friendly, for Video Calls, Watching and Reading, HC1575",
   "category": "Mounts & Holders",
   "url": "https://begad.ae/product/hc1575-metal-foldable-phone-holder-with-built-in-silicone-anti-slip-base",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708161817-7439.png.webp",
@@ -1364,7 +1364,7 @@ const catalogProducts = [
  {
   "id": 10001947,
   "sku": "ELE1000782",
-  "name": "HS666 Type-C Plug Digital Wired Earphone",
+  "name": "Vidvie Wired Earphones with USB-C Plug, Type-C Digital In-Ear Headphones with Built-in Mic, Lightweight, Plug and Play for Phones Without Audio Jack, HS666",
   "category": "Headphones",
   "url": "https://begad.ae/product/hs666-type-c-plug-digital-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708161755-5041.png.webp",
@@ -1378,7 +1378,7 @@ const catalogProducts = [
  {
   "id": 10001946,
   "sku": "ELE1000781",
-  "name": "Vidvie HS662 Half In-Ear Wired Headset",
+  "name": "Vidvie Half In-Ear Wired Earphones with Built-in Mic, Comfortable Lightweight Headset with Clear Sound for Music, Calls and Gaming, Plug and Play, HS662",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-hs662-half-in-ear-wired-headset",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173026-6061.jpg.webp",
@@ -1392,7 +1392,7 @@ const catalogProducts = [
  {
   "id": 10001945,
   "sku": "ELE1000780",
-  "name": "HC1552 Foldable Neck-Hanging Magnetic Shooting Bracket",
+  "name": "Vidvie Neck Phone Holder for Hands-Free Filming, Foldable Magnetic Neck Mount with Adjustable Angle, for Vlogging, POV Videos, Live Streaming and Cooking, HC1552",
   "category": "Mounts & Holders",
   "url": "https://begad.ae/product/hc1552-foldable-neck-hanging-magnetic-shooting-bracket",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916074403-9716.jpg.webp",
@@ -1406,7 +1406,7 @@ const catalogProducts = [
  {
   "id": 10001944,
   "sku": "ELE1000779",
-  "name": "Vidvie HS655 Wired Earphones",
+  "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Music, Videos and Calls, HS655",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-hs655-wired-earphones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916170413-6565.jpg.webp",
@@ -1420,7 +1420,7 @@ const catalogProducts = [
  {
   "id": 10001943,
   "sku": "AUT1000054",
-  "name": "Vidvie HC1547 Suction Cup Foldable Car Holder",
+  "name": "Vidvie Suction Cup Car Phone Holder, Foldable Arm with 360° Rotation for Dashboard and Windshield, Shock-Resistant Clamp Mount for 4.7-6.7 Inch Phones, HC1547",
   "category": "Car Mounts",
   "url": "https://begad.ae/product/vidvie-hc1547-suction-cup-foldable-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172716-6806.jpg.webp",
@@ -1434,7 +1434,7 @@ const catalogProducts = [
  {
   "id": 10001942,
   "sku": "ELE1000778",
-  "name": "Vidvie HS653 Wired Earphone",
+  "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Smartphones, HS653",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-hs653-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173350-3246.jpg.webp",
@@ -1448,7 +1448,7 @@ const catalogProducts = [
  {
   "id": 10001941,
   "sku": "AUT1000053",
-  "name": "Vidvie HC1523 Car Holder 15W Magnetic Suction Wireless Charging Car Holder",
+  "name": "Vidvie 15W Magnetic Wireless Charging Car Phone Holder, MagSafe Compatible Suction Mount for Dashboard and Windshield, 360° Adjustable, USB-C Input, HC1523",
   "category": "Car Mounts",
   "url": "https://begad.ae/product/vidvie-hc1523-car-holder-15w-magnetic-suction-wireless-charging-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172515-4938.jpg.webp",
@@ -1462,7 +1462,7 @@ const catalogProducts = [
  {
   "id": 10001940,
   "sku": "ELE1000777",
-  "name": "GM03 E-Sports Mobile Game Wire Heaset",
+  "name": "Vidvie E-Sports Mobile Gaming Wired Headset, Low-Latency Wired Gaming Earphones with Built-in Mic for In-Game Chat, Lightweight and Comfortable, GM03",
   "category": "Gaming Headsets",
   "url": "https://begad.ae/product/gm03-e-sports-mobile-game-wire-heaset",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916181520-7370.jpg.webp",
@@ -1476,7 +1476,7 @@ const catalogProducts = [
  {
   "id": 10001939,
   "sku": "ELE1000776",
-  "name": "Vidvie XL-HS605 Type-C In-Ear Wired Earphone",
+  "name": "Vidvie In-Ear Wired Earphones with USB-C Plug, Type-C Headphones with Built-in Mic, Lightweight, Plug and Play for Phones Without Audio Jack, XL-HS605",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-xl-hs605-type-c-in-ear-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001939.jpg.webp",
@@ -1490,7 +1490,7 @@ const catalogProducts = [
  {
   "id": 10001938,
   "sku": "ELE1000775",
-  "name": "Vidvie WLC1423 QI2 Desktop Folding Magnetic Wireless Charging Stand",
+  "name": "Vidvie Qi2 Magnetic Wireless Charging Stand, Foldable Desktop Phone Charger with Adjustable Angle, Anti-Slip Base and LED Indicator, USB-C Cable Included, WLC1423",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/vidvie-wlc1423-qi2-desktop-folding-magnetic-wireless-charging-stand",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001938.jpg.webp",
@@ -1504,7 +1504,7 @@ const catalogProducts = [
  {
   "id": 10001937,
   "sku": "ELE1000774",
-  "name": "Vidvie CB4022 3 in 1 Multi Charging Data Cable",
+  "name": "Vidvie 3-in-1 Multi Charging and Data Cable, One Cable with Multiple Connectors for Phones, Tablets and Power Banks, Durable for Home, Office and Travel, CB4022",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-cb4022-3-in-1-multi-charging-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001937.jpg.webp",
@@ -1518,7 +1518,7 @@ const catalogProducts = [
  {
   "id": 10001936,
   "sku": "ELE1000773",
-  "name": "Vidvie CB4068C&i 36W Type-C to iP Bracket Data Cable",
+  "name": "Vidvie 36W USB-C to Lightning Fast Charging Cable with Built-in Phone Stand, Data Sync Cord for iPhone and iPad, Durable, CB4068C&i",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-cb4068c-i-36w-type-c-to-ip-bracket-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916192635-4626.jpg.webp",
@@ -1532,7 +1532,7 @@ const catalogProducts = [
  {
   "id": 10001935,
   "sku": "AUT1000052",
-  "name": "Vidvie In-Car CC549 Transparent Type-C & USB Fast Car Charger",
+  "name": "Vidvie Transparent Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter with LED Light, Smart Auto-ID, 12V-24V, Overheat and Short-Circuit Protection, CC549",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-in-car-cc549-transparent-type-c-usb-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001935.jpg.webp",
@@ -1546,7 +1546,7 @@ const catalogProducts = [
  {
   "id": 10001934,
   "sku": "ELE1000772",
-  "name": "Vidvie CB4068C&C 66W Type-C to Type-C Bracket Data Cable",
+  "name": "Vidvie 66W USB-C to USB-C Fast Charging Cable with Built-in Phone Stand, High-Speed Data Sync Cord for Phones, Tablets and Laptops, CB4068C&C",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-cb4068c-c-66w-type-c-to-type-c-bracket-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916192833-5733.jpg.webp",
@@ -1560,7 +1560,7 @@ const catalogProducts = [
  {
   "id": 10001933,
   "sku": "AUT1000051",
-  "name": "Vidvie CC548 Dual Type-C & USB Fast Car Charger",
+  "name": "Vidvie Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter, Smart Auto-ID, 12V-24V for Cars and Trucks, Overheat and Short-Circuit Protection, CC548",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-cc548-dual-type-c-usb-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001933.jpg.webp",
@@ -1574,7 +1574,7 @@ const catalogProducts = [
  {
   "id": 10001932,
   "sku": "ELE1000771",
-  "name": "Vidvie CB4059C&C Type-C to Type-C Data Cable",
+  "name": "Vidvie USB-C to USB-C Fast Charging Data Cable, Reversible Type-C Charge and Sync Cord for Phones, Tablets, Laptops and Power Banks, CB4059C&C",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-cb4059c-c-type-c-to-type-c-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916193210-7934.jpg.webp",
@@ -1588,7 +1588,7 @@ const catalogProducts = [
  {
   "id": 10001931,
   "sku": "AUT1000050",
-  "name": "Vidvie CC547 Type-C & USB Fast Car Charger",
+  "name": "Vidvie Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter, Smart Auto-ID, Compact Design for 12V-24V Vehicles, Overheat and Short-Circuit Protection, CC547",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-cc547-type-c-usb-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708143059-9780.png.webp",
@@ -1602,7 +1602,7 @@ const catalogProducts = [
  {
   "id": 10001930,
   "sku": "ELE1000770",
-  "name": "Vidvie CB4057T Type-C Data Cable",
+  "name": "Vidvie USB Type-C Charging and Data Cable, Durable Charge and Sync Cord for Android Phones, Tablets and Power Banks, CB4057T",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-cb4057t-type-c-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916193016-5258.jpg.webp",
@@ -1616,7 +1616,7 @@ const catalogProducts = [
  {
   "id": 10001929,
   "sku": "AUT1000049",
-  "name": "Vidvie CC543 Dual Type-C Fast Car Charger",
+  "name": "Vidvie Dual USB-C Fast Car Charger, Two Type-C PD Ports Car Adapter for Phones, Tablets and GPS, Compact Design with Smart Protection, CC543",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-cc543-dual-type-c-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001929.jpg.webp",
@@ -1630,7 +1630,7 @@ const catalogProducts = [
  {
   "id": 10001928,
   "sku": "AUT1000048",
-  "name": "CC541 Single Type-C Fast Car Charger 33W",
+  "name": "Vidvie 33W USB-C Fast Car Charger, Single Type-C Port Compact Car Adapter with Smart Auto-ID and Safety Protection for 12V-24V Vehicles, CC541",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/cc541-single-type-c-fast-car-charger-33w",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708134052-8945.png.webp",
@@ -1644,7 +1644,7 @@ const catalogProducts = [
  {
   "id": 10001927,
   "sku": "AUT1000047",
-  "name": "Vidvie CC539 Double Retractable Cord Fast Charge Car Charger",
+  "name": "Vidvie Double Retractable Cord Fast Car Charger, Dual Built-in Cables with Smart Auto-ID, Fast Charging and Tangle-Free Cable Management for Android and iPhone, CC539",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-cc539-double-retractable-cord-fast-charge-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260919003800-8647.jpg.webp",
@@ -1658,7 +1658,7 @@ const catalogProducts = [
  {
   "id": 10001926,
   "sku": "AUT1000046",
-  "name": "Vidvie CC536 Aluminum alloy QC3.0 Fast Car Charger",
+  "name": "Vidvie QC3.0 Aluminum Alloy Fast Car Charger, Dual USB Car Adapter with Smart Auto-ID, Heat-Resistant Metal Body and Safety Protection, CC536",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-cc536-aluminum-alloy-qc3-0-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001926.jpg.webp",
@@ -1672,7 +1672,7 @@ const catalogProducts = [
  {
   "id": 10001925,
   "sku": "AUT1000045",
-  "name": "FM05 Wireless FM Transmitter & Fast Car Charger",
+  "name": "Vidvie Wireless FM Transmitter and Fast Car Charger, Bluetooth Audio Receiver with Hands-Free Calling, LED Display and Dual USB Charging for 12V/24V Cars, FM05",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/fm05-wireless-fm-transmitter-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001925.jpg.webp",
@@ -1686,7 +1686,7 @@ const catalogProducts = [
  {
   "id": 10001924,
   "sku": "AUT1000044",
-  "name": "Vidvie FM01 In-Car Wireless Receiver",
+  "name": "Vidvie In-Car Wireless FM Receiver, Bluetooth Audio Adapter with Hands-Free Calling, LED Display and Dual USB Charging for Cars Without Built-in Bluetooth, FM01",
   "category": "Car Accessories",
   "url": "https://begad.ae/product/vidvie-fm01-in-car-wireless-receiver",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001924.jpg.webp",
@@ -1700,7 +1700,7 @@ const catalogProducts = [
  {
   "id": 10001923,
   "sku": "AUT1000043",
-  "name": "Vidvie CC528 Car Charger",
+  "name": "Vidvie Dual Port Car Charger, Compact Fast USB Car Adapter with Smart Auto-ID and Overheat, Overvoltage and Short-Circuit Protection for Phones and Tablets, CC528",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-cc528-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001923.jpg.webp",
@@ -1714,7 +1714,7 @@ const catalogProducts = [
  {
   "id": 10001922,
   "sku": "ELE1000769",
-  "name": "CB4050C&C Type-C to Type-C 60W Data Cable",
+  "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable, Type-C Power Delivery Data Cable for Phones, Tablets, Laptops and Power Banks, CB4050C&C",
   "category": "Cables",
   "url": "https://begad.ae/product/cb4050c-c-type-c-to-type-c-60w-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001922.jpg.webp",
@@ -1728,7 +1728,7 @@ const catalogProducts = [
  {
   "id": 10001921,
   "sku": "ELE1000768",
-  "name": "CB4050C&i Type-C to iP 30W Data Cable",
+  "name": "Vidvie 30W USB-C to Lightning Fast Charging Cable, Type-C to iP Data Sync Cord for iPhone, iPad and AirPods, Durable Daily Charging Cable, CB4050C&i",
   "category": "Cables",
   "url": "https://begad.ae/product/cb4050c-i-type-c-to-ip-30w-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194034-9290.jpg.webp",
@@ -1742,7 +1742,7 @@ const catalogProducts = [
  {
   "id": 10001920,
   "sku": "ELE1000767",
-  "name": "Wall Charger WLC1428 Qi2 25W Double-Sided Magnetic Wireless Charger With Atmosphere Light",
+  "name": "Vidvie Qi2 25W Double-Sided Magnetic Wireless Charger with Atmosphere Light, Wall Charger for MagSafe Compatible Phones and Wireless Charging Devices, WLC1428",
   "category": "Chargers",
   "url": "https://begad.ae/product/wall-charger-wlc1428-qi2-25w-double-sided-magnetic-wireless-charger-with-atmosphere-light",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917025457-9933.jpg.webp",
@@ -1770,7 +1770,7 @@ const catalogProducts = [
  {
   "id": 10001918,
   "sku": "ELE1000765",
-  "name": "Data Cable CB4038C&i Type-C to IP Data Cable",
+  "name": "Vidvie 30W USB-C to Lightning Fast Charging Cable, Braided Type-C to iP Data Cable with Aluminum Shell for iPhone and iPad, 1m/2m/3m Options, CB4038C&i",
   "category": "Cables",
   "url": "https://begad.ae/product/data-cable-cb4038c-i-type-c-to-ip-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194238-6096.jpg.webp",
@@ -1784,7 +1784,7 @@ const catalogProducts = [
  {
   "id": 10001917,
   "sku": "ELE1000764",
-  "name": "Type-C to Type-C Data Cable [2 m TC-TC (60W)] [Black] / [White] CB4038-2C&C",
+  "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 2m, Nylon Braided Type-C Data Cable with Aluminum Connectors for Phones, Tablets, Laptops and Power Banks, Black/White, CB4038-2C&C",
   "category": "Cables",
   "url": "https://begad.ae/product/type-c-to-type-c-data-cable-2-m-tc-tc-60w-black-white-cb4038-2c-c",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001917.jpg.webp",
@@ -1798,7 +1798,7 @@ const catalogProducts = [
  {
   "id": 10001916,
   "sku": "ELE1000763",
-  "name": "Data Cable CB4031C&C Type-C to Type-C Data Cable",
+  "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 1m, Type-C Power Delivery Data Cable with Durable PVC Build for Phones, Tablets, Laptops and Power Banks, CB4031C&C",
   "category": "Cables",
   "url": "https://begad.ae/product/data-cable-cb4031c-c-type-c-to-type-c-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194427-9366.jpg.webp",
@@ -1812,7 +1812,7 @@ const catalogProducts = [
  {
   "id": 10001914,
   "sku": "ELE1000761",
-  "name": "Vidvie Type-C to iP OTG-Charger Cable Adapter [Dark Grey]",
+  "name": "Vidvie USB-C to Lightning OTG Charger Cable Adapter, Compact Type-C to iP Adapter for Charging and Data Connection, Dark Grey, AL1127",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-type-c-to-ip-otg-charger-cable-adapter-dark-grey",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916195048-6991.png.webp",
@@ -1826,7 +1826,7 @@ const catalogProducts = [
  {
   "id": 10001913,
   "sku": "ELE1000760",
-  "name": "Vidvie AL1124 Type-C to 3.5mm Audio Adapter",
+  "name": "Vidvie USB-C to 3.5mm Audio Adapter, Aluminum Alloy Braided Headphone Converter with Mic and Remote Support for Type-C Phones, Tablets and Laptops, AL1124",
   "category": "Mobile Accessories",
   "url": "https://begad.ae/product/vidvie-al1124-type-c-to-3-5mm-audio-adapter",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916231936-9416.jpg.webp",
@@ -1840,7 +1840,7 @@ const catalogProducts = [
  {
   "id": 10001912,
   "sku": "ELE1000759",
-  "name": "Vidvie AL1111 Type-C Audio Cable",
+  "name": "Vidvie USB-C to 3.5mm AUX Audio Cable 1.8m, Braided Type-C Stereo Cable with Aluminum Connectors for Phones, Laptops, Car Stereo, Speakers and Headphones, AL1111",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-al1111-type-c-audio-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916204020-1920.png.webp",
@@ -1854,7 +1854,7 @@ const catalogProducts = [
  {
   "id": 10001911,
   "sku": "ELE1000758",
-  "name": "VIDVIE Power Strip Extension (UK Plug) – 2500W, 4 AC Outlets, 4 USB & 4 Type-C Fast Charging Ports - PSB07 | black",
+  "name": "Vidvie 12-in-1 Power Strip Extension 2500W with UK Plug, 4 AC Outlets, 4 USB-A and 4 USB-C Fast Charging Ports, Overload Protection, Black, PSB07",
   "category": "extensions & Plugs",
   "url": "https://begad.ae/product/vidvie-power-strip-extension-uk-plug-2500w-4-ac-outlets-4-usb-4-type-c-fast-charging-ports-psb07-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925015041-3432.png.webp",
@@ -1868,7 +1868,7 @@ const catalogProducts = [
  {
   "id": 10001910,
   "sku": "ELE1000757",
-  "name": "Wall Charger - UK plug - [White] - Vidvie",
+  "name": "Vidvie UK Plug Wall Charger, Compact White Charger with Stable Charging and Overcharge, Overcurrent, Overvoltage and Short-Circuit Protection, XL-PSB03",
   "category": "Chargers",
   "url": "https://begad.ae/product/wall-charger-uk-plug-white-vidvie",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916232053-7912.jpg.webp",
@@ -1882,7 +1882,7 @@ const catalogProducts = [
  {
   "id": 10001909,
   "sku": "ELE1000756",
-  "name": "Vidvie TA4404 Global Universal Conversion Charger",
+  "name": "Vidvie Global Universal Travel Adapter Charger, All-in-One International Plug Converter with USB Charging Ports for Phones, Tablets and Travel Devices, TA4404",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-ta4404-global-universal-conversion-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916232233-8044.jpg.webp",
@@ -1896,7 +1896,7 @@ const catalogProducts = [
  {
   "id": 10001908,
   "sku": "ELE1000755",
-  "name": "Vidvie TA4409 Global Universal Travel Charger",
+  "name": "Vidvie Global Universal Travel Charger, International Plug Adapter for US, UK, EU and AU Sockets with Multi-Port USB Charging and Safety Protection, TA4409",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-ta4409-global-universal-travel-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001908.jpg.webp",
@@ -1910,7 +1910,7 @@ const catalogProducts = [
  {
   "id": 10001907,
   "sku": "ELE1000754",
-  "name": "WLC1412-C02 Portable Apple Watch Magnetic Wireless Charging",
+  "name": "Vidvie Portable Apple Watch Magnetic Wireless Charger, Mini USB-C Watch Charging Puck with Strong Magnetic Hold and LED Indicator, Travel-Friendly, WLC1412-C02",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/wlc1412-c02-portable-apple-watch-magnetic-wireless-charging",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917024700-4866.png.webp",
@@ -1924,7 +1924,7 @@ const catalogProducts = [
  {
   "id": 10001906,
   "sku": "ELE1000753",
-  "name": "WLC1412-C01 Mini Magnetic Type-C Female Seat Watch Wireless Charger",
+  "name": "Vidvie Mini Magnetic Watch Wireless Charger, Type-C Female Charging Seat with Strong Magnetic Hold, Portable Charger for Smartwatches, WLC1412-C01",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/wlc1412-c01-mini-magnetic-type-c-female-seat-watch-wireless-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917024832-6355.png.webp",
@@ -1938,7 +1938,7 @@ const catalogProducts = [
  {
   "id": 10001905,
   "sku": "ELE1000752",
-  "name": "Wall Charger WLC1412-L Mini Magnetic Lightning Watch Wireless Charge",
+  "name": "Vidvie Mini Magnetic Watch Wireless Charger with Lightning Connector, Portable Cable-Free Charger for Apple Watch and Compatible Smartwatches, 2.5W Output, WLC1412-L",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/wall-charger-wlc1412-l-mini-magnetic-lightning-watch-wireless-charge",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917025119-3484.jpg.webp",
@@ -1952,7 +1952,7 @@ const catalogProducts = [
  {
   "id": 10001904,
   "sku": "AUT1000042",
-  "name": "Vidvie In-Car CC522 Car Charger",
+  "name": "Vidvie In-Car Car Charger, Compact USB Charger with Smart Detection and Overcharge, Overheat and Short-Circuit Protection for Phones, Tablets and GPS Devices, CC522",
   "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-in-car-cc522-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801195135-2466.jpg.webp",
@@ -1966,7 +1966,7 @@ const catalogProducts = [
  {
   "id": 10001903,
   "sku": "BEA1000183",
-  "name": "ET02 Electric Toothbrush",
+  "name": "Vidvie Electric Toothbrush, Sonic Rechargeable Toothbrush with Multiple Brushing Modes, Waterproof Ergonomic Design and USB Charging for Daily Oral Care, ET02",
   "category": "Electric Toothbrush",
   "url": "https://begad.ae/product/et02-electric-toothbrush",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260707140740-2719.png.webp",
@@ -1980,7 +1980,7 @@ const catalogProducts = [
  {
   "id": 10001902,
   "sku": "HOM1000307",
-  "name": "DL01 3in1 Desktop Lamp",
+  "name": "Vidvie 3-in-1 Desktop LED Lamp, USB Powered Desk Light with Adjustable Design and Flicker-Free Illumination for Reading, Studying, Office and Bedside, DL01",
   "category": "Lighting",
   "url": "https://begad.ae/product/dl01-3in1-desktop-lamp",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260707140333-9333.png.webp",
@@ -1994,7 +1994,7 @@ const catalogProducts = [
  {
   "id": 10001901,
   "sku": "BEA1000182",
-  "name": "3 in 1 Hair Clippers [Type C] [Black] - Vidvie",
+  "name": "Vidvie 3-in-1 Hair Clippers, Cordless Type-C Rechargeable Grooming Kit with Interchangeable Heads for Hair, Beard, Nose and Ear Trimming, Black, HT03",
   "category": "Grooming Kits",
   "url": "https://begad.ae/product/3-in-1-hair-clippers-type-c-black-vidvie",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001901.jpg.webp",
@@ -2008,7 +2008,7 @@ const catalogProducts = [
  {
   "id": 10001900,
   "sku": "BEA1000181",
-  "name": "Vidvie HT01 High-Power Hair Clippers",
+  "name": "Vidvie High-Power Hair Clippers, Rechargeable Cordless Hair Trimmer with Stainless Steel Blades, Guide Combs and Low-Noise Motor for Hair, Beard and Detailing, HT01",
   "category": "Grooming Kits",
   "url": "https://begad.ae/product/vidvie-ht01-high-power-hair-clippers",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001900.jpg.webp",
@@ -2022,7 +2022,7 @@ const catalogProducts = [
  {
   "id": 10001899,
   "sku": "HEA1000007",
-  "name": "WF01 Electric Water-Reservoir-Equipped Water Flosser",
+  "name": "Vidvie Electric Water Flosser, Cordless Rechargeable Oral Irrigator with Built-in Water Tank, High-Pressure Pulse Cleaning, Multiple Modes and Waterproof Design, WF01",
   "category": "Wellness",
   "url": "https://begad.ae/product/wf01-electric-water-reservoir-equipped-water-flosser",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001899.jpg.webp",
