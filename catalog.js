@@ -158,20 +158,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10002388,
-  "sku": "ELE1001375",
-  "name": "Vidvie Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Monitoring, Sedentary Reminder, Multi-Sport Modes, Smart Notifications, Splash Resistant, Black, SW1620",
-  "category": "Smart Watches",
-  "url": "https://begad.ae/product/sw1620-wireless-calling-smart-sports-watch",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002388.jpg.webp",
-  "price": {
-   "amount": 81.6,
-   "amount_with_tax": 81.6,
-   "compare_at_amount": 96
-  },
-  "in_stock": true
- },
- {
   "id": 10002386,
   "sku": "ELE1001373",
   "name": "Vidvie AMOLED Smart Watch with Bluetooth Calling, Ultra-Clear Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Rose Gold, SW1619",
@@ -200,20 +186,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10002262,
-  "sku": "ELE1001365",
-  "name": "Vidvie Smart Watch with Bluetooth Calling, HD Color Display, Heart Rate, Blood Pressure, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1615",
-  "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-sw1615-smart-watch-with-health-tracking-hd-screen-bluetooth-cal",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231910-9521.jpg.webp",
-  "price": {
-   "amount": 90.1,
-   "amount_with_tax": 90.1,
-   "compare_at_amount": 106
-  },
-  "in_stock": true
- },
- {
   "id": 10002259,
   "sku": "ELE1001362",
   "name": "Vidvie Ultra Smart Watch with Bluetooth Calling, Large HD Display, Metallic Frame, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1608",
@@ -224,20 +196,6 @@ const catalogProducts = [
    "amount": 72.25,
    "amount_with_tax": 72.25,
    "compare_at_amount": 85
-  },
-  "in_stock": true
- },
- {
-  "id": 10002258,
-  "sku": "ELE1001361",
-  "name": "Vidvie 256GB USB 3.2 Flash Drive, High-Speed Metal USB Memory Stick, Plug and Play for Laptop, PC, Smart TV and Car, Backward Compatible with USB 3.0 and 2.0, USB2608",
-  "category": "USB Flash Drives",
-  "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-256gb",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002258.jpg.webp",
-  "price": {
-   "amount": 177.48,
-   "amount_with_tax": 177.48,
-   "compare_at_amount": 208.8
   },
   "in_stock": true
  },
@@ -1516,34 +1474,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001939,
-  "sku": "ELE1000776",
-  "name": "Vidvie In-Ear Wired Earphones with USB-C Plug, Type-C Headphones with Built-in Mic, Lightweight, Plug and Play for Phones Without Audio Jack, XL-HS605",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-xl-hs605-type-c-in-ear-wired-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001939.jpg.webp",
-  "price": {
-   "amount": 45.9,
-   "amount_with_tax": 45.9,
-   "compare_at_amount": 54
-  },
-  "in_stock": true
- },
- {
-  "id": 10001938,
-  "sku": "ELE1000775",
-  "name": "Vidvie Qi2 Magnetic Wireless Charging Stand, Foldable Desktop Phone Charger with Adjustable Angle, Anti-Slip Base and LED Indicator, USB-C Cable Included, WLC1423",
-  "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/vidvie-wlc1423-qi2-desktop-folding-magnetic-wireless-charging-stand",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001938.jpg.webp",
-  "price": {
-   "amount": 73.1,
-   "amount_with_tax": 73.1,
-   "compare_at_amount": 86
-  },
-  "in_stock": true
- },
- {
   "id": 10001937,
   "sku": "ELE1000774",
   "name": "Vidvie 3-in-1 Multi Charging and Data Cable, One Cable with Multiple Connectors for Phones, Tablets and Power Banks, Durable for Home, Office and Travel, CB4022",
@@ -1684,20 +1614,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001927,
-  "sku": "AUT1000047",
-  "name": "Vidvie Double Retractable Cord Fast Car Charger, Dual Built-in Cables with Smart Auto-ID, Fast Charging and Tangle-Free Cable Management for Android and iPhone, CC539",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-double-retractable-cord-fast-car-charger-dual-built-in-cables-with-smart-auto-id-fast-charging-and-tangle-free-cable-management-for-android-and-iphone-cc539",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260919003800-6581.png.webp",
-  "price": {
-   "amount": 80.75,
-   "amount_with_tax": 80.75,
-   "compare_at_amount": 95
-  },
-  "in_stock": true
- },
- {
   "id": 10001926,
   "sku": "AUT1000046",
   "name": "Vidvie QC3.0 Aluminum Alloy Fast Car Charger, Dual USB Car Adapter with Smart Auto-ID, Heat-Resistant Metal Body and Safety Protection, CC536",
@@ -1708,20 +1624,6 @@ const catalogProducts = [
    "amount": 44.2,
    "amount_with_tax": 44.2,
    "compare_at_amount": 52
-  },
-  "in_stock": true
- },
- {
-  "id": 10001925,
-  "sku": "AUT1000045",
-  "name": "Vidvie Wireless FM Transmitter and Fast Car Charger, Bluetooth Audio Receiver with Hands-Free Calling, LED Display and Dual USB Charging for 12V/24V Cars, FM05",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/fm05-wireless-fm-transmitter-fast-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001925.jpg.webp",
-  "price": {
-   "amount": 55.25,
-   "amount_with_tax": 55.25,
-   "compare_at_amount": 65
   },
   "in_stock": true
  },
@@ -1964,20 +1866,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001907,
-  "sku": "ELE1000754",
-  "name": "Vidvie Portable Apple Watch Magnetic Wireless Charger, Mini USB-C Watch Charging Puck with Strong Magnetic Hold and LED Indicator, Travel-Friendly, WLC1412-C02",
-  "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/vidvie-portable-apple-watch-magnetic-wireless-charger-mini-usb-c-watch-charging-puck-with-strong-magnetic-hold-and-led-indicator-travel-friendly-wlc1412-c02",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917024700-4866.png.webp",
-  "price": {
-   "amount": 53.55,
-   "amount_with_tax": 53.55,
-   "compare_at_amount": 63
-  },
-  "in_stock": true
- },
- {
   "id": 10001906,
   "sku": "ELE1000753",
   "name": "Vidvie Mini Magnetic Watch Wireless Charger, Type-C Female Charging Seat with Strong Magnetic Hold, Portable Charger for Smartwatches, WLC1412-C01",
@@ -2076,20 +1964,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001899,
-  "sku": "HEA1000007",
-  "name": "Vidvie Electric Water Flosser, Cordless Rechargeable Oral Irrigator with Built-in Water Tank, High-Pressure Pulse Cleaning, Multiple Modes and Waterproof Design, WF01",
-  "category": "Wellness",
-  "url": "https://begad.ae/product/vidvie-electric-water-flosser-cordless-rechargeable-oral-irrigator-with-built-in-water-tank-high-pressure-pulse-cleaning-multiple-modes-and-waterproof-design-wf01",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001899.jpg.webp",
-  "price": {
-   "amount": 71.4,
-   "amount_with_tax": 71.4,
-   "compare_at_amount": 84
-  },
-  "in_stock": true
- },
- {
   "id": 10001898,
   "sku": "BEA1000180",
   "name": "ET01 Sonic Electric Toothbrush",
@@ -2113,34 +1987,6 @@ const catalogProducts = [
   "price": {
    "amount": 79,
    "amount_with_tax": 79,
-   "compare_at_amount": 110
-  },
-  "in_stock": true
- },
- {
-  "id": 10001896,
-  "sku": "ELE1000750",
-  "name": "WLC1426 3-in-1 Magnetic Wireless Charger",
-  "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/wlc1426-3-in-1-magnetic-wireless-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001896.jpg.webp",
-  "price": {
-   "amount": 65,
-   "amount_with_tax": 65,
-   "compare_at_amount": 100
-  },
-  "in_stock": true
- },
- {
-  "id": 10001884,
-  "sku": "ELE1000738",
-  "name": "WLC1425 4-in-1 Folding Magnetic Wireless Charging Stand",
-  "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/wlc1425-4-in-1-folding-magnetic-wireless-charging-stand",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917041645-7806.jpg.webp",
-  "price": {
-   "amount": 78,
-   "amount_with_tax": 78,
    "compare_at_amount": 110
   },
   "in_stock": true
@@ -2566,34 +2412,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001849,
-  "sku": "HOM1000301",
-  "name": "FN09 Neck Fan",
-  "category": "Fans",
-  "url": "https://begad.ae/product/fn09-neck-fan",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001849.jpg.webp",
-  "price": {
-   "amount": 75,
-   "amount_with_tax": 75,
-   "compare_at_amount": 86
-  },
-  "in_stock": true
- },
- {
-  "id": 10001848,
-  "sku": "HOM1000300",
-  "name": "FN08 Multi-functional clip fan",
-  "category": "Fans",
-  "url": "https://begad.ae/product/fn08-multi-functional-clip-fan",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001848.jpg.webp",
-  "price": {
-   "amount": 87,
-   "amount_with_tax": 87,
-   "compare_at_amount": 100
-  },
-  "in_stock": true
- },
- {
   "id": 10001847,
   "sku": "HOM1000299",
   "name": "FN06 Portable Handheld Fan",
@@ -2968,20 +2786,6 @@ const catalogProducts = [
    "amount": 102,
    "amount_with_tax": 102,
    "compare_at_amount": 120
-  },
-  "in_stock": true
- },
- {
-  "id": 10001586,
-  "sku": "ELE1000497",
-  "name": "VIDVIE 4-in-1 60W Fast Car Charger with Dual Retractable Cables - CC539",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-4-in-1-60w-fast-car-charger-with-dual-retractable-cables-cc539",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001586.jpg.webp",
-  "price": {
-   "amount": 80.75,
-   "amount_with_tax": 80.75,
-   "compare_at_amount": 95
   },
   "in_stock": true
  },
