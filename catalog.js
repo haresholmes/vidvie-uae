@@ -354,34 +354,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10002251,
-  "sku": "ELE1001354",
-  "name": "Vidvie Transparent Wireless Mouse, 2.4GHz Rechargeable USB-C Mouse with Precise Optical Tracking, Slim Ergonomic Design for Windows, macOS, ChromeOS and Linux, Gray, KB07",
-  "category": "Mouse",
-  "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-tc-gray",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260805123729-1358.png.webp",
-  "price": {
-   "amount": 46.8,
-   "amount_with_tax": 46.8,
-   "compare_at_amount": 72
-  },
-  "in_stock": true
- },
- {
-  "id": 10002250,
-  "sku": "ELE1001353",
-  "name": "Vidvie Transparent Wireless Mouse, 2.4GHz Rechargeable USB-C Mouse with Precise Optical Tracking, Slim Ergonomic Design for Windows, macOS, ChromeOS and Linux, White, KB07",
-  "category": "Mouse",
-  "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-tc-white",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232515-3479.png.webp",
-  "price": {
-   "amount": 46.8,
-   "amount_with_tax": 46.8,
-   "compare_at_amount": 72
-  },
-  "in_stock": true
- },
- {
   "id": 10002249,
   "sku": "ELE1001352",
   "name": "Vidvie Transparent Wireless Bluetooth Keyboard with LED Backlight, Connects up to 3 Devices, 420mAh Rechargeable USB-C, Ultra-Slim for Windows, macOS, iOS and Android, Black, KB05",
