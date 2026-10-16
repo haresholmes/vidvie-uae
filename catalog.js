@@ -123,9 +123,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-mc02-t-ai-smart-noise-cancelling-wireless-microphone-with-type-c-receiver-dual-mic-charging-case-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10006720.jpg.webp",
   "price": {
-   "amount": 105,
-   "amount_with_tax": 105,
-   "compare_at_amount": 120
+   "amount": 86.3,
+   "amount_with_tax": 86.3,
+   "compare_at_amount": 103.56
   },
   "in_stock": false
  },
@@ -137,9 +137,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-bh02-portable-business-computer-laptop-bag-blue",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915165907-8566.jpg.webp",
   "price": {
-   "amount": 57.85,
-   "amount_with_tax": 57.85,
-   "compare_at_amount": 89
+   "amount": 42.93,
+   "amount_with_tax": 42.93,
+   "compare_at_amount": 66.05
   },
   "in_stock": true
  },
@@ -151,9 +151,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1624-wireless-calling-smart-sports-watch",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002401.jpg.webp",
   "price": {
-   "amount": 53.3,
-   "amount_with_tax": 53.3,
-   "compare_at_amount": 82
+   "amount": 42.19,
+   "amount_with_tax": 42.19,
+   "compare_at_amount": 64.9
   },
   "in_stock": true
  },
@@ -165,9 +165,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1623-wireless-calling-smart-sports-watch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002396.jpg.webp",
   "price": {
-   "amount": 46.15,
-   "amount_with_tax": 46.15,
-   "compare_at_amount": 71
+   "amount": 36.53,
+   "amount_with_tax": 36.53,
+   "compare_at_amount": 56.2
   },
   "in_stock": true
  },
@@ -179,9 +179,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1621-wireless-calling-gps-sports-watch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709174626-2940.png.webp",
   "price": {
-   "amount": 75.43,
-   "amount_with_tax": 75.43,
-   "compare_at_amount": 116.04
+   "amount": 59.74,
+   "amount_with_tax": 59.74,
+   "compare_at_amount": 91.9
   },
   "in_stock": true
  },
@@ -193,9 +193,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1620-wireless-calling-smart-sports-watch",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002388.jpg.webp",
   "price": {
-   "amount": 58.5,
-   "amount_with_tax": 58.5,
-   "compare_at_amount": 90
+   "amount": 63.05,
+   "amount_with_tax": 63.05,
+   "compare_at_amount": 97
   },
   "in_stock": true
  },
@@ -207,9 +207,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sw1619-amoled-ultra-clear-screen-wireless-call-smart-watch-rose-gold",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709171837-5043.png.webp",
   "price": {
-   "amount": 71.5,
-   "amount_with_tax": 71.5,
-   "compare_at_amount": 110
+   "amount": 74.43,
+   "amount_with_tax": 74.43,
+   "compare_at_amount": 114.5
   },
   "in_stock": true
  },
@@ -235,9 +235,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-sw1615-smart-watch-with-health-tracking-hd-screen-bluetooth-cal",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231910-9521.jpg.webp",
   "price": {
-   "amount": 65,
-   "amount_with_tax": 65,
-   "compare_at_amount": 100
+   "amount": 70.14,
+   "amount_with_tax": 70.14,
+   "compare_at_amount": 107.9
   },
   "in_stock": true
  },
@@ -263,9 +263,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-256gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002258.jpg.webp",
   "price": {
-   "amount": 110.5,
-   "amount_with_tax": 110.5,
-   "compare_at_amount": 170
+   "amount": 115.18,
+   "amount_with_tax": 115.18,
+   "compare_at_amount": 177.2
   },
   "in_stock": true
  },
@@ -291,9 +291,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-ap07-3-in-1-magnetic-stylus-pen-universal-touch-pen-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002256.jpg.webp",
   "price": {
-   "amount": 35.1,
-   "amount_with_tax": 35.1,
-   "compare_at_amount": 54
+   "amount": 28.31,
+   "amount_with_tax": 28.31,
+   "compare_at_amount": 43.55
   },
   "in_stock": true
  },
@@ -347,9 +347,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-hub03-6-in-1-hub-docking-station",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172240-9325.jpg.webp",
   "price": {
-   "amount": 50.05,
-   "amount_with_tax": 50.05,
-   "compare_at_amount": 77
+   "amount": 32.37,
+   "amount_with_tax": 32.37,
+   "compare_at_amount": 49.8
   },
   "in_stock": true
  },
@@ -431,9 +431,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-256gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002188.jpg.webp",
   "price": {
-   "amount": 162.5,
-   "amount_with_tax": 162.5,
-   "compare_at_amount": 250
+   "amount": 169.23,
+   "amount_with_tax": 169.23,
+   "compare_at_amount": 260.35
   },
   "in_stock": true
  },
@@ -445,9 +445,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/kb03-portable-wireless-folding-keyboard",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002187.jpg.webp",
   "price": {
-   "amount": 79.55,
-   "amount_with_tax": 79.55,
-   "compare_at_amount": 122.38
+   "amount": 83.1,
+   "amount_with_tax": 83.1,
+   "compare_at_amount": 127.85
   },
   "in_stock": true
  },
@@ -459,9 +459,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-128gb",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002186.jpg.webp",
   "price": {
-   "amount": 76.96,
-   "amount_with_tax": 76.96,
-   "compare_at_amount": 118.4
+   "amount": 80.41,
+   "amount_with_tax": 80.41,
+   "compare_at_amount": 123.7
   },
   "in_stock": true
  },
@@ -487,9 +487,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/portable-business-computer-laptop-bag-14inch-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172859-3874.jpg.webp",
   "price": {
-   "amount": 57.85,
-   "amount_with_tax": 57.85,
-   "compare_at_amount": 89
+   "amount": 42.93,
+   "amount_with_tax": 42.93,
+   "compare_at_amount": 66.05
   },
   "in_stock": true
  },
@@ -557,9 +557,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/xl-sp934-portable-outdoor-40w-tws-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002179.jpg.webp",
   "price": {
-   "amount": 110.18,
-   "amount_with_tax": 110.18,
-   "compare_at_amount": 169.51
+   "amount": 75.58,
+   "amount_with_tax": 75.58,
+   "compare_at_amount": 116.28
   },
   "in_stock": true
  },
@@ -599,9 +599,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-xl-sp928-200w-tws-speaker-with-dual-wireless-microphone-and-remote-control",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002176.jpg.webp",
   "price": {
-   "amount": 398.59,
-   "amount_with_tax": 398.59,
-   "compare_at_amount": 613.21
+   "amount": 315.67,
+   "amount_with_tax": 315.67,
+   "compare_at_amount": 485.65
   },
   "in_stock": true
  },
@@ -613,9 +613,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-2-in-1-power-bank-with-dual-built-in-charging-cables-fast-charging-portable-charger-charge-2-devices-at-once-led-battery-indicator-overcharge-and-temperature-protection-pb7018",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200412-5859.png.webp",
   "price": {
-   "amount": 55.25,
-   "amount_with_tax": 55.25,
-   "compare_at_amount": 85
+   "amount": 61.13,
+   "amount_with_tax": 61.13,
+   "compare_at_amount": 94.05
   },
   "in_stock": true
  },
@@ -641,9 +641,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-20000mah-power-bank-high-capacity-portable-charger-with-usb-a-and-usb-c-outputs-led-battery-indicator-smart-overcharge-and-short-circuit-protection-for-phones-tablets-and-earbuds-pb7013",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012181514-9723.png.webp",
   "price": {
-   "amount": 48.75,
-   "amount_with_tax": 48.75,
-   "compare_at_amount": 75
+   "amount": 38.61,
+   "amount_with_tax": 38.61,
+   "compare_at_amount": 59.4
   },
   "in_stock": true
  },
@@ -697,9 +697,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-10000mah-power-bank-with-built-in-retractable-usb-c-cable-portable-charger-with-overcharge-overheat-and-short-circuit-protection-for-usb-c-phones-and-tablets-pb7028",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708201142-8145.png.webp",
   "price": {
-   "amount": 59.8,
-   "amount_with_tax": 59.8,
-   "compare_at_amount": 92
+   "amount": 47.35,
+   "amount_with_tax": 47.35,
+   "compare_at_amount": 72.85
   },
   "in_stock": true
  },
@@ -851,9 +851,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sp920-portable-wireless-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002042.jpg.webp",
   "price": {
-   "amount": 161.95,
-   "amount_with_tax": 161.95,
-   "compare_at_amount": 249.16
+   "amount": 105.74,
+   "amount_with_tax": 105.74,
+   "compare_at_amount": 162.68
   },
   "in_stock": true
  },
@@ -865,9 +865,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-portable-wireless-bluetooth-speaker-compact-rechargeable-speaker-with-clear-balanced-sound-for-home-office-travel-and-outdoor-sp919",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012180652-1333.png.webp",
   "price": {
-   "amount": 71.94,
-   "amount_with_tax": 71.94,
-   "compare_at_amount": 110.67
+   "amount": 63.05,
+   "amount_with_tax": 63.05,
+   "compare_at_amount": 97
   },
   "in_stock": true
  },
@@ -879,9 +879,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/sp906-extra-bass-portable-splash-proof-wireless-speaker-with-bluetooth-and-nfc",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002040.jpg.webp",
   "price": {
-   "amount": 121.49,
-   "amount_with_tax": 121.49,
-   "compare_at_amount": 186.9
+   "amount": 96.2,
+   "amount_with_tax": 96.2,
+   "compare_at_amount": 148
   },
   "in_stock": true
  },
@@ -921,9 +921,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt882-open-ear-ows-wireless-earbuds",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708184811-5572.png.webp",
   "price": {
-   "amount": 46.8,
-   "amount_with_tax": 46.8,
-   "compare_at_amount": 72
+   "amount": 37.05,
+   "amount_with_tax": 37.05,
+   "compare_at_amount": 57
   },
   "in_stock": true
  },
@@ -935,9 +935,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/mini-outdoor-cycling-wireless-speaker-30w",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001984.jpg.webp",
   "price": {
-   "amount": 61.75,
-   "amount_with_tax": 61.75,
-   "compare_at_amount": 95
+   "amount": 48.88,
+   "amount_with_tax": 48.88,
+   "compare_at_amount": 75.2
   },
   "in_stock": true
  },
@@ -963,9 +963,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/portable-rgb-light-wireless-speaker-tc-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001982.jpg.webp",
   "price": {
-   "amount": 92.87,
-   "amount_with_tax": 92.87,
-   "compare_at_amount": 142.88
+   "amount": 65.49,
+   "amount_with_tax": 65.49,
+   "compare_at_amount": 100.76
   },
   "in_stock": true
  },
@@ -991,9 +991,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-portable-wireless-bluetooth-speaker-compact-rechargeable-speaker-with-clear-balanced-sound-and-easy-controls-for-home-travel-and-outdoor-sp926",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012181724-3417.jpg.webp",
   "price": {
-   "amount": 59.15,
-   "amount_with_tax": 59.15,
-   "compare_at_amount": 91
+   "amount": 63.05,
+   "amount_with_tax": 63.05,
+   "compare_at_amount": 97
   },
   "in_stock": true
  },
@@ -1033,9 +1033,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-sleep-earbuds-mini-bean-in-ear-tws-wireless-earphones-for-side-sleepers-with-enc-call-noise-reduction-touch-controls-and-charging-case-bt8008",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012190305-7086.png.webp",
   "price": {
-   "amount": 42.9,
-   "amount_with_tax": 42.9,
-   "compare_at_amount": 66
+   "amount": 33.96,
+   "amount_with_tax": 33.96,
+   "compare_at_amount": 52.25
   },
   "in_stock": true
  },
@@ -1103,9 +1103,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-gaming-headset-with-detachable-microphone-4-connection-modes-over-ear-stereo-gaming-headphones-with-cushioned-ear-cups-for-pc-consoles-and-phones-bbh2119",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184657-5961.png.webp",
   "price": {
-   "amount": 71.92,
-   "amount_with_tax": 71.92,
-   "compare_at_amount": 110.65
+   "amount": 56.97,
+   "amount_with_tax": 56.97,
+   "compare_at_amount": 87.65
   },
   "in_stock": true
  },
@@ -1131,9 +1131,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-anc-wireless-headphones-active-noise-cancelling-bluetooth-over-ear-headphones-for-music-travel-and-calls-bbh2113",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184943-8114.jpg.webp",
   "price": {
-   "amount": 58.5,
-   "amount_with_tax": 58.5,
-   "compare_at_amount": 90
+   "amount": 50.83,
+   "amount_with_tax": 50.83,
+   "compare_at_amount": 78.2
   },
   "in_stock": true
  },
@@ -1187,9 +1187,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-tws-in-ear-wireless-earbuds-bluetooth-earphones-with-clear-sound-built-in-mic-for-calls-secure-comfortable-fit-and-charging-case-bt890",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012185318-3869.jpg.webp",
   "price": {
-   "amount": 39.65,
-   "amount_with_tax": 39.65,
-   "compare_at_amount": 61
+   "amount": 31.88,
+   "amount_with_tax": 31.88,
+   "compare_at_amount": 49.05
   },
   "in_stock": true
  },
@@ -1257,9 +1257,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/cb4039-3-in-1-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001961.jpg.webp",
   "price": {
-   "amount": 32.5,
-   "amount_with_tax": 32.5,
-   "compare_at_amount": 50
+   "amount": 21.22,
+   "amount_with_tax": 21.22,
+   "compare_at_amount": 32.65
   },
   "in_stock": true
  },
@@ -1299,9 +1299,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1519-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173228-8434.jpg.webp",
   "price": {
-   "amount": 31.85,
-   "amount_with_tax": 31.85,
-   "compare_at_amount": 49
+   "amount": 29.51,
+   "amount_with_tax": 29.51,
+   "compare_at_amount": 45.4
   },
   "in_stock": true
  },
@@ -1327,9 +1327,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt8002-in-ear-tws-earbud",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001956.jpg.webp",
   "price": {
-   "amount": 40.3,
-   "amount_with_tax": 40.3,
-   "compare_at_amount": 62
+   "amount": 31.88,
+   "amount_with_tax": 31.88,
+   "compare_at_amount": 49.05
   },
   "in_stock": true
  },
@@ -1341,9 +1341,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-hs684t-in-ear-type-c-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001955.jpg.webp",
   "price": {
-   "amount": 31.85,
-   "amount_with_tax": 31.85,
-   "compare_at_amount": 49
+   "amount": 21.26,
+   "amount_with_tax": 21.26,
+   "compare_at_amount": 32.7
   },
   "in_stock": true
  },
@@ -1369,9 +1369,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-semi-in-ear-wired-headset-with-usb-c-plug-type-c-digital-earphones-with-built-in-mic-lightweight-comfortable-fit-plug-and-play-black-hs682",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012191444-5472.png.webp",
   "price": {
-   "amount": 35.1,
-   "amount_with_tax": 35.1,
-   "compare_at_amount": 54
+   "amount": 23.43,
+   "amount_with_tax": 23.43,
+   "compare_at_amount": 36.05
   },
   "in_stock": true
  },
@@ -1383,9 +1383,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/bt8000-in-ear-tws-earbud",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001952.jpg.webp",
   "price": {
-   "amount": 40.95,
-   "amount_with_tax": 40.95,
-   "compare_at_amount": 63
+   "amount": 31.88,
+   "amount_with_tax": 31.88,
+   "compare_at_amount": 49.05
   },
   "in_stock": true
  },
@@ -1425,9 +1425,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1575-metal-foldable-phone-holder-with-built-in-silicone-anti-slip-base",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708161817-7439.png.webp",
   "price": {
-   "amount": 36.4,
-   "amount_with_tax": 36.4,
-   "compare_at_amount": 56
+   "amount": 25.09,
+   "amount_with_tax": 25.09,
+   "compare_at_amount": 38.6
   },
   "in_stock": true
  },
@@ -1467,9 +1467,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hc1552-foldable-neck-hanging-magnetic-shooting-bracket",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916074403-9716.jpg.webp",
   "price": {
-   "amount": 53.95,
-   "amount_with_tax": 53.95,
-   "compare_at_amount": 83
+   "amount": 36.27,
+   "amount_with_tax": 36.27,
+   "compare_at_amount": 55.8
   },
   "in_stock": true
  },
@@ -1495,9 +1495,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-hc1547-suction-cup-foldable-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172716-6806.jpg.webp",
   "price": {
-   "amount": 35.75,
-   "amount_with_tax": 35.75,
-   "compare_at_amount": 55
+   "amount": 23.86,
+   "amount_with_tax": 23.86,
+   "compare_at_amount": 36.7
   },
   "in_stock": true
  },
@@ -1523,9 +1523,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-hc1523-car-holder-15w-magnetic-suction-wireless-charging-car-holder",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172515-4938.jpg.webp",
   "price": {
-   "amount": 44.2,
-   "amount_with_tax": 44.2,
-   "compare_at_amount": 68
+   "amount": 29.51,
+   "amount_with_tax": 29.51,
+   "compare_at_amount": 45.4
   },
   "in_stock": true
  },
@@ -1551,9 +1551,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-xl-hs605-type-c-in-ear-wired-earphone",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001939.jpg.webp",
   "price": {
-   "amount": 29.25,
-   "amount_with_tax": 29.25,
-   "compare_at_amount": 45
+   "amount": 31.53,
+   "amount_with_tax": 31.53,
+   "compare_at_amount": 48.5
   },
   "in_stock": true
  },
@@ -1565,9 +1565,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-wlc1423-qi2-desktop-folding-magnetic-wireless-charging-stand",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001938.jpg.webp",
   "price": {
-   "amount": 52,
-   "amount_with_tax": 52,
-   "compare_at_amount": 80
+   "amount": 55.97,
+   "amount_with_tax": 55.97,
+   "compare_at_amount": 86.1
   },
   "in_stock": true
  },
@@ -1579,9 +1579,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-cb4022-3-in-1-multi-charging-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001937.jpg.webp",
   "price": {
-   "amount": 32.5,
-   "amount_with_tax": 32.5,
-   "compare_at_amount": 50
+   "amount": 21.22,
+   "amount_with_tax": 21.22,
+   "compare_at_amount": 32.65
   },
   "in_stock": true
  },
@@ -1649,9 +1649,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-cb4059c-c-type-c-to-type-c-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916193210-7934.jpg.webp",
   "price": {
-   "amount": 31.85,
-   "amount_with_tax": 31.85,
-   "compare_at_amount": 49
+   "amount": 32.18,
+   "amount_with_tax": 32.18,
+   "compare_at_amount": 49.5
   },
   "in_stock": true
  },
@@ -1677,9 +1677,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-cb4057t-type-c-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916193016-5258.jpg.webp",
   "price": {
-   "amount": 31.2,
-   "amount_with_tax": 31.2,
-   "compare_at_amount": 48
+   "amount": 33.44,
+   "amount_with_tax": 33.44,
+   "compare_at_amount": 51.45
   },
   "in_stock": true
  },
@@ -1747,9 +1747,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/fm05-wireless-fm-transmitter-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001925.jpg.webp",
   "price": {
-   "amount": 39,
-   "amount_with_tax": 39,
-   "compare_at_amount": 60
+   "amount": 42.45,
+   "amount_with_tax": 42.45,
+   "compare_at_amount": 65.3
   },
   "in_stock": true
  },
@@ -1761,9 +1761,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-fm01-in-car-wireless-receiver",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001924.jpg.webp",
   "price": {
-   "amount": 40.95,
-   "amount_with_tax": 40.95,
-   "compare_at_amount": 63
+   "amount": 42.45,
+   "amount_with_tax": 42.45,
+   "compare_at_amount": 65.3
   },
   "in_stock": true
  },
@@ -1789,9 +1789,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/cb4050c-c-type-c-to-type-c-60w-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001922.jpg.webp",
   "price": {
-   "amount": 31.2,
-   "amount_with_tax": 31.2,
-   "compare_at_amount": 48
+   "amount": 32.18,
+   "amount_with_tax": 32.18,
+   "compare_at_amount": 49.5
   },
   "in_stock": true
  },
@@ -1803,9 +1803,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/cb4050c-i-type-c-to-ip-30w-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194034-9290.jpg.webp",
   "price": {
-   "amount": 31.85,
-   "amount_with_tax": 31.85,
-   "compare_at_amount": 49
+   "amount": 32.18,
+   "amount_with_tax": 32.18,
+   "compare_at_amount": 49.5
   },
   "in_stock": true
  },
@@ -1845,9 +1845,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/data-cable-cb4038c-i-type-c-to-ip-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194238-6096.jpg.webp",
   "price": {
-   "amount": 31.85,
-   "amount_with_tax": 31.85,
-   "compare_at_amount": 49
+   "amount": 32.18,
+   "amount_with_tax": 32.18,
+   "compare_at_amount": 49.5
   },
   "in_stock": true
  },
@@ -1873,9 +1873,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/data-cable-cb4031c-c-type-c-to-type-c-data-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194427-9366.jpg.webp",
   "price": {
-   "amount": 31.2,
-   "amount_with_tax": 31.2,
-   "compare_at_amount": 48
+   "amount": 32.18,
+   "amount_with_tax": 32.18,
+   "compare_at_amount": 49.5
   },
   "in_stock": true
  },
@@ -1915,9 +1915,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-al1124-type-c-to-3-5mm-audio-adapter",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916231936-9416.jpg.webp",
   "price": {
-   "amount": 33.15,
-   "amount_with_tax": 33.15,
-   "compare_at_amount": 51
+   "amount": 28.96,
+   "amount_with_tax": 28.96,
+   "compare_at_amount": 44.55
   },
   "in_stock": true
  },
@@ -1929,9 +1929,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-al1111-type-c-audio-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916204020-1920.png.webp",
   "price": {
-   "amount": 33.8,
-   "amount_with_tax": 33.8,
-   "compare_at_amount": 52
+   "amount": 22.56,
+   "amount_with_tax": 22.56,
+   "compare_at_amount": 34.7
   },
   "in_stock": true
  },
@@ -1943,9 +1943,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-power-strip-extension-uk-plug-2500w-4-ac-outlets-4-usb-4-type-c-fast-charging-ports-psb07-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925015041-3432.png.webp",
   "price": {
-   "amount": 37.7,
-   "amount_with_tax": 37.7,
-   "compare_at_amount": 58
+   "amount": 48.26,
+   "amount_with_tax": 48.26,
+   "compare_at_amount": 74.25
   },
   "in_stock": true
  },
@@ -1999,9 +1999,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-portable-apple-watch-magnetic-wireless-charger-mini-usb-c-watch-charging-puck-with-strong-magnetic-hold-and-led-indicator-travel-friendly-wlc1412-c02",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917024700-4866.png.webp",
   "price": {
-   "amount": 39,
-   "amount_with_tax": 39,
-   "compare_at_amount": 60
+   "amount": 32.92,
+   "amount_with_tax": 32.92,
+   "compare_at_amount": 50.65
   },
   "in_stock": true
  },
@@ -2027,9 +2027,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/wall-charger-wlc1412-l-mini-magnetic-lightning-watch-wireless-charge",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917025119-3484.jpg.webp",
   "price": {
-   "amount": 41.6,
-   "amount_with_tax": 41.6,
-   "compare_at_amount": 64
+   "amount": 41.18,
+   "amount_with_tax": 41.18,
+   "compare_at_amount": 63.35
   },
   "in_stock": true
  },
@@ -2055,9 +2055,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/et02-electric-toothbrush",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260707140740-2719.png.webp",
   "price": {
-   "amount": 44.85,
-   "amount_with_tax": 44.85,
-   "compare_at_amount": 69
+   "amount": 36.01,
+   "amount_with_tax": 36.01,
+   "compare_at_amount": 55.4
   },
   "in_stock": true
  },
@@ -2069,9 +2069,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/dl01-3in1-desktop-lamp",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260707140333-9333.png.webp",
   "price": {
-   "amount": 58.5,
-   "amount_with_tax": 58.5,
-   "compare_at_amount": 90
+   "amount": 46.83,
+   "amount_with_tax": 46.83,
+   "compare_at_amount": 72.05
   },
   "in_stock": true
  },
@@ -2111,9 +2111,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-electric-water-flosser-cordless-rechargeable-oral-irrigator-with-built-in-water-tank-high-pressure-pulse-cleaning-multiple-modes-and-waterproof-design-wf01",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001899.jpg.webp",
   "price": {
-   "amount": 48.75,
-   "amount_with_tax": 48.75,
-   "compare_at_amount": 75
+   "amount": 50.83,
+   "amount_with_tax": 50.83,
+   "compare_at_amount": 78.2
   },
   "in_stock": true
  },
@@ -2139,9 +2139,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/wlc1427-qi2-magnetic-wireless-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917041130-2410.jpg.webp",
   "price": {
-   "amount": 79,
-   "amount_with_tax": 79,
-   "compare_at_amount": 110
+   "amount": 86.1,
+   "amount_with_tax": 86.1,
+   "compare_at_amount": 103.32
   },
   "in_stock": true
  },
@@ -2153,9 +2153,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/wlc1426-3-in-1-magnetic-wireless-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001896.jpg.webp",
   "price": {
-   "amount": 45,
-   "amount_with_tax": 45,
-   "compare_at_amount": 100
+   "amount": 50.85,
+   "amount_with_tax": 50.85,
+   "compare_at_amount": 61.02
   },
   "in_stock": true
  },
@@ -2167,9 +2167,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/wlc1425-4-in-1-folding-magnetic-wireless-charging-stand",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917041645-7806.jpg.webp",
   "price": {
-   "amount": 70,
-   "amount_with_tax": 70,
-   "compare_at_amount": 110
+   "amount": 78.2,
+   "amount_with_tax": 78.2,
+   "compare_at_amount": 93.84
   },
   "in_stock": true
  },
@@ -2195,9 +2195,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/fn04-mini-portable-handheld-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001880.jpg.webp",
   "price": {
-   "amount": 59,
-   "amount_with_tax": 59,
-   "compare_at_amount": 70
+   "amount": 48.3,
+   "amount_with_tax": 48.3,
+   "compare_at_amount": 57.96
   },
   "in_stock": true
  },
@@ -2209,9 +2209,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-fn03-smart-digital-display-desktop-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001879.jpg.webp",
   "price": {
-   "amount": 53.95,
-   "amount_with_tax": 53.95,
-   "compare_at_amount": 83
+   "amount": 67.57,
+   "amount_with_tax": 67.57,
+   "compare_at_amount": 103.95
   },
   "in_stock": true
  },
@@ -2251,9 +2251,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hd04-dp-high-definition-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001876.jpg.webp",
   "price": {
-   "amount": 60,
-   "amount_with_tax": 60,
-   "compare_at_amount": 100
+   "amount": 43.55,
+   "amount_with_tax": 43.55,
+   "compare_at_amount": 52.26
   },
   "in_stock": true
  },
@@ -2265,9 +2265,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/hd02-type-c-to-dp-high-definition-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001875.jpg.webp",
   "price": {
-   "amount": 67,
-   "amount_with_tax": 67,
-   "compare_at_amount": 120
+   "amount": 43.55,
+   "amount_with_tax": 43.55,
+   "compare_at_amount": 52.26
   },
   "in_stock": true
  },
@@ -2279,9 +2279,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/shd02-universal-1800w-105-000-rpm-high-speed-hair-dryer",
   "thumb": "https://m.media-amazon.com/images/I/413rqDrOl2L._AC_SL1200_.jpg",
   "price": {
-   "amount": 104,
-   "amount_with_tax": 104,
-   "compare_at_amount": 160
+   "amount": 105.9,
+   "amount_with_tax": 105.9,
+   "compare_at_amount": 127.08
   },
   "in_stock": true
  },
@@ -2391,9 +2391,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/wall-charger-xl-plb127-retractable-cord-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001866.jpg.webp",
   "price": {
-   "amount": 81,
-   "amount_with_tax": 81,
-   "compare_at_amount": 120
+   "amount": 91.05,
+   "amount_with_tax": 91.05,
+   "compare_at_amount": 109.26
   },
   "in_stock": true
  },
@@ -2433,9 +2433,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-ts004-full-hd-smart-led-projector-with-autofocus-auto-keystone-correction-portable-home-theater-movie-projector-grey",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915171646-3953.png.webp",
   "price": {
-   "amount": 209.41,
-   "amount_with_tax": 209.41,
-   "compare_at_amount": 322.17
+   "amount": 148.75,
+   "amount_with_tax": 148.75,
+   "compare_at_amount": 228.85
   },
   "in_stock": true
  },
@@ -2489,9 +2489,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-ts002-multifunctional-hd-intelligent-projector-with-built-in-multi-angle-adjustable-stand-portable-home-theater-movie-projector-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001857.jpg.webp",
   "price": {
-   "amount": 278.49,
-   "amount_with_tax": 278.49,
-   "compare_at_amount": 428.45
+   "amount": 350.74,
+   "amount_with_tax": 350.74,
+   "compare_at_amount": 539.6
   },
   "in_stock": true
  },
@@ -2503,9 +2503,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/plb169-type-c-usb-pd-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001856.jpg.webp",
   "price": {
-   "amount": 60,
-   "amount_with_tax": 60,
-   "compare_at_amount": 80
+   "amount": 64.35,
+   "amount_with_tax": 64.35,
+   "compare_at_amount": 77.22
   },
   "in_stock": true
  },
@@ -2517,9 +2517,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/plb167-type-c-usb-pd-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001855.jpg.webp",
   "price": {
-   "amount": 47.6,
-   "amount_with_tax": 47.6,
-   "compare_at_amount": 56
+   "amount": 54.7,
+   "amount_with_tax": 54.7,
+   "compare_at_amount": 64.35
   },
   "in_stock": true
  },
@@ -2559,9 +2559,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-vd01-streaming-device-4k-hdr",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001852.jpg.webp",
   "price": {
-   "amount": 83.1,
-   "amount_with_tax": 83.1,
-   "compare_at_amount": 127.85
+   "amount": 59.81,
+   "amount_with_tax": 59.81,
+   "compare_at_amount": 92.02
   },
   "in_stock": true
  },
@@ -2601,9 +2601,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/fn09-neck-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001849.jpg.webp",
   "price": {
-   "amount": 55,
-   "amount_with_tax": 55,
-   "compare_at_amount": 86
+   "amount": 60.15,
+   "amount_with_tax": 60.15,
+   "compare_at_amount": 72.18
   },
   "in_stock": true
  },
@@ -2615,9 +2615,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/fn08-multi-functional-clip-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001848.jpg.webp",
   "price": {
-   "amount": 65,
-   "amount_with_tax": 65,
-   "compare_at_amount": 100
+   "amount": 69.65,
+   "amount_with_tax": 69.65,
+   "compare_at_amount": 83.58
   },
   "in_stock": true
  },
@@ -2629,9 +2629,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/fn06-portable-handheld-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001847.jpg.webp",
   "price": {
-   "amount": 60,
-   "amount_with_tax": 60,
-   "compare_at_amount": 69
+   "amount": 36.6,
+   "amount_with_tax": 36.6,
+   "compare_at_amount": 43.92
   },
   "in_stock": true
  },
@@ -2727,9 +2727,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-vc004-all-in-one-car-vacuum-cleaner-powerful-portable-detailing-solution",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001735.jpg.webp",
   "price": {
-   "amount": 86.45,
-   "amount_with_tax": 86.45,
-   "compare_at_amount": 133
+   "amount": 90.48,
+   "amount_with_tax": 90.48,
+   "compare_at_amount": 139.2
   },
   "in_stock": true
  },
