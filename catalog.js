@@ -32,34 +32,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10009846,
-  "sku": "ELE1002288",
-  "name": "Vidvie USB-C to USB-C Data and Charging Cable, Type-C Charge and Sync Cord for Android Phones, Tablets and USB-C Devices, Black, CB4058C&C",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-usb-c-to-usb-c-data-and-charging-cable-type-c-charge-and-sync-cord-for-android-phones-tablets-and-usb-c-devices-black-cb4058c-c",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261010_034745_30f473050d.png.webp",
-  "price": {
-   "amount": 51,
-   "amount_with_tax": 51,
-   "compare_at_amount": 61.2
-  },
-  "in_stock": false
- },
- {
-  "id": 10007323,
-  "sku": "ELE1002201",
-  "name": "Vidvie Half In-Ear Wired Earphones with USB-C Plug, Type-C Headphones with Comfortable Fit for Android Phones and USB-C Devices, White, HS685T",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-half-in-ear-wired-earphones-with-usb-c-plug-type-c-headphones-with-comfortable-fit-for-android-phones-and-usb-c-devices-white-hs685t",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012191813-6410.jpg.webp",
-  "price": {
-   "amount": 49,
-   "amount_with_tax": 49,
-   "compare_at_amount": 58.8
-  },
-  "in_stock": false
- },
- {
   "id": 10007307,
   "sku": "ELE1002187",
   "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 2m, Long Type-C Charge and Data Sync Cord for Phones, Tablets and Laptops, Black, CB4038-2C&C",
@@ -114,20 +86,6 @@ const catalogProducts = [
    "compare_at_amount": 56
   },
   "in_stock": true
- },
- {
-  "id": 10006720,
-  "sku": "ELE1001110",
-  "name": "Vidvie Wireless Microphone with USB-C Receiver, AI Noise Cancelling Dual Mic Set with Charging Case, 2.4GHz 15ms Low Latency, 8H per Mic and 32H with Case, for Vlogging, Interviews and Live Streaming, Black, MC02-T",
-  "category": "Microphones",
-  "url": "https://begad.ae/product/vidvie-mc02-t-ai-smart-noise-cancelling-wireless-microphone-with-type-c-receiver-dual-mic-charging-case-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10006720.jpg.webp",
-  "price": {
-   "amount": 86.3,
-   "amount_with_tax": 86.3,
-   "compare_at_amount": 103.56
-  },
-  "in_stock": false
  },
  {
   "id": 10002403,
@@ -3208,20 +3166,6 @@ const catalogProducts = [
    "compare_at_amount": 90
   },
   "in_stock": true
- },
- {
-  "id": 10000536,
-  "sku": "AUD1000084",
-  "name": "Vidvie SP914 Wireless Speaker Exceptional Sound Portable Design",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-sp914-wireless-speaker-exceptional-sound-portable-design",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10000536.jpg.webp",
-  "price": {
-   "amount": 160,
-   "amount_with_tax": 160,
-   "compare_at_amount": 320
-  },
-  "in_stock": false
  },
  {
   "id": 10000534,
