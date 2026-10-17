@@ -288,8 +288,8 @@ const catalogProducts = [
   "sku": "ELE1001359",
   "name": "Vidvie 3-in-1 Magnetic Stylus Pen, Universal Capacitive Touch Pen with Precision Tip for Tablets and Smartphones, Writing, Drawing and Note-Taking, White, AP07",
   "category": "Stylus Pens",
-  "url": "https://begad.ae/product/vidvie-ap07-3-in-1-magnetic-stylus-pen-universal-touch-pen-white",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002256.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-3-in-1-magnetic-stylus-pen-universal-capacitive-touch-pen-with-precision-tip-for-tablets-and-smartphones-writing-drawing-and-note-taking-white-ap07",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155822-5807.jpg.webp",
   "price": {
    "amount": 28.31,
    "amount_with_tax": 28.31,
@@ -316,8 +316,8 @@ const catalogProducts = [
   "sku": "ELE1001357",
   "name": "Vidvie Universal Active Capacitive Stylus Pen, Rechargeable USB-C Digital Pen with Precision Tip and Lightweight Aluminum Body for iOS, Android and Windows Tablets and Phones, AP06",
   "category": "Stylus Pens",
-  "url": "https://begad.ae/product/ap06-universal-active-capacitive-pen",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002254.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-universal-active-capacitive-stylus-pen-rechargeable-usb-c-digital-pen-with-precision-tip-and-lightweight-aluminum-body-for-ios-android-and-windows-tablets-and-phones-ap06",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155711-4071.jpg.webp",
   "price": {
    "amount": 48.75,
    "amount_with_tax": 48.75,
@@ -386,8 +386,8 @@ const catalogProducts = [
   "sku": "ELE1001352",
   "name": "Vidvie Transparent Wireless Bluetooth Keyboard with LED Backlight, Connects up to 3 Devices, 420mAh Rechargeable USB-C, Ultra-Slim for Windows, macOS, iOS and Android, Black, KB05",
   "category": "Keyboards",
-  "url": "https://begad.ae/product/kb05-transparent-smart-wireless-keyboard-tc-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002249.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-transparent-wireless-bluetooth-keyboard-with-led-backlight-connects-up-to-3-devices-420mah-rechargeable-usb-c-ultra-slim-for-windows-macos-ios-and-android-black-kb05",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017160050-2697.jpg.webp",
   "price": {
    "amount": 52,
    "amount_with_tax": 52,
@@ -2052,8 +2052,8 @@ const catalogProducts = [
   "sku": "BEA1000183",
   "name": "Vidvie Electric Toothbrush, Sonic Rechargeable Toothbrush with Multiple Brushing Modes, Waterproof Ergonomic Design and USB Charging for Daily Oral Care, ET02",
   "category": "Electric Toothbrush",
-  "url": "https://begad.ae/product/et02-electric-toothbrush",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260707140740-2719.png.webp",
+  "url": "https://begad.ae/product/vidvie-electric-toothbrush-sonic-rechargeable-toothbrush-with-multiple-brushing-modes-waterproof-ergonomic-design-and-usb-charging-for-daily-oral-care-et02",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155846-2000.jpg.webp",
   "price": {
    "amount": 36.01,
    "amount_with_tax": 36.01,
@@ -2078,9 +2078,9 @@ const catalogProducts = [
  {
   "id": 10001901,
   "sku": "BEA1000182",
-  "name": "Vidvie 3-in-1 Hair Clippers, Cordless Type-C Rechargeable Grooming Kit with Interchangeable Heads for Hair, Beard, Nose and Ear Trimming, Black, HT03",
+  "name": "Vidvie 3-in-1 Hair Clippers, Cordless Type-C Rechargeable Grooming Kit with Interchangeable Heads for Hair, Beard, Nose and Ear Trimming, Black, ES01",
   "category": "Grooming Kits",
-  "url": "https://begad.ae/product/3-in-1-hair-clippers-type-c-black-vidvie",
+  "url": "https://begad.ae/product/vidvie-3-in-1-hair-clippers-cordless-type-c-rechargeable-grooming-kit-with-interchangeable-heads-for-hair-beard-nose-and-ear-trimming-black-es01",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001901.jpg.webp",
   "price": {
    "amount": 46.8,
@@ -2207,7 +2207,7 @@ const catalogProducts = [
   "name": "Vidvie FN03 Smart Digital Display Desktop Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/vidvie-fn03-smart-digital-display-desktop-fan",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001879.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155932-3411.jpg.webp",
   "price": {
    "amount": 67.57,
    "amount_with_tax": 67.57,
@@ -2585,7 +2585,7 @@ const catalogProducts = [
   "name": "FN10 Mini Ultra-thin Card-Type Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn10-mini-ultra-thin-card-type-fan",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001850.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017160030-4380.jpg.webp",
   "price": {
    "amount": 56,
    "amount_with_tax": 56,
@@ -2599,7 +2599,7 @@ const catalogProducts = [
   "name": "FN09 Neck Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn09-neck-fan",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001849.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017160010-6092.jpg.webp",
   "price": {
    "amount": 60.15,
    "amount_with_tax": 60.15,
@@ -2613,7 +2613,7 @@ const catalogProducts = [
   "name": "FN08 Multi-functional clip fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn08-multi-functional-clip-fan",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001848.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155951-9228.jpg.webp",
   "price": {
    "amount": 69.65,
    "amount_with_tax": 69.65,
