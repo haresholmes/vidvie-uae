@@ -106,8 +106,8 @@ const catalogProducts = [
   "sku": "ELE1000792",
   "name": "Vidvie Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1624",
   "category": "Smart Watches",
-  "url": "https://begad.ae/product/sw1624-wireless-calling-smart-sports-watch",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002401.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-smart-sports-watch-with-bluetooth-calling-hd-touch-display-heart-rate-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-sw1624",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261019023437-6927.jpg.webp",
   "price": {
    "amount": 42.19,
    "amount_with_tax": 42.19,
@@ -232,8 +232,8 @@ const catalogProducts = [
   "sku": "ELE1001360",
   "name": "Vidvie 10000mAh Power Bank, Slim Portable Charger with Dual USB-A and USB-C Ports, LED Battery Indicator, Fast Charging External Battery for iPhone, Samsung, Huawei and Android Phones, Black, PB7012",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/pb7012-1000mah-portable-power-bank-tc-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002257.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-10000mah-power-bank-slim-portable-charger-with-dual-usb-a-and-usb-c-ports-led-battery-indicator-fast-charging-external-battery-for-iphone-samsung-huawei-and-android-phones-black-pb7012",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261019023451-2854.jpg.webp",
   "price": {
    "amount": 55.25,
    "amount_with_tax": 55.25,
@@ -400,7 +400,7 @@ const catalogProducts = [
   "sku": "ELE1001348",
   "name": "Vidvie Foldable Bluetooth 5.1 Keyboard, Portable Tri-Fold Wireless Keyboard with Aluminum Alloy Body, 140mAh Rechargeable, 45H Use and 90 Days Standby, for Windows, iOS and Android, KB03",
   "category": "Keyboards",
-  "url": "https://begad.ae/product/kb03-portable-wireless-folding-keyboard",
+  "url": "https://begad.ae/product/vidvie-foldable-bluetooth-5-1-keyboard-portable-tri-fold-wireless-keyboard-with-aluminum-alloy-body-140mah-rechargeable-45h-use-and-90-days-standby-for-windows-ios-and-android-kb03",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002187.jpg.webp",
   "price": {
    "amount": 83.1,
@@ -526,7 +526,7 @@ const catalogProducts = [
   "sku": "ELE1001340",
   "name": "Vidvie Mini Power Bank with Foldable Phone Stand, Compact Portable Charger with Fast Charging, LED Battery Indicator and Smart Protection for Smartphones and Earbuds, PB791-L",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/pb791-l-mini-bracket-power-bank",
+  "url": "https://begad.ae/product/vidvie-mini-power-bank-with-foldable-phone-stand-compact-portable-charger-with-fast-charging-led-battery-indicator-and-smart-protection-for-smartphones-and-earbuds-pb791-l",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002178.jpg.webp",
   "price": {
    "amount": 44.85,
@@ -750,7 +750,7 @@ const catalogProducts = [
   "sku": "ELE1001324",
   "name": "Vidvie 10000mAh Portable Power Bank, Slim Lightweight Charger with Overcharge, Overheat and Short-Circuit Protection for Phones and Tablets, PB7026",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/pb7026-10000mah-portable-power-bank",
+  "url": "https://begad.ae/product/vidvie-10000mah-portable-power-bank-slim-lightweight-charger-with-overcharge-overheat-and-short-circuit-protection-for-phones-and-tablets-pb7026",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002046.jpg.webp",
   "price": {
    "amount": 44.2,
@@ -778,7 +778,7 @@ const catalogProducts = [
   "sku": "ELE1001322",
   "name": "Vidvie 3000mAh Mini Power Bank with Built-in LED Light, Compact Lightweight Emergency Charger for Smartphones and Small USB Devices, Travel and Outdoor, PB7035",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/pb7035-3000mah-portable-led-power-bank",
+  "url": "https://begad.ae/product/vidvie-3000mah-mini-power-bank-with-built-in-led-light-compact-lightweight-emergency-charger-for-smartphones-and-small-usb-devices-travel-and-outdoor-pb7035",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002044.jpg.webp",
   "price": {
    "amount": 61.1,
@@ -834,7 +834,7 @@ const catalogProducts = [
   "sku": "ELE1001318",
   "name": "Vidvie Extra Bass Portable Bluetooth Speaker with NFC Pairing, Splash-Proof Wireless Speaker, Rechargeable, for Music, Calls and Outdoor Use, SP906",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/sp906-extra-bass-portable-splash-proof-wireless-speaker-with-bluetooth-and-nfc",
+  "url": "https://begad.ae/product/vidvie-extra-bass-portable-bluetooth-speaker-with-nfc-pairing-splash-proof-wireless-speaker-rechargeable-for-music-calls-and-outdoor-use-sp906",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002040.jpg.webp",
   "price": {
    "amount": 96.2,
@@ -890,7 +890,7 @@ const catalogProducts = [
   "sku": "ELE1001314",
   "name": "Vidvie 30W Mini Outdoor Bluetooth Speaker for Cycling, Portable Wireless Speaker with Clear Sound, Rechargeable Battery, for Bike, Travel and Outdoor Use, Black, SP933",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/mini-outdoor-cycling-wireless-speaker-30w",
+  "url": "https://begad.ae/product/vidvie-30w-mini-outdoor-bluetooth-speaker-for-cycling-portable-wireless-speaker-with-clear-sound-rechargeable-battery-for-bike-travel-and-outdoor-use-black-sp933",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001984.jpg.webp",
   "price": {
    "amount": 48.88,
@@ -1100,7 +1100,7 @@ const catalogProducts = [
   "sku": "ELE1001299",
   "name": "Vidvie Heavy Bass Wireless Headphones, Lightweight Foldable Bluetooth Over-Ear Headphones with Built-in Mic, Cushioned Ear Cups, Rechargeable, for Music, Movies and Calls, BBH2111",
   "category": "Headphones",
-  "url": "https://begad.ae/product/bbh2111-heavy-bass-lightweight-foldable-wireless-headphones",
+  "url": "https://begad.ae/product/vidvie-heavy-bass-wireless-headphones-lightweight-foldable-bluetooth-over-ear-headphones-with-built-in-mic-cushioned-ear-cups-rechargeable-for-music-movies-and-calls-bbh2111",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175930-1565.png.webp",
   "price": {
    "amount": 55.25,
@@ -1114,7 +1114,7 @@ const catalogProducts = [
   "sku": "ELE1001298",
   "name": "Vidvie Open-Ear OWS Wireless Earphones, Bluetooth Earbuds with Built-in Mic, Lightweight Ergonomic Fit and Charging Case, Stay Aware for Commuting, Work and Outdoor, BT896",
   "category": "Earbuds",
-  "url": "https://begad.ae/product/bt896-oper-ear-ows-wireless-earphone",
+  "url": "https://begad.ae/product/vidvie-open-ear-ows-wireless-earphones-bluetooth-earbuds-with-built-in-mic-lightweight-ergonomic-fit-and-charging-case-stay-aware-for-commuting-work-and-outdoor-bt896",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175608-4426.jpg.webp",
   "price": {
    "amount": 45.5,
