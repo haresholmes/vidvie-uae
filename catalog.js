@@ -1784,7 +1784,7 @@ const catalogProducts = [
  {
   "id": 10001919,
   "sku": "ELE1000766",
-  "name": "IP Male to TC Female converter [Dark Grey] AL1126",
+  "name": "Vidvie IP Male to TC Female converter [Dark Grey] AL1126",
   "category": "Cables",
   "url": "https://begad.ae/product/ip-male-to-tc-female-converter-dark-grey-al1126",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001919.jpg.webp",
@@ -2078,7 +2078,7 @@ const catalogProducts = [
  {
   "id": 10001898,
   "sku": "BEA1000180",
-  "name": "ET01 Sonic Electric Toothbrush",
+  "name": "Vidvie ET01 Sonic Electric Toothbrush",
   "category": "Electric Toothbrush",
   "url": "https://begad.ae/product/et01-sonic-electric-toothbrush",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172534-4463.jpg.webp",
@@ -2092,7 +2092,7 @@ const catalogProducts = [
  {
   "id": 10001897,
   "sku": "ELE1000751",
-  "name": "WLC1427 Qi2 Magnetic Wireless Charger",
+  "name": "Vidvie WLC1427 Qi2 Magnetic Wireless Charger",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/wlc1427-qi2-magnetic-wireless-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917041130-2410.jpg.webp",
@@ -2106,7 +2106,7 @@ const catalogProducts = [
  {
   "id": 10001896,
   "sku": "ELE1000750",
-  "name": "WLC1426 3-in-1 Magnetic Wireless Charger",
+  "name": "Vidvie WLC1426 3-in-1 Magnetic Wireless Charger",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/wlc1426-3-in-1-magnetic-wireless-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001896.jpg.webp",
@@ -2120,7 +2120,7 @@ const catalogProducts = [
  {
   "id": 10001884,
   "sku": "ELE1000738",
-  "name": "WLC1425 4-in-1 Folding Magnetic Wireless Charging Stand",
+  "name": "Vidvie WLC1425 4-in-1 Folding Magnetic Wireless Charging Stand",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/wlc1425-4-in-1-folding-magnetic-wireless-charging-stand",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917041645-7806.jpg.webp",
@@ -2134,7 +2134,7 @@ const catalogProducts = [
  {
   "id": 10001881,
   "sku": "HOM1000306",
-  "name": "FN05 100-speed Desktop Turbo Fan",
+  "name": "Vidvie FN05 100-speed Desktop Turbo Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn05-100-speed-desktop-turbo-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017164648-8749.jpg.webp",
@@ -2148,7 +2148,7 @@ const catalogProducts = [
  {
   "id": 10001880,
   "sku": "HOM1000305",
-  "name": "FN04 Mini Portable Handheld Fan",
+  "name": "Vidvie FN04 Mini Portable Handheld Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn04-mini-portable-handheld-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001880.jpg.webp",
@@ -2204,7 +2204,7 @@ const catalogProducts = [
  {
   "id": 10001876,
   "sku": "ELE1000733",
-  "name": "HD04 DP high-definition Cable",
+  "name": "Vidvie HD04 DP high-definition Cable",
   "category": "Cables",
   "url": "https://begad.ae/product/hd04-dp-high-definition-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001876.jpg.webp",
@@ -2218,7 +2218,7 @@ const catalogProducts = [
  {
   "id": 10001875,
   "sku": "ELE1000732",
-  "name": "HD02 Type-C to DP high-definition Cable",
+  "name": "Vidvie HD02 Type-C to DP high-definition Cable",
   "category": "Cables",
   "url": "https://begad.ae/product/hd02-type-c-to-dp-high-definition-cable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001875.jpg.webp",
@@ -2232,7 +2232,7 @@ const catalogProducts = [
  {
   "id": 10001874,
   "sku": "BEA1000222",
-  "name": "SHD02 Universal 1800W 105,000 RPM High-Speed Hair Dryer",
+  "name": "Vidvie SHD02 Universal 1800W 105,000 RPM High-Speed Hair Dryer",
   "category": "Hair Tools",
   "url": "https://begad.ae/product/shd02-universal-1800w-105-000-rpm-high-speed-hair-dryer",
   "thumb": "https://m.media-amazon.com/images/I/413rqDrOl2L._AC_SL1200_.jpg",
@@ -2246,7 +2246,7 @@ const catalogProducts = [
  {
   "id": 10001873,
   "sku": "BEA1000178",
-  "name": "SHD01 Universal 1400W 105,000 RPM High-Speed Hair Dryer",
+  "name": "Vidvie SHD01 Universal 1400W 105,000 RPM High-Speed Hair Dryer",
   "category": "Hair Tools",
   "url": "https://begad.ae/product/shd01-universal-1400w-105-000-rpm-high-speed-hair-dryer",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001873.jpg.webp",
@@ -2260,7 +2260,7 @@ const catalogProducts = [
  {
   "id": 10001872,
   "sku": "BEA1000177",
-  "name": "ES02 Multifunctional Metal Electric Shaver",
+  "name": "Vidvie ES02 Multifunctional Metal Electric Shaver",
   "category": "Grooming Kits",
   "url": "https://begad.ae/product/es02-multifunctional-metal-electric-shaver",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017164325-7619.jpg.webp",
@@ -2288,7 +2288,7 @@ const catalogProducts = [
  {
   "id": 10001870,
   "sku": "ELE1000731",
-  "name": "Wall Charger XL-PLB126 Single USB & Three Type-C GaN Fast Charger",
+  "name": "Vidvie Wall Charger XL-PLB126 Single USB & Three Type-C GaN Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/wall-charger-xl-plb126-single-usb-three-type-c-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801193136-5098.png.webp",
@@ -2302,7 +2302,7 @@ const catalogProducts = [
  {
   "id": 10001869,
   "sku": "ELE1000730",
-  "name": "Wall Charger XL-PLB125 Single USB & Three Type-C GaN Fast Charger",
+  "name": "Vidvie Wall Charger XL-PLB125 Single USB & Three Type-C GaN Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/wall-charger-xl-plb125-single-usb-three-type-c-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801193247-9508.png.webp",
@@ -2316,7 +2316,7 @@ const catalogProducts = [
  {
   "id": 10001868,
   "sku": "AUT1000041",
-  "name": "CSP001 Car emergency starter power supply and air pump",
+  "name": "Vidvie CSP001 Car emergency starter power supply and air pump",
   "category": "Tools & Equipment",
   "url": "https://begad.ae/product/csp001-car-emergency-starter-power-supply-and-air-pump",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001868.jpg.webp",
@@ -2330,7 +2330,7 @@ const catalogProducts = [
  {
   "id": 10001867,
   "sku": "ELE1000729",
-  "name": "Wall Charger XL-PLB124 Retractable Cord GaN Fast Charger",
+  "name": "Vidvie Wall Charger XL-PLB124 Retractable Cord GaN Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/wall-charger-xl-plb124-retractable-cord-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001867.jpg.webp",
@@ -2344,7 +2344,7 @@ const catalogProducts = [
  {
   "id": 10001866,
   "sku": "ELE1000728",
-  "name": "Wall Charger XL-PLB127 Retractable Cord GaN Fast Charger",
+  "name": "Vidvie Wall Charger XL-PLB127 Retractable Cord GaN Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/wall-charger-xl-plb127-retractable-cord-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001866.jpg.webp",
@@ -2358,7 +2358,7 @@ const catalogProducts = [
  {
   "id": 10001865,
   "sku": "ELE1000727",
-  "name": "Wall Charger XL-PLB123 GaN 70W Desktop Charger",
+  "name": "Vidvie Wall Charger XL-PLB123 GaN 70W Desktop Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/wall-charger-xl-plb123-gan-70w-desktop-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001865.jpg.webp",
@@ -2372,7 +2372,7 @@ const catalogProducts = [
  {
   "id": 10001864,
   "sku": "ELE1000726",
-  "name": "Wall Charger XL-PLB122 GaN Dual USB & Dual Type-C 70W Fast Charger",
+  "name": "Vidvie Wall Charger XL-PLB122 GaN Dual USB & Dual Type-C 70W Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/wall-charger-xl-plb122-gan-dual-usb-dual-type-c-70w-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001864.jpg.webp",
@@ -2400,7 +2400,7 @@ const catalogProducts = [
  {
   "id": 10001860,
   "sku": "ELE1000722",
-  "name": "PLB176 USB & Type-C Fast Charger",
+  "name": "Vidvie PLB176 USB & Type-C Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/plb176-usb-type-c-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001860.jpg.webp",
@@ -2414,7 +2414,7 @@ const catalogProducts = [
  {
   "id": 10001859,
   "sku": "ELE1000721",
-  "name": "PLB173 USB & Type-C Fast Charger",
+  "name": "Vidvie PLB173 USB & Type-C Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/plb173-usb-type-c-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001859.jpg.webp",
@@ -2456,7 +2456,7 @@ const catalogProducts = [
  {
   "id": 10001856,
   "sku": "ELE1000718",
-  "name": "PLB169 Type-C & USB PD Fast Charger",
+  "name": "Vidvie PLB169 Type-C & USB PD Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/plb169-type-c-usb-pd-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001856.jpg.webp",
@@ -2470,7 +2470,7 @@ const catalogProducts = [
  {
   "id": 10001855,
   "sku": "ELE1000717",
-  "name": "PLB167 Type-C & USB PD Fast Charger",
+  "name": "Vidvie PLB167 Type-C & USB PD Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/plb167-type-c-usb-pd-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001855.jpg.webp",
@@ -2484,7 +2484,7 @@ const catalogProducts = [
  {
   "id": 10001854,
   "sku": "ELE1000716",
-  "name": "PLB162 Dual Type-C & USB GaN Fast Charger",
+  "name": "Vidvie PLB162 Dual Type-C & USB GaN Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/plb162-dual-type-c-usb-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001854.jpg.webp",
@@ -2540,7 +2540,7 @@ const catalogProducts = [
  {
   "id": 10001850,
   "sku": "HOM1000302",
-  "name": "FN10 Mini Ultra-thin Card-Type Fan",
+  "name": "Vidvie FN10 Mini Ultra-thin Card-Type Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn10-mini-ultra-thin-card-type-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017160030-4380.jpg.webp",
@@ -2554,7 +2554,7 @@ const catalogProducts = [
  {
   "id": 10001849,
   "sku": "HOM1000301",
-  "name": "FN09 Neck Fan",
+  "name": "Vidvie FN09 Neck Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn09-neck-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017160010-6092.jpg.webp",
@@ -2568,7 +2568,7 @@ const catalogProducts = [
  {
   "id": 10001848,
   "sku": "HOM1000300",
-  "name": "FN08 Multi-functional clip fan",
+  "name": "Vidvie FN08 Multi-functional clip fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn08-multi-functional-clip-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155951-9228.jpg.webp",
@@ -2582,7 +2582,7 @@ const catalogProducts = [
  {
   "id": 10001847,
   "sku": "HOM1000299",
-  "name": "FN06 Portable Handheld Fan",
+  "name": "Vidvie FN06 Portable Handheld Fan",
   "category": "Fans",
   "url": "https://begad.ae/product/fn06-portable-handheld-fan",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017173634-5213.png.webp",
@@ -2596,7 +2596,7 @@ const catalogProducts = [
  {
   "id": 10001770,
   "sku": "ELE1000659",
-  "name": "PLB142 GaN 67W High Power Charger Compact Fast Charging Solution",
+  "name": "Vidvie PLB142 GaN 67W High Power Charger Compact Fast Charging Solution",
   "category": "Chargers",
   "url": "https://begad.ae/product/plb142-gan-67w-high-power-charger-compact-fast-charging-solution",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001770.jpg.webp",
@@ -2610,7 +2610,7 @@ const catalogProducts = [
  {
   "id": 10001741,
   "sku": "ELE1000640",
-  "name": "SP927 Splash-Proof Wireless Speaker – Perfect for Outdoor Adventures",
+  "name": "Vidvie SP927 Splash-Proof Wireless Speaker – Perfect for Outdoor Adventures",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/sp927-splash-proof-wireless-speaker-perfect-for-outdoor-adventures",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001741.jpg.webp",
@@ -2624,7 +2624,7 @@ const catalogProducts = [
  {
   "id": 10001740,
   "sku": "ELE1000639",
-  "name": "Wireless Freedom with the SP919 Portable Speaker",
+  "name": "Vidvie Wireless Freedom with the SP919 Portable Speaker",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/wireless-freedom-with-the-sp919-portable-speaker",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001740.jpg.webp",
@@ -2638,7 +2638,7 @@ const catalogProducts = [
  {
   "id": 10001739,
   "sku": "ELE1000638",
-  "name": "SP924 Portable Loud Outdoor Karaoke Speaker Ultimate Travel Sound System",
+  "name": "Vidvie SP924 Portable Loud Outdoor Karaoke Speaker Ultimate Travel Sound System",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/sp924-portable-loud-outdoor-karaoke-speaker-ultimate-travel-sound-system",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001739.jpg.webp",
@@ -2652,7 +2652,7 @@ const catalogProducts = [
  {
   "id": 10001737,
   "sku": "ELE1000636",
-  "name": "Portable CL01 Outdoor Speaker with Vibrant Breathing Light Effects",
+  "name": "Vidvie Portable CL01 Outdoor Speaker with Vibrant Breathing Light Effects",
   "category": "Bluetooth Speakers",
   "url": "https://begad.ae/product/portable-cl01-outdoor-speaker-with-vibrant-breathing-light-effects",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001737.jpg.webp",
@@ -2666,7 +2666,7 @@ const catalogProducts = [
  {
   "id": 10001736,
   "sku": "ELE1000635",
-  "name": "Experience Crisp Clarity with the TS001 Multifunctional HD Smart Projector",
+  "name": "Vidvie Experience Crisp Clarity with the TS001 Multifunctional HD Smart Projector",
   "category": "Projectors",
   "url": "https://begad.ae/product/experience-crisp-clarity-with-the-ts001-multifunctional-hd-smart-projector",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001736.jpg.webp",
@@ -2694,7 +2694,7 @@ const catalogProducts = [
  {
   "id": 10001731,
   "sku": "ELE1000631",
-  "name": "Compact and Convenient KB03 Wireless Folding Keyboard for Mobile Productivity",
+  "name": "Vidvie Compact and Convenient KB03 Wireless Folding Keyboard for Mobile Productivity",
   "category": "Keyboards",
   "url": "https://begad.ae/product/compact-and-convenient-kb03-wireless-folding-keyboard-for-mobile-productivity",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001731.jpg.webp",
@@ -2722,7 +2722,7 @@ const catalogProducts = [
  {
   "id": 10001726,
   "sku": "ELE1000626",
-  "name": "PB7003 145W High Power Power Bank – Fast, Reliable, Portable Charging",
+  "name": "Vidvie PB7003 145W High Power Power Bank – Fast, Reliable, Portable Charging",
   "category": "Power Banks",
   "url": "https://begad.ae/product/pb7003-145w-high-power-power-bank-fast-reliable-portable-charging",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001726.jpg.webp",
@@ -2736,7 +2736,7 @@ const catalogProducts = [
  {
   "id": 10001725,
   "sku": "ELE1000625",
-  "name": "Heavy-Duty 20,000mAh Power Bank PB798 — Boost Your Battery Life",
+  "name": "Vidvie Heavy-Duty 20,000mAh Power Bank PB798 — Boost Your Battery Life",
   "category": "Power Banks",
   "url": "https://begad.ae/product/heavy-duty-20-000mah-power-bank-pb798-boost-your-battery-life",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001725.jpg.webp",
@@ -2750,7 +2750,7 @@ const catalogProducts = [
  {
   "id": 10001724,
   "sku": "ELE1000624",
-  "name": "XL-PB711 20,000mAh 2-in-1 Dual-Wire Charging Power Bank",
+  "name": "Vidvie XL-PB711 20,000mAh 2-in-1 Dual-Wire Charging Power Bank",
   "category": "Power Banks",
   "url": "https://begad.ae/product/xl-pb711-20-000mah-2-in-1-dual-wire-charging-power-bank",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001724.jpg.webp",
@@ -2764,7 +2764,7 @@ const catalogProducts = [
  {
   "id": 10001723,
   "sku": "ELE1000623",
-  "name": "High-Performance PB764 PowerBank – Massive 30,000mAh Battery for All-Day Power",
+  "name": "Vidvie High-Performance PB764 PowerBank – Massive 30,000mAh Battery for All-Day Power",
   "category": "Power Banks",
   "url": "https://begad.ae/product/high-performance-pb764-powerbank-massive-30-000mah-battery-for-all-day-power",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001723.jpg.webp",
@@ -2778,7 +2778,7 @@ const catalogProducts = [
  {
   "id": 10001722,
   "sku": "ELE1000622",
-  "name": "Magnetic Liquid Silicone Wireless Power Bank – PB783, 15W, 10,000mAh",
+  "name": "Vidvie Magnetic Liquid Silicone Wireless Power Bank – PB783, 15W, 10,000mAh",
   "category": "Power Banks",
   "url": "https://begad.ae/product/magnetic-liquid-silicone-wireless-power-bank-pb783-15w-10-000mah",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001722.jpg.webp",
@@ -2862,7 +2862,7 @@ const catalogProducts = [
  {
   "id": 10001715,
   "sku": "ELE1000616",
-  "name": "High-Capacity PB768 Power Bank with 20,000mAh for All Your Devices",
+  "name": "Vidvie High-Capacity PB768 Power Bank with 20,000mAh for All Your Devices",
   "category": "Power Banks",
   "url": "https://begad.ae/product/high-capacity-pb768-power-bank-with-20-000mah-for-all-your-devices",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260711165531-1731.jpg.webp",
@@ -2876,7 +2876,7 @@ const catalogProducts = [
  {
   "id": 10001709,
   "sku": "ELE1000611",
-  "name": "PB7015 20000mAh High-Capacity Portable Power Bank – Ultimate Charging Solution",
+  "name": "Vidvie PB7015 20000mAh High-Capacity Portable Power Bank – Ultimate Charging Solution",
   "category": "Power Banks",
   "url": "https://begad.ae/product/pb7015-20000mah-high-capacity-portable-power-bank-ultimate-charging-solution",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001709.jpg.webp",
@@ -2890,7 +2890,7 @@ const catalogProducts = [
  {
   "id": 10001707,
   "sku": "ELE1000609",
-  "name": "PB7011 2-in-1 Dual-Cable Power Bank Fast, Flexible, and Reliable",
+  "name": "Vidvie PB7011 2-in-1 Dual-Cable Power Bank Fast, Flexible, and Reliable",
   "category": "Power Banks",
   "url": "https://begad.ae/product/pb7011-2-in-1-dual-cable-power-bank-fast-flexible-and-reliable",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001707.jpg.webp",
