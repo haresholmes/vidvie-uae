@@ -11,9 +11,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-10000mah-multifunctional-power-bank-2-in-1-wall-charger-portable-battery-with-built-in-cables-60w-type-c-cable-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261013195247-2348.jpg.webp",
   "price": {
-   "amount": 65.65,
-   "amount_with_tax": 65.65,
-   "compare_at_amount": 101
+   "amount": 65,
+   "amount_with_tax": 65,
+   "compare_at_amount": 100
   },
   "in_stock": true
  },
@@ -2146,20 +2146,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001877,
-  "sku": "ELE1000734",
-  "name": "Vidvie MC02-T Ai Smart Noise-cancelling Wireless Microphone",
-  "category": "Microphones",
-  "url": "https://begad.ae/product/vidvie-mc02-t-ai-smart-noise-cancelling-wireless-microphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260706174059-8568.webp.webp",
-  "price": {
-   "amount": 123.5,
-   "amount_with_tax": 123.5,
-   "compare_at_amount": 190
-  },
-  "in_stock": true
- },
- {
   "id": 10001876,
   "sku": "ELE1000733",
   "name": "Vidvie HD04 DP high-definition Cable",
@@ -2293,9 +2279,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/wall-charger-xl-plb124-retractable-cord-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001867.jpg.webp",
   "price": {
-   "amount": 91,
-   "amount_with_tax": 91,
-   "compare_at_amount": 130
+   "amount": 85,
+   "amount_with_tax": 85,
+   "compare_at_amount": 102
   },
   "in_stock": true
  },
@@ -2566,34 +2552,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001741,
-  "sku": "ELE1000640",
-  "name": "Vidvie SP927 Splash-Proof Wireless Speaker – Perfect for Outdoor Adventures",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/sp927-splash-proof-wireless-speaker-perfect-for-outdoor-adventures",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001741.jpg.webp",
-  "price": {
-   "amount": 215,
-   "amount_with_tax": 215,
-   "compare_at_amount": 350
-  },
-  "in_stock": true
- },
- {
-  "id": 10001740,
-  "sku": "ELE1000639",
-  "name": "Vidvie Wireless Freedom with the SP919 Portable Speaker",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/wireless-freedom-with-the-sp919-portable-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001740.jpg.webp",
-  "price": {
-   "amount": 101,
-   "amount_with_tax": 101,
-   "compare_at_amount": 189
-  },
-  "in_stock": true
- },
- {
   "id": 10001739,
   "sku": "ELE1000638",
   "name": "Vidvie SP924 Portable Loud Outdoor Karaoke Speaker Ultimate Travel Sound System",
@@ -2604,20 +2562,6 @@ const catalogProducts = [
    "amount": 225,
    "amount_with_tax": 225,
    "compare_at_amount": 359
-  },
-  "in_stock": true
- },
- {
-  "id": 10001737,
-  "sku": "ELE1000636",
-  "name": "Vidvie Portable CL01 Outdoor Speaker with Vibrant Breathing Light Effects",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/portable-cl01-outdoor-speaker-with-vibrant-breathing-light-effects",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001737.jpg.webp",
-  "price": {
-   "amount": 99,
-   "amount_with_tax": 99,
-   "compare_at_amount": 198
   },
   "in_stock": true
  },
@@ -2646,20 +2590,6 @@ const catalogProducts = [
    "amount": 90.48,
    "amount_with_tax": 90.48,
    "compare_at_amount": 139.2
-  },
-  "in_stock": true
- },
- {
-  "id": 10001731,
-  "sku": "ELE1000631",
-  "name": "Vidvie Compact and Convenient KB03 Wireless Folding Keyboard for Mobile Productivity",
-  "category": "Keyboards",
-  "url": "https://begad.ae/product/compact-and-convenient-kb03-wireless-folding-keyboard-for-mobile-productivity",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001731.jpg.webp",
-  "price": {
-   "amount": 445,
-   "amount_with_tax": 445,
-   "compare_at_amount": 500
   },
   "in_stock": true
  },
@@ -2706,20 +2636,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001724,
-  "sku": "ELE1000624",
-  "name": "Vidvie XL-PB711 20,000mAh 2-in-1 Dual-Wire Charging Power Bank",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/xl-pb711-20-000mah-2-in-1-dual-wire-charging-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001724.jpg.webp",
-  "price": {
-   "amount": 405,
-   "amount_with_tax": 405,
-   "compare_at_amount": 450
-  },
-  "in_stock": true
- },
- {
   "id": 10001723,
   "sku": "ELE1000623",
   "name": "Vidvie High-Performance PB764 PowerBank – Massive 30,000mAh Battery for All-Day Power",
@@ -2748,20 +2664,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001721,
-  "sku": "ELE1000621",
-  "name": "Vidvie PB7008 10,000mAh Ultra-Thin Magnetic Wireless Power Bank – Slim & Stylish Charging Solution",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7008-10-000mah-ultra-thin-magnetic-wireless-power-bank-slim-stylish-charging-solution",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001721.jpg.webp",
-  "price": {
-   "amount": 208,
-   "amount_with_tax": 208,
-   "compare_at_amount": 320
-  },
-  "in_stock": true
- },
- {
   "id": 10001720,
   "sku": "ELE1000620",
   "name": "VIDVIE PB7019 10000mAh 22.5W Power Bank with Built-in Type-C Cable",
@@ -2786,34 +2688,6 @@ const catalogProducts = [
    "amount": 175.5,
    "amount_with_tax": 175.5,
    "compare_at_amount": 270
-  },
-  "in_stock": true
- },
- {
-  "id": 10001718,
-  "sku": "ELE1000618",
-  "name": "Vidvie PB7018 2-in-1 Dual-Wire Charging Power Bank – Ultimate Portable Power Solution",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7018-2-in-1-dual-wire-charging-power-bank-ultimate-portable-power-solution",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001718.jpg.webp",
-  "price": {
-   "amount": 182,
-   "amount_with_tax": 182,
-   "compare_at_amount": 280
-  },
-  "in_stock": true
- },
- {
-  "id": 10001717,
-  "sku": "ELE1000617",
-  "name": "Vidvie PB7024 10,000mAh Wireless Charging Powerbank – High Capacity & Fast Charging",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7024-10-000mah-wireless-charging-powerbank-high-capacity-fast-charging",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001717.jpg.webp",
-  "price": {
-   "amount": 156,
-   "amount_with_tax": 156,
-   "compare_at_amount": 240
   },
   "in_stock": true
  },
@@ -2856,34 +2730,6 @@ const catalogProducts = [
    "amount": 216,
    "amount_with_tax": 216,
    "compare_at_amount": 230
-  },
-  "in_stock": true
- },
- {
-  "id": 10001704,
-  "sku": "ELE1000606",
-  "name": "VIDVIE PB7013 20000mAh Portable Power Bank",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7013-20000mah-portable-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001704.jpg.webp",
-  "price": {
-   "amount": 128.7,
-   "amount_with_tax": 128.7,
-   "compare_at_amount": 198
-  },
-  "in_stock": true
- },
- {
-  "id": 10001702,
-  "sku": "ELE1000604",
-  "name": "VIDVIE PB7017 10000mAh 22.5W 2-in-1 Dual-Wire Fast Charging Power Bank",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-pb7017-10000mah-22-5w-2-in-1-dual-wire-fast-charging-power-bank",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001702.jpg.webp",
-  "price": {
-   "amount": 123.5,
-   "amount_with_tax": 123.5,
-   "compare_at_amount": 190
   },
   "in_stock": true
  },
@@ -3122,20 +2968,6 @@ const catalogProducts = [
    "amount": 58.5,
    "amount_with_tax": 58.5,
    "compare_at_amount": 90
-  },
-  "in_stock": true
- },
- {
-  "id": 10000534,
-  "sku": "AUD1000083",
-  "name": "Vidvie SP926 Wireless Speaker – Compact Design, Massive Sound",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-sp926-wireless-speaker-compact-design-massive-sound",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260613181110-3913.jpg.webp",
-  "price": {
-   "amount": 76.7,
-   "amount_with_tax": 76.7,
-   "compare_at_amount": 118
   },
   "in_stock": true
  }
