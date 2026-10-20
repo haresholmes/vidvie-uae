@@ -358,7 +358,7 @@ const catalogProducts = [
   "sku": "ELE1001351",
   "name": "Vidvie Transparent Wireless Bluetooth Keyboard with LED Backlight, 78 Keys, Connects up to 3 Devices, 420mAh Rechargeable USB-C, Ultra-Slim for Windows, macOS, iOS and Android, White, KB05",
   "category": "Keyboards",
-  "url": "https://begad.ae/product/vidvie-kb05-transparent-smart-wireless-keyboard-tc-white",
+  "url": "https://begad.ae/product/vidvie-transparent-wireless-bluetooth-keyboard-with-led-backlight-78-keys-connects-up-to-3-devices-420mah-rechargeable-usb-c-ultra-slim-for-windows-macos-ios-and-android-white-kb05",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232658-4848.png.webp",
   "price": {
    "amount": 52,
@@ -1194,20 +1194,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001962,
-  "sku": "AUT1000126",
-  "name": "Vidvie Dual Port Fast Car Charger, USB-C and USB-A Metal Car Adapter with USB-C to USB-C Cable, Charge 2 Devices at Once, for Phones, Tablets and GPS, Grey",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-type-c-usb-fast-car-charger-type-c-tc-tc-metal-car-charger-grey",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708173207-5576.webp.webp",
-  "price": {
-   "amount": 71.5,
-   "amount_with_tax": 71.5,
-   "compare_at_amount": 110
-  },
-  "in_stock": true
- },
- {
   "id": 10001961,
   "sku": "ELE1001294",
   "name": "Vidvie 3-in-1 Charging and Data Cable, Multi-Connector Charge and Sync Cord for Multiple Phones and Devices, Durable for Home, Office and Travel, CB4039",
@@ -1614,20 +1600,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001931,
-  "sku": "AUT1000050",
-  "name": "Vidvie Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter, Smart Auto-ID, Compact Design for 12V-24V Vehicles, Overheat and Short-Circuit Protection, CC547",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc547-type-c-usb-fast-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708143059-9780.png.webp",
-  "price": {
-   "amount": 76.7,
-   "amount_with_tax": 76.7,
-   "compare_at_amount": 118
-  },
-  "in_stock": true
- },
- {
   "id": 10001930,
   "sku": "ELE1000770",
   "name": "Vidvie USB Type-C Charging and Data Cable, Durable Charge and Sync Cord for Android Phones, Tablets and Power Banks, CB4057T",
@@ -1652,20 +1624,6 @@ const catalogProducts = [
    "amount": 37.05,
    "amount_with_tax": 37.05,
    "compare_at_amount": 57
-  },
-  "in_stock": true
- },
- {
-  "id": 10001928,
-  "sku": "AUT1000048",
-  "name": "Vidvie 33W USB-C Fast Car Charger, Single Type-C Port Compact Car Adapter with Smart Auto-ID and Safety Protection for 12V-24V Vehicles, CC541",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/cc541-single-type-c-fast-car-charger-33w",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708134052-8945.png.webp",
-  "price": {
-   "amount": 35.1,
-   "amount_with_tax": 35.1,
-   "compare_at_amount": 54
   },
   "in_stock": true
  },
@@ -2078,9 +2036,9 @@ const catalogProducts = [
  {
   "id": 10001898,
   "sku": "BEA1000180",
-  "name": "Vidvie ET01 Sonic Electric Toothbrush",
+  "name": "Vidvie ET01 Sonic Electric Toothbrush, Rechargeable with Up to 38,000 Vibrations per Minute, Multiple Cleaning Modes, IPX7 Waterproof, White",
   "category": "Electric Toothbrush",
-  "url": "https://begad.ae/product/et01-sonic-electric-toothbrush",
+  "url": "https://begad.ae/product/vidvie-et01-sonic-electric-toothbrush-rechargeable-with-up-to-38-000-vibrations-per-minute-multiple-cleaning-modes-ipx7-waterproof-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172534-4463.jpg.webp",
   "price": {
    "amount": 71,
@@ -2134,9 +2092,9 @@ const catalogProducts = [
  {
   "id": 10001881,
   "sku": "HOM1000306",
-  "name": "Vidvie FN05 100-speed Desktop Turbo Fan",
+  "name": "Vidvie FN05 Desktop Turbo Fan, 100-Speed Adjustment, LED Digital Display, Desk & Wall Mount Design, Type-C, Beige",
   "category": "Fans",
-  "url": "https://begad.ae/product/fn05-100-speed-desktop-turbo-fan",
+  "url": "https://begad.ae/product/vidvie-fn05-desktop-turbo-fan-100-speed-adjustment-led-digital-display-desk-wall-mount-design-type-c-beige",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017164648-8749.jpg.webp",
   "price": {
    "amount": 76,
@@ -2148,9 +2106,9 @@ const catalogProducts = [
  {
   "id": 10001880,
   "sku": "HOM1000305",
-  "name": "Vidvie FN04 Mini Portable Handheld Fan",
+  "name": "Vidvie FN04 Rechargeable Handheld Portable Fan, 1200mAh Battery, Adjustable Speeds, Lightweight Ergonomic Design, White",
   "category": "Fans",
-  "url": "https://begad.ae/product/fn04-mini-portable-handheld-fan",
+  "url": "https://begad.ae/product/vidvie-fn04-rechargeable-handheld-portable-fan-1200mah-battery-adjustable-speeds-lightweight-ergonomic-design-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001880.jpg.webp",
   "price": {
    "amount": 48.3,
@@ -2162,9 +2120,9 @@ const catalogProducts = [
  {
   "id": 10001879,
   "sku": "HOM1000304",
-  "name": "Vidvie FN03 Smart Digital Display Desktop Fan",
+  "name": "Vidvie FN03 Desktop Fan with Smart Digital Display, Adjustable Wind Speeds, Ultra-Quiet Low-Noise Motor, White",
   "category": "Fans",
-  "url": "https://begad.ae/product/vidvie-fn03-smart-digital-display-desktop-fan",
+  "url": "https://begad.ae/product/vidvie-fn03-desktop-fan-with-smart-digital-display-adjustable-wind-speeds-ultra-quiet-low-noise-motor-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155932-3411.jpg.webp",
   "price": {
    "amount": 67.57,
@@ -2176,9 +2134,9 @@ const catalogProducts = [
  {
   "id": 10001878,
   "sku": "ELE1000735",
-  "name": "Vidvie MC03 Portable High-Definition Wireless Microphone",
+  "name": "Vidvie MC03 Wireless Lavalier Microphone with Type-C Receiver, Smart Noise Cancelling, Plug & Play with No App Needed, Black",
   "category": "Microphones",
-  "url": "https://begad.ae/product/vidvie-mc03-portable-high-definition-wireless-microphone",
+  "url": "https://begad.ae/product/vidvie-mc03-wireless-lavalier-microphone-with-type-c-receiver-smart-noise-cancelling-plug-play-with-no-app-needed-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801192649-3641.png.webp",
   "price": {
    "amount": 35.75,
@@ -2260,9 +2218,9 @@ const catalogProducts = [
  {
   "id": 10001872,
   "sku": "BEA1000177",
-  "name": "Vidvie ES02 Multifunctional Metal Electric Shaver",
+  "name": "Vidvie ES02 Metal Electric Shaver for Men, 3D Floating Rotary Heads, IPX7 Waterproof Wet & Dry Shaving, LED Digital Display, Grey",
   "category": "Grooming Kits",
-  "url": "https://begad.ae/product/es02-multifunctional-metal-electric-shaver",
+  "url": "https://begad.ae/product/vidvie-es02-metal-electric-shaver-for-men-3d-floating-rotary-heads-ipx7-waterproof-wet-dry-shaving-led-digital-display-grey",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017164325-7619.jpg.webp",
   "price": {
    "amount": 91,
@@ -2316,9 +2274,9 @@ const catalogProducts = [
  {
   "id": 10001868,
   "sku": "AUT1000041",
-  "name": "Vidvie CSP001 Car emergency starter power supply and air pump",
+  "name": "Vidvie CSP001 Car Jump Starter with Air Pump and Vacuum Cleaner, 8000mAh, 1000A Peak, 150PSI Digital Tyre Inflator, 4500Pa Suction, LED Display and Emergency Light",
   "category": "Tools & Equipment",
-  "url": "https://begad.ae/product/csp001-car-emergency-starter-power-supply-and-air-pump",
+  "url": "https://begad.ae/product/vidvie-csp001-car-jump-starter-with-air-pump-and-vacuum-cleaner-8000mah-1000a-peak-150psi-digital-tyre-inflator-4500pa-suction-led-display-and-emergency-light",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001868.jpg.webp",
   "price": {
    "amount": 299,
@@ -2540,9 +2498,9 @@ const catalogProducts = [
  {
   "id": 10001850,
   "sku": "HOM1000302",
-  "name": "Vidvie FN10 Mini Ultra-thin Card-Type Fan",
+  "name": "Vidvie FN10 Ultra-Thin Card-Type Handheld Fan, 900mAh Rechargeable Battery, 3 Speed Levels, Type-C Charging, White",
   "category": "Fans",
-  "url": "https://begad.ae/product/fn10-mini-ultra-thin-card-type-fan",
+  "url": "https://begad.ae/product/vidvie-fn10-ultra-thin-card-type-handheld-fan-900mah-rechargeable-battery-3-speed-levels-type-c-charging-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017160030-4380.jpg.webp",
   "price": {
    "amount": 56,
@@ -2554,9 +2512,9 @@ const catalogProducts = [
  {
   "id": 10001849,
   "sku": "HOM1000301",
-  "name": "Vidvie FN09 Neck Fan",
+  "name": "Vidvie FN09 Mini Neck Lanyard Fan, Rechargeable Hands-Free Portable Fan, Ultra-Lightweight with Adjustable Speeds, White",
   "category": "Fans",
-  "url": "https://begad.ae/product/fn09-neck-fan",
+  "url": "https://begad.ae/product/vidvie-fn09-mini-neck-lanyard-fan-rechargeable-hands-free-portable-fan-ultra-lightweight-with-adjustable-speeds-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017160010-6092.jpg.webp",
   "price": {
    "amount": 60.15,
@@ -2568,9 +2526,9 @@ const catalogProducts = [
  {
   "id": 10001848,
   "sku": "HOM1000300",
-  "name": "Vidvie FN08 Multi-functional clip fan",
+  "name": "Vidvie FN08 Mini Clip-On Rechargeable Fan, Portable Personal Fan with Adjustable Speeds for Umbrellas, Desks and More, White",
   "category": "Fans",
-  "url": "https://begad.ae/product/fn08-multi-functional-clip-fan",
+  "url": "https://begad.ae/product/vidvie-fn08-mini-clip-on-rechargeable-fan-portable-personal-fan-with-adjustable-speeds-for-umbrellas-desks-and-more-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155951-9228.jpg.webp",
   "price": {
    "amount": 69.65,
@@ -2582,9 +2540,9 @@ const catalogProducts = [
  {
   "id": 10001847,
   "sku": "HOM1000299",
-  "name": "Vidvie FN06 Portable Handheld Fan",
+  "name": "Vidvie FN06 Rechargeable Handheld Fan, 3600mAh Battery, Digital LED Display, Adjustable Wind Speeds, White",
   "category": "Fans",
-  "url": "https://begad.ae/product/fn06-portable-handheld-fan",
+  "url": "https://begad.ae/product/vidvie-fn06-rechargeable-handheld-fan-3600mah-battery-digital-led-display-adjustable-wind-speeds-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017173634-5213.png.webp",
   "price": {
    "amount": 36.6,
@@ -2680,9 +2638,9 @@ const catalogProducts = [
  {
   "id": 10001735,
   "sku": "AUT1000020",
-  "name": "VIDVIE VC004 All-in-One Car Vacuum Cleaner – Powerful & Portable Detailing Solution",
+  "name": "Vidvie VC004 Wireless Handheld Car Vacuum Cleaner, 85W Strong Suction, 3-in-1 Multi-Nozzle Design with Smart Digital Display, Black",
   "category": "Car Care & Cleaning",
-  "url": "https://begad.ae/product/vidvie-vc004-all-in-one-car-vacuum-cleaner-powerful-portable-detailing-solution",
+  "url": "https://begad.ae/product/vidvie-vc004-wireless-handheld-car-vacuum-cleaner-85w-strong-suction-3-in-1-multi-nozzle-design-with-smart-digital-display-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017173645-6103.jpg.webp",
   "price": {
    "amount": 90.48,
