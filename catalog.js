@@ -2678,6 +2678,20 @@ const catalogProducts = [
   "in_stock": true
  },
  {
+  "id": 10001572,
+  "sku": "ELE1000484",
+  "name": "VIDVIE CC542 33W PPS Type-C & USB Fast Car Charger",
+  "category": "Car Chargers",
+  "url": "https://begad.ae/product/vidvie-cc542-33w-pps-type-c-usb-fast-car-charger",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001572.jpg.webp",
+  "price": {
+   "amount": 33.15,
+   "amount_with_tax": 33.15,
+   "compare_at_amount": 39
+  },
+  "in_stock": true
+ },
+ {
   "id": 10001561,
   "sku": "ELE1000473",
   "name": "VIDVIE CC549 30W Transparent Dual-Port Fast Car Charger with USB-C PD & USB-A",
@@ -2716,6 +2730,20 @@ const catalogProducts = [
    "amount": 26.75,
    "amount_with_tax": 26.75,
    "compare_at_amount": 32.1
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10001021,
+  "sku": "ELE1000226",
+  "name": "VIDVIE PLB148 20W Dual-Port PD Fast Wall Charger (USB-C + USB-A)",
+  "category": "Chargers",
+  "url": "https://begad.ae/product/vidvie-plb148-20w-dual-port-pd-fast-wall-charger-usb-c-usb-a",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261021122130-9381.jpg.webp",
+  "price": {
+   "amount": 90,
+   "amount_with_tax": 90,
+   "compare_at_amount": 110
   },
   "in_stock": true
  }
