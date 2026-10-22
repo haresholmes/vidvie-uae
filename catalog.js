@@ -46,20 +46,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10007059,
-  "sku": "ELE1002033",
-  "name": "Vidvie 36W USB-C to Lightning Fast Charging Cable, Nylon Braided Data Sync Cord with Smart Overload Protection for iPhone, iPad and iPod, Black, CB4058C&i",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-36w-type-c-to-lightning-fast-charging-nylon-braided-data-cable-with-smart-overload-protection-model-cb4058c-i-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260929181831-3678.jpeg.webp",
-  "price": {
-   "amount": 22.13,
-   "amount_with_tax": 22.13,
-   "compare_at_amount": 26.56
-  },
-  "in_stock": true
- },
- {
   "id": 10006845,
   "sku": "ELE1001204",
   "name": "Vidvie 12-in-1 Power Strip Extension 2500W, 4 UK AC Outlets with 4 USB-A and 4 USB-C Fast Charging Ports, Surge and Overload Protection, Heavy-Duty Copper Cord for Home and Office, White, PSB07",
@@ -1516,34 +1502,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001937,
-  "sku": "ELE1000774",
-  "name": "Vidvie 3-in-1 Multi Charging and Data Cable, One Cable with Multiple Connectors for Phones, Tablets and Power Banks, Durable for Home, Office and Travel, CB4022",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-cb4022-3-in-1-multi-charging-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001937.jpg.webp",
-  "price": {
-   "amount": 20.32,
-   "amount_with_tax": 20.32,
-   "compare_at_amount": 24.38
-  },
-  "in_stock": true
- },
- {
-  "id": 10001936,
-  "sku": "ELE1000773",
-  "name": "Vidvie 36W USB-C to Lightning Fast Charging Cable with Built-in Phone Stand, Data Sync Cord for iPhone and iPad, Durable, CB4068C&i",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-cb4068c-i-36w-type-c-to-ip-bracket-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916192635-4626.jpg.webp",
-  "price": {
-   "amount": 22.58,
-   "amount_with_tax": 22.58,
-   "compare_at_amount": 27.1
-  },
-  "in_stock": true
- },
- {
   "id": 10001935,
   "sku": "AUT1000052",
   "name": "Vidvie Transparent Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter with LED Light, Smart Auto-ID, 12V-24V, Overheat and Short-Circuit Protection, CC549",
@@ -1554,20 +1512,6 @@ const catalogProducts = [
    "amount": 23.85,
    "amount_with_tax": 23.85,
    "compare_at_amount": 28.62
-  },
-  "in_stock": true
- },
- {
-  "id": 10001934,
-  "sku": "ELE1000772",
-  "name": "Vidvie 66W USB-C to USB-C Fast Charging Cable with Built-in Phone Stand, High-Speed Data Sync Cord for Phones, Tablets and Laptops, CB4068C&C",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-cb4068c-c-66w-type-c-to-type-c-bracket-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916192833-5733.jpg.webp",
-  "price": {
-   "amount": 21.58,
-   "amount_with_tax": 21.58,
-   "compare_at_amount": 25.9
   },
   "in_stock": true
  },
@@ -1586,20 +1530,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001932,
-  "sku": "ELE1000771",
-  "name": "Vidvie USB-C to USB-C Fast Charging Data Cable, Reversible Type-C Charge and Sync Cord for Phones, Tablets, Laptops and Power Banks, CB4059C&C",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-cb4059c-c-type-c-to-type-c-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916193210-7934.jpg.webp",
-  "price": {
-   "amount": 17.62,
-   "amount_with_tax": 17.62,
-   "compare_at_amount": 21.14
-  },
-  "in_stock": true
- },
- {
   "id": 10001931,
   "sku": "AUT1000050",
   "name": "Vidvie Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter, Smart Auto-ID, Compact Design for 12V-24V Vehicles, Overheat and Short-Circuit Protection, CC547",
@@ -1610,20 +1540,6 @@ const catalogProducts = [
    "amount": 32.11,
    "amount_with_tax": 32.11,
    "compare_at_amount": 38.53
-  },
-  "in_stock": true
- },
- {
-  "id": 10001930,
-  "sku": "ELE1000770",
-  "name": "Vidvie USB Type-C Charging and Data Cable, Durable Charge and Sync Cord for Android Phones, Tablets and Power Banks, CB4057T",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-cb4057t-type-c-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916193016-5258.jpg.webp",
-  "price": {
-   "amount": 17.05,
-   "amount_with_tax": 17.05,
-   "compare_at_amount": 20.46
   },
   "in_stock": true
  },
@@ -1726,34 +1642,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001922,
-  "sku": "ELE1000769",
-  "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable, Type-C Power Delivery Data Cable for Phones, Tablets, Laptops and Power Banks, CB4050C&C",
-  "category": "Cables",
-  "url": "https://begad.ae/product/cb4050c-c-type-c-to-type-c-60w-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001922.jpg.webp",
-  "price": {
-   "amount": 17.18,
-   "amount_with_tax": 17.18,
-   "compare_at_amount": 20.62
-  },
-  "in_stock": true
- },
- {
-  "id": 10001921,
-  "sku": "ELE1000768",
-  "name": "Vidvie 30W USB-C to Lightning Fast Charging Cable, Type-C to iP Data Sync Cord for iPhone, iPad and AirPods, Durable Daily Charging Cable, CB4050C&i",
-  "category": "Cables",
-  "url": "https://begad.ae/product/cb4050c-i-type-c-to-ip-30w-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194034-9290.jpg.webp",
-  "price": {
-   "amount": 18.32,
-   "amount_with_tax": 18.32,
-   "compare_at_amount": 21.98
-  },
-  "in_stock": true
- },
- {
   "id": 10001920,
   "sku": "ELE1000767",
   "name": "Vidvie Qi2 25W Double-Sided Magnetic Wireless Charger with Atmosphere Light, Wall Charger for MagSafe Compatible Phones and Wireless Charging Devices, WLC1428",
@@ -1782,20 +1670,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001918,
-  "sku": "ELE1000765",
-  "name": "Vidvie 30W USB-C to Lightning Fast Charging Cable, Braided Type-C to iP Data Cable with Aluminum Shell for iPhone and iPad, 1m/2m/3m Options, CB4038C&i",
-  "category": "Cables",
-  "url": "https://begad.ae/product/data-cable-cb4038c-i-type-c-to-ip-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194238-6096.jpg.webp",
-  "price": {
-   "amount": 18.41,
-   "amount_with_tax": 18.41,
-   "compare_at_amount": 22.09
-  },
-  "in_stock": true
- },
- {
   "id": 10001917,
   "sku": "ELE1000764",
   "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 2m, Nylon Braided Type-C Data Cable with Aluminum Connectors for Phones, Tablets, Laptops and Power Banks, Black/White, CB4038-2C&C",
@@ -1806,76 +1680,6 @@ const catalogProducts = [
    "amount": 18.54,
    "amount_with_tax": 18.54,
    "compare_at_amount": 22.25
-  },
-  "in_stock": true
- },
- {
-  "id": 10001916,
-  "sku": "ELE1000763",
-  "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 1m, Type-C Power Delivery Data Cable with Durable PVC Build for Phones, Tablets, Laptops and Power Banks, CB4031C&C",
-  "category": "Cables",
-  "url": "https://begad.ae/product/data-cable-cb4031c-c-type-c-to-type-c-data-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194427-9366.jpg.webp",
-  "price": {
-   "amount": 16.49,
-   "amount_with_tax": 16.49,
-   "compare_at_amount": 19.79
-  },
-  "in_stock": true
- },
- {
-  "id": 10001915,
-  "sku": "ELE1000762",
-  "name": "Vidvie USB-C OTG Adapter, Type-C to USB-A 3.0 Converter with 5Gbps Data Transfer, Aluminum Alloy Body and Lanyard, for Phones, Tablets and Laptops, AL1129",
-  "category": "USB Hubs & Docking",
-  "url": "https://begad.ae/product/vidvie-usb-c-otg-adapter-type-c-to-usb-a-3-0-converter-with-5gbps-data-transfer-aluminum-alloy-body-and-lanyard-for-phones-tablets-and-laptops-al1129",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012192952-9848.png.webp",
-  "price": {
-   "amount": 18.58,
-   "amount_with_tax": 18.58,
-   "compare_at_amount": 22.3
-  },
-  "in_stock": true
- },
- {
-  "id": 10001914,
-  "sku": "ELE1000761",
-  "name": "Vidvie USB-C to Lightning OTG Charger Cable Adapter, Compact Type-C to iP Adapter for Charging and Data Connection, Dark Grey, AL1127",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-type-c-to-ip-otg-charger-cable-adapter-dark-grey",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916195048-6991.png.webp",
-  "price": {
-   "amount": 21.66,
-   "amount_with_tax": 21.66,
-   "compare_at_amount": 25.99
-  },
-  "in_stock": true
- },
- {
-  "id": 10001913,
-  "sku": "ELE1000760",
-  "name": "Vidvie USB-C to 3.5mm Audio Adapter, Aluminum Alloy Braided Headphone Converter with Mic and Remote Support for Type-C Phones, Tablets and Laptops, AL1124",
-  "category": "Mobile Accessories",
-  "url": "https://begad.ae/product/vidvie-al1124-type-c-to-3-5mm-audio-adapter",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916231936-9416.jpg.webp",
-  "price": {
-   "amount": 21.58,
-   "amount_with_tax": 21.58,
-   "compare_at_amount": 25.9
-  },
-  "in_stock": true
- },
- {
-  "id": 10001912,
-  "sku": "ELE1000759",
-  "name": "Vidvie USB-C to 3.5mm AUX Audio Cable 1.8m, Braided Type-C Stereo Cable with Aluminum Connectors for Phones, Laptops, Car Stereo, Speakers and Headphones, AL1111",
-  "category": "Cables",
-  "url": "https://begad.ae/product/vidvie-al1111-type-c-audio-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916204020-1920.png.webp",
-  "price": {
-   "amount": 22.76,
-   "amount_with_tax": 22.76,
-   "compare_at_amount": 27.31
   },
   "in_stock": true
  },
@@ -2184,34 +1988,6 @@ const catalogProducts = [
    "amount": 96.26,
    "amount_with_tax": 96.26,
    "compare_at_amount": 115.51
-  },
-  "in_stock": true
- },
- {
-  "id": 10001876,
-  "sku": "ELE1000733",
-  "name": "Vidvie HD04 DP high-definition Cable",
-  "category": "Cables",
-  "url": "https://begad.ae/product/hd04-dp-high-definition-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001876.jpg.webp",
-  "price": {
-   "amount": 33.66,
-   "amount_with_tax": 33.66,
-   "compare_at_amount": 40.39
-  },
-  "in_stock": true
- },
- {
-  "id": 10001875,
-  "sku": "ELE1000732",
-  "name": "Vidvie HD02 Type-C to DP high-definition Cable",
-  "category": "Cables",
-  "url": "https://begad.ae/product/hd02-type-c-to-dp-high-definition-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001875.jpg.webp",
-  "price": {
-   "amount": 43.62,
-   "amount_with_tax": 43.62,
-   "compare_at_amount": 52.34
   },
   "in_stock": true
  },
