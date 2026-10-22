@@ -60,20 +60,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10006736,
-  "sku": "ELE1001126",
-  "name": "Vidvie 38W Dual Port Car Charger, 20W USB-C PD and 18W QC 3.0 USB-A Fast Charging, Mini Zinc Alloy Metal Car Adapter for 12V-24V Vehicles, iPhone, Samsung and Android Phones, Gray, CC522C",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-cc522c-38w-dual-port-car-charger-20w-usb-c-pd-18w-qc-3-0-usb-fast-charging-metal-mini-car-adapter-gray",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260921184226-4315.jpg.webp",
-  "price": {
-   "amount": 28.65,
-   "amount_with_tax": 28.65,
-   "compare_at_amount": 34.38
-  },
-  "in_stock": true
- },
- {
   "id": 10002403,
   "sku": "ELE1001389",
   "name": "Vidvie Portable Business Laptop Bag, Padded Multi-Compartment Computer Carry Bag with Front Pocket and Handles for Office, Travel and School, Blue, BH02",
@@ -858,20 +844,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001985,
-  "sku": "ELE1001315",
-  "name": "Vidvie Open-Ear Wireless Earbuds, OWS Bluetooth Headphones with ENC Noise-Reduction Mics, Lightweight Comfortable Fit and Charging Case, for Calls, Work, Walking and Sports, BT882",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-open-ear-wireless-earbuds-ows-bluetooth-headphones-with-enc-noise-reduction-mics-lightweight-comfortable-fit-and-charging-case-for-calls-work-walking-and-sports-bt882",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172732-1736.jpg.webp",
-  "price": {
-   "amount": 49.53,
-   "amount_with_tax": 49.53,
-   "compare_at_amount": 59.44
-  },
-  "in_stock": true
- },
- {
   "id": 10001984,
   "sku": "ELE1001314",
   "name": "Vidvie 30W Mini Outdoor Bluetooth Speaker for Cycling, Portable Wireless Speaker with Clear Sound, Rechargeable Battery, for Bike, Travel and Outdoor Use, Black, SP933",
@@ -882,20 +854,6 @@ const catalogProducts = [
    "amount": 82.19,
    "amount_with_tax": 82.19,
    "compare_at_amount": 98.63
-  },
-  "in_stock": true
- },
- {
-  "id": 10001983,
-  "sku": "ELE1001313",
-  "name": "Vidvie AI Translation Wireless Earbuds, TWS Bluetooth Earphones with Real-Time Two-Way Translation, ENC Noise-Reduction Mics, Touch Control and Charging Case, for Travel and Business, BT8014",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-ai-translation-wireless-earbuds-tws-bluetooth-earphones-with-real-time-two-way-translation-enc-noise-reduction-mics-touch-control-and-charging-case-for-travel-and-business-bt8014",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172715-6546.jpg.webp",
-  "price": {
-   "amount": 69.94,
-   "amount_with_tax": 69.94,
-   "compare_at_amount": 83.93
   },
   "in_stock": true
  },
@@ -914,20 +872,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001981,
-  "sku": "ELE1001311",
-  "name": "Vidvie In-Ear TWS Wireless Earbuds with ENC Noise Reduction, HD Sound, Touch Controls, Comfort-Fit Silicone Tips and Portable Charging Case, for Calls, Music and Workouts, BT8010",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-in-ear-tws-wireless-earbuds-with-enc-noise-reduction-hd-sound-touch-controls-comfort-fit-silicone-tips-and-portable-charging-case-for-calls-music-and-workouts-bt8010",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012190004-6815.png.webp",
-  "price": {
-   "amount": 48.61,
-   "amount_with_tax": 48.61,
-   "compare_at_amount": 58.33
-  },
-  "in_stock": true
- },
- {
   "id": 10001980,
   "sku": "ELE1001310",
   "name": "Vidvie Portable Wireless Bluetooth Speaker, Compact Rechargeable Speaker with Clear Balanced Sound and Easy Controls, for Home, Travel and Outdoor, SP926",
@@ -938,20 +882,6 @@ const catalogProducts = [
    "amount": 76.74,
    "amount_with_tax": 76.74,
    "compare_at_amount": 92.09
-  },
-  "in_stock": true
- },
- {
-  "id": 10001979,
-  "sku": "ELE1001309",
-  "name": "Vidvie ANC Wireless Earbuds with Hybrid ANC and ENC Noise Cancelling, 4-Mic Clear Calls, In-Ear TWS Bluetooth Earphones with Touch Controls and Charging Case, BT8009",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-anc-wireless-earbuds-with-hybrid-anc-and-enc-noise-cancelling-4-mic-clear-calls-in-ear-tws-bluetooth-earphones-with-touch-controls-and-charging-case-bt8009",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012190151-9800.png.webp",
-  "price": {
-   "amount": 53.15,
-   "amount_with_tax": 53.15,
-   "compare_at_amount": 63.78
   },
   "in_stock": true
  },
@@ -1124,20 +1054,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001966,
-  "sku": "ELE1001296",
-  "name": "Vidvie TWS In-Ear Wireless Earbuds, Bluetooth Earphones with Clear Sound, Built-in Mic for Calls, Secure Comfortable Fit and Charging Case, BT890",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-tws-in-ear-wireless-earbuds-bluetooth-earphones-with-clear-sound-built-in-mic-for-calls-secure-comfortable-fit-and-charging-case-bt890",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012185318-3869.jpg.webp",
-  "price": {
-   "amount": 35,
-   "amount_with_tax": 35,
-   "compare_at_amount": 42
-  },
-  "in_stock": true
- },
- {
   "id": 10001965,
   "sku": "ELE1001295",
   "name": "Vidvie Neckband Wireless Sports Earphones, Flexible Silicone Bluetooth Semi In-Ear Headphones with Built-in Mic, Lightweight, Rechargeable, for Workouts and Commuting, BT888",
@@ -1250,20 +1166,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001956,
-  "sku": "ELE1000790",
-  "name": "Vidvie In-Ear TWS Wireless Earbuds with Deep Bass, Bluetooth Earphones with Built-in Mic, Noise Isolating Fit and Charging Case, for Music, Calls and Workouts, BT8002",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-in-ear-tws-wireless-earbuds-with-deep-bass-bluetooth-earphones-with-built-in-mic-noise-isolating-fit-and-charging-case-for-music-calls-and-workouts-bt8002",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172702-9951.jpg.webp",
-  "price": {
-   "amount": 36.19,
-   "amount_with_tax": 36.19,
-   "compare_at_amount": 43.43
-  },
-  "in_stock": true
- },
- {
   "id": 10001955,
   "sku": "ELE1000789",
   "name": "Vidvie In-Ear Wired Earphones with USB-C Plug, Type-C Digital Headphones with Built-in Mic, Lightweight, Plug and Play for Phones and Tablets, HS684T",
@@ -1302,20 +1204,6 @@ const catalogProducts = [
    "amount": 25.04,
    "amount_with_tax": 25.04,
    "compare_at_amount": 30.05
-  },
-  "in_stock": true
- },
- {
-  "id": 10001952,
-  "sku": "ELE1000786",
-  "name": "Vidvie In-Ear TWS Wireless Earbuds, HD Sound with Boosted Bass, Noise Isolation, Touch Controls, Silicone Ear Tips and Portable Charging Case, BT8000",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-in-ear-tws-wireless-earbuds-hd-sound-with-boosted-bass-noise-isolation-touch-controls-silicone-ear-tips-and-portable-charging-case-bt8000",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172630-7525.jpg.webp",
-  "price": {
-   "amount": 37.45,
-   "amount_with_tax": 37.45,
-   "compare_at_amount": 44.94
   },
   "in_stock": true
  },
@@ -1516,20 +1404,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001933,
-  "sku": "AUT1000051",
-  "name": "Vidvie Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter, Smart Auto-ID, 12V-24V for Cars and Trucks, Overheat and Short-Circuit Protection, CC548",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc548-dual-type-c-usb-fast-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001933.jpg.webp",
-  "price": {
-   "amount": 47.45,
-   "amount_with_tax": 47.45,
-   "compare_at_amount": 56.94
-  },
-  "in_stock": true
- },
- {
   "id": 10001931,
   "sku": "AUT1000050",
   "name": "Vidvie Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter, Smart Auto-ID, Compact Design for 12V-24V Vehicles, Overheat and Short-Circuit Protection, CC547",
@@ -1540,20 +1414,6 @@ const catalogProducts = [
    "amount": 32.11,
    "amount_with_tax": 32.11,
    "compare_at_amount": 38.53
-  },
-  "in_stock": true
- },
- {
-  "id": 10001929,
-  "sku": "AUT1000049",
-  "name": "Vidvie Dual USB-C Fast Car Charger, Two Type-C PD Ports Car Adapter for Phones, Tablets and GPS, Compact Design with Smart Protection, CC543",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc543-dual-type-c-fast-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001929.jpg.webp",
-  "price": {
-   "amount": 29.56,
-   "amount_with_tax": 29.56,
-   "compare_at_amount": 35.47
   },
   "in_stock": true
  },
@@ -1586,34 +1446,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001926,
-  "sku": "AUT1000046",
-  "name": "Vidvie QC3.0 Aluminum Alloy Fast Car Charger, Dual USB Car Adapter with Smart Auto-ID, Heat-Resistant Metal Body and Safety Protection, CC536",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc536-aluminum-alloy-qc3-0-fast-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001926.jpg.webp",
-  "price": {
-   "amount": 22.4,
-   "amount_with_tax": 22.4,
-   "compare_at_amount": 26.88
-  },
-  "in_stock": true
- },
- {
-  "id": 10001925,
-  "sku": "AUT1000045",
-  "name": "Vidvie Wireless FM Transmitter and Fast Car Charger, Bluetooth Audio Receiver with Hands-Free Calling, LED Display and Dual USB Charging for 12V/24V Cars, FM05",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/fm05-wireless-fm-transmitter-fast-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001925.jpg.webp",
-  "price": {
-   "amount": 40.35,
-   "amount_with_tax": 40.35,
-   "compare_at_amount": 48.42
-  },
-  "in_stock": true
- },
- {
   "id": 10001924,
   "sku": "AUT1000044",
   "name": "Vidvie In-Car Wireless FM Receiver, Bluetooth Audio Adapter with Hands-Free Calling, LED Display and Dual USB Charging for Cars Without Built-in Bluetooth, FM01",
@@ -1624,20 +1456,6 @@ const catalogProducts = [
    "amount": 38.19,
    "amount_with_tax": 38.19,
    "compare_at_amount": 45.83
-  },
-  "in_stock": true
- },
- {
-  "id": 10001923,
-  "sku": "AUT1000043",
-  "name": "Vidvie Dual Port Car Charger, Compact Fast USB Car Adapter with Smart Auto-ID and Overheat, Overvoltage and Short-Circuit Protection for Phones and Tablets, CC528",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc528-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001923.jpg.webp",
-  "price": {
-   "amount": 44.81,
-   "amount_with_tax": 44.81,
-   "compare_at_amount": 53.77
   },
   "in_stock": true
  },
@@ -1698,48 +1516,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001910,
-  "sku": "ELE1000757",
-  "name": "Vidvie UK Plug Wall Charger, Compact White Charger with Stable Charging and Overcharge, Overcurrent, Overvoltage and Short-Circuit Protection, XL-PSB03",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-uk-plug-wall-charger-compact-white-charger-with-stable-charging-and-overcharge-overcurrent-overvoltage-and-short-circuit-protection-xl-psb03",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012193446-1464.png.webp",
-  "price": {
-   "amount": 77.65,
-   "amount_with_tax": 77.65,
-   "compare_at_amount": 93.18
-  },
-  "in_stock": true
- },
- {
-  "id": 10001909,
-  "sku": "ELE1000756",
-  "name": "Vidvie Global Universal Travel Adapter Charger, All-in-One International Plug Converter with USB Charging Ports for Phones, Tablets and Travel Devices, TA4404",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-ta4404-global-universal-conversion-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916232233-8044.jpg.webp",
-  "price": {
-   "amount": 60.32,
-   "amount_with_tax": 60.32,
-   "compare_at_amount": 72.38
-  },
-  "in_stock": true
- },
- {
-  "id": 10001908,
-  "sku": "ELE1000755",
-  "name": "Vidvie Global Universal Travel Charger, International Plug Adapter for US, UK, EU and AU Sockets with Multi-Port USB Charging and Safety Protection, TA4409",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-ta4409-global-universal-travel-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001908.jpg.webp",
-  "price": {
-   "amount": 33.19,
-   "amount_with_tax": 33.19,
-   "compare_at_amount": 39.83
-  },
-  "in_stock": true
- },
- {
   "id": 10001907,
   "sku": "ELE1000754",
   "name": "Vidvie Portable Apple Watch Magnetic Wireless Charger, Mini USB-C Watch Charging Puck with Strong Magnetic Hold and LED Indicator, Travel-Friendly, WLC1412-C02",
@@ -1750,20 +1526,6 @@ const catalogProducts = [
    "amount": 38.19,
    "amount_with_tax": 38.19,
    "compare_at_amount": 45.83
-  },
-  "in_stock": true
- },
- {
-  "id": 10001906,
-  "sku": "ELE1000753",
-  "name": "Vidvie Mini Magnetic Watch Wireless Charger, Type-C Female Charging Seat with Strong Magnetic Hold, Portable Charger for Smartwatches, WLC1412-C01",
-  "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/wlc1412-c01-mini-magnetic-type-c-female-seat-watch-wireless-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917024832-6355.png.webp",
-  "price": {
-   "amount": 39.54,
-   "amount_with_tax": 39.54,
-   "compare_at_amount": 47.45
   },
   "in_stock": true
  },
@@ -1890,34 +1652,6 @@ const catalogProducts = [
    "amount": 59.51,
    "amount_with_tax": 59.51,
    "compare_at_amount": 71.41
-  },
-  "in_stock": true
- },
- {
-  "id": 10001896,
-  "sku": "ELE1000750",
-  "name": "Vidvie WLC1426 3-in-1 Magnetic Wireless Charger",
-  "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/wlc1426-3-in-1-magnetic-wireless-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001896.jpg.webp",
-  "price": {
-   "amount": 40.91,
-   "amount_with_tax": 40.91,
-   "compare_at_amount": 49.09
-  },
-  "in_stock": true
- },
- {
-  "id": 10001884,
-  "sku": "ELE1000738",
-  "name": "Vidvie WLC1425 4-in-1 Folding Magnetic Wireless Charging Stand",
-  "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/wlc1425-4-in-1-folding-magnetic-wireless-charging-stand",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917041645-7806.jpg.webp",
-  "price": {
-   "amount": 58.6,
-   "amount_with_tax": 58.6,
-   "compare_at_amount": 70.32
   },
   "in_stock": true
  },
@@ -2062,20 +1796,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001869,
-  "sku": "ELE1000730",
-  "name": "Vidvie Wall Charger XL-PLB125 Single USB & Three Type-C GaN Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/wall-charger-xl-plb125-single-usb-three-type-c-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801193247-9508.png.webp",
-  "price": {
-   "amount": 109.41,
-   "amount_with_tax": 109.41,
-   "compare_at_amount": 131.29
-  },
-  "in_stock": true
- },
- {
   "id": 10001868,
   "sku": "AUT1000041",
   "name": "Vidvie CSP001 Car Jump Starter with Air Pump and Vacuum Cleaner, 8000mAh, 1000A Peak, 150PSI Digital Tyre Inflator, 4500Pa Suction, LED Display and Emergency Light",
@@ -2086,62 +1806,6 @@ const catalogProducts = [
    "amount": 240.06,
    "amount_with_tax": 240.06,
    "compare_at_amount": 288.07
-  },
-  "in_stock": true
- },
- {
-  "id": 10001867,
-  "sku": "ELE1000729",
-  "name": "Vidvie Wall Charger XL-PLB124 Retractable Cord GaN Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/wall-charger-xl-plb124-retractable-cord-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001867.jpg.webp",
-  "price": {
-   "amount": 77.2,
-   "amount_with_tax": 77.2,
-   "compare_at_amount": 92.64
-  },
-  "in_stock": true
- },
- {
-  "id": 10001866,
-  "sku": "ELE1000728",
-  "name": "Vidvie Wall Charger XL-PLB127 Retractable Cord GaN Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/wall-charger-xl-plb127-retractable-cord-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001866.jpg.webp",
-  "price": {
-   "amount": 62.22,
-   "amount_with_tax": 62.22,
-   "compare_at_amount": 74.66
-  },
-  "in_stock": true
- },
- {
-  "id": 10001865,
-  "sku": "ELE1000727",
-  "name": "Vidvie Wall Charger XL-PLB123 GaN 70W Desktop Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/wall-charger-xl-plb123-gan-70w-desktop-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001865.jpg.webp",
-  "price": {
-   "amount": 77.2,
-   "amount_with_tax": 77.2,
-   "compare_at_amount": 92.64
-  },
-  "in_stock": true
- },
- {
-  "id": 10001864,
-  "sku": "ELE1000726",
-  "name": "Vidvie Wall Charger XL-PLB122 GaN Dual USB & Dual Type-C 70W Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/wall-charger-xl-plb122-gan-dual-usb-dual-type-c-70w-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001864.jpg.webp",
-  "price": {
-   "amount": 73.56,
-   "amount_with_tax": 73.56,
-   "compare_at_amount": 88.27
   },
   "in_stock": true
  },
@@ -2160,20 +1824,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001860,
-  "sku": "ELE1000722",
-  "name": "Vidvie PLB176 USB & Type-C Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/plb176-usb-type-c-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001860.jpg.webp",
-  "price": {
-   "amount": 25.12,
-   "amount_with_tax": 25.12,
-   "compare_at_amount": 30.14
-  },
-  "in_stock": true
- },
- {
   "id": 10001859,
   "sku": "ELE1000721",
   "name": "Vidvie PLB173 USB & Type-C Fast Charger",
@@ -2184,20 +1834,6 @@ const catalogProducts = [
    "amount": 24.56,
    "amount_with_tax": 24.56,
    "compare_at_amount": 29.47
-  },
-  "in_stock": true
- },
- {
-  "id": 10001858,
-  "sku": "ELE1000720",
-  "name": "PLB170 Wall Charger [w/o Cable] - [White] - Vidvie",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/plb170-wall-charger-w-o-cable-white-vidvie",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001858.jpg.webp",
-  "price": {
-   "amount": 21.58,
-   "amount_with_tax": 21.58,
-   "compare_at_amount": 25.9
   },
   "in_stock": true
  },
@@ -2216,62 +1852,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001856,
-  "sku": "ELE1000718",
-  "name": "Vidvie PLB169 Type-C & USB PD Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/plb169-type-c-usb-pd-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001856.jpg.webp",
-  "price": {
-   "amount": 33.19,
-   "amount_with_tax": 33.19,
-   "compare_at_amount": 39.83
-  },
-  "in_stock": true
- },
- {
-  "id": 10001855,
-  "sku": "ELE1000717",
-  "name": "Vidvie PLB167 Type-C & USB PD Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/plb167-type-c-usb-pd-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001855.jpg.webp",
-  "price": {
-   "amount": 28.65,
-   "amount_with_tax": 28.65,
-   "compare_at_amount": 34.38
-  },
-  "in_stock": true
- },
- {
-  "id": 10001854,
-  "sku": "ELE1000716",
-  "name": "Vidvie PLB162 Dual Type-C & USB GaN Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/plb162-dual-type-c-usb-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001854.jpg.webp",
-  "price": {
-   "amount": 65.86,
-   "amount_with_tax": 65.86,
-   "compare_at_amount": 79.03
-  },
-  "in_stock": true
- },
- {
-  "id": 10001853,
-  "sku": "ELE1000715",
-  "name": "Vidvie PLB161 Dual Type-C GaN Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-plb161-dual-type-c-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001853.jpg.webp",
-  "price": {
-   "amount": 52.25,
-   "amount_with_tax": 52.25,
-   "compare_at_amount": 62.7
-  },
-  "in_stock": true
- },
- {
   "id": 10001852,
   "sku": "ELE1000714",
   "name": "Vidvie VD01 Streaming Device 4K/HDR",
@@ -2282,20 +1862,6 @@ const catalogProducts = [
    "amount": 118.48,
    "amount_with_tax": 118.48,
    "compare_at_amount": 142.18
-  },
-  "in_stock": true
- },
- {
-  "id": 10001851,
-  "sku": "HOM1000303",
-  "name": "Vidvie PLB160 Dual Type-C GaN Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-plb160-dual-type-c-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001851.jpg.webp",
-  "price": {
-   "amount": 36.82,
-   "amount_with_tax": 36.82,
-   "compare_at_amount": 44.18
   },
   "in_stock": true
  },
@@ -2352,20 +1918,6 @@ const catalogProducts = [
    "amount": 33.66,
    "amount_with_tax": 33.66,
    "compare_at_amount": 40.39
-  },
-  "in_stock": true
- },
- {
-  "id": 10001770,
-  "sku": "ELE1000659",
-  "name": "Vidvie PLB142 GaN 67W High Power Charger Compact Fast Charging Solution",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/plb142-gan-67w-high-power-charger-compact-fast-charging-solution",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001770.jpg.webp",
-  "price": {
-   "amount": 68.58,
-   "amount_with_tax": 68.58,
-   "compare_at_amount": 82.3
   },
   "in_stock": true
  },
@@ -2440,20 +1992,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001575,
-  "sku": "ELE1000487",
-  "name": "VIDVIE CC547 48W Dual USB Fast Car Charger with Digital Display",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc547-48w-dual-usb-fast-car-charger-with-digital-display",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917044332-9805.jpg.webp",
-  "price": {
-   "amount": 32.11,
-   "amount_with_tax": 32.11,
-   "compare_at_amount": 38.53
-  },
-  "in_stock": true
- },
- {
   "id": 10001572,
   "sku": "ELE1000484",
   "name": "VIDVIE CC542 33W PPS Type-C & USB Fast Car Charger",
@@ -2464,48 +2002,6 @@ const catalogProducts = [
    "amount": 33.15,
    "amount_with_tax": 33.15,
    "compare_at_amount": 39
-  },
-  "in_stock": true
- },
- {
-  "id": 10001561,
-  "sku": "ELE1000473",
-  "name": "VIDVIE CC549 30W Transparent Dual-Port Fast Car Charger with USB-C PD & USB-A",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc549-30w-transparent-dual-port-fast-car-charger-with-usb-c-pd-usb-a",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001561.jpg.webp",
-  "price": {
-   "amount": 23.85,
-   "amount_with_tax": 23.85,
-   "compare_at_amount": 28.62
-  },
-  "in_stock": true
- },
- {
-  "id": 10001023,
-  "sku": "ELE1000228",
-  "name": "VIDVIE PLB177 30W GaN Fast Wall Charger with LED Power Display (USB-C PD + USB-A) – White",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-plb177-30w-gan-fast-wall-charger-with-led-power-display-usb-c-pd-usb-a-white",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001023.jpg.webp",
-  "price": {
-   "amount": 32.2,
-   "amount_with_tax": 32.2,
-   "compare_at_amount": 38.64
-  },
-  "in_stock": true
- },
- {
-  "id": 10001022,
-  "sku": "ELE1000227",
-  "name": "VIDVIE PLB182 30W GaN Fast Wall Charger USB-C PD & USB-A Dual Port - White",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-plb182-30w-gan-fast-wall-charger-usb-c-pd-usb-a-dual-port-white",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012195301-7310.jpg.webp",
-  "price": {
-   "amount": 26.75,
-   "amount_with_tax": 26.75,
-   "compare_at_amount": 32.1
   },
   "in_stock": true
  },
