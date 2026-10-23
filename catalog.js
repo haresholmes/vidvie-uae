@@ -466,20 +466,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10002180,
-  "sku": "ELE1001342",
-  "name": "Vidvie Multifunctional Fast Charging Power Bank with USB-A and USB-C Ports, LED Battery Indicator, Smart Overcharge and Short-Circuit Protection, Portable Charger for Phones and Earbuds, PB796",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-multifunctional-fast-charging-power-bank-with-usb-a-and-usb-c-ports-led-battery-indicator-smart-overcharge-and-short-circuit-protection-portable-charger-for-phones-and-earbuds-pb796",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200007-1563.jpg.webp",
-  "price": {
-   "amount": 88.53,
-   "amount_with_tax": 88.53,
-   "compare_at_amount": 106.24
-  },
-  "in_stock": true
- },
- {
   "id": 10002179,
   "sku": "ELE1001341",
   "name": "Vidvie 40W Portable Outdoor Bluetooth Speaker, Bluetooth 5.4, IP67 Waterproof and Dustproof, TWS Stereo Pairing, 16H Playtime, Hands-Free Calls, with Bike Mount and Carabiner, XL-SP934",
@@ -490,20 +476,6 @@ const catalogProducts = [
    "amount": 153.68,
    "amount_with_tax": 153.68,
    "compare_at_amount": 184.42
-  },
-  "in_stock": true
- },
- {
-  "id": 10002178,
-  "sku": "ELE1001340",
-  "name": "Vidvie Mini Power Bank with Foldable Phone Stand, Compact Portable Charger with Fast Charging, LED Battery Indicator and Smart Protection for Smartphones and Earbuds, PB791-L",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-mini-power-bank-with-foldable-phone-stand-compact-portable-charger-with-fast-charging-led-battery-indicator-and-smart-protection-for-smartphones-and-earbuds-pb791-l",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002178.jpg.webp",
-  "price": {
-   "amount": 45.45,
-   "amount_with_tax": 45.45,
-   "compare_at_amount": 54.54
   },
   "in_stock": true
  },
@@ -532,20 +504,6 @@ const catalogProducts = [
    "amount": 528.68,
    "amount_with_tax": 528.68,
    "compare_at_amount": 634.42
-  },
-  "in_stock": true
- },
- {
-  "id": 10002175,
-  "sku": "ELE1001337",
-  "name": "Vidvie 2-in-1 Power Bank with Dual Built-in Charging Cables, Fast Charging Portable Charger, Charge 2 Devices at Once, LED Battery Indicator, Overcharge and Temperature Protection, PB7018",
-  "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-2-in-1-power-bank-with-dual-built-in-charging-cables-fast-charging-portable-charger-charge-2-devices-at-once-led-battery-indicator-overcharge-and-temperature-protection-pb7018",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200412-5859.png.webp",
-  "price": {
-   "amount": 68.48,
-   "amount_with_tax": 68.48,
-   "compare_at_amount": 82.18
   },
   "in_stock": true
  },
@@ -900,20 +858,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001977,
-  "sku": "ELE1001307",
-  "name": "Vidvie Sleep Earbuds, Mini Bean In-Ear TWS Wireless Earphones for Side Sleepers with ENC Call Noise Reduction, Touch Controls and Charging Case, BT8008",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-sleep-earbuds-mini-bean-in-ear-tws-wireless-earphones-for-side-sleepers-with-enc-call-noise-reduction-touch-controls-and-charging-case-bt8008",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012190305-7086.png.webp",
-  "price": {
-   "amount": 42.26,
-   "amount_with_tax": 42.26,
-   "compare_at_amount": 50.71
-  },
-  "in_stock": true
- },
- {
   "id": 10001976,
   "sku": "ELE1001306",
   "name": "Vidvie Outdoor Camping Bluetooth Speaker with Colorful Breathing Lights, Portable Rechargeable Wireless Speaker for Camping, Parties and Travel, CL01",
@@ -942,20 +886,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001974,
-  "sku": "ELE1001304",
-  "name": "Vidvie Open-Ear Air Conduction Sports Headphones, Wireless Bluetooth Headset with Built-in Mic, Lightweight Wrap-Around Fit, Sweat Resistant, for Running, Cycling and Gym, BT871",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-bt871-air-conduction-sports-wireless-headset",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001974.jpg.webp",
-  "price": {
-   "amount": 46.71,
-   "amount_with_tax": 46.71,
-   "compare_at_amount": 56.05
-  },
-  "in_stock": true
- },
- {
   "id": 10001973,
   "sku": "ELE1001303",
   "name": "Vidvie 2-in-1 Wireless Headphones and Speaker, Bluetooth Over-Ear Headset with Built-in Speaker Mode and Microphone for Music, Movies, Gaming and Calls, XL-BBH01",
@@ -966,20 +896,6 @@ const catalogProducts = [
    "amount": 116.04,
    "amount_with_tax": 116.04,
    "compare_at_amount": 139.25
-  },
-  "in_stock": true
- },
- {
-  "id": 10001972,
-  "sku": "ELE1001302",
-  "name": "Vidvie Gaming Headset with Detachable Microphone, 4 Connection Modes, Over-Ear Stereo Gaming Headphones with Cushioned Ear Cups for PC, Consoles and Phones, BBH2119",
-  "category": "Gaming Headsets",
-  "url": "https://begad.ae/product/vidvie-gaming-headset-with-detachable-microphone-4-connection-modes-over-ear-stereo-gaming-headphones-with-cushioned-ear-cups-for-pc-consoles-and-phones-bbh2119",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184657-5961.png.webp",
-  "price": {
-   "amount": 103.96,
-   "amount_with_tax": 103.96,
-   "compare_at_amount": 124.75
   },
   "in_stock": true
  },
@@ -1022,48 +938,6 @@ const catalogProducts = [
    "amount": 68.49,
    "amount_with_tax": 68.49,
    "compare_at_amount": 82.19
-  },
-  "in_stock": true
- },
- {
-  "id": 10001968,
-  "sku": "ELE1001298",
-  "name": "Vidvie Open-Ear OWS Wireless Earphones, Bluetooth Earbuds with Built-in Mic, Lightweight Ergonomic Fit and Charging Case, Stay Aware for Commuting, Work and Outdoor, BT896",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-open-ear-ows-wireless-earphones-bluetooth-earbuds-with-built-in-mic-lightweight-ergonomic-fit-and-charging-case-stay-aware-for-commuting-work-and-outdoor-bt896",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708175608-4426.jpg.webp",
-  "price": {
-   "amount": 47.44,
-   "amount_with_tax": 47.44,
-   "compare_at_amount": 56.93
-  },
-  "in_stock": true
- },
- {
-  "id": 10001967,
-  "sku": "ELE1001297",
-  "name": "Vidvie Semi-In-Ear Noise Cancelling Wireless Earbuds, TWS Bluetooth Earphones with Built-in Mic, Comfortable Fit and Portable Charging Case, for Work, Travel and Fitness, BT894",
-  "category": "Earbuds",
-  "url": "https://begad.ae/product/vidvie-semi-in-ear-noise-cancelling-wireless-earbuds-tws-bluetooth-earphones-with-built-in-mic-comfortable-fit-and-portable-charging-case-for-work-travel-and-fitness-bt894",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012185156-2892.jpg.webp",
-  "price": {
-   "amount": 43.62,
-   "amount_with_tax": 43.62,
-   "compare_at_amount": 52.34
-  },
-  "in_stock": true
- },
- {
-  "id": 10001965,
-  "sku": "ELE1001295",
-  "name": "Vidvie Neckband Wireless Sports Earphones, Flexible Silicone Bluetooth Semi In-Ear Headphones with Built-in Mic, Lightweight, Rechargeable, for Workouts and Commuting, BT888",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-bt888-silicone-neckband-wireless-sports-semi-in-ear-headphones",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260804202053-8595.jpg.webp",
-  "price": {
-   "amount": 37.73,
-   "amount_with_tax": 37.73,
-   "compare_at_amount": 45.28
   },
   "in_stock": true
  },
@@ -1166,20 +1040,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001955,
-  "sku": "ELE1000789",
-  "name": "Vidvie In-Ear Wired Earphones with USB-C Plug, Type-C Digital Headphones with Built-in Mic, Lightweight, Plug and Play for Phones and Tablets, HS684T",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-hs684t-in-ear-type-c-wired-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001955.jpg.webp",
-  "price": {
-   "amount": 18.05,
-   "amount_with_tax": 18.05,
-   "compare_at_amount": 21.66
-  },
-  "in_stock": true
- },
- {
   "id": 10001954,
   "sku": "ELE1000788",
   "name": "Vidvie Semi-In-Ear TWS Wireless Earbuds, Lightweight Bluetooth Earphones with Clear Calls, Touch Controls and Portable Charging Case, BT8001",
@@ -1190,34 +1050,6 @@ const catalogProducts = [
    "amount": 35.55,
    "amount_with_tax": 35.55,
    "compare_at_amount": 42.66
-  },
-  "in_stock": true
- },
- {
-  "id": 10001953,
-  "sku": "ELE1000787",
-  "name": "Vidvie Semi-In-Ear Wired Headset with USB-C Plug, Type-C Digital Earphones with Built-in Mic, Lightweight Comfortable Fit, Plug and Play, Black, HS682",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-semi-in-ear-wired-headset-with-usb-c-plug-type-c-digital-earphones-with-built-in-mic-lightweight-comfortable-fit-plug-and-play-black-hs682",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012191444-5472.png.webp",
-  "price": {
-   "amount": 25.04,
-   "amount_with_tax": 25.04,
-   "compare_at_amount": 30.05
-  },
-  "in_stock": true
- },
- {
-  "id": 10001950,
-  "sku": "ELE1000784",
-  "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Phones and Audio Devices, HS669",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-wired-earphones-clear-sound-headphones-with-comfortable-fit-lightweight-and-portable-plug-and-play-for-phones-and-audio-devices-hs669",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012191321-3264.png.webp",
-  "price": {
-   "amount": 19.21,
-   "amount_with_tax": 19.21,
-   "compare_at_amount": 23.05
   },
   "in_stock": true
  },
@@ -1250,34 +1082,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001947,
-  "sku": "ELE1000782",
-  "name": "Vidvie Wired Earphones with USB-C Plug, Type-C Digital In-Ear Headphones with Built-in Mic, Lightweight, Plug and Play for Phones Without Audio Jack, HS666",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/hs666-type-c-plug-digital-wired-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708161755-5041.png.webp",
-  "price": {
-   "amount": 24.93,
-   "amount_with_tax": 24.93,
-   "compare_at_amount": 29.92
-  },
-  "in_stock": true
- },
- {
-  "id": 10001946,
-  "sku": "ELE1000781",
-  "name": "Vidvie Half In-Ear Wired Earphones with Built-in Mic, Comfortable Lightweight Headset with Clear Sound for Music, Calls and Gaming, Plug and Play, HS662",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-hs662-half-in-ear-wired-headset",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173026-6061.jpg.webp",
-  "price": {
-   "amount": 16.68,
-   "amount_with_tax": 16.68,
-   "compare_at_amount": 20.02
-  },
-  "in_stock": true
- },
- {
   "id": 10001945,
   "sku": "ELE1000780",
   "name": "Vidvie Neck Phone Holder for Hands-Free Filming, Foldable Magnetic Neck Mount with Adjustable Angle, for Vlogging, POV Videos, Live Streaming and Cooking, HC1552",
@@ -1292,20 +1096,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001944,
-  "sku": "ELE1000779",
-  "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Music, Videos and Calls, HS655",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-hs655-wired-earphones",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916170413-6565.jpg.webp",
-  "price": {
-   "amount": 18.59,
-   "amount_with_tax": 18.59,
-   "compare_at_amount": 22.31
-  },
-  "in_stock": true
- },
- {
   "id": 10001943,
   "sku": "AUT1000054",
   "name": "Vidvie Suction Cup Car Phone Holder, Foldable Arm with 360° Rotation for Dashboard and Windshield, Shock-Resistant Clamp Mount for 4.7-6.7 Inch Phones, HC1547",
@@ -1316,20 +1106,6 @@ const catalogProducts = [
    "amount": 25.93,
    "amount_with_tax": 25.93,
    "compare_at_amount": 31.12
-  },
-  "in_stock": true
- },
- {
-  "id": 10001942,
-  "sku": "ELE1000778",
-  "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Smartphones, HS653",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-wired-earphones-clear-sound-headphones-with-comfortable-fit-lightweight-and-portable-plug-and-play-for-smartphones-hs653",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012192012-8346.jpg.webp",
-  "price": {
-   "amount": 16.68,
-   "amount_with_tax": 16.68,
-   "compare_at_amount": 20.02
   },
   "in_stock": true
  },
@@ -1358,20 +1134,6 @@ const catalogProducts = [
    "amount": 30.47,
    "amount_with_tax": 30.47,
    "compare_at_amount": 36.56
-  },
-  "in_stock": true
- },
- {
-  "id": 10001939,
-  "sku": "ELE1000776",
-  "name": "Vidvie In-Ear Wired Earphones with USB-C Plug, Type-C Headphones with Built-in Mic, Lightweight, Plug and Play for Phones Without Audio Jack, XL-HS605",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-xl-hs605-type-c-in-ear-wired-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001939.jpg.webp",
-  "price": {
-   "amount": 25.02,
-   "amount_with_tax": 25.02,
-   "compare_at_amount": 30.02
   },
   "in_stock": true
  },
@@ -1694,20 +1456,6 @@ const catalogProducts = [
    "amount": 65.86,
    "amount_with_tax": 65.86,
    "compare_at_amount": 79.03
-  },
-  "in_stock": true
- },
- {
-  "id": 10001878,
-  "sku": "ELE1000735",
-  "name": "Vidvie MC03 Wireless Lavalier Microphone with Type-C Receiver, Smart Noise Cancelling, Plug & Play with No App Needed, Black",
-  "category": "Microphones",
-  "url": "https://begad.ae/product/vidvie-mc03-wireless-lavalier-microphone-with-type-c-receiver-smart-noise-cancelling-plug-play-with-no-app-needed-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801192649-3641.png.webp",
-  "price": {
-   "amount": 25.93,
-   "amount_with_tax": 25.93,
-   "compare_at_amount": 31.12
   },
   "in_stock": true
  },
