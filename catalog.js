@@ -74,34 +74,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10002401,
-  "sku": "ELE1000792",
-  "name": "Vidvie Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1624",
-  "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-smart-sports-watch-with-bluetooth-calling-hd-touch-display-heart-rate-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-sw1624",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261019023437-6927.jpg.webp",
-  "price": {
-   "amount": 64.04,
-   "amount_with_tax": 64.04,
-   "compare_at_amount": 76.85
-  },
-  "in_stock": true
- },
- {
-  "id": 10002396,
-  "sku": "ELE1001383",
-  "name": "Vidvie Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Black, SW1623",
-  "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-smart-sports-watch-with-bluetooth-calling-hd-touch-display-heart-rate-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-black-sw1623",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172845-9630.jpg.webp",
-  "price": {
-   "amount": 48.61,
-   "amount_with_tax": 48.61,
-   "compare_at_amount": 58.33
-  },
-  "in_stock": true
- },
- {
   "id": 10002393,
   "sku": "ELE1001380",
   "name": "Vidvie GPS Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Tracking, Multi-Sport Modes, Smart Notifications, Water Resistant Rugged Design, Black, SW1621",
@@ -112,20 +84,6 @@ const catalogProducts = [
    "amount": 108.49,
    "amount_with_tax": 108.49,
    "compare_at_amount": 130.19
-  },
-  "in_stock": true
- },
- {
-  "id": 10002388,
-  "sku": "ELE1001375",
-  "name": "Vidvie Smart Sports Watch with Bluetooth Calling, HD Touch Display, Heart Rate, SpO2 and Sleep Monitoring, Sedentary Reminder, Multi-Sport Modes, Smart Notifications, Splash Resistant, Black, SW1620",
-  "category": "Smart Watches",
-  "url": "https://begad.ae/product/sw1620-wireless-calling-smart-sports-watch",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002388.jpg.webp",
-  "price": {
-   "amount": 84,
-   "amount_with_tax": 84,
-   "compare_at_amount": 100.8
   },
   "in_stock": true
  },
@@ -144,20 +102,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10002383,
-  "sku": "ELE1001370",
-  "name": "Vidvie AMOLED Smart Watch with Bluetooth Calling, Ultra-Clear Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Black, SW1617",
-  "category": "Smart Watches",
-  "url": "https://begad.ae/product/sw1617-amoled-ultra-clear-screen-wireless-call-smart-watch-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231443-3451.png.webp",
-  "price": {
-   "amount": 103.06,
-   "amount_with_tax": 103.06,
-   "compare_at_amount": 123.67
-  },
-  "in_stock": true
- },
- {
   "id": 10002262,
   "sku": "ELE1001365",
   "name": "Vidvie Smart Watch with Bluetooth Calling, HD Color Display, Heart Rate, Blood Pressure, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1615",
@@ -168,20 +112,6 @@ const catalogProducts = [
    "amount": 96.71,
    "amount_with_tax": 96.71,
    "compare_at_amount": 116.05
-  },
-  "in_stock": true
- },
- {
-  "id": 10002259,
-  "sku": "ELE1001362",
-  "name": "Vidvie Ultra Smart Watch with Bluetooth Calling, Large HD Display, Metallic Frame, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1608",
-  "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-sw1608-smart-watch-ultra-hd-display-bluetooth-calling",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232149-1346.jpg.webp",
-  "price": {
-   "amount": 68.48,
-   "amount_with_tax": 68.48,
-   "compare_at_amount": 82.18
   },
   "in_stock": true
  },
@@ -466,48 +396,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10002179,
-  "sku": "ELE1001341",
-  "name": "Vidvie 40W Portable Outdoor Bluetooth Speaker, Bluetooth 5.4, IP67 Waterproof and Dustproof, TWS Stereo Pairing, 16H Playtime, Hands-Free Calls, with Bike Mount and Carabiner, XL-SP934",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-40w-portable-outdoor-bluetooth-speaker-bluetooth-5-4-ip67-waterproof-and-dustproof-tws-stereo-pairing-16h-playtime-hands-free-calls-with-bike-mount-and-carabiner-xl-sp934",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172754-2210.jpg.webp",
-  "price": {
-   "amount": 153.68,
-   "amount_with_tax": 153.68,
-   "compare_at_amount": 184.42
-  },
-  "in_stock": true
- },
- {
-  "id": 10002177,
-  "sku": "ELE1001339",
-  "name": "Vidvie 12W Portable Outdoor Bluetooth Speaker, Bluetooth 5.4, IP67 Waterproof, TWS Stereo Pairing, 10H Playtime, Built-in Mic for Calls, with Bike Mount, Arm Strap and Carabiner, XL-SP933",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/xl-sp933-portable-outdoor-12w-tws-wireless-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002177.jpg.webp",
-  "price": {
-   "amount": 90.18,
-   "amount_with_tax": 90.18,
-   "compare_at_amount": 108.22
-  },
-  "in_stock": true
- },
- {
-  "id": 10002176,
-  "sku": "ELE1001338",
-  "name": "Vidvie 200W Bluetooth Party Speaker with 2 Wireless Karaoke Microphones and Remote Control, TWS Stereo Pairing, XL-SP928",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-xl-sp928-200w-tws-speaker-with-dual-wireless-microphone-and-remote-control",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002176.jpg.webp",
-  "price": {
-   "amount": 528.68,
-   "amount_with_tax": 528.68,
-   "compare_at_amount": 634.42
-  },
-  "in_stock": true
- },
- {
   "id": 10002174,
   "sku": "ELE1001336",
   "name": "Vidvie 2-in-1 Power Bank with Dual Built-in Charging Cables, Fast Charging Portable Charger, Charge 2 Devices at Once, LED Battery Indicator, Overcharge and Temperature Protection, PB7017",
@@ -532,20 +420,6 @@ const catalogProducts = [
    "amount": 54.69,
    "amount_with_tax": 54.69,
    "compare_at_amount": 65.63
-  },
-  "in_stock": true
- },
- {
-  "id": 10002172,
-  "sku": "ELE1001334",
-  "name": "Vidvie Portable Bluetooth Party Speaker 60W with 2 Wireless Karaoke Microphones & Remote, Bluetooth 5.0, IPX6 Waterproof, 8000mAh Battery, 20H Playtime, TWS Pairing, AUX/USB/TF Card, Black - XL-SP908",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-xl-sp908-wireless-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261012_041528_54b6d24195.jpg.webp",
-  "price": {
-   "amount": 268.19,
-   "amount_with_tax": 268.19,
-   "compare_at_amount": 321.83
   },
   "in_stock": true
  },
@@ -728,160 +602,6 @@ const catalogProducts = [
    "amount": 146.61,
    "amount_with_tax": 146.61,
    "compare_at_amount": 175.93
-  },
-  "in_stock": true
- },
- {
-  "id": 10002042,
-  "sku": "ELE1001320",
-  "name": "Vidvie Portable Wireless Bluetooth Speaker, Rechargeable Speaker with Clear Sound and Easy Controls for Home, Travel and Outdoor, SP920",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/sp920-portable-wireless-speaker",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002042.jpg.webp",
-  "price": {
-   "amount": 221.01,
-   "amount_with_tax": 221.01,
-   "compare_at_amount": 265.21
-  },
-  "in_stock": true
- },
- {
-  "id": 10002041,
-  "sku": "ELE1001319",
-  "name": "Vidvie Portable Wireless Bluetooth Speaker, Compact Rechargeable Speaker with Clear Balanced Sound for Home, Office, Travel and Outdoor, SP919",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-portable-wireless-bluetooth-speaker-compact-rechargeable-speaker-with-clear-balanced-sound-for-home-office-travel-and-outdoor-sp919",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012180652-1333.png.webp",
-  "price": {
-   "amount": 103.96,
-   "amount_with_tax": 103.96,
-   "compare_at_amount": 124.75
-  },
-  "in_stock": true
- },
- {
-  "id": 10002040,
-  "sku": "ELE1001318",
-  "name": "Vidvie Extra Bass Portable Bluetooth Speaker with NFC Pairing, Splash-Proof Wireless Speaker, Rechargeable, for Music, Calls and Outdoor Use, SP906",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-extra-bass-portable-bluetooth-speaker-with-nfc-pairing-splash-proof-wireless-speaker-rechargeable-for-music-calls-and-outdoor-use-sp906",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002040.jpg.webp",
-  "price": {
-   "amount": 168.38,
-   "amount_with_tax": 168.38,
-   "compare_at_amount": 202.06
-  },
-  "in_stock": true
- },
- {
-  "id": 10001987,
-  "sku": "ELE1001317",
-  "name": "Vidvie 15W Mini Portable Bluetooth Speaker, Compact Rechargeable Wireless Speaker with Clear Balanced Sound for Home, Travel and Outdoor, SP929",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-15w-mini-portable-bluetooth-speaker-compact-rechargeable-wireless-speaker-with-clear-balanced-sound-for-home-travel-and-outdoor-sp929",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012180912-6007.jpg.webp",
-  "price": {
-   "amount": 77.65,
-   "amount_with_tax": 77.65,
-   "compare_at_amount": 93.18
-  },
-  "in_stock": true
- },
- {
-  "id": 10001986,
-  "sku": "ELE1001316",
-  "name": "Vidvie 40W Portable Bluetooth Speaker, Powerful Wireless Speaker with Enhanced Bass, Rechargeable Battery, for Home, Parties, Travel and Camping, Black, SP934",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-40w-portable-bluetooth-speaker-powerful-wireless-speaker-with-enhanced-bass-rechargeable-battery-for-home-parties-travel-and-camping-black-sp934",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172743-2896.jpg.webp",
-  "price": {
-   "amount": 97.61,
-   "amount_with_tax": 97.61,
-   "compare_at_amount": 117.13
-  },
-  "in_stock": true
- },
- {
-  "id": 10001984,
-  "sku": "ELE1001314",
-  "name": "Vidvie 30W Mini Outdoor Bluetooth Speaker for Cycling, Portable Wireless Speaker with Clear Sound, Rechargeable Battery, for Bike, Travel and Outdoor Use, Black, SP933",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-30w-mini-outdoor-bluetooth-speaker-for-cycling-portable-wireless-speaker-with-clear-sound-rechargeable-battery-for-bike-travel-and-outdoor-use-black-sp933",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001984.jpg.webp",
-  "price": {
-   "amount": 82.19,
-   "amount_with_tax": 82.19,
-   "compare_at_amount": 98.63
-  },
-  "in_stock": true
- },
- {
-  "id": 10001982,
-  "sku": "ELE1001312",
-  "name": "Vidvie Portable Bluetooth Speaker with RGB Lights, Colorful Light Modes, USB-C Charging, Rechargeable Wireless Speaker for Parties, Gaming and Outdoor, Black, SP927",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/portable-rgb-light-wireless-speaker-tc-black",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001982.jpg.webp",
-  "price": {
-   "amount": 131.19,
-   "amount_with_tax": 131.19,
-   "compare_at_amount": 157.43
-  },
-  "in_stock": true
- },
- {
-  "id": 10001980,
-  "sku": "ELE1001310",
-  "name": "Vidvie Portable Wireless Bluetooth Speaker, Compact Rechargeable Speaker with Clear Balanced Sound and Easy Controls, for Home, Travel and Outdoor, SP926",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-portable-wireless-bluetooth-speaker-compact-rechargeable-speaker-with-clear-balanced-sound-and-easy-controls-for-home-travel-and-outdoor-sp926",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012181724-3417.jpg.webp",
-  "price": {
-   "amount": 76.74,
-   "amount_with_tax": 76.74,
-   "compare_at_amount": 92.09
-  },
-  "in_stock": true
- },
- {
-  "id": 10001978,
-  "sku": "ELE1001308",
-  "name": "Vidvie Portable Bluetooth Speaker with 3.5mm AUX Input, USB-C Charging, Rechargeable Wireless Speaker with Clear Sound, AUX Cable Included, Black, SP914",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-portable-bluetooth-speaker-with-3-5mm-aux-input-usb-c-charging-rechargeable-wireless-speaker-with-clear-sound-aux-cable-included-black-sp914",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012181908-9519.png.webp",
-  "price": {
-   "amount": 84.91,
-   "amount_with_tax": 84.91,
-   "compare_at_amount": 101.89
-  },
-  "in_stock": true
- },
- {
-  "id": 10001976,
-  "sku": "ELE1001306",
-  "name": "Vidvie Outdoor Camping Bluetooth Speaker with Colorful Breathing Lights, Portable Rechargeable Wireless Speaker for Camping, Parties and Travel, CL01",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-outdoor-camping-bluetooth-speaker-with-colorful-breathing-lights-portable-rechargeable-wireless-speaker-for-camping-parties-and-travel-cl01",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184221-2366.jpg.webp",
-  "price": {
-   "amount": 61.32,
-   "amount_with_tax": 61.32,
-   "compare_at_amount": 73.58
-  },
-  "in_stock": true
- },
- {
-  "id": 10001975,
-  "sku": "ELE1001305",
-  "name": "Vidvie 10W HiFi Portable Outdoor Bluetooth Speaker, TWS Stereo Pairing, Rich Bass, Rechargeable Wireless Speaker for Travel and Outdoor, SP930",
-  "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-10w-hifi-portable-outdoor-bluetooth-speaker-tws-stereo-pairing-rich-bass-rechargeable-wireless-speaker-for-travel-and-outdoor-sp930",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184351-9877.jpg.webp",
-  "price": {
-   "amount": 71.29,
-   "amount_with_tax": 71.29,
-   "compare_at_amount": 85.55
   },
   "in_stock": true
  },
