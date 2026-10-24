@@ -1124,20 +1124,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001899,
-  "sku": "HEA1000007",
-  "name": "Vidvie Electric Water Flosser, Cordless Rechargeable Oral Irrigator with Built-in Water Tank, High-Pressure Pulse Cleaning, Multiple Modes and Waterproof Design, WF01",
-  "category": "Wellness",
-  "url": "https://begad.ae/product/vidvie-electric-water-flosser-cordless-rechargeable-oral-irrigator-with-built-in-water-tank-high-pressure-pulse-cleaning-multiple-modes-and-waterproof-design-wf01",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001899.jpg.webp",
-  "price": {
-   "amount": 67.22,
-   "amount_with_tax": 67.22,
-   "compare_at_amount": 80.66
-  },
-  "in_stock": true
- },
- {
   "id": 10001898,
   "sku": "BEA1000180",
   "name": "Vidvie ET01 Sonic Electric Toothbrush, Rechargeable with Up to 38,000 Vibrations per Minute, Multiple Cleaning Modes, IPX7 Waterproof, White",
