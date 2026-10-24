@@ -116,6 +116,20 @@ const catalogProducts = [
   "in_stock": true
  },
  {
+  "id": 10002259,
+  "sku": "ELE1001362",
+  "name": "Vidvie Ultra Smart Watch with Bluetooth Calling, Large HD Display, Metallic Frame, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1608",
+  "category": "Smart Watches",
+  "url": "https://begad.ae/product/vidvie-sw1608-smart-watch-ultra-hd-display-bluetooth-calling",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232149-1346.jpg.webp",
+  "price": {
+   "amount": 68.48,
+   "amount_with_tax": 68.48,
+   "compare_at_amount": 82.18
+  },
+  "in_stock": true
+ },
+ {
   "id": 10002258,
   "sku": "ELE1001361",
   "name": "Vidvie 256GB USB 3.2 Flash Drive, High-Speed Metal USB Memory Stick, Plug and Play for Laptop, PC, Smart TV and Car, Backward Compatible with USB 3.0 and 2.0, USB2608",
@@ -602,6 +616,20 @@ const catalogProducts = [
    "amount": 146.61,
    "amount_with_tax": 146.61,
    "compare_at_amount": 175.93
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10001976,
+  "sku": "ELE1001306",
+  "name": "Vidvie Outdoor Camping Bluetooth Speaker with Colorful Breathing Lights, Portable Rechargeable Wireless Speaker for Camping, Parties and Travel, CL01",
+  "category": "Bluetooth Speakers",
+  "url": "https://begad.ae/product/vidvie-outdoor-camping-bluetooth-speaker-with-colorful-breathing-lights-portable-rechargeable-wireless-speaker-for-camping-parties-and-travel-cl01",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184221-2366.jpg.webp",
+  "price": {
+   "amount": 61.32,
+   "amount_with_tax": 61.32,
+   "compare_at_amount": 73.58
   },
   "in_stock": true
  },
