@@ -32,6 +32,20 @@ const catalogProducts = [
   "in_stock": true
  },
  {
+  "id": 10009846,
+  "sku": "ELE1002288",
+  "name": "Vidvie USB-C to USB-C Data and Charging Cable, Type-C Charge and Sync Cord for Android Phones, Tablets and USB-C Devices, Black, CB4058C&C",
+  "category": "Cables",
+  "url": "https://begad.ae/product/vidvie-usb-c-to-usb-c-data-and-charging-cable-type-c-charge-and-sync-cord-for-android-phones-tablets-and-usb-c-devices-black-cb4058c-c",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261010_034745_30f473050d.png.webp",
+  "price": {
+   "amount": 21.02,
+   "amount_with_tax": 21.02,
+   "compare_at_amount": 25.22
+  },
+  "in_stock": true
+ },
+ {
   "id": 10007307,
   "sku": "ELE1002187",
   "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 2m, Long Type-C Charge and Data Sync Cord for Phones, Tablets and Laptops, Black, CB4038-2C&C",
@@ -46,6 +60,20 @@ const catalogProducts = [
   "in_stock": true
  },
  {
+  "id": 10007059,
+  "sku": "ELE1002033",
+  "name": "Vidvie 36W USB-C to Lightning Fast Charging Cable, Nylon Braided Data Sync Cord with Smart Overload Protection for iPhone, iPad and iPod, Black, CB4058C&i",
+  "category": "Cables",
+  "url": "https://begad.ae/product/vidvie-36w-usb-c-to-lightning-fast-charging-cable-nylon-braided-data-sync-cord-with-smart-overload-protection-for-iphone-ipad-and-ipod-black-cb4058c-i",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260929181831-3678.jpeg.webp",
+  "price": {
+   "amount": 22.13,
+   "amount_with_tax": 22.13,
+   "compare_at_amount": 26.56
+  },
+  "in_stock": true
+ },
+ {
   "id": 10006845,
   "sku": "ELE1001204",
   "name": "Vidvie 12-in-1 Power Strip Extension 2500W, 4 UK AC Outlets with 4 USB-A and 4 USB-C Fast Charging Ports, Surge and Overload Protection, Heavy-Duty Copper Cord for Home and Office, White, PSB07",
@@ -56,6 +84,20 @@ const catalogProducts = [
    "amount": 53.15,
    "amount_with_tax": 53.15,
    "compare_at_amount": 63.78
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10006736,
+  "sku": "ELE1001126",
+  "name": "Vidvie 38W Dual Port Car Charger, 20W USB-C PD and 18W QC 3.0 USB-A Fast Charging, Mini Zinc Alloy Metal Car Adapter for 12V-24V Vehicles, iPhone, Samsung and Android Phones, Gray, CC522C",
+  "category": "Chargers",
+  "url": "https://begad.ae/product/vidvie-38w-dual-port-car-charger-20w-usb-c-pd-and-18w-qc-3-0-usb-a-fast-charging-mini-zinc-alloy-metal-car-adapter-for-12v-24v-vehicles-iphone-samsung-and-android-phones-gray-cc522c",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260921184226-4315.jpg.webp",
+  "price": {
+   "amount": 28.65,
+   "amount_with_tax": 28.65,
+   "compare_at_amount": 34.38
   },
   "in_stock": true
  },
@@ -1106,20 +1148,6 @@ const catalogProducts = [
    "amount": 49.98,
    "amount_with_tax": 49.98,
    "compare_at_amount": 59.98
-  },
-  "in_stock": true
- },
- {
-  "id": 10001900,
-  "sku": "BEA1000181",
-  "name": "Vidvie High-Power Hair Clippers, Rechargeable Cordless Hair Trimmer with Stainless Steel Blades, Guide Combs and Low-Noise Motor for Hair, Beard and Detailing, HT01",
-  "category": "Grooming Kits",
-  "url": "https://begad.ae/product/vidvie-high-power-hair-clippers-rechargeable-cordless-hair-trimmer-with-stainless-steel-blades-guide-combs-and-low-noise-motor-for-hair-beard-and-detailing-ht01",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172611-5073.jpg.webp",
-  "price": {
-   "amount": 34.55,
-   "amount_with_tax": 34.55,
-   "compare_at_amount": 41.46
   },
   "in_stock": true
  },
