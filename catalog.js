@@ -46,6 +46,20 @@ const catalogProducts = [
   "in_stock": true
  },
  {
+  "id": 10007323,
+  "sku": "ELE1002201",
+  "name": "Vidvie Half In-Ear Wired Earphones with USB-C Plug, Type-C Headphones with Comfortable Fit for Android Phones and USB-C Devices, White, HS685T",
+  "category": "Headphones",
+  "url": "https://begad.ae/product/vidvie-half-in-ear-wired-earphones-with-usb-c-plug-type-c-headphones-with-comfortable-fit-for-android-phones-and-usb-c-devices-white-hs685t",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012191813-6410.jpg.webp",
+  "price": {
+   "amount": 18.04,
+   "amount_with_tax": 18.04,
+   "compare_at_amount": 21.65
+  },
+  "in_stock": true
+ },
+ {
   "id": 10007307,
   "sku": "ELE1002187",
   "name": "Vidvie 60W USB-C to USB-C Fast Charging Cable 2m, Long Type-C Charge and Data Sync Cord for Phones, Tablets and Laptops, Black, CB4038-2C&C",
@@ -98,6 +112,20 @@ const catalogProducts = [
    "amount": 28.65,
    "amount_with_tax": 28.65,
    "compare_at_amount": 34.38
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10006720,
+  "sku": "ELE1001110",
+  "name": "Vidvie Wireless Microphone with USB-C Receiver, AI Noise Cancelling Dual Mic Set with Charging Case, 2.4GHz 15ms Low Latency, 8H per Mic and 32H with Case, for Vlogging, Interviews and Live Streaming, Black, MC02-T",
+  "category": "Microphones",
+  "url": "https://begad.ae/product/vidvie-wireless-microphone-with-usb-c-receiver-ai-noise-cancelling-dual-mic-set-with-charging-case-2-4ghz-15ms-low-latency-8h-per-mic-and-32h-with-case-for-vlogging-interviews-and-live-streaming-black-mc02-t",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10006720.jpg.webp",
+  "price": {
+   "amount": 96.26,
+   "amount_with_tax": 96.26,
+   "compare_at_amount": 115.51
   },
   "in_stock": true
  },
