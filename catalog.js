@@ -1292,20 +1292,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001957,
-  "sku": "ELE1000791",
-  "name": "Vidvie Half In-Ear Wired Earphones with USB-C Plug, Type-C Digital Headphones with Built-in Mic for Calls, Lightweight Comfortable Fit, Plug and Play, HS685T",
-  "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-hs685t-half-in-ear-type-c-wired-earphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001957.jpg.webp",
-  "price": {
-   "amount": 18.04,
-   "amount_with_tax": 18.04,
-   "compare_at_amount": 21.65
-  },
-  "in_stock": true
- },
- {
   "id": 10001956,
   "sku": "ELE1000790",
   "name": "Vidvie In-Ear TWS Wireless Earbuds with Deep Bass, Bluetooth Earphones with Built-in Mic, Noise Isolating Fit and Charging Case, for Music, Calls and Workouts, BT8002",
@@ -1582,20 +1568,6 @@ const catalogProducts = [
    "amount": 22.58,
    "amount_with_tax": 22.58,
    "compare_at_amount": 27.1
-  },
-  "in_stock": true
- },
- {
-  "id": 10001935,
-  "sku": "AUT1000052",
-  "name": "Vidvie Transparent Dual Port Fast Car Charger, USB-C PD and USB-A QC Car Adapter with LED Light, Smart Auto-ID, 12V-24V, Overheat and Short-Circuit Protection, CC549",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-in-car-cc549-transparent-type-c-usb-fast-car-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001935.jpg.webp",
-  "price": {
-   "amount": 23.85,
-   "amount_with_tax": 23.85,
-   "compare_at_amount": 28.62
   },
   "in_stock": true
  },
@@ -1890,6 +1862,20 @@ const catalogProducts = [
    "amount": 21.66,
    "amount_with_tax": 21.66,
    "compare_at_amount": 25.99
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10001913,
+  "sku": "ELE1000760",
+  "name": "Vidvie USB-C to 3.5mm Audio Adapter, Aluminum Alloy Braided Headphone Converter with Mic and Remote Support for Type-C Phones, Tablets and Laptops, AL1124",
+  "category": "Mobile Accessories",
+  "url": "https://begad.ae/product/vidvie-usb-c-to-3-5mm-audio-adapter-aluminum-alloy-braided-headphone-converter-with-mic-and-remote-support-for-type-c-phones-tablets-and-laptops-al1124",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916231936-9416.jpg.webp",
+  "price": {
+   "amount": 21.58,
+   "amount_with_tax": 21.58,
+   "compare_at_amount": 25.9
   },
   "in_stock": true
  },
@@ -2202,20 +2188,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001877,
-  "sku": "ELE1000734",
-  "name": "Vidvie MC02-T Ai Smart Noise-cancelling Wireless Microphone",
-  "category": "Microphones",
-  "url": "https://begad.ae/product/vidvie-mc02-t-ai-smart-noise-cancelling-wireless-microphone",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261020200137-7636.jpg.webp",
-  "price": {
-   "amount": 96.26,
-   "amount_with_tax": 96.26,
-   "compare_at_amount": 115.51
-  },
-  "in_stock": true
- },
- {
   "id": 10001876,
   "sku": "ELE1000733",
   "name": "Vidvie HD04 DP high-definition Cable",
@@ -2282,20 +2254,6 @@ const catalogProducts = [
    "amount": 76.29,
    "amount_with_tax": 76.29,
    "compare_at_amount": 91.55
-  },
-  "in_stock": true
- },
- {
-  "id": 10001871,
-  "sku": "BEA1000176",
-  "name": "High-Power Hair Clippers [Black] - Vidvie",
-  "category": "Hair Tools",
-  "url": "https://begad.ae/product/high-power-hair-clippers-black-vidvie",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001871.jpg.webp",
-  "price": {
-   "amount": 34.55,
-   "amount_with_tax": 34.55,
-   "compare_at_amount": 41.46
   },
   "in_stock": true
  },
@@ -2674,20 +2632,6 @@ const catalogProducts = [
    "amount": 82.18,
    "amount_with_tax": 82.18,
    "compare_at_amount": 98.62
-  },
-  "in_stock": true
- },
- {
-  "id": 10001583,
-  "sku": "ELE1000495",
-  "name": "VIDVIE CC548 Dual Type-C & USB Fast Car Charger – Rapid Charging for All Devices",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-cc548-dual-type-c-usb-fast-car-charger-rapid-charging-for-all-devices",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001583.jpg.webp",
-  "price": {
-   "amount": 47.45,
-   "amount_with_tax": 47.45,
-   "compare_at_amount": 56.94
   },
   "in_stock": true
  },
