@@ -1208,20 +1208,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001964,
-  "sku": "AUT1000128",
-  "name": "Vidvie 60W USB-C PD Fast Car Charger with 1m USB-C to USB-C Cable, Compact Single Port Car Adapter for 12V/24V, Overheat and Short-Circuit Protection, for Phones, Tablets and Laptops, Grey, CC541",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-single-type-c-fast-car-charger-tc-tc-100cm-60w-grey-vidvie",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001964.jpg.webp",
-  "price": {
-   "amount": 23.66,
-   "amount_with_tax": 23.66,
-   "compare_at_amount": 28.39
-  },
-  "in_stock": true
- },
- {
   "id": 10001963,
   "sku": "AUT1000127",
   "name": "Vidvie Dual Port Fast Car Charger, USB-C and USB-A Metal Car Adapter with USB-C to Lightning Cable for iPhone, Charge 2 Devices at Once, Grey, CC542",
