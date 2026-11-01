@@ -25,9 +25,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-10000mah-power-bank-22-5w-fast-charging-2-in-1-portable-charger-with-built-in-type-c-lightning-cables-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261013193230-8173.jpg.webp",
   "price": {
-   "amount": 63.75,
-   "amount_with_tax": 63.75,
-   "compare_at_amount": 75
+   "amount": 75,
+   "amount_with_tax": 75,
+   "compare_at_amount": 110
   },
   "in_stock": true
  },
@@ -1985,9 +1985,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-in-car-cc522-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801195135-2466.jpg.webp",
   "price": {
-   "amount": 95.2,
-   "amount_with_tax": 95.2,
-   "compare_at_amount": 112
+   "amount": 112,
+   "amount_with_tax": 112,
+   "compare_at_amount": 125
   },
   "in_stock": true
  },
@@ -2643,9 +2643,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-cc542-33w-pps-type-c-usb-fast-car-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001572.jpg.webp",
   "price": {
-   "amount": 33.15,
-   "amount_with_tax": 33.15,
-   "compare_at_amount": 39
+   "amount": 39,
+   "amount_with_tax": 39,
+   "compare_at_amount": 125
   },
   "in_stock": true
  },
