@@ -37,7 +37,7 @@ const catalogProducts = [
   "name": "Vidvie USB-C to USB-C Data and Charging Cable, Type-C Charge and Sync Cord for Android Phones, Tablets and USB-C Devices, Black, CB4058C&C",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-usb-c-to-usb-c-data-and-charging-cable-type-c-charge-and-sync-cord-for-android-phones-tablets-and-usb-c-devices-black-cb4058c-c",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261010_034745_30f473050d.png.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102172148-2717.jpg.webp",
   "price": {
    "amount": 21.02,
    "amount_with_tax": 21.02,
@@ -79,7 +79,7 @@ const catalogProducts = [
   "name": "Vidvie 36W USB-C to Lightning Fast Charging Cable, Nylon Braided Data Sync Cord with Smart Overload Protection for iPhone, iPad and iPod, Black, CB4058C&i",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-36w-usb-c-to-lightning-fast-charging-cable-nylon-braided-data-sync-cord-with-smart-overload-protection-for-iphone-ipad-and-ipod-black-cb4058c-i",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260929181831-3678.jpeg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102163551-7919.jpg.webp",
   "price": {
    "amount": 22.13,
    "amount_with_tax": 22.13,
@@ -92,7 +92,7 @@ const catalogProducts = [
   "sku": "ELE1001204",
   "name": "Vidvie 12-in-1 Power Strip Extension 2500W, 4 UK AC Outlets with 4 USB-A and 4 USB-C Fast Charging Ports, Surge and Overload Protection, Heavy-Duty Copper Cord for Home and Office, White, PSB07",
   "category": "extensions & Plugs",
-  "url": "https://begad.ae/product/vidvie-power-strip-extension-uk-plug-2500w-4-ac-outlets-4-usb-4-type-c-fast-charging-ports-psb07-white",
+  "url": "https://begad.ae/product/vidvie-12-in-1-power-strip-extension-2500w-4-uk-ac-outlets-with-4-usb-a-and-4-usb-c-fast-charging-ports-surge-and-overload-protection-heavy-duty-copper-cord-for-home-and-office-white-psb07",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925135834-1948.png.webp",
   "price": {
    "amount": 53.15,
@@ -134,7 +134,7 @@ const catalogProducts = [
   "sku": "ELE1001389",
   "name": "Vidvie Portable Business Laptop Bag, Padded Multi-Compartment Computer Carry Bag with Front Pocket and Handles for Office, Travel and School, Blue, BH02",
   "category": "Laptop Bags",
-  "url": "https://begad.ae/product/vidvie-bh02-portable-business-computer-laptop-bag-blue",
+  "url": "https://begad.ae/product/vidvie-portable-business-laptop-bag-padded-multi-compartment-computer-carry-bag-with-front-pocket-and-handles-for-office-travel-and-school-blue-bh02",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915165907-8566.jpg.webp",
   "price": {
    "amount": 74.02,
@@ -204,7 +204,7 @@ const catalogProducts = [
   "sku": "ELE1001373",
   "name": "Vidvie AMOLED Smart Watch with Bluetooth Calling, Ultra-Clear Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Rose Gold, SW1619",
   "category": "Smart Watches",
-  "url": "https://begad.ae/product/sw1619-amoled-ultra-clear-screen-wireless-call-smart-watch-rose-gold",
+  "url": "https://begad.ae/product/vidvie-amoled-smart-watch-with-bluetooth-calling-ultra-clear-display-heart-rate-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-rose-gold-sw1619",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709171837-5043.png.webp",
   "price": {
    "amount": 103.06,
@@ -232,7 +232,7 @@ const catalogProducts = [
   "sku": "ELE1001365",
   "name": "Vidvie Smart Watch with Bluetooth Calling, HD Color Display, Heart Rate, Blood Pressure, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1615",
   "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-sw1615-smart-watch-with-health-tracking-hd-screen-bluetooth-cal",
+  "url": "https://begad.ae/product/vidvie-smart-watch-with-bluetooth-calling-hd-color-display-heart-rate-blood-pressure-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-sw1615",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231910-9521.jpg.webp",
   "price": {
    "amount": 96.71,
@@ -246,7 +246,7 @@ const catalogProducts = [
   "sku": "ELE1001362",
   "name": "Vidvie Ultra Smart Watch with Bluetooth Calling, Large HD Display, Metallic Frame, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1608",
   "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-sw1608-smart-watch-ultra-hd-display-bluetooth-calling",
+  "url": "https://begad.ae/product/vidvie-ultra-smart-watch-with-bluetooth-calling-large-hd-display-metallic-frame-heart-rate-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-sw1608",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810232149-1346.jpg.webp",
   "price": {
    "amount": 81.7,
@@ -260,7 +260,7 @@ const catalogProducts = [
   "sku": "ELE1001361",
   "name": "Vidvie 256GB USB 3.2 Flash Drive, High-Speed Metal USB Memory Stick, Plug and Play for Laptop, PC, Smart TV and Car, Backward Compatible with USB 3.0 and 2.0, USB2608",
   "category": "USB Flash Drives",
-  "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-256gb",
+  "url": "https://begad.ae/product/vidvie-256gb-usb-3-2-flash-drive-high-speed-metal-usb-memory-stick-plug-and-play-for-laptop-pc-smart-tv-and-car-backward-compatible-with-usb-3-0-and-2-0-usb2608",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002258.jpg.webp",
   "price": {
    "amount": 186.89,
@@ -302,7 +302,7 @@ const catalogProducts = [
   "sku": "ELE1001358",
   "name": "Vidvie 128GB USB 3.2 Flash Drive, Zinc Alloy Metal High-Speed USB Memory Stick up to 100MB/s Read, Plug and Play for Laptop, PC, Mac, Smart TV and Car, USB2608",
   "category": "USB Flash Drives",
-  "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-128gb",
+  "url": "https://begad.ae/product/vidvie-128gb-usb-3-2-flash-drive-zinc-alloy-metal-high-speed-usb-memory-stick-up-to-100mb-s-read-plug-and-play-for-laptop-pc-mac-smart-tv-and-car-usb2608",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002255.jpg.webp",
   "price": {
    "amount": 102.88,
@@ -330,7 +330,7 @@ const catalogProducts = [
   "sku": "ELE1001356",
   "name": "Vidvie 64GB USB 3.2 Flash Drive, High-Speed USB Memory Stick, Plug and Play for Laptop, PC, Smart TV and Car, Backward Compatible with USB 2.0, USB2608",
   "category": "USB Flash Drives",
-  "url": "https://begad.ae/product/usb2608-new-upgraded-usb-3-2-flash-disk-64gb",
+  "url": "https://begad.ae/product/vidvie-64gb-usb-3-2-flash-drive-high-speed-usb-memory-stick-plug-and-play-for-laptop-pc-smart-tv-and-car-backward-compatible-with-usb-2-0-usb2608",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917043719-6980.png.webp",
   "price": {
    "amount": 63.04,
@@ -344,7 +344,7 @@ const catalogProducts = [
   "sku": "ELE1001355",
   "name": "Vidvie 6-in-1 USB-C Hub Docking Station, Aluminum Alloy Multiport Adapter with HD Video Output, USB Ports, Memory Card Slots and Charging, Plug and Play for Laptops, Tablets and USB-C Phones, HUB03",
   "category": "USB Hubs & Docking",
-  "url": "https://begad.ae/product/vidvie-hub03-6-in-1-hub-docking-station",
+  "url": "https://begad.ae/product/vidvie-6-in-1-usb-c-hub-docking-station-aluminum-alloy-multiport-adapter-with-hd-video-output-usb-ports-memory-card-slots-and-charging-plug-and-play-for-laptops-tablets-and-usb-c-phones-hub03",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172240-9325.jpg.webp",
   "price": {
    "amount": 57.24,
@@ -428,8 +428,8 @@ const catalogProducts = [
   "sku": "ELE1001349",
   "name": "Vidvie 256GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
   "category": "External Storage",
-  "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-256gb",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002188.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-256gb-micro-sdxc-memory-card-upgraded-high-capacity-microsd-card-for-smartphones-tablets-cameras-drones-and-nintendo-switch-sd2502",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102172049-1076.jpg.webp",
   "price": {
    "amount": 221.73,
    "amount_with_tax": 221.73,
@@ -456,8 +456,8 @@ const catalogProducts = [
   "sku": "ELE1001347",
   "name": "Vidvie 128GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
   "category": "External Storage",
-  "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-128gb",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002186.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-128gb-micro-sdxc-memory-card-upgraded-high-capacity-microsd-card-for-smartphones-tablets-cameras-drones-and-nintendo-switch-sd2502",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102172119-2347.jpg.webp",
   "price": {
    "amount": 110.49,
    "amount_with_tax": 110.49,
@@ -470,7 +470,7 @@ const catalogProducts = [
   "sku": "ELE1001346",
   "name": "Vidvie 64GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
   "category": "External Storage",
-  "url": "https://begad.ae/product/sd2502-new-upgraded-micro-sdxc-card-64gb",
+  "url": "https://begad.ae/product/vidvie-64gb-micro-sdxc-memory-card-upgraded-high-capacity-microsd-card-for-smartphones-tablets-cameras-drones-and-nintendo-switch-sd2502",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002185.jpg.webp",
   "price": {
    "amount": 82.65,
@@ -484,7 +484,7 @@ const catalogProducts = [
   "sku": "FAS1000064",
   "name": "Vidvie 14 Inch Portable Business Laptop Bag, Padded Water-Resistant Computer Carry Bag with Multiple Pockets and Handles for Office, School and Travel, Black, BH02",
   "category": "Bags & Luggage",
-  "url": "https://begad.ae/product/portable-business-computer-laptop-bag-14inch-black",
+  "url": "https://begad.ae/product/vidvie-14-inch-portable-business-laptop-bag-padded-water-resistant-computer-carry-bag-with-multiple-pockets-and-handles-for-office-school-and-travel-black-bh02",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172859-3874.jpg.webp",
   "price": {
    "amount": 74.02,
@@ -498,7 +498,7 @@ const catalogProducts = [
   "sku": "ELE1001345",
   "name": "Vidvie 15W Magnetic Wireless Charger with Cooling Fan, Fast Charging Phone Cooler for Gaming and Streaming, USB-C Input, Overheat and Overcharge Protection, GM02",
   "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/gm02-magnetic-cooling-wireless-charging",
+  "url": "https://begad.ae/product/vidvie-15w-magnetic-wireless-charger-with-cooling-fan-fast-charging-phone-cooler-for-gaming-and-streaming-usb-c-input-overheat-and-overcharge-protection-gm02",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915170051-9767.jpg.webp",
   "price": {
    "amount": 83,
@@ -818,13 +818,13 @@ const catalogProducts = [
  {
   "id": 10002044,
   "sku": "ELE1001322",
-  "name": "Vidvie 3000mAh Mini Power Bank with Built-in LED Light, Compact Lightweight Emergency Charger for Smartphones and Small USB Devices, Travel and Outdoor, PB7035",
+  "name": "Vidvie Mini Power Bank with Built-in LED Light, Compact Lightweight Emergency Charger for Smartphones and Small USB Devices, Travel and Outdoor,30,000mAh PB7035",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-3000mah-mini-power-bank-with-built-in-led-light-compact-lightweight-emergency-charger-for-smartphones-and-small-usb-devices-travel-and-outdoor-pb7035",
+  "url": "https://begad.ae/product/vidvie-mini-power-bank-with-built-in-led-light-compact-lightweight-emergency-charger-for-smartphones-and-small-usb-devices-travel-and-outdoor-30-000mah-pb7035",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002044.jpg.webp",
   "price": {
-   "amount": 80.01,
-   "amount_with_tax": 80.01,
+   "amount": 80,
+   "amount_with_tax": 80,
    "compare_at_amount": 96.01
   },
   "in_stock": true
@@ -1212,7 +1212,7 @@ const catalogProducts = [
   "sku": "AUT1000127",
   "name": "Vidvie Dual Port Fast Car Charger, USB-C and USB-A Metal Car Adapter with USB-C to Lightning Cable for iPhone, Charge 2 Devices at Once, Grey, CC542",
   "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-type-c-usb-fast-car-charger-type-c-tc-ip-metal-car-charger-grey",
+  "url": "https://begad.ae/product/vidvie-dual-port-fast-car-charger-usb-c-and-usb-a-metal-car-adapter-with-usb-c-to-lightning-cable-for-iphone-charge-2-devices-at-once-grey-cc542",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001963.jpg.webp",
   "price": {
    "amount": 28.2,
@@ -1226,7 +1226,7 @@ const catalogProducts = [
   "sku": "ELE1001294",
   "name": "Vidvie 3-in-1 Charging and Data Cable, Multi-Connector Charge and Sync Cord for Multiple Phones and Devices, Durable for Home, Office and Travel, CB4039",
   "category": "Cables",
-  "url": "https://begad.ae/product/cb4039-3-in-1-data-cable",
+  "url": "https://begad.ae/product/vidvie-3-in-1-charging-and-data-cable-multi-connector-charge-and-sync-cord-for-multiple-phones-and-devices-durable-for-home-office-and-travel-cb4039",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001961.jpg.webp",
   "price": {
    "amount": 19.54,
@@ -1240,7 +1240,7 @@ const catalogProducts = [
   "sku": "AUT1000058",
   "name": "Vidvie Suction Cup Car Phone Holder for Center Console, Adjustable Viewing Angle, Hands-Free Mount for Navigation and Calls, Fits Most Smartphones, Black, HC1522",
   "category": "Car Mounts",
-  "url": "https://begad.ae/product/hc1522-center-console-suction-cup-car-holder-black",
+  "url": "https://begad.ae/product/vidvie-suction-cup-car-phone-holder-for-center-console-adjustable-viewing-angle-hands-free-mount-for-navigation-and-calls-fits-most-smartphones-black-hc1522",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915171325-4939.png.webp",
   "price": {
    "amount": 28.65,
@@ -1254,7 +1254,7 @@ const catalogProducts = [
   "sku": "AUT1000057",
   "name": "Vidvie Car Phone Holder, Secure Hands-Free Smartphone Mount for Navigation and Calls, Easy Phone Placement and Removal, Compact Design, Fits Most Smartphones, HC1520",
   "category": "Car Mounts",
-  "url": "https://begad.ae/product/hc1520-car-holder",
+  "url": "https://begad.ae/product/vidvie-car-phone-holder-secure-hands-free-smartphone-mount-for-navigation-and-calls-easy-phone-placement-and-removal-compact-design-fits-most-smartphones-hc1520",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001959.jpg.webp",
   "price": {
    "amount": 17.86,
@@ -1268,7 +1268,7 @@ const catalogProducts = [
   "sku": "AUT1000056",
   "name": "Vidvie Car Phone Holder, Secure Hands-Free Smartphone Mount for Navigation and Calls, Easy Phone Placement and Removal, Space-Saving Design, Fits Most Smartphones, HC1519",
   "category": "Car Mounts",
-  "url": "https://begad.ae/product/hc1519-car-holder",
+  "url": "https://begad.ae/product/vidvie-car-phone-holder-secure-hands-free-smartphone-mount-for-navigation-and-calls-easy-phone-placement-and-removal-space-saving-design-fits-most-smartphones-hc1519",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173228-8434.jpg.webp",
   "price": {
    "amount": 18.68,
@@ -1366,7 +1366,7 @@ const catalogProducts = [
   "sku": "ELE1000783",
   "name": "Vidvie Metal Phone and Tablet Stand, Foldable 360° Rotating Desk Holder with Silicone Anti-Slip Base, for Video Calls, Watching, Reading and Typing, HC1576",
   "category": "Mounts & Holders",
-  "url": "https://begad.ae/product/hc1576-metal-foldable-rotating-phone-tablet-holder-with-built-in-silicone-anti-slip-base",
+  "url": "https://begad.ae/product/vidvie-metal-phone-and-tablet-stand-foldable-360-rotating-desk-holder-with-silicone-anti-slip-base-for-video-calls-watching-reading-and-typing-hc1576",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915043016-5119.jpg.webp",
   "price": {
    "amount": 40.91,
@@ -1380,8 +1380,8 @@ const catalogProducts = [
   "sku": "AUT1000055",
   "name": "Vidvie Metal Foldable Phone Stand, Adjustable Angle Desk Holder with Silicone Anti-Slip Base, Compact and Travel-Friendly, for Video Calls, Watching and Reading, HC1575",
   "category": "Mounts & Holders",
-  "url": "https://begad.ae/product/hc1575-metal-foldable-phone-holder-with-built-in-silicone-anti-slip-base",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708161817-7439.png.webp",
+  "url": "https://begad.ae/product/vidvie-metal-foldable-phone-stand-adjustable-angle-desk-holder-with-silicone-anti-slip-base-compact-and-travel-friendly-for-video-calls-watching-and-reading-hc1575",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171852-2680.jpg.webp",
   "price": {
    "amount": 37.05,
    "amount_with_tax": 37.05,
@@ -1395,7 +1395,7 @@ const catalogProducts = [
   "name": "Vidvie Wired Earphones with USB-C Plug, Type-C Digital In-Ear Headphones with Built-in Mic, Lightweight, Plug and Play for Phones Without Audio Jack, HS666",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-wired-earphones-with-usb-c-plug-type-c-digital-in-ear-headphones-with-built-in-mic-lightweight-plug-and-play-for-phones-without-audio-jack-hs666",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260708161755-5041.png.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162938-7863.jpg.webp",
   "price": {
    "amount": 24.93,
    "amount_with_tax": 24.93,
@@ -1422,7 +1422,7 @@ const catalogProducts = [
   "sku": "ELE1000780",
   "name": "Vidvie Neck Phone Holder for Hands-Free Filming, Foldable Magnetic Neck Mount with Adjustable Angle, for Vlogging, POV Videos, Live Streaming and Cooking, HC1552",
   "category": "Mounts & Holders",
-  "url": "https://begad.ae/product/hc1552-foldable-neck-hanging-magnetic-shooting-bracket",
+  "url": "https://begad.ae/product/vidvie-neck-phone-holder-for-hands-free-filming-foldable-magnetic-neck-mount-with-adjustable-angle-for-vlogging-pov-videos-live-streaming-and-cooking-hc1552",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916074403-9716.jpg.webp",
   "price": {
    "amount": 65.94,
@@ -1450,7 +1450,7 @@ const catalogProducts = [
   "sku": "AUT1000054",
   "name": "Vidvie Suction Cup Car Phone Holder, Foldable Arm with 360° Rotation for Dashboard and Windshield, Shock-Resistant Clamp Mount for 4.7-6.7 Inch Phones, HC1547",
   "category": "Car Mounts",
-  "url": "https://begad.ae/product/vidvie-hc1547-suction-cup-foldable-car-holder",
+  "url": "https://begad.ae/product/vidvie-suction-cup-car-phone-holder-foldable-arm-with-360-rotation-for-dashboard-and-windshield-shock-resistant-clamp-mount-for-4-7-6-7-inch-phones-hc1547",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172716-6806.jpg.webp",
   "price": {
    "amount": 34.27,
@@ -1478,7 +1478,7 @@ const catalogProducts = [
   "sku": "AUT1000053",
   "name": "Vidvie 15W Magnetic Wireless Charging Car Phone Holder, MagSafe Compatible Suction Mount for Dashboard and Windshield, 360° Adjustable, USB-C Input, HC1523",
   "category": "Car Mounts",
-  "url": "https://begad.ae/product/vidvie-hc1523-car-holder-15w-magnetic-suction-wireless-charging-car-holder",
+  "url": "https://begad.ae/product/vidvie-15w-magnetic-wireless-charging-car-phone-holder-magsafe-compatible-suction-mount-for-dashboard-and-windshield-360-adjustable-usb-c-input-hc1523",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172515-4938.jpg.webp",
   "price": {
    "amount": 44.89,
@@ -1492,7 +1492,7 @@ const catalogProducts = [
   "sku": "ELE1000777",
   "name": "Vidvie E-Sports Mobile Gaming Wired Headset, Low-Latency Wired Gaming Earphones with Built-in Mic for In-Game Chat, Lightweight and Comfortable, GM03",
   "category": "Gaming Headsets",
-  "url": "https://begad.ae/product/gm03-e-sports-mobile-game-wire-heaset",
+  "url": "https://begad.ae/product/vidvie-e-sports-mobile-gaming-wired-headset-low-latency-wired-gaming-earphones-with-built-in-mic-for-in-game-chat-lightweight-and-comfortable-gm03",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916181520-7370.jpg.webp",
   "price": {
    "amount": 30.47,
@@ -1520,8 +1520,8 @@ const catalogProducts = [
   "sku": "ELE1000775",
   "name": "Vidvie Qi2 Magnetic Wireless Charging Stand, Foldable Desktop Phone Charger with Adjustable Angle, Anti-Slip Base and LED Indicator, USB-C Cable Included, WLC1423",
   "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/vidvie-wlc1423-qi2-desktop-folding-magnetic-wireless-charging-stand",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001938.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-qi2-magnetic-wireless-charging-stand-foldable-desktop-phone-charger-with-adjustable-angle-anti-slip-base-and-led-indicator-usb-c-cable-included-wlc1423",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171922-3381.jpg.webp",
   "price": {
    "amount": 69.49,
    "amount_with_tax": 69.49,
@@ -1702,7 +1702,7 @@ const catalogProducts = [
   "sku": "AUT1000044",
   "name": "Vidvie In-Car Wireless FM Receiver, Bluetooth Audio Adapter with Hands-Free Calling, LED Display and Dual USB Charging for Cars Without Built-in Bluetooth, FM01",
   "category": "Car Accessories",
-  "url": "https://begad.ae/product/vidvie-fm01-in-car-wireless-receiver",
+  "url": "https://begad.ae/product/vidvie-in-car-wireless-fm-receiver-bluetooth-audio-adapter-with-hands-free-calling-led-display-and-dual-usb-charging-for-cars-without-built-in-bluetooth-fm01",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001924.jpg.webp",
   "price": {
    "amount": 38.19,
@@ -1772,7 +1772,7 @@ const catalogProducts = [
   "sku": "ELE1000766",
   "name": "Vidvie IP Male to TC Female converter [Dark Grey] AL1126",
   "category": "Cables",
-  "url": "https://begad.ae/product/ip-male-to-tc-female-converter-dark-grey-al1126",
+  "url": "https://begad.ae/product/vidvie-ip-male-to-tc-female-converter-dark-grey-al1126",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001919.jpg.webp",
   "price": {
    "amount": 20.02,
@@ -1884,7 +1884,7 @@ const catalogProducts = [
   "sku": "ELE1000758",
   "name": "Vidvie 12-in-1 Power Strip Extension 2500W with UK Plug, 4 AC Outlets, 4 USB-A and 4 USB-C Fast Charging Ports, Overload Protection, Black, PSB07",
   "category": "extensions & Plugs",
-  "url": "https://begad.ae/product/vidvie-power-strip-extension-uk-plug-2500w-4-ac-outlets-4-usb-4-type-c-fast-charging-ports-psb07-black",
+  "url": "https://begad.ae/product/vidvie-12-in-1-power-strip-extension-2500w-with-uk-plug-4-ac-outlets-4-usb-a-and-4-usb-c-fast-charging-ports-overload-protection-black-psb07",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925015041-3432.png.webp",
   "price": {
    "amount": 71.25,
@@ -1968,7 +1968,7 @@ const catalogProducts = [
   "sku": "ELE1000752",
   "name": "Vidvie Mini Magnetic Watch Wireless Charger with Lightning Connector, Portable Cable-Free Charger for Apple Watch and Compatible Smartwatches, 2.5W Output, WLC1412-L",
   "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/wall-charger-wlc1412-l-mini-magnetic-lightning-watch-wireless-charge",
+  "url": "https://begad.ae/product/vidvie-mini-magnetic-watch-wireless-charger-with-lightning-connector-portable-cable-free-charger-for-apple-watch-and-compatible-smartwatches-2-5w-output-wlc1412-l",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917025119-3484.jpg.webp",
   "price": {
    "amount": 39.54,
@@ -1982,7 +1982,7 @@ const catalogProducts = [
   "sku": "AUT1000042",
   "name": "Vidvie In-Car Car Charger, Compact USB Charger with Smart Detection and Overcharge, Overheat and Short-Circuit Protection for Phones, Tablets and GPS Devices, CC522",
   "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-in-car-cc522-car-charger",
+  "url": "https://begad.ae/product/vidvie-in-car-car-charger-compact-usb-charger-with-smart-detection-and-overcharge-overheat-and-short-circuit-protection-for-phones-tablets-and-gps-devices-cc522",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801195135-2466.jpg.webp",
   "price": {
    "amount": 112,
@@ -2080,7 +2080,7 @@ const catalogProducts = [
   "sku": "ELE1000751",
   "name": "Vidvie WLC1427 Qi2 Magnetic Wireless Charger",
   "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/wlc1427-qi2-magnetic-wireless-charger",
+  "url": "https://begad.ae/product/vidvie-wlc1427-qi2-magnetic-wireless-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917041130-2410.jpg.webp",
   "price": {
    "amount": 59.51,
@@ -2179,7 +2179,7 @@ const catalogProducts = [
   "name": "Vidvie HD04 DP high-definition Cable",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-hd04-dp-high-definition-cable",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001876.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171951-9779.jpg.webp",
   "price": {
    "amount": 44.9,
    "amount_with_tax": 44.9,
@@ -2206,8 +2206,8 @@ const catalogProducts = [
   "sku": "BEA1000222",
   "name": "Vidvie SHD02 Universal 1800W 105,000 RPM High-Speed Hair Dryer",
   "category": "Hair Tools",
-  "url": "https://begad.ae/product/shd02-universal-1800w-105-000-rpm-high-speed-hair-dryer",
-  "thumb": "https://m.media-amazon.com/images/I/413rqDrOl2L._AC_SL1200_.jpg",
+  "url": "https://begad.ae/product/vidvie-shd02-universal-1800w-105-000-rpm-high-speed-hair-dryer",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102173149-4014.jpg.webp",
   "price": {
    "amount": 93.99,
    "amount_with_tax": 93.99,
@@ -2220,8 +2220,8 @@ const catalogProducts = [
   "sku": "BEA1000178",
   "name": "Vidvie SHD01 Universal 1400W 105,000 RPM High-Speed Hair Dryer",
   "category": "Hair Tools",
-  "url": "https://begad.ae/product/shd01-universal-1400w-105-000-rpm-high-speed-hair-dryer",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001873.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-shd01-universal-1400w-105-000-rpm-high-speed-hair-dryer",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102172020-6437.jpg.webp",
   "price": {
    "amount": 72.21,
    "amount_with_tax": 72.21,
@@ -2248,7 +2248,7 @@ const catalogProducts = [
   "sku": "ELE1000731",
   "name": "Vidvie Wall Charger XL-PLB126 Single USB & Three Type-C GaN Fast Charger",
   "category": "Chargers",
-  "url": "https://begad.ae/product/wall-charger-xl-plb126-single-usb-three-type-c-gan-fast-charger",
+  "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb126-single-usb-three-type-c-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801193136-5098.png.webp",
   "price": {
    "amount": 145.71,
@@ -2361,7 +2361,7 @@ const catalogProducts = [
   "name": "Vidvie PLB176 USB & Type-C Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-plb176-usb-type-c-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001860.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162902-3839.jpg.webp",
   "price": {
    "amount": 25.12,
    "amount_with_tax": 25.12,
@@ -2374,8 +2374,8 @@ const catalogProducts = [
   "sku": "ELE1000721",
   "name": "Vidvie PLB173 USB & Type-C Fast Charger",
   "category": "Chargers",
-  "url": "https://begad.ae/product/plb173-usb-type-c-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001859.jpg.webp",
+  "url": "https://begad.ae/product/vidvie-plb173-usb-type-c-fast-charger",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162830-7952.jpg.webp",
   "price": {
    "amount": 24.56,
    "amount_with_tax": 24.56,
@@ -2389,7 +2389,7 @@ const catalogProducts = [
   "name": "PLB170 Wall Charger [w/o Cable] - [White] - Vidvie",
   "category": "Chargers",
   "url": "https://begad.ae/product/plb170-wall-charger-w-o-cable-white-vidvie",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001858.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171822-4231.jpg.webp",
   "price": {
    "amount": 21.58,
    "amount_with_tax": 21.58,
@@ -2417,7 +2417,7 @@ const catalogProducts = [
   "name": "Vidvie PLB169 Type-C & USB PD Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-plb169-type-c-usb-pd-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001856.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162609-9841.jpg.webp",
   "price": {
    "amount": 33.19,
    "amount_with_tax": 33.19,
@@ -2431,7 +2431,7 @@ const catalogProducts = [
   "name": "Vidvie PLB167 Type-C & USB PD Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-plb167-type-c-usb-pd-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001855.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162757-2081.jpg.webp",
   "price": {
    "amount": 28.65,
    "amount_with_tax": 28.65,
@@ -2445,7 +2445,7 @@ const catalogProducts = [
   "name": "Vidvie PLB162 Dual Type-C & USB GaN Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-plb162-dual-type-c-usb-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001854.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171752-7549.jpg.webp",
   "price": {
    "amount": 65.86,
    "amount_with_tax": 65.86,
@@ -2487,7 +2487,7 @@ const catalogProducts = [
   "name": "Vidvie PLB160 Dual Type-C GaN Fast Charger",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-plb160-dual-type-c-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001851.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162716-2102.jpg.webp",
   "price": {
    "amount": 36.82,
    "amount_with_tax": 36.82,
@@ -2557,7 +2557,7 @@ const catalogProducts = [
   "name": "Vidvie PLB142 GaN 67W High Power Charger Compact Fast Charging Solution",
   "category": "Chargers",
   "url": "https://begad.ae/product/vidvie-plb142-gan-67w-high-power-charger-compact-fast-charging-solution",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001770.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171719-5420.jpg.webp",
   "price": {
    "amount": 68.58,
    "amount_with_tax": 68.58,
