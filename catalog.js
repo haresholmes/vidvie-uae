@@ -1757,7 +1757,7 @@ const catalogProducts = [
   "id": 10001920,
   "sku": "ELE1000767",
   "name": "Vidvie Qi2 25W Double-Sided Magnetic Wireless Charger with Atmosphere Light, Wall Charger for MagSafe Compatible Phones and Wireless Charging Devices, WLC1428",
-  "category": "Chargers",
+  "category": "Wireless Chargers",
   "url": "https://begad.ae/product/vidvie-qi2-25w-double-sided-magnetic-wireless-charger-with-atmosphere-light-wall-charger-for-magsafe-compatible-phones-and-wireless-charging-devices-wlc1428",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917025457-3429.png.webp",
   "price": {
