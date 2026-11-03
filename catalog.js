@@ -105,7 +105,7 @@ const catalogProducts = [
   "id": 10006736,
   "sku": "ELE1001126",
   "name": "Vidvie 38W Dual Port Car Charger, 20W USB-C PD and 18W QC 3.0 USB-A Fast Charging, Mini Zinc Alloy Metal Car Adapter for 12V-24V Vehicles, iPhone, Samsung and Android Phones, Gray, CC522C",
-  "category": "Chargers",
+  "category": "Car Chargers",
   "url": "https://begad.ae/product/vidvie-38w-dual-port-car-charger-20w-usb-c-pd-and-18w-qc-3-0-usb-a-fast-charging-mini-zinc-alloy-metal-car-adapter-for-12v-24v-vehicles-iphone-samsung-and-android-phones-gray-cc522c",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260921184226-4315.jpg.webp",
   "price": {
