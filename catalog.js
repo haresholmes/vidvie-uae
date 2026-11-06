@@ -2244,20 +2244,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001870,
-  "sku": "ELE1000731",
-  "name": "Vidvie Wall Charger XL-PLB126 Single USB & Three Type-C GaN Fast Charger",
-  "category": "Chargers",
-  "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb126-single-usb-three-type-c-gan-fast-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801193136-5098.png.webp",
-  "price": {
-   "amount": 145.71,
-   "amount_with_tax": 145.71,
-   "compare_at_amount": 174.85
-  },
-  "in_stock": true
- },
- {
   "id": 10001869,
   "sku": "ELE1000730",
   "name": "Vidvie Wall Charger XL-PLB125 Single USB & Three Type-C GaN Fast Charger",
