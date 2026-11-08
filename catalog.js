@@ -23,7 +23,7 @@ const catalogProducts = [
   "name": "VIDVIE 10000mAh Power Bank 22.5W Fast Charging 2-in-1 Portable Charger with Built-In Type-C & Lightning Cables - White",
   "category": "Power Banks",
   "url": "https://begad.ae/product/vidvie-10000mah-power-bank-22-5w-fast-charging-2-in-1-portable-charger-with-built-in-type-c-lightning-cables-white",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261013193230-8173.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_191931_3e78d810c0.jpg.webp",
   "price": {
    "amount": 75,
    "amount_with_tax": 75,
@@ -93,7 +93,7 @@ const catalogProducts = [
   "name": "Vidvie 12-in-1 Power Strip Extension 2500W, 4 UK AC Outlets with 4 USB-A and 4 USB-C Fast Charging Ports, Surge and Overload Protection, Heavy-Duty Copper Cord for Home and Office, White, PSB07",
   "category": "extensions & Plugs",
   "url": "https://begad.ae/product/vidvie-12-in-1-power-strip-extension-2500w-4-uk-ac-outlets-with-4-usb-a-and-4-usb-c-fast-charging-ports-surge-and-overload-protection-heavy-duty-copper-cord-for-home-and-office-white-psb07",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925135834-1948.png.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195717_68276371eb.jpg.webp",
   "price": {
    "amount": 53.15,
    "amount_with_tax": 53.15,
@@ -359,7 +359,7 @@ const catalogProducts = [
   "name": "Vidvie Transparent Wireless Mouse, 2.4GHz Rechargeable USB-C Mouse with Precise Optical Tracking, Slim Ergonomic Design for Windows, macOS, ChromeOS and Linux, Gray, KB07",
   "category": "Mouse",
   "url": "https://begad.ae/product/vidvie-transparent-wireless-mouse-2-4ghz-rechargeable-usb-c-mouse-with-precise-optical-tracking-slim-ergonomic-design-for-windows-macos-chromeos-and-linux-gray-kb07",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261014202000-2880.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_200116_c71185e897.jpg.webp",
   "price": {
    "amount": 49.79,
    "amount_with_tax": 49.79,
@@ -1311,7 +1311,7 @@ const catalogProducts = [
   "name": "Vidvie Semi-In-Ear TWS Wireless Earbuds, Lightweight Bluetooth Earphones with Clear Calls, Touch Controls and Portable Charging Case, BT8001",
   "category": "Earbuds",
   "url": "https://begad.ae/product/vidvie-semi-in-ear-tws-wireless-earbuds-lightweight-bluetooth-earphones-with-clear-calls-touch-controls-and-portable-charging-case-bt8001",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172651-7927.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195839_7613f40ca9.jpg.webp",
   "price": {
    "amount": 35.55,
    "amount_with_tax": 35.55,
@@ -1339,7 +1339,7 @@ const catalogProducts = [
   "name": "Vidvie In-Ear TWS Wireless Earbuds, HD Sound with Boosted Bass, Noise Isolation, Touch Controls, Silicone Ear Tips and Portable Charging Case, BT8000",
   "category": "Earbuds",
   "url": "https://begad.ae/product/vidvie-in-ear-tws-wireless-earbuds-hd-sound-with-boosted-bass-noise-isolation-touch-controls-silicone-ear-tips-and-portable-charging-case-bt8000",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172630-7525.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195840_ef73d5083d.jpg.webp",
   "price": {
    "amount": 37.45,
    "amount_with_tax": 37.45,
@@ -1409,7 +1409,7 @@ const catalogProducts = [
   "name": "Vidvie Half In-Ear Wired Earphones with Built-in Mic, Comfortable Lightweight Headset with Clear Sound for Music, Calls and Gaming, Plug and Play, HS662",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-half-in-ear-wired-earphones-with-built-in-mic-comfortable-lightweight-headset-with-clear-sound-for-music-calls-and-gaming-plug-and-play-hs662",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173026-6061.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195841_bdc60c2b81.jpg.webp",
   "price": {
    "amount": 16.68,
    "amount_with_tax": 16.68,
@@ -1437,7 +1437,7 @@ const catalogProducts = [
   "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Music, Videos and Calls, HS655",
   "category": "Headphones",
   "url": "https://begad.ae/product/vidvie-wired-earphones-clear-sound-headphones-with-comfortable-fit-lightweight-and-portable-plug-and-play-for-music-videos-and-calls-hs655",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916170413-6565.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195842_abba232dae.jpg.webp",
   "price": {
    "amount": 18.59,
    "amount_with_tax": 18.59,
@@ -1479,7 +1479,7 @@ const catalogProducts = [
   "name": "Vidvie 15W Magnetic Wireless Charging Car Phone Holder, MagSafe Compatible Suction Mount for Dashboard and Windshield, 360° Adjustable, USB-C Input, HC1523",
   "category": "Car Mounts",
   "url": "https://begad.ae/product/vidvie-15w-magnetic-wireless-charging-car-phone-holder-magsafe-compatible-suction-mount-for-dashboard-and-windshield-360-adjustable-usb-c-input-hc1523",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172515-4938.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195844_0d5b3b9bf9.jpg.webp",
   "price": {
    "amount": 44.89,
    "amount_with_tax": 44.89,
@@ -1563,7 +1563,7 @@ const catalogProducts = [
   "name": "Vidvie 66W USB-C to USB-C Fast Charging Cable with Built-in Phone Stand, High-Speed Data Sync Cord for Phones, Tablets and Laptops, CB4068C&C",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-66w-usb-c-to-usb-c-fast-charging-cable-with-built-in-phone-stand-high-speed-data-sync-cord-for-phones-tablets-and-laptops-cb4068c-c",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916192833-5733.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195845_78540ebfbe.jpg.webp",
   "price": {
    "amount": 21.58,
    "amount_with_tax": 21.58,
@@ -1591,7 +1591,7 @@ const catalogProducts = [
   "name": "Vidvie USB-C to USB-C Fast Charging Data Cable, Reversible Type-C Charge and Sync Cord for Phones, Tablets, Laptops and Power Banks, CB4059C&C",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-usb-c-to-usb-c-fast-charging-data-cable-reversible-type-c-charge-and-sync-cord-for-phones-tablets-laptops-and-power-banks-cb4059c-c",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916193210-7934.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195846_3d8b58c9f5.jpg.webp",
   "price": {
    "amount": 17.62,
    "amount_with_tax": 17.62,
@@ -1745,7 +1745,7 @@ const catalogProducts = [
   "name": "Vidvie 30W USB-C to Lightning Fast Charging Cable, Type-C to iP Data Sync Cord for iPhone, iPad and AirPods, Durable Daily Charging Cable, CB4050C&i",
   "category": "Cables",
   "url": "https://begad.ae/product/vidvie-30w-usb-c-to-lightning-fast-charging-cable-type-c-to-ip-data-sync-cord-for-iphone-ipad-and-airpods-durable-daily-charging-cable-cb4050c-i",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916194034-9290.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195847_136e5ba48d.jpg.webp",
   "price": {
    "amount": 18.32,
    "amount_with_tax": 18.32,
@@ -2081,7 +2081,7 @@ const catalogProducts = [
   "name": "Vidvie WLC1427 Qi2 Magnetic Wireless Charger",
   "category": "Wireless Chargers",
   "url": "https://begad.ae/product/vidvie-wlc1427-qi2-magnetic-wireless-charger",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260917041130-2410.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195849_16c428e150.jpg.webp",
   "price": {
    "amount": 59.51,
    "amount_with_tax": 59.51,
@@ -2585,7 +2585,7 @@ const catalogProducts = [
   "name": "Vidvie WB01 Waterproof Phone Pouch – Your Waterproof Phone Solution",
   "category": "Mobile Accessories",
   "url": "https://begad.ae/product/vidvie-wb01-waterproof-phone-pouch-your-waterproof-phone-solution",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012195843-9966.jpg.webp",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195902_5aaed119f6.jpg.webp",
   "price": {
    "amount": 22.76,
    "amount_with_tax": 22.76,
