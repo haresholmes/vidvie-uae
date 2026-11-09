@@ -4,6 +4,104 @@
 // on Begad.ae, and app.js replaces this list with the live one on every visit.
 const catalogProducts = [
  {
+  "id": 10010958,
+  "sku": "ELE1002409",
+  "name": "Vidvie Wall Charger PLE282 Type-C & USB GaN Fast Charger (TC-IP) White",
+  "category": "Chargers",
+  "url": "https://begad.ae/product/vidvie-wall-charger-ple282-type-c-usb-gan-fast-charger-tc-ip-white",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109173922-1717.jpg.webp",
+  "price": {
+   "amount": 19.77,
+   "amount_with_tax": 19.77,
+   "compare_at_amount": 25
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10010957,
+  "sku": "ELE1002408",
+  "name": "Vidvie Wall Charger PLE282 Type-C & USB GaN Fast Charger (TC-TC) White",
+  "category": "Chargers",
+  "url": "https://begad.ae/product/vidvie-wall-charger-ple282-type-c-usb-gan-fast-charger-tc-tc-white",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109173641-4610.jpg.webp",
+  "price": {
+   "amount": 20.4,
+   "amount_with_tax": 20.4,
+   "compare_at_amount": 25
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10010956,
+  "sku": "ELE1002407",
+  "name": "Vidvie Wall Charger PLE244 USB Charger (IP)",
+  "category": "Chargers",
+  "url": "https://begad.ae/product/vidvie-wall-charger-ple244-usb-charger-ip",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109173241-9616.jpg.webp",
+  "price": {
+   "amount": 15.75,
+   "amount_with_tax": 15.75,
+   "compare_at_amount": 20
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10010955,
+  "sku": "ELE1002406",
+  "name": "Vidvie Vivie Wall Charger PLE244 USB Charger (TC) White",
+  "category": "Chargers",
+  "url": "https://begad.ae/product/vidvie-vivie-wall-charger-ple244-usb-charger-tc-white",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109172905-4254.jpg.webp",
+  "price": {
+   "amount": 15.24,
+   "amount_with_tax": 15.24,
+   "compare_at_amount": 20
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10010954,
+  "sku": "ELE1002405",
+  "name": "VIDVIE PLE263 33W GaN Dual-Port Fast Wall Charger – Black",
+  "category": "Chargers",
+  "url": "https://begad.ae/product/vidvie-ple263-33w-gan-dual-port-fast-wall-charger-black",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109155526-2950.png.webp",
+  "price": {
+   "amount": 27.9,
+   "amount_with_tax": 27.9,
+   "compare_at_amount": 35
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10010952,
+  "sku": "ELE1002404",
+  "name": "VIDVIE PLE276 USB & Type-C Fast Wall Charger – Black",
+  "category": "Chargers",
+  "url": "https://begad.ae/product/vidvie-ple276-usb-type-c-fast-wall-charger-black",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109153039-5405.png.webp",
+  "price": {
+   "amount": 18.66,
+   "amount_with_tax": 18.66,
+   "compare_at_amount": 25
+  },
+  "in_stock": true
+ },
+ {
+  "id": 10010951,
+  "sku": "ELE1002403",
+  "name": "VIDVIE XL-HS604 Type-C In-Ear Wired Earphone – Black",
+  "category": "Headphones",
+  "url": "https://begad.ae/product/vidvie-xl-hs604-type-c-in-ear-wired-earphone-black",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109152116-6856.jpg.webp",
+  "price": {
+   "amount": 25,
+   "amount_with_tax": 25,
+   "compare_at_amount": 40
+  },
+  "in_stock": true
+ },
+ {
   "id": 10009868,
   "sku": "ELE1002293",
   "name": "VIDVIE 10000mAh Multifunctional Power Bank 2-in-1 Wall Charger & Portable Battery with Built-In Cables & 60W Type-C Cable - Black",
