@@ -137,9 +137,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-usb-c-to-usb-c-data-and-charging-cable-type-c-charge-and-sync-cord-for-android-phones-tablets-and-usb-c-devices-black-cb4058c-c",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102172148-2717.jpg.webp",
   "price": {
-   "amount": 21.02,
-   "amount_with_tax": 21.02,
-   "compare_at_amount": 25.22
+   "amount": 8.83,
+   "amount_with_tax": 8.83,
+   "compare_at_amount": 21.02
   },
   "in_stock": true
  },
@@ -165,9 +165,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-60w-usb-c-to-usb-c-fast-charging-cable-2m-long-type-c-charge-and-data-sync-cord-for-phones-tablets-and-laptops-black-cb4038-2c-c",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012202402-3990.jpg.webp",
   "price": {
-   "amount": 18.54,
-   "amount_with_tax": 18.54,
-   "compare_at_amount": 22.25
+   "amount": 6.86,
+   "amount_with_tax": 6.86,
+   "compare_at_amount": 18.54
   },
   "in_stock": true
  },
@@ -1061,9 +1061,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-portable-bluetooth-speaker-with-rgb-lights-colorful-light-modes-usb-c-charging-rechargeable-wireless-speaker-for-parties-gaming-and-outdoor-black-sp927",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001982.jpg.webp",
   "price": {
-   "amount": 131.19,
-   "amount_with_tax": 131.19,
-   "compare_at_amount": 157.43
+   "amount": 89.21,
+   "amount_with_tax": 89.21,
+   "compare_at_amount": 131.19
   },
   "in_stock": true
  },
@@ -1327,9 +1327,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-3-in-1-charging-and-data-cable-multi-connector-charge-and-sync-cord-for-multiple-phones-and-devices-durable-for-home-office-and-travel-cb4039",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001961.jpg.webp",
   "price": {
-   "amount": 19.54,
-   "amount_with_tax": 19.54,
-   "compare_at_amount": 23.45
+   "amount": 7.62,
+   "amount_with_tax": 7.62,
+   "compare_at_amount": 19.54
   },
   "in_stock": true
  },
@@ -1369,9 +1369,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-car-phone-holder-secure-hands-free-smartphone-mount-for-navigation-and-calls-easy-phone-placement-and-removal-space-saving-design-fits-most-smartphones-hc1519",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915173228-8434.jpg.webp",
   "price": {
-   "amount": 18.68,
-   "amount_with_tax": 18.68,
-   "compare_at_amount": 22.42
+   "amount": 6.91,
+   "amount_with_tax": 6.91,
+   "compare_at_amount": 18.68
   },
   "in_stock": true
  },
@@ -1397,9 +1397,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-in-ear-wired-earphones-with-usb-c-plug-type-c-digital-headphones-with-built-in-mic-lightweight-plug-and-play-for-phones-and-tablets-hs684t",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001955.jpg.webp",
   "price": {
-   "amount": 18.05,
-   "amount_with_tax": 18.05,
-   "compare_at_amount": 21.66
+   "amount": 6.5,
+   "amount_with_tax": 6.5,
+   "compare_at_amount": 18.05
   },
   "in_stock": true
  },
@@ -1411,9 +1411,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-semi-in-ear-tws-wireless-earbuds-lightweight-bluetooth-earphones-with-clear-calls-touch-controls-and-portable-charging-case-bt8001",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195839_7613f40ca9.jpg.webp",
   "price": {
-   "amount": 35.55,
-   "amount_with_tax": 35.55,
-   "compare_at_amount": 42.66
+   "amount": 20.62,
+   "amount_with_tax": 20.62,
+   "compare_at_amount": 35.55
   },
   "in_stock": true
  },
@@ -1495,9 +1495,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-wired-earphones-with-usb-c-plug-type-c-digital-in-ear-headphones-with-built-in-mic-lightweight-plug-and-play-for-phones-without-audio-jack-hs666",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162938-7863.jpg.webp",
   "price": {
-   "amount": 24.93,
-   "amount_with_tax": 24.93,
-   "compare_at_amount": 29.92
+   "amount": 11.97,
+   "amount_with_tax": 11.97,
+   "compare_at_amount": 24.93
   },
   "in_stock": true
  },
@@ -1593,9 +1593,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-e-sports-mobile-gaming-wired-headset-low-latency-wired-gaming-earphones-with-built-in-mic-for-in-game-chat-lightweight-and-comfortable-gm03",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916181520-7370.jpg.webp",
   "price": {
-   "amount": 30.47,
-   "amount_with_tax": 30.47,
-   "compare_at_amount": 36.56
+   "amount": 16.45,
+   "amount_with_tax": 16.45,
+   "compare_at_amount": 30.47
   },
   "in_stock": true
  },
@@ -1901,9 +1901,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-60w-usb-c-to-usb-c-fast-charging-cable-2m-nylon-braided-type-c-data-cable-with-aluminum-connectors-for-phones-tablets-laptops-and-power-banks-black-white-cb4038-2c-c",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001917.jpg.webp",
   "price": {
-   "amount": 18.54,
-   "amount_with_tax": 18.54,
-   "compare_at_amount": 22.25
+   "amount": 6.86,
+   "amount_with_tax": 6.86,
+   "compare_at_amount": 18.54
   },
   "in_stock": true
  },
@@ -2475,9 +2475,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/plb170-wall-charger-w-o-cable-white-vidvie",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171822-4231.jpg.webp",
   "price": {
-   "amount": 21.58,
-   "amount_with_tax": 21.58,
-   "compare_at_amount": 25.9
+   "amount": 9.28,
+   "amount_with_tax": 9.28,
+   "compare_at_amount": 21.58
   },
   "in_stock": true
  },
@@ -2573,9 +2573,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-plb160-dual-type-c-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162716-2102.jpg.webp",
   "price": {
-   "amount": 36.82,
-   "amount_with_tax": 36.82,
-   "compare_at_amount": 44.18
+   "amount": 21.36,
+   "amount_with_tax": 21.36,
+   "compare_at_amount": 36.82
   },
   "in_stock": true
  },
@@ -2643,9 +2643,9 @@ const catalogProducts = [
   "url": "https://begad.ae/product/vidvie-plb142-gan-67w-high-power-charger-compact-fast-charging-solution",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171719-5420.jpg.webp",
   "price": {
-   "amount": 68.58,
-   "amount_with_tax": 68.58,
-   "compare_at_amount": 82.3
+   "amount": 45.26,
+   "amount_with_tax": 45.26,
+   "compare_at_amount": 68.58
   },
   "in_stock": true
  },
