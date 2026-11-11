@@ -4,6 +4,20 @@
 // on Begad.ae, and app.js replaces this list with the live one on every visit.
 const catalogProducts = [
  {
+  "id": 10012060,
+  "sku": "ELE1002434",
+  "name": "VIDVIE Lavalier One-for-Two Wireless Microphone System - Dual-Channel Clip-On Lapel Mic with Lightning Receiver, 2.4GHz Low Latency & 600mAh Charging Case -MC01-L(Black)",
+  "category": "Microphones",
+  "url": "https://begad.ae/product/vidvie-lavalier-one-for-two-wireless-microphone-system-dual-channel-clip-on-lapel-mic-with-lightning-receiver-2-4ghz-low-latency-600mah-charging-case-mc01-l-black",
+  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261111051621-8782.jpg.webp",
+  "price": {
+   "amount": 120,
+   "amount_with_tax": 120,
+   "compare_at_amount": 150
+  },
+  "in_stock": false
+ },
+ {
   "id": 10010958,
   "sku": "ELE1002409",
   "name": "Vidvie Wall Charger PLE282 Type-C & USB GaN Fast Charger (TC-IP) White",
