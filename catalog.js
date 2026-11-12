@@ -21,7 +21,7 @@ const catalogProducts = [
   "id": 10010958,
   "sku": "ELE1002409",
   "name": "Vidvie Wall Charger PLE282 Type-C & USB GaN Fast Charger (TC-IP) White",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-wall-charger-ple282-type-c-usb-gan-fast-charger-tc-ip-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109173922-1717.jpg.webp",
   "price": {
@@ -35,7 +35,7 @@ const catalogProducts = [
   "id": 10010957,
   "sku": "ELE1002408",
   "name": "Vidvie Wall Charger PLE282 Type-C & USB GaN Fast Charger (TC-TC) White",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-wall-charger-ple282-type-c-usb-gan-fast-charger-tc-tc-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109173641-4610.jpg.webp",
   "price": {
@@ -49,7 +49,7 @@ const catalogProducts = [
   "id": 10010956,
   "sku": "ELE1002407",
   "name": "Vidvie Wall Charger PLE244 USB Charger (IP)",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-wall-charger-ple244-usb-charger-ip",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109173241-9616.jpg.webp",
   "price": {
@@ -63,7 +63,7 @@ const catalogProducts = [
   "id": 10010955,
   "sku": "ELE1002406",
   "name": "Vidvie Vivie Wall Charger PLE244 USB Charger (TC) White",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-vivie-wall-charger-ple244-usb-charger-tc-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109172905-4254.jpg.webp",
   "price": {
@@ -77,7 +77,7 @@ const catalogProducts = [
   "id": 10010954,
   "sku": "ELE1002405",
   "name": "VIDVIE PLE263 33W GaN Dual-Port Fast Wall Charger – Black",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-ple263-33w-gan-dual-port-fast-wall-charger-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109155526-2950.png.webp",
   "price": {
@@ -91,7 +91,7 @@ const catalogProducts = [
   "id": 10010952,
   "sku": "ELE1002404",
   "name": "VIDVIE PLE276 USB & Type-C Fast Wall Charger – Black",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-ple276-usb-type-c-fast-wall-charger-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109153039-5405.png.webp",
   "price": {
@@ -539,7 +539,7 @@ const catalogProducts = [
   "id": 10002188,
   "sku": "ELE1001349",
   "name": "Vidvie 256GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
-  "category": "External Storage",
+  "category": "Memory Cards",
   "url": "https://begad.ae/product/vidvie-256gb-micro-sdxc-memory-card-upgraded-high-capacity-microsd-card-for-smartphones-tablets-cameras-drones-and-nintendo-switch-sd2502",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102172049-1076.jpg.webp",
   "price": {
@@ -567,7 +567,7 @@ const catalogProducts = [
   "id": 10002186,
   "sku": "ELE1001347",
   "name": "Vidvie 128GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
-  "category": "External Storage",
+  "category": "Memory Cards",
   "url": "https://begad.ae/product/vidvie-128gb-micro-sdxc-memory-card-upgraded-high-capacity-microsd-card-for-smartphones-tablets-cameras-drones-and-nintendo-switch-sd2502",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102172119-2347.jpg.webp",
   "price": {
@@ -581,7 +581,7 @@ const catalogProducts = [
   "id": 10002185,
   "sku": "ELE1001346",
   "name": "Vidvie 64GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
-  "category": "External Storage",
+  "category": "Memory Cards",
   "url": "https://begad.ae/product/vidvie-64gb-micro-sdxc-memory-card-upgraded-high-capacity-microsd-card-for-smartphones-tablets-cameras-drones-and-nintendo-switch-sd2502",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002185.jpg.webp",
   "price": {
@@ -595,7 +595,7 @@ const catalogProducts = [
   "id": 10002184,
   "sku": "FAS1000064",
   "name": "Vidvie 14 Inch Portable Business Laptop Bag, Padded Water-Resistant Computer Carry Bag with Multiple Pockets and Handles for Office, School and Travel, Black, BH02",
-  "category": "Bags & Luggage",
+  "category": "Laptop Bags",
   "url": "https://begad.ae/product/vidvie-14-inch-portable-business-laptop-bag-padded-water-resistant-computer-carry-bag-with-multiple-pockets-and-handles-for-office-school-and-travel-black-bh02",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172859-3874.jpg.webp",
   "price": {
@@ -1309,7 +1309,7 @@ const catalogProducts = [
   "id": 10001965,
   "sku": "ELE1001295",
   "name": "Vidvie Neckband Wireless Sports Earphones, Flexible Silicone Bluetooth Semi In-Ear Headphones with Built-in Mic, Lightweight, Rechargeable, for Workouts and Commuting, BT888",
-  "category": "Headphones",
+  "category": "neckbands",
   "url": "https://begad.ae/product/vidvie-neckband-wireless-sports-earphones-flexible-silicone-bluetooth-semi-in-ear-headphones-with-built-in-mic-lightweight-rechargeable-for-workouts-and-commuting-bt888",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260804202053-8595.jpg.webp",
   "price": {
@@ -1813,7 +1813,7 @@ const catalogProducts = [
   "id": 10001924,
   "sku": "AUT1000044",
   "name": "Vidvie In-Car Wireless FM Receiver, Bluetooth Audio Adapter with Hands-Free Calling, LED Display and Dual USB Charging for Cars Without Built-in Bluetooth, FM01",
-  "category": "Car Accessories",
+  "category": "Car Electronics",
   "url": "https://begad.ae/product/vidvie-in-car-wireless-fm-receiver-bluetooth-audio-adapter-with-hands-free-calling-led-display-and-dual-usb-charging-for-cars-without-built-in-bluetooth-fm01",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001924.jpg.webp",
   "price": {
@@ -1967,7 +1967,7 @@ const catalogProducts = [
   "id": 10001913,
   "sku": "ELE1000760",
   "name": "Vidvie USB-C to 3.5mm Audio Adapter, Aluminum Alloy Braided Headphone Converter with Mic and Remote Support for Type-C Phones, Tablets and Laptops, AL1124",
-  "category": "Mobile Accessories",
+  "category": "Adapters",
   "url": "https://begad.ae/product/vidvie-usb-c-to-3-5mm-audio-adapter-aluminum-alloy-braided-headphone-converter-with-mic-and-remote-support-for-type-c-phones-tablets-and-laptops-al1124",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916231936-9416.jpg.webp",
   "price": {
@@ -2009,7 +2009,7 @@ const catalogProducts = [
   "id": 10001910,
   "sku": "ELE1000757",
   "name": "Vidvie UK Plug Wall Charger, Compact White Charger with Stable Charging and Overcharge, Overcurrent, Overvoltage and Short-Circuit Protection, XL-PSB03",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-uk-plug-wall-charger-compact-white-charger-with-stable-charging-and-overcharge-overcurrent-overvoltage-and-short-circuit-protection-xl-psb03",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012193446-1464.png.webp",
   "price": {
@@ -2023,7 +2023,7 @@ const catalogProducts = [
   "id": 10001909,
   "sku": "ELE1000756",
   "name": "Vidvie Global Universal Travel Adapter Charger, All-in-One International Plug Converter with USB Charging Ports for Phones, Tablets and Travel Devices, TA4404",
-  "category": "Chargers",
+  "category": "extensions & Plugs",
   "url": "https://begad.ae/product/vidvie-global-universal-travel-adapter-charger-all-in-one-international-plug-converter-with-usb-charging-ports-for-phones-tablets-and-travel-devices-ta4404",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916232233-8044.jpg.webp",
   "price": {
@@ -2037,7 +2037,7 @@ const catalogProducts = [
   "id": 10001908,
   "sku": "ELE1000755",
   "name": "Vidvie Global Universal Travel Charger, International Plug Adapter for US, UK, EU and AU Sockets with Multi-Port USB Charging and Safety Protection, TA4409",
-  "category": "Chargers",
+  "category": "extensions & Plugs",
   "url": "https://begad.ae/product/vidvie-global-universal-travel-charger-international-plug-adapter-for-us-uk-eu-and-au-sockets-with-multi-port-usb-charging-and-safety-protection-ta4409",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001908.jpg.webp",
   "price": {
@@ -2317,7 +2317,7 @@ const catalogProducts = [
   "id": 10001874,
   "sku": "BEA1000222",
   "name": "Vidvie SHD02 Universal 1800W 105,000 RPM High-Speed Hair Dryer",
-  "category": "Hair Tools",
+  "category": "Hair Dryers & Stylers",
   "url": "https://begad.ae/product/vidvie-shd02-universal-1800w-105-000-rpm-high-speed-hair-dryer",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102173149-4014.jpg.webp",
   "price": {
@@ -2331,7 +2331,7 @@ const catalogProducts = [
   "id": 10001873,
   "sku": "BEA1000178",
   "name": "Vidvie SHD01 Universal 1400W 105,000 RPM High-Speed Hair Dryer",
-  "category": "Hair Tools",
+  "category": "Hair Dryers & Stylers",
   "url": "https://begad.ae/product/vidvie-shd01-universal-1400w-105-000-rpm-high-speed-hair-dryer",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102172020-6437.jpg.webp",
   "price": {
@@ -2359,7 +2359,7 @@ const catalogProducts = [
   "id": 10001869,
   "sku": "ELE1000730",
   "name": "Vidvie Wall Charger XL-PLB125 Single USB & Three Type-C GaN Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb125-single-usb-three-type-c-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260801193247-9508.png.webp",
   "price": {
@@ -2387,7 +2387,7 @@ const catalogProducts = [
   "id": 10001867,
   "sku": "ELE1000729",
   "name": "Vidvie Wall Charger XL-PLB124 Retractable Cord GaN Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb124-retractable-cord-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001867.jpg.webp",
   "price": {
@@ -2401,7 +2401,7 @@ const catalogProducts = [
   "id": 10001866,
   "sku": "ELE1000728",
   "name": "Vidvie Wall Charger XL-PLB127 Retractable Cord GaN Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb127-retractable-cord-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001866.jpg.webp",
   "price": {
@@ -2415,7 +2415,7 @@ const catalogProducts = [
   "id": 10001865,
   "sku": "ELE1000727",
   "name": "Vidvie Wall Charger XL-PLB123 GaN 70W Desktop Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb123-gan-70w-desktop-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001865.jpg.webp",
   "price": {
@@ -2429,7 +2429,7 @@ const catalogProducts = [
   "id": 10001864,
   "sku": "ELE1000726",
   "name": "Vidvie Wall Charger XL-PLB122 GaN Dual USB & Dual Type-C 70W Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb122-gan-dual-usb-dual-type-c-70w-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001864.jpg.webp",
   "price": {
@@ -2457,7 +2457,7 @@ const catalogProducts = [
   "id": 10001860,
   "sku": "ELE1000722",
   "name": "Vidvie PLB176 USB & Type-C Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb176-usb-type-c-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162902-3839.jpg.webp",
   "price": {
@@ -2471,7 +2471,7 @@ const catalogProducts = [
   "id": 10001859,
   "sku": "ELE1000721",
   "name": "Vidvie PLB173 USB & Type-C Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb173-usb-type-c-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162830-7952.jpg.webp",
   "price": {
@@ -2485,7 +2485,7 @@ const catalogProducts = [
   "id": 10001858,
   "sku": "ELE1000720",
   "name": "PLB170 Wall Charger [w/o Cable] - [White] - Vidvie",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/plb170-wall-charger-w-o-cable-white-vidvie",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171822-4231.jpg.webp",
   "price": {
@@ -2513,7 +2513,7 @@ const catalogProducts = [
   "id": 10001856,
   "sku": "ELE1000718",
   "name": "Vidvie PLB169 Type-C & USB PD Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb169-type-c-usb-pd-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162609-9841.jpg.webp",
   "price": {
@@ -2527,7 +2527,7 @@ const catalogProducts = [
   "id": 10001855,
   "sku": "ELE1000717",
   "name": "Vidvie PLB167 Type-C & USB PD Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb167-type-c-usb-pd-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162757-2081.jpg.webp",
   "price": {
@@ -2541,7 +2541,7 @@ const catalogProducts = [
   "id": 10001854,
   "sku": "ELE1000716",
   "name": "Vidvie PLB162 Dual Type-C & USB GaN Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb162-dual-type-c-usb-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171752-7549.jpg.webp",
   "price": {
@@ -2555,7 +2555,7 @@ const catalogProducts = [
   "id": 10001853,
   "sku": "ELE1000715",
   "name": "Vidvie PLB161 Dual Type-C GaN Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb161-dual-type-c-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001853.jpg.webp",
   "price": {
@@ -2583,7 +2583,7 @@ const catalogProducts = [
   "id": 10001851,
   "sku": "HOM1000303",
   "name": "Vidvie PLB160 Dual Type-C GaN Fast Charger",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb160-dual-type-c-gan-fast-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162716-2102.jpg.webp",
   "price": {
@@ -2653,7 +2653,7 @@ const catalogProducts = [
   "id": 10001770,
   "sku": "ELE1000659",
   "name": "Vidvie PLB142 GaN 67W High Power Charger Compact Fast Charging Solution",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb142-gan-67w-high-power-charger-compact-fast-charging-solution",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171719-5420.jpg.webp",
   "price": {
@@ -2695,7 +2695,7 @@ const catalogProducts = [
   "id": 10001728,
   "sku": "ELE1000628",
   "name": "Vidvie WB01 Waterproof Phone Pouch – Your Waterproof Phone Solution",
-  "category": "Mobile Accessories",
+  "category": "Phone Cases & Covers",
   "url": "https://begad.ae/product/vidvie-wb01-waterproof-phone-pouch-your-waterproof-phone-solution",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195902_5aaed119f6.jpg.webp",
   "price": {
@@ -2765,7 +2765,7 @@ const catalogProducts = [
   "id": 10001023,
   "sku": "ELE1000228",
   "name": "VIDVIE PLB177 30W GaN Fast Wall Charger with LED Power Display (USB-C PD + USB-A) – White",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb177-30w-gan-fast-wall-charger-with-led-power-display-usb-c-pd-usb-a-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001023.jpg.webp",
   "price": {
@@ -2779,7 +2779,7 @@ const catalogProducts = [
   "id": 10001022,
   "sku": "ELE1000227",
   "name": "VIDVIE PLB182 30W GaN Fast Wall Charger USB-C PD & USB-A Dual Port - White",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb182-30w-gan-fast-wall-charger-usb-c-pd-usb-a-dual-port-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012195301-7310.jpg.webp",
   "price": {
@@ -2793,7 +2793,7 @@ const catalogProducts = [
   "id": 10001021,
   "sku": "ELE1000226",
   "name": "VIDVIE PLB148 20W Dual-Port PD Fast Wall Charger (USB-C + USB-A)",
-  "category": "Chargers",
+  "category": "Wall Chargers",
   "url": "https://begad.ae/product/vidvie-plb148-20w-dual-port-pd-fast-wall-charger-usb-c-usb-a",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261021122130-9381.jpg.webp",
   "price": {
