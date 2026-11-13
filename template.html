@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <title>__TITLE__</title>
+    <meta name="description" content="__DESC__" />
+    <link rel="canonical" href="__CANONICAL__" />
+    __ROBOTS__
+    <meta property="og:type" content="__OGTYPE__" />
+    <meta property="og:site_name" content="VIDVIE UAE" />
+    <meta property="og:title" content="__TITLE__" />
+    <meta property="og:description" content="__DESC__" />
+    <meta property="og:url" content="__CANONICAL__" />
+    <meta property="og:image" content="__OGIMAGE__" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/assets/vidvie-icon.png" />
+    <link rel="apple-touch-icon" href="/assets/vidvie-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://begad.ae" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css?v=__VERSION__" />
+    <script type="application/ld+json">__JSONLD__</script>
+    <script id="pageData" type="application/json">__PAGE__</script>
+    <script src="/catalog.js?v=__VERSION__" defer></script>
+    <script type="module" src="/app.js?v=__VERSION__"></script>
+  </head>
+  <body>
+    <header class="top">
+      <div class="top-bar">
+        <a class="logo" href="/" aria-label="VIDVIE UAE home">
+          <img src="/assets/vidvie-official-logo.png" alt="VIDVIE" width="104" height="30" />
+          <span>UAE</span>
+        </a>
+        <form class="search" action="/search/" method="get" role="search">
+          <input type="search" name="q" value="__Q__" placeholder="Search chargers, earbuds, power banks…" aria-label="Search VIDVIE products" autocomplete="off" />
+          <button type="submit" aria-label="Search"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></button>
+        </form>
+        <button class="bag-btn" type="button" id="cartTrigger" aria-label="Open your bag">
+          <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 7h12l1 14H5z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>
+          <span class="bag-label">Bag</span>
+          <span class="bag-count" id="cartCount" hidden>0</span>
+        </button>
+      </div>
+      <nav class="dept-nav" id="deptNav" aria-label="Departments">__NAV__</nav>
+    </header>
+
+    <main id="app">__CONTENT__</main>
+
+    <footer class="foot">
+      <div class="foot-grid">
+        <div class="foot-brand">
+          <img src="/assets/vidvie-official-logo.png" alt="VIDVIE" width="104" height="30" />
+          <p>Creative · Exquisite · Affordable. The official VIDVIE store for the United Arab Emirates.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <ul>__FOOTDEPTS__</ul>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <ul>
+            <li><a href="https://wa.me/97148356358" target="_blank" rel="noopener">WhatsApp +971 4 835 6358</a></li>
+            <li><a href="mailto:contact@begad.ae">contact@begad.ae</a></li>
+            <li><a href="https://begad.ae/en/track-order" target="_blank" rel="noopener">Track your order</a></li>
+            <li><a href="/wholesale/">Wholesale</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Official UAE distributor</h4>
+          <p>Begad General Trading L.L.C.<br />Office 607, Bin Jarsh Building<br />Rigga Al Buteen, Deira, Dubai</p>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span>© <span id="year">2026</span> VIDVIE UAE</span>
+        <span>Prices in AED, including 5% VAT</span>
+        <a href="https://www.vidvie.hk/" target="_blank" rel="noopener">VIDVIE global</a>
+      </div>
+    </footer>
+
+    <div class="backdrop" id="backdrop" hidden></div>
+    <aside class="drawer" id="drawer" aria-label="Your bag" aria-hidden="true">
+      <div class="drawer-head">
+        <h2>Your bag</h2>
+        <button class="drawer-close" id="drawerClose" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="drawer-items" id="cartItems"></div>
+      <div class="drawer-foot" id="cartFoot">
+        <div class="subtotal"><span>Subtotal</span><strong id="cartSubtotal">AED 0.00</strong></div>
+        <p class="muted small">Including VAT. Delivery is calculated at checkout.</p>
+        <button class="btn btn-primary btn-block" id="checkoutBtn" type="button">Checkout</button>
+        <p class="secure-note"><svg class="ico ico-xs" viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg> Secure checkout on begad.ae, VIDVIE's official UAE distributor. Card, Apple Pay, Tabby or cash on delivery.</p>
+        <div class="drawer-links">
+          <button class="link-btn" id="waOrderBtn" type="button">Order on WhatsApp</button>
+          <button class="link-btn" id="clearCartBtn" type="button">Empty bag</button>
+        </div>
+      </div>
+    </aside>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
