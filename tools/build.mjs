@@ -14,7 +14,7 @@ import vm from 'node:vm';
 import {
   SITE, CATALOG_API, DEPARTMENTS, PAGE_SIZE, buildCatalog, deptCounts, deptNavHtml, homeHtml, listingHtml,
   listingTitle, productHtml, wholesaleHtml, notFoundHtml, productJsonLd, deptHref, subHref, productHref, esc,
-  money, discountOf
+  money, discountOf, guidesIndexHtml, guideHtml, guideJsonLd, guideHref
 } from '../site.js';
 
 const ROOT = new URL('../', import.meta.url);
@@ -116,6 +116,35 @@ if (!OFFLINE) {
   const sorted = Object.fromEntries(Object.keys(details).sort().map(k => [k, details[k]]));
   await writeFile(detailsFile, `${JSON.stringify(sorted, null, 1)}\n`);
   console.log(`details: ${ok} fetched, ${Object.keys(details).length} kept`);
+}
+
+// ---------------------------------------------------------------- guides
+
+// Buying guides written by Begad's daily office job (begad.ae
+// app/seo_articles.php). Kept in data/articles.json so a build works when
+// Begad cannot be reached, and so the 6-hourly sync sees a new guide as a change.
+const ARTICLES_API = 'https://begad.ae/api/seo-articles/v1/public?site=vidvie';
+const articlesFile = new URL('data/articles.json', ROOT);
+let articles = [];
+try { articles = JSON.parse(await readFile(articlesFile, 'utf8')); } catch { articles = []; }
+if (!OFFLINE) {
+  try {
+    const res = await fetch(ARTICLES_API, { headers: { Accept: 'application/json' } });
+    const data = res.ok ? await res.json() : null;
+    if (data && data.ok && Array.isArray(data.articles)) {
+      articles = data.articles.map(a => ({
+        id: Number(a.id), slug: a.slug, title: a.title, meta_description: a.meta_description,
+        primary_keyword: a.primary_keyword, product_ids: a.product_ids, published_at: a.published_at,
+        updated_at: a.updated_at, body: a.body
+      })).filter(a => /^[a-z0-9-]+$/.test(a.slug || ''));
+      await mkdir(new URL('data/', ROOT), { recursive: true });
+      await writeFile(articlesFile, `${JSON.stringify(articles, null, 1)}\n`);
+    } else {
+      console.warn(`Guides unavailable (HTTP ${res.status}); using data/articles.json`);
+    }
+  } catch (err) {
+    console.warn(`Guides unavailable (${err.message}); using data/articles.json`);
+  }
 }
 
 // ---------------------------------------------------------------- pages
@@ -253,6 +282,27 @@ for (const p of products) {
   pages.push({ path: productHref(p), priority: p.inStock ? '0.6' : '0.3' });
 }
 
+// Guides: in the sitemap, not in the menus
+if (articles.length) {
+  await writePage('/guides/', {
+    title: 'VIDVIE buying guides | VIDVIE UAE',
+    desc: 'Buying guides for VIDVIE chargers, power banks, cables, audio and accessories in the UAE.',
+    content: guidesIndexHtml(articles), page: { type: 'guides' }
+  });
+  pages.push({ path: '/guides/', priority: '0.4' });
+  for (const a of articles) {
+    const others = articles.filter(o => o.id !== a.id);
+    const firstProduct = products.find(p => (a.product_ids || []).includes(p.id));
+    await writePage(guideHref(a), {
+      title: `${a.title} | VIDVIE UAE`, desc: a.meta_description,
+      content: guideHtml(a, products, built, others),
+      page: { type: 'guide', guideId: a.id }, jsonLd: guideJsonLd(a, products),
+      ogImage: firstProduct ? firstProduct.image : ogDefault, ogType: 'article'
+    });
+    pages.push({ path: guideHref(a), priority: '0.6' });
+  }
+}
+
 // 404 (CloudFront answers missing pages with it)
 await writePage('/404.html', {
   title: 'Page not found | VIDVIE UAE', desc: 'This page does not exist.', noindex: true,
@@ -272,4 +322,4 @@ for (const f of ['styles.css', 'app.js', 'site.js', 'catalog.js']) await cp(new 
 await cp(new URL('assets/', ROOT), new URL('assets/', DIST), { recursive: true });
 try { await cp(new URL('static/', ROOT), DIST, { recursive: true }); } catch { /* none */ }
 
-console.log(`built ${pages.length} pages from ${products.length} products (${OFFLINE ? 'offline' : 'live feed'})`);
+console.log(`built ${pages.length} pages from ${products.length} products and ${articles.length} guides (${OFFLINE ? 'offline' : 'live feed'})`);

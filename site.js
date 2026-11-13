@@ -547,3 +547,77 @@ export function productJsonLd(p, details) {
     }
   };
 }
+
+// ---------------------------------------------------------------- guides
+
+// Buying guides written daily by Begad's office job (begad.ae
+// app/seo_articles.php) and read by tools/build.mjs from
+// begad.ae/api/seo-articles/v1/public?site=vidvie. Not linked from the
+// menus (owner, 2026-11-13: "just for search engines"); found through
+// sitemap.xml, /guides/ and the links between guides.
+export const guideHref = a => `/guides/${a.slug}/`;
+
+export function guideTextHtml(text) {
+  return String(text || '').trim().split(/\n{2,}/).map(block => {
+    const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+    if (!lines.length) return '';
+    if (lines.every(l => /^[-•*]\s+/.test(l))) return `<ul>${lines.map(l => `<li>${esc(l.replace(/^[-•*]\s+/, ''))}</li>`).join('')}</ul>`;
+    return `<p>${lines.map(esc).join('<br>')}</p>`;
+  }).join('');
+}
+
+const guideDate = a => {
+  const d = new Date(String(a.published_at || '').replace(' ', 'T') + '+04:00');
+  return isNaN(d) ? '' : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Dubai' });
+};
+
+export function guidesIndexHtml(articles) {
+  return `${breadcrumb([['Home', '/'], ['Guides', null]])}
+<div class="guide">
+  <h1>VIDVIE buying guides</h1>
+  <p class="guide-meta">Advice for choosing chargers, power banks, audio and accessories in the UAE.</p>
+  ${articles.length ? `<ul class="guide-list">${articles.map(a => `<li><a href="${guideHref(a)}"><b>${esc(a.title)}</b><span>${esc(a.meta_description)}</span></a></li>`).join('')}</ul>` : '<p class="muted">No guides yet.</p>'}
+</div>`;
+}
+
+export function guideHtml(a, products, built, others = []) {
+  const body = a.body || {};
+  const byId = new Map(products.map(p => [p.id, p]));
+  const sections = body.sections || [];
+  return `${breadcrumb([['Home', '/'], ['Guides', '/guides/'], [a.title.length > 48 ? `${a.title.slice(0, 46).replace(/\s+\S*$/, '')}…` : a.title, null]])}
+<article class="guide">
+  <h1>${esc(a.title)}</h1>
+  <p class="guide-meta">VIDVIE UAE buying guide${guideDate(a) ? ` · Updated ${guideDate(a)}` : ''}</p>
+  <div class="guide-body">${guideTextHtml(body.intro)}</div>
+  ${sections.length >= 4 ? `<nav class="guide-toc"><b>In this guide</b><ol>${sections.map((s, i) => `<li><a href="#s${i + 1}">${esc(s.heading)}</a></li>`).join('')}</ol></nav>` : ''}
+  ${sections.map((s, i) => {
+    const cards = (s.products || []).map(id => byId.get(Number(id))).filter(Boolean);
+    return `<section class="guide-section" id="s${i + 1}"><h2>${esc(s.heading)}</h2><div class="guide-body">${guideTextHtml(s.text)}</div>
+    ${cards.length ? `<div class="grid guide-cards">${cards.map(p => cardHtml(p, built)).join('')}</div>` : ''}</section>`;
+  }).join('')}
+  ${(body.faq || []).length ? `<section class="guide-section"><h2>Frequently asked questions</h2>${body.faq.map(f => `<details class="guide-faq"><summary>${esc(f.q)}</summary><div class="guide-body">${guideTextHtml(f.a)}</div></details>`).join('')}</section>` : ''}
+  ${body.conclusion ? `<section class="guide-section"><h2>The bottom line</h2><div class="guide-body">${guideTextHtml(body.conclusion)}</div></section>` : ''}
+  <p class="guide-shop"><a class="btn btn-primary" href="/products/">Shop all VIDVIE products</a></p>
+  ${others.length ? `<section class="guide-section"><h2>More guides</h2><ul class="guide-list">${others.slice(0, 6).map(o => `<li><a href="${guideHref(o)}"><b>${esc(o.title)}</b></a></li>`).join('')}</ul></section>` : ''}
+</article>`;
+}
+
+export function guideJsonLd(a, products) {
+  const url = `${SITE}${guideHref(a)}`;
+  const byId = new Map(products.map(p => [p.id, p]));
+  const images = (a.product_ids || []).map(id => byId.get(Number(id))).filter(Boolean).slice(0, 3).map(p => p.image);
+  const published = new Date(String(a.published_at || '').replace(' ', 'T') + '+04:00');
+  const out = [
+    { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.meta_description,
+      datePublished: isNaN(published) ? undefined : published.toISOString(), mainEntityOfPage: url, image: images,
+      author: { '@type': 'Organization', name: 'VIDVIE UAE', url: `${SITE}/` },
+      publisher: { '@type': 'Organization', name: 'VIDVIE UAE', logo: { '@type': 'ImageObject', url: `${SITE}/assets/vidvie-official-logo.png` } } },
+    { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: 'Guides', item: `${SITE}/guides/` },
+      { '@type': 'ListItem', position: 3, name: a.title, item: url }] }
+  ];
+  const faq = (a.body && a.body.faq) || [];
+  if (faq.length) out.push({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })) });
+  return out;
+}
