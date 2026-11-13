@@ -552,10 +552,24 @@ export function productJsonLd(p, details) {
 
 // Buying guides written daily by Begad's office job (begad.ae
 // app/seo_articles.php) and read by tools/build.mjs from
-// begad.ae/api/seo-articles/v1/public?site=vidvie. Not linked from the
-// menus (owner, 2026-11-13: "just for search engines"); found through
-// sitemap.xml, /guides/ and the links between guides.
-export const guideHref = a => `/guides/${a.slug}/`;
+// begad.ae/api/seo-articles/v1/public?site=vidvie, in English (/guides/) and
+// Arabic (/ar/guides/). Not linked from the menus (owner, 2026-11-13: "just
+// for search engines"); found through sitemap.xml and the links between
+// guides. Layout after noon's blog (owner's screenshots, same day).
+export const guideHref = a => `${a.lang === 'ar' ? '/ar' : ''}/guides/${a.slug}/`;
+export const guidesIndexHref = lang => (lang === 'ar' ? '/ar/guides/' : '/guides/');
+
+const GUIDE_TEXT = {
+  en: { home: 'Home', guides: 'VIDVIE Guides', team: 'VIDVIE UAE Team', min: 'min read', toc: 'Table of Contents',
+    share: 'Share this article', copy: 'Copy link', faq: 'Frequently asked questions', bottom: 'The bottom line',
+    shop: 'Shop all VIDVIE products', more: 'More guides', indexTitle: 'VIDVIE buying guides',
+    indexLead: 'Advice for choosing chargers, power banks, audio and accessories in the UAE.', none: 'No guides yet.' },
+  ar: { home: 'الرئيسية', guides: 'أدلة فيدفي', team: 'فريق فيدفي الإمارات', min: 'دقائق قراءة', toc: 'محتويات الدليل',
+    share: 'شارك المقال', copy: 'نسخ الرابط', faq: 'أسئلة شائعة', bottom: 'الخلاصة',
+    shop: 'تسوّق كل منتجات فيدفي', more: 'أدلة أخرى', indexTitle: 'أدلة شراء فيدفي',
+    indexLead: 'نصائح لاختيار الشواحن والباور بانك والسماعات والإكسسوارات في الإمارات.', none: 'لا توجد أدلة بعد.' }
+};
+const AR_MONTHS = ['يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'];
 
 export function guideTextHtml(text) {
   return String(text || '').trim().split(/\n{2,}/).map(block => {
@@ -566,55 +580,96 @@ export function guideTextHtml(text) {
   }).join('');
 }
 
-const guideDate = a => {
-  const d = new Date(String(a.published_at || '').replace(' ', 'T') + '+04:00');
-  return isNaN(d) ? '' : d.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Dubai' });
-};
+const guideTime = a => new Date(String(a.published_at || '').replace(' ', 'T') + '+04:00');
+function guideDate(a) {
+  const d = guideTime(a);
+  if (isNaN(d)) return '';
+  if (a.lang === 'ar') {
+    const [day, month, year] = d.toLocaleDateString('en-GB', { timeZone: 'Asia/Dubai', day: 'numeric', month: 'numeric', year: 'numeric' }).split('/');
+    return `${Number(day)} ${AR_MONTHS[Number(month) - 1]} ${year}`;
+  }
+  return d.toLocaleDateString('en-US', { timeZone: 'Asia/Dubai', day: 'numeric', month: 'long', year: 'numeric' });
+}
+const readMinutes = a => Math.max(2, Math.round((Number(a.word_count) || 0) / (a.lang === 'ar' ? 150 : 200)));
+const guidePhotos = (a, byId, n) => (a.product_ids || []).map(id => byId.get(Number(id))).filter(Boolean).slice(0, n);
 
-export function guidesIndexHtml(articles) {
-  return `${breadcrumb([['Home', '/'], ['Guides', null]])}
-<div class="guide">
-  <h1>VIDVIE buying guides</h1>
-  <p class="guide-meta">Advice for choosing chargers, power banks, audio and accessories in the UAE.</p>
-  ${articles.length ? `<ul class="guide-list">${articles.map(a => `<li><a href="${guideHref(a)}"><b>${esc(a.title)}</b><span>${esc(a.meta_description)}</span></a></li>`).join('')}</ul>` : '<p class="muted">No guides yet.</p>'}
+function guideTiles(articles, products) {
+  const byId = new Map(products.map(p => [p.id, p]));
+  return `<div class="gd-cards">${articles.map(a => {
+    const L = GUIDE_TEXT[a.lang === 'ar' ? 'ar' : 'en'];
+    return `<a class="gd-tile" href="${guideHref(a)}"><span class="gd-tile-art">${guidePhotos(a, byId, 3).map(p => `<img src="${esc(p.thumb)}" alt="" loading="lazy" width="400" height="400" />`).join('')}</span>
+    <span class="gd-tile-body"><b>${esc(a.title)}</b><span>${esc(a.meta_description)}</span><i>${readMinutes(a)} ${L.min}</i></span></a>`;
+  }).join('')}</div>`;
+}
+
+export function guidesIndexHtml(articles, products, lang = 'en') {
+  const L = GUIDE_TEXT[lang];
+  return `<div class="gd" dir="${lang === 'ar' ? 'rtl' : 'ltr'}" lang="${lang}">
+  <header class="gd-band gd-band-short"><div class="gd-head">
+    <nav class="gd-crumbs"><a href="/">${L.home}</a><span>/</span><span>${L.guides}</span></nav>
+    <h1>${L.indexTitle}</h1><i class="gd-line"></i><p class="gd-lead">${L.indexLead}</p>
+  </div></header>
+  <div class="gd-index">${articles.length ? guideTiles(articles, products) : `<p class="muted">${L.none}</p>`}</div>
 </div>`;
 }
 
 export function guideHtml(a, products, built, others = []) {
+  const lang = a.lang === 'ar' ? 'ar' : 'en';
+  const L = GUIDE_TEXT[lang];
   const body = a.body || {};
   const byId = new Map(products.map(p => [p.id, p]));
   const sections = body.sections || [];
-  return `${breadcrumb([['Home', '/'], ['Guides', '/guides/'], [a.title.length > 48 ? `${a.title.slice(0, 46).replace(/\s+\S*$/, '')}…` : a.title, null]])}
-<article class="guide">
-  <h1>${esc(a.title)}</h1>
-  <p class="guide-meta">VIDVIE UAE buying guide${guideDate(a) ? ` · Updated ${guideDate(a)}` : ''}</p>
-  <div class="guide-body">${guideTextHtml(body.intro)}</div>
-  ${sections.length >= 4 ? `<nav class="guide-toc"><b>In this guide</b><ol>${sections.map((s, i) => `<li><a href="#s${i + 1}">${esc(s.heading)}</a></li>`).join('')}</ol></nav>` : ''}
-  ${sections.map((s, i) => {
-    const cards = (s.products || []).map(id => byId.get(Number(id))).filter(Boolean);
-    return `<section class="guide-section" id="s${i + 1}"><h2>${esc(s.heading)}</h2><div class="guide-body">${guideTextHtml(s.text)}</div>
-    ${cards.length ? `<div class="grid guide-cards">${cards.map(p => cardHtml(p, built)).join('')}</div>` : ''}</section>`;
-  }).join('')}
-  ${(body.faq || []).length ? `<section class="guide-section"><h2>Frequently asked questions</h2>${body.faq.map(f => `<details class="guide-faq"><summary>${esc(f.q)}</summary><div class="guide-body">${guideTextHtml(f.a)}</div></details>`).join('')}</section>` : ''}
-  ${body.conclusion ? `<section class="guide-section"><h2>The bottom line</h2><div class="guide-body">${guideTextHtml(body.conclusion)}</div></section>` : ''}
-  <p class="guide-shop"><a class="btn btn-primary" href="/products/">Shop all VIDVIE products</a></p>
-  ${others.length ? `<section class="guide-section"><h2>More guides</h2><ul class="guide-list">${others.slice(0, 6).map(o => `<li><a href="${guideHref(o)}"><b>${esc(o.title)}</b></a></li>`).join('')}</ul></section>` : ''}
-</article>`;
+  const url = `${SITE}${guideHref(a)}`;
+  const photos = guidePhotos(a, byId, 3);
+  const share = encodeURIComponent(`${a.title} ${url}`);
+  return `<div class="gd" dir="${lang === 'ar' ? 'rtl' : 'ltr'}" lang="${lang}">
+  <header class="gd-band"><div class="gd-head">
+    <nav class="gd-crumbs"><a href="/">${L.home}</a><span>/</span><a href="${guidesIndexHref(lang)}">${L.guides}</a><span>/</span><span class="gd-here">${esc(a.title)}</span></nav>
+    <span class="gd-pill">VIDVIE</span>
+    <h1>${esc(a.title)}</h1><i class="gd-line"></i>
+    <p class="gd-byline"><b>${L.team}</b><span>${guideDate(a)}</span><span class="gd-sep">|</span><span>${readMinutes(a)} ${L.min}</span></p>
+  </div></header>
+  ${photos.length ? `<figure class="gd-hero gd-hero-${photos.length}">${photos.map((p, i) => `<img src="${esc(p.image)}" alt="${i ? '' : esc(a.title)}"${i ? ' loading="lazy"' : ' fetchpriority="high"'} />`).join('')}</figure>` : ''}
+  <div class="gd-layout">
+    <aside class="gd-side">
+      ${sections.length ? `<nav class="gd-box gd-toc"><b>${L.toc}</b><ol>${sections.map((s, i) => `<li><a href="#s${i + 1}">${esc(s.heading)}</a></li>`).join('')}${(body.faq || []).length ? `<li><a href="#faq">${L.faq}</a></li>` : ''}</ol></nav>` : ''}
+      <div class="gd-box gd-share"><b>${L.share}</b><div>
+        <button type="button" data-copy-link="${esc(url)}" aria-label="${L.copy}" title="${L.copy}"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg></button>
+        <a href="https://wa.me/?text=${share}" target="_blank" rel="noopener" aria-label="WhatsApp">${icon('chat', '')}</a>
+        <a href="https://twitter.com/intent/tweet?text=${share}" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M15 8h-2a2 2 0 0 0-2 2v11M8 13h6"/></svg></a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 0 1 4 0v4M11 10v7"/></svg></a>
+      </div></div>
+    </aside>
+    <article class="gd-card">
+      <div class="gd-text">${guideTextHtml(body.intro)}</div>
+      ${sections.map((s, i) => {
+        const cards = (s.products || []).map(id => byId.get(Number(id))).filter(Boolean);
+        return `<section id="s${i + 1}"><h2>${esc(s.heading)}</h2><div class="gd-text">${guideTextHtml(s.text)}</div>${cards.length ? `<div class="grid gd-products" dir="ltr">${cards.map(p => cardHtml(p, built)).join('')}</div>` : ''}</section>`;
+      }).join('')}
+      ${(body.faq || []).length ? `<section id="faq"><h2>${L.faq}</h2>${body.faq.map(f => `<details class="gd-faq"><summary>${esc(f.q)}</summary><div class="gd-text">${guideTextHtml(f.a)}</div></details>`).join('')}</section>` : ''}
+      ${body.conclusion ? `<section><h2>${L.bottom}</h2><div class="gd-text">${guideTextHtml(body.conclusion)}</div></section>` : ''}
+      <a class="btn btn-primary gd-shop" href="/products/">${L.shop}</a>
+    </article>
+  </div>
+  ${others.length ? `<section class="gd-index"><h2 class="gd-more">${L.more}</h2>${guideTiles(others.slice(0, 6), products)}</section>` : ''}
+</div>`;
 }
 
 export function guideJsonLd(a, products) {
   const url = `${SITE}${guideHref(a)}`;
   const byId = new Map(products.map(p => [p.id, p]));
-  const images = (a.product_ids || []).map(id => byId.get(Number(id))).filter(Boolean).slice(0, 3).map(p => p.image);
-  const published = new Date(String(a.published_at || '').replace(' ', 'T') + '+04:00');
+  const published = guideTime(a);
+  const L = GUIDE_TEXT[a.lang === 'ar' ? 'ar' : 'en'];
   const out = [
-    { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.meta_description,
-      datePublished: isNaN(published) ? undefined : published.toISOString(), mainEntityOfPage: url, image: images,
+    { '@context': 'https://schema.org', '@type': 'Article', headline: a.title, description: a.meta_description, inLanguage: a.lang || 'en',
+      datePublished: isNaN(published) ? undefined : published.toISOString(), mainEntityOfPage: url,
+      image: guidePhotos(a, byId, 3).map(p => p.image),
       author: { '@type': 'Organization', name: 'VIDVIE UAE', url: `${SITE}/` },
       publisher: { '@type': 'Organization', name: 'VIDVIE UAE', logo: { '@type': 'ImageObject', url: `${SITE}/assets/vidvie-official-logo.png` } } },
     { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE}/` },
-      { '@type': 'ListItem', position: 2, name: 'Guides', item: `${SITE}/guides/` },
+      { '@type': 'ListItem', position: 1, name: L.home, item: `${SITE}/` },
+      { '@type': 'ListItem', position: 2, name: L.guides, item: `${SITE}${guidesIndexHref(a.lang)}` },
       { '@type': 'ListItem', position: 3, name: a.title, item: url }] }
   ];
   const faq = (a.body && a.body.faq) || [];

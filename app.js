@@ -186,6 +186,11 @@ document.addEventListener('click', e => {
     input.value = Math.max(1, Math.min(50, (Number(input.value) || 1) + Number(qtyBtn.dataset.qty)));
     return;
   }
+  const copy = t.closest('[data-copy-link]');
+  if (copy) {
+    if (navigator.clipboard) navigator.clipboard.writeText(copy.dataset.copyLink).then(() => { copy.classList.add('is-done'); toast('Link copied'); setTimeout(() => copy.classList.remove('is-done'), 1600); });
+    return;
+  }
   const thumb = t.closest('[data-img]');
   if (thumb) {
     $('#pdpMain').src = thumb.dataset.img;

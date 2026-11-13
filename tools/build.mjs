@@ -14,7 +14,7 @@ import vm from 'node:vm';
 import {
   SITE, CATALOG_API, DEPARTMENTS, PAGE_SIZE, buildCatalog, deptCounts, deptNavHtml, homeHtml, listingHtml,
   listingTitle, productHtml, wholesaleHtml, notFoundHtml, productJsonLd, deptHref, subHref, productHref, esc,
-  money, discountOf, guidesIndexHtml, guideHtml, guideJsonLd, guideHref
+  money, discountOf, guidesIndexHtml, guideHtml, guideJsonLd, guideHref, guidesIndexHref
 } from '../site.js';
 
 const ROOT = new URL('../', import.meta.url);
@@ -127,13 +127,15 @@ const ARTICLES_API = 'https://begad.ae/api/seo-articles/v1/public?site=vidvie';
 const articlesFile = new URL('data/articles.json', ROOT);
 let articles = [];
 try { articles = JSON.parse(await readFile(articlesFile, 'utf8')); } catch { articles = []; }
+articles.forEach(a => { a.lang = a.lang === 'ar' ? 'ar' : 'en'; }); // copies saved before Arabic existed
 if (!OFFLINE) {
   try {
     const res = await fetch(ARTICLES_API, { headers: { Accept: 'application/json' } });
     const data = res.ok ? await res.json() : null;
     if (data && data.ok && Array.isArray(data.articles)) {
       articles = data.articles.map(a => ({
-        id: Number(a.id), slug: a.slug, title: a.title, meta_description: a.meta_description,
+        id: Number(a.id), lang: a.lang === 'ar' ? 'ar' : 'en', slug: a.slug, title: a.title, meta_description: a.meta_description,
+        word_count: Number(a.word_count) || 0, topic_key: a.topic_key,
         primary_keyword: a.primary_keyword, product_ids: a.product_ids, published_at: a.published_at,
         updated_at: a.updated_at, body: a.body
       })).filter(a => /^[a-z0-9-]+$/.test(a.slug || ''));
@@ -169,8 +171,10 @@ const orgLd = {
 
 const pages = []; // { path, priority } for the sitemap
 
-async function writePage(path, { title, desc, content, page, nav = '', jsonLd = orgLd, ogImage = ogDefault, ogType = 'website', noindex = false, file }) {
+async function writePage(path, { title, desc, content, page, nav = '', jsonLd = orgLd, ogImage = ogDefault, ogType = 'website', noindex = false, file, lang = 'en', alternates = [] }) {
   const html = template
+    .replace('<html lang="en">', `<html lang="${lang}">`)
+    .replace('__HEADEXTRA__', alternates.map(([l, href]) => `<link rel="alternate" hreflang="${l}" href="${SITE}${href}" />`).join('\n    '))
     .replaceAll('__TITLE__', esc(title))
     .replaceAll('__DESC__', esc(desc))
     .replaceAll('__CANONICAL__', `${SITE}${path}`)
@@ -282,21 +286,26 @@ for (const p of products) {
   pages.push({ path: productHref(p), priority: p.inStock ? '0.6' : '0.3' });
 }
 
-// Guides: in the sitemap, not in the menus
-if (articles.length) {
-  await writePage('/guides/', {
-    title: 'VIDVIE buying guides | VIDVIE UAE',
-    desc: 'Buying guides for VIDVIE chargers, power banks, cables, audio and accessories in the UAE.',
-    content: guidesIndexHtml(articles), page: { type: 'guides' }
+// Guides: in the sitemap, not in the menus. English under /guides/, Arabic
+// under /ar/guides/; a pair (same topic) points at each other with hreflang.
+for (const lang of ['en', 'ar']) {
+  const list = articles.filter(a => a.lang === lang);
+  if (!list.length) continue;
+  const ar = lang === 'ar';
+  await writePage(guidesIndexHref(lang), {
+    title: ar ? 'أدلة شراء فيدفي | VIDVIE UAE' : 'VIDVIE buying guides | VIDVIE UAE',
+    desc: ar ? 'أدلة لاختيار شواحن وباور بانك وسماعات وإكسسوارات فيدفي في الإمارات.' : 'Buying guides for VIDVIE chargers, power banks, cables, audio and accessories in the UAE.',
+    content: guidesIndexHtml(list, products, lang), page: { type: 'guides' }, lang
   });
-  pages.push({ path: '/guides/', priority: '0.4' });
-  for (const a of articles) {
-    const others = articles.filter(o => o.id !== a.id);
+  pages.push({ path: guidesIndexHref(lang), priority: '0.4' });
+  for (const a of list) {
+    const twin = articles.find(o => o.lang !== a.lang && o.topic_key && o.topic_key === a.topic_key);
     const firstProduct = products.find(p => (a.product_ids || []).includes(p.id));
     await writePage(guideHref(a), {
       title: `${a.title} | VIDVIE UAE`, desc: a.meta_description,
-      content: guideHtml(a, products, built, others),
-      page: { type: 'guide', guideId: a.id }, jsonLd: guideJsonLd(a, products),
+      content: guideHtml(a, products, built, list.filter(o => o.id !== a.id)),
+      page: { type: 'guide', guideId: a.id }, jsonLd: guideJsonLd(a, products), lang,
+      alternates: twin ? [[a.lang, guideHref(a)], [twin.lang, guideHref(twin)]] : [],
       ogImage: firstProduct ? firstProduct.image : ogDefault, ogType: 'article'
     });
     pages.push({ path: guideHref(a), priority: '0.6' });
