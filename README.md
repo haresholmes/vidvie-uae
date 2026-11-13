@@ -52,13 +52,15 @@ The live site is in Begad's AWS account (279706066043): private S3 bucket `vidvi
 - `.github/workflows/aws.yml` deploys on each push to `main`: it builds `dist/`, syncs it to the bucket and clears the CloudFront cache. It signs in with GitHub OIDC as IAM role `vidvie-github-deploy`, which can only write that bucket and invalidate that distribution.
 - `.github/workflows/sync-catalog.yml` runs every 6 hours: it rebuilds, commits `catalog.js` and `data/details.json` when they changed, and starts the deploy.
 - **CloudFront Function `vidvie-pages`** (viewer request, default behaviour; source in `deploy/cloudfront-function.js`) serves `/c/audio/` from `c/audio/index.html`, adds the missing slash to `/c/audio`, and sends `www.vidvie.ae` to `vidvie.ae` with a 301. S3 has no directory index of its own, so without this function every page except the home page answers 403. To change it: `aws cloudfront update-function --name vidvie-pages --if-match <ETag> --function-config Comment=...,Runtime=cloudfront-js-2.0 --function-code fileb://deploy/cloudfront-function.js`, then `aws cloudfront publish-function`.
-- **Custom error responses** on the distribution: 403 and 404 from S3 answer `/404.html` with status 404 (a missing key in a private bucket is a 403).
+- **Custom error responses** on the distribution (added 2026-11-13): 403 and 404 from S3 answer `/404.html` with status 404 (a missing key in a private bucket is a 403).
 - The GitHub Pages preview (`haresholmes.eu.org/vidvie-uae/`) was switched off on 2026-11-13: the site now uses root-relative links, and a second copy would compete with vidvie.ae in Google.
 
 `vidvie.ae` is registered at AESERVER. Its DNS is the Route 53 hosted zone `Z02139873CGVQFOOKAUIY`, which also carries the domain's email records (MX, SPF, DKIM, DMARC, autoconfig); do not remove them. The HTTPS certificate is in ACM (us-east-1) and renews itself while its two validation CNAMEs stay in the zone.
 
 ## Google Search Console
 
-See the "Google Search Console" section at the end of this file for the property, how it was verified and the submitted sitemap.
+Not added yet (2026-11-13): it needs the owner's Google account. Add a **Domain** property `vidvie.ae`, put the `google-site-verification=...` value Google shows into the root TXT record of the Route 53 zone (next to the existing SPF value, not instead of it), verify, then submit `https://vidvie.ae/sitemap.xml`. Every page already has a canonical address on `https://vidvie.ae`, structured data, and is listed in the sitemap; `/search/` is excluded by robots.txt.
+
+The company's Google service account (Merchant Center sync) cannot do this: the Site Verification API is not enabled in its project, and a property it owned would not appear in a person's Search Console.
 
 The logo is [VIDVIE's official wordmark](https://www.vidvie.hk/), stored in `assets/vidvie-official-logo.png`; `assets/vidvie-icon.png` (favicon) and `assets/og-image.jpg` (link previews) were made from it.
