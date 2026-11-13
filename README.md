@@ -34,6 +34,10 @@ Each page is a copy of `template.html` with its own title, description, canonica
 
 `node tools/build.mjs --offline` builds from `catalog.js` and `data/details.json` without calling Begad.
 
+## Guides (for search engines)
+
+`/guides/` and `/guides/<slug>/` are buying guides written daily by Begad's office n8n job (begad repo: `app/seo_articles.php`, `office/seo-articles/README.md`). The build reads `GET https://begad.ae/api/seo-articles/v1/public?site=vidvie` and keeps a copy in `data/articles.json`. They are in `sitemap.xml` but not linked from the menus, on purpose (owner, 2026-11-13). A new guide is live after the 07:45 UAE sync. To remove one, hide it on Begad (`status='Hidden'`); it disappears at the next sync.
+
 ## Hero picture
 
 The product cut-outs in `assets/hero/` were made from Begad's full-size product photos (white background) with `tools/cutout.py <photo> <out.webp> [max side] [keep left fraction]` (needs `numpy`, `scipy`, `pillow`). It only works on products clearly darker than their background.
