@@ -560,14 +560,16 @@ export const guideHref = a => `${a.lang === 'ar' ? '/ar' : ''}/guides/${a.slug}/
 export const guidesIndexHref = lang => (lang === 'ar' ? '/ar/guides/' : '/guides/');
 
 const GUIDE_TEXT = {
-  en: { home: 'Home', guides: 'VIDVIE Guides', team: 'VIDVIE UAE Team', min: 'min read', toc: 'Table of Contents',
-    share: 'Share this article', copy: 'Copy link', faq: 'Frequently asked questions', bottom: 'The bottom line',
-    shop: 'Shop all VIDVIE products', more: 'More guides', indexTitle: 'VIDVIE buying guides',
-    indexLead: 'Advice for choosing chargers, power banks, audio and accessories in the UAE.', none: 'No guides yet.' },
-  ar: { home: 'الرئيسية', guides: 'أدلة فيدفي', team: 'فريق فيدفي الإمارات', min: 'دقائق قراءة', toc: 'محتويات الدليل',
-    share: 'شارك المقال', copy: 'نسخ الرابط', faq: 'أسئلة شائعة', bottom: 'الخلاصة',
-    shop: 'تسوّق كل منتجات فيدفي', more: 'أدلة أخرى', indexTitle: 'أدلة شراء فيدفي',
-    indexLead: 'نصائح لاختيار الشواحن والباور بانك والسماعات والإكسسوارات في الإمارات.', none: 'لا توجد أدلة بعد.' }
+  en: { home: 'Home', guides: 'VIDVIE Guides', guide: 'VIDVIE Guide', team: 'VIDVIE UAE Team', min: 'min read',
+    picks: 'In this guide', n: n => `${n} VIDVIE products`, jump: 'In this guide', faq: 'Questions people ask',
+    take: 'Our verdict', share: 'Share', copy: 'Copy link', shop: 'Shop all VIDVIE products', more: 'More VIDVIE guides',
+    read: 'Read guide', tagline: "Spice Up People's Life", ctaSub: 'Every VIDVIE product in the UAE, shipped from Dubai with a 12-month local warranty.',
+    indexTitle: 'VIDVIE buying guides', indexLead: 'Advice for choosing chargers, power banks, audio and accessories in the UAE.', none: 'No guides yet.' },
+  ar: { home: 'الرئيسية', guides: 'أدلة فيدفي', guide: 'دليل فيدفي', team: 'فريق فيدفي الإمارات', min: 'دقائق قراءة',
+    picks: 'في هذا الدليل', n: n => `${n} منتجات فيدفي`, jump: 'في هذا الدليل', faq: 'أسئلة شائعة',
+    take: 'رأينا', share: 'شارك', copy: 'نسخ الرابط', shop: 'تسوّق كل منتجات فيدفي', more: 'أدلة فيدفي أخرى',
+    read: 'اقرأ الدليل', tagline: "Spice Up People's Life", ctaSub: 'كل منتجات فيدفي في الإمارات، تُشحن من دبي مع ضمان محلي لمدة 12 شهراً.',
+    indexTitle: 'أدلة شراء فيدفي', indexLead: 'نصائح لاختيار الشواحن والباور بانك والسماعات والإكسسوارات في الإمارات.', none: 'لا توجد أدلة بعد.' }
 };
 const AR_MONTHS = ['يناير', 'فبراير', 'مارس', 'أبريل', 'مايو', 'يونيو', 'يوليو', 'أغسطس', 'سبتمبر', 'أكتوبر', 'نوفمبر', 'ديسمبر'];
 
@@ -588,28 +590,30 @@ function guideDate(a) {
     const [day, month, year] = d.toLocaleDateString('en-GB', { timeZone: 'Asia/Dubai', day: 'numeric', month: 'numeric', year: 'numeric' }).split('/');
     return `${Number(day)} ${AR_MONTHS[Number(month) - 1]} ${year}`;
   }
-  return d.toLocaleDateString('en-US', { timeZone: 'Asia/Dubai', day: 'numeric', month: 'long', year: 'numeric' });
+  return d.toLocaleDateString('en-GB', { timeZone: 'Asia/Dubai', day: 'numeric', month: 'long', year: 'numeric' });
 }
 const readMinutes = a => Math.max(2, Math.round((Number(a.word_count) || 0) / (a.lang === 'ar' ? 150 : 200)));
 const guidePhotos = (a, byId, n) => (a.product_ids || []).map(id => byId.get(Number(id))).filter(Boolean).slice(0, n);
+const two = i => String(i).padStart(2, '0');
 
 function guideTiles(articles, products) {
   const byId = new Map(products.map(p => [p.id, p]));
   return `<div class="gd-cards">${articles.map(a => {
     const L = GUIDE_TEXT[a.lang === 'ar' ? 'ar' : 'en'];
     return `<a class="gd-tile" href="${guideHref(a)}"><span class="gd-tile-art">${guidePhotos(a, byId, 3).map(p => `<img src="${esc(p.thumb)}" alt="" loading="lazy" width="400" height="400" />`).join('')}</span>
-    <span class="gd-tile-body"><b>${esc(a.title)}</b><span>${esc(a.meta_description)}</span><i>${readMinutes(a)} ${L.min}</i></span></a>`;
+    <span class="gd-tile-body"><span class="gd-kicker">${L.guide} · ${readMinutes(a)} ${L.min}</span><b>${esc(a.title)}</b><span>${esc(a.meta_description)}</span><i>${L.read} ${a.lang === 'ar' ? '←' : '→'}</i></span></a>`;
   }).join('')}</div>`;
 }
 
 export function guidesIndexHtml(articles, products, lang = 'en') {
   const L = GUIDE_TEXT[lang];
   return `<div class="gd" dir="${lang === 'ar' ? 'rtl' : 'ltr'}" lang="${lang}">
-  <header class="gd-band gd-band-short"><div class="gd-head">
-    <nav class="gd-crumbs"><a href="/">${L.home}</a><span>/</span><span>${L.guides}</span></nav>
-    <h1>${L.indexTitle}</h1><i class="gd-line"></i><p class="gd-lead">${L.indexLead}</p>
+  <header class="gd-top gd-top-index"><div class="gd-wrap">
+    <nav class="gd-crumbs" dir="auto"><a href="/">${L.home}</a><span>/</span><span>${L.guides}</span></nav>
+    <span class="gd-tag"><img src="/assets/vidvie-official-logo.png" alt="VIDVIE" width="62" height="18" />${lang === 'ar' ? 'أدلة' : 'GUIDES'}</span>
+    <h1>${L.indexTitle}</h1><p class="gd-dek">${L.indexLead}</p>
   </div></header>
-  <div class="gd-index">${articles.length ? guideTiles(articles, products) : `<p class="muted">${L.none}</p>`}</div>
+  <div class="gd-wrap gd-index">${articles.length ? guideTiles(articles, products) : `<p class="muted">${L.none}</p>`}</div>
 </div>`;
 }
 
@@ -620,39 +624,46 @@ export function guideHtml(a, products, built, others = []) {
   const byId = new Map(products.map(p => [p.id, p]));
   const sections = body.sections || [];
   const url = `${SITE}${guideHref(a)}`;
-  const photos = guidePhotos(a, byId, 3);
+  const picks = guidePhotos(a, byId, 12);
   const share = encodeURIComponent(`${a.title} ${url}`);
   return `<div class="gd" dir="${lang === 'ar' ? 'rtl' : 'ltr'}" lang="${lang}">
-  <header class="gd-band"><div class="gd-head">
-    <nav class="gd-crumbs"><a href="/">${L.home}</a><span>/</span><a href="${guidesIndexHref(lang)}">${L.guides}</a><span>/</span><span class="gd-here">${esc(a.title)}</span></nav>
-    <span class="gd-pill">VIDVIE</span>
-    <h1>${esc(a.title)}</h1><i class="gd-line"></i>
-    <p class="gd-byline"><b>${L.team}</b><span>${guideDate(a)}</span><span class="gd-sep">|</span><span>${readMinutes(a)} ${L.min}</span></p>
+  <header class="gd-top"><div class="gd-wrap gd-top-grid">
+    <div class="gd-top-text">
+      <nav class="gd-crumbs"><a href="/">${L.home}</a><span>/</span><a href="${guidesIndexHref(lang)}">${L.guides}</a></nav>
+      <span class="gd-tag"><img src="/assets/vidvie-official-logo.png" alt="VIDVIE" width="62" height="18" />${lang === 'ar' ? 'دليل شراء' : 'BUYING GUIDE'}</span>
+      <h1>${esc(a.title)}</h1>
+      <p class="gd-dek">${esc(a.meta_description)}</p>
+      <p class="gd-by"><img src="/assets/vidvie-icon.png" alt="" width="36" height="36" /><span><b>${L.team}</b><small>${guideDate(a)} · ${readMinutes(a)} ${L.min}</small></span></p>
+    </div>
+    ${picks.length ? `<aside class="gd-picks">
+      <div class="gd-picks-head"><b>${L.picks}</b><span>${L.n(picks.length)}</span></div>
+      ${picks.slice(0, 4).map((p, i) => `<div class="gd-pick"><span class="gd-pick-n">${two(i + 1)}</span>
+        <a class="gd-pick-img" href="${esc(cardHref(p, built))}"><img src="${esc(p.thumb)}" alt="" loading="lazy" width="80" height="80" /></a>
+        <a class="gd-pick-name" href="${esc(cardHref(p, built))}" dir="ltr">${esc(p.model ? `VIDVIE ${p.model}` : p.title)}<small>AED ${money(p.price)}</small></a>
+        <button type="button" class="gd-pick-add" data-add="${p.id}" ${p.inStock ? '' : 'disabled'} aria-label="Add to bag">${icon('bag', 'ico ico-sm')}</button></div>`).join('')}
+    </aside>` : ''}
   </div></header>
-  ${photos.length ? `<figure class="gd-hero gd-hero-${photos.length}">${photos.map((p, i) => `<img src="${esc(p.image)}" alt="${i ? '' : esc(a.title)}"${i ? ' loading="lazy"' : ' fetchpriority="high"'} />`).join('')}</figure>` : ''}
-  <div class="gd-layout">
-    <aside class="gd-side">
-      ${sections.length ? `<nav class="gd-box gd-toc"><b>${L.toc}</b><ol>${sections.map((s, i) => `<li><a href="#s${i + 1}">${esc(s.heading)}</a></li>`).join('')}${(body.faq || []).length ? `<li><a href="#faq">${L.faq}</a></li>` : ''}</ol></nav>` : ''}
-      <div class="gd-box gd-share"><b>${L.share}</b><div>
-        <button type="button" data-copy-link="${esc(url)}" aria-label="${L.copy}" title="${L.copy}"><svg viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h8"/></svg></button>
-        <a href="https://wa.me/?text=${share}" target="_blank" rel="noopener" aria-label="WhatsApp">${icon('chat', '')}</a>
-        <a href="https://twitter.com/intent/tweet?text=${share}" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M15 8h-2a2 2 0 0 0-2 2v11M8 13h6"/></svg></a>
-        <a href="https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M7 10v7M7 7v.01M11 17v-4a2 2 0 0 1 4 0v4M11 10v7"/></svg></a>
-      </div></div>
-    </aside>
-    <article class="gd-card">
-      <div class="gd-text">${guideTextHtml(body.intro)}</div>
-      ${sections.map((s, i) => {
-        const cards = (s.products || []).map(id => byId.get(Number(id))).filter(Boolean);
-        return `<section id="s${i + 1}"><h2>${esc(s.heading)}</h2><div class="gd-text">${guideTextHtml(s.text)}</div>${cards.length ? `<div class="grid gd-products" dir="ltr">${cards.map(p => cardHtml(p, built)).join('')}</div>` : ''}</section>`;
-      }).join('')}
-      ${(body.faq || []).length ? `<section id="faq"><h2>${L.faq}</h2>${body.faq.map(f => `<details class="gd-faq"><summary>${esc(f.q)}</summary><div class="gd-text">${guideTextHtml(f.a)}</div></details>`).join('')}</section>` : ''}
-      ${body.conclusion ? `<section><h2>${L.bottom}</h2><div class="gd-text">${guideTextHtml(body.conclusion)}</div></section>` : ''}
-      <a class="btn btn-primary gd-shop" href="/products/">${L.shop}</a>
-    </article>
-  </div>
-  ${others.length ? `<section class="gd-index"><h2 class="gd-more">${L.more}</h2>${guideTiles(others.slice(0, 6), products)}</section>` : ''}
+  ${sections.length >= 3 ? `<nav class="gd-jump"><div class="gd-wrap">${sections.map((s, i) => `<a href="#s${i + 1}"><i>${two(i + 1)}</i>${esc(s.heading)}</a>`).join('')}${(body.faq || []).length ? `<a href="#faq"><i>?</i>${L.faq}</a>` : ''}</div></nav>` : ''}
+  <div class="gd-wrap gd-body"><article class="gd-article">
+    <div class="gd-text gd-lede">${guideTextHtml(body.intro)}</div>
+    ${sections.map((s, i) => {
+      const cards = (s.products || []).map(id => byId.get(Number(id))).filter(Boolean);
+      return `<section class="gd-section" id="s${i + 1}"><h2><span class="gd-num">${two(i + 1)}</span>${esc(s.heading)}</h2><div class="gd-text">${guideTextHtml(s.text)}</div>${cards.length ? `<div class="grid gd-products" dir="ltr">${cards.map(p => cardHtml(p, built)).join('')}</div>` : ''}</section>${i === 1 ? `<div class="gd-promise">${promiseHtml()}</div>` : ''}`;
+    }).join('')}
+    ${body.conclusion ? `<section class="gd-take"><b>${L.take}</b><div class="gd-text">${guideTextHtml(body.conclusion)}</div></section>` : ''}
+    ${(body.faq || []).length ? `<section class="gd-section" id="faq"><h2><span class="gd-num">?</span>${L.faq}</h2>${body.faq.map(f => `<details class="gd-faq"><summary>${esc(f.q)}</summary><div class="gd-text">${guideTextHtml(f.a)}</div></details>`).join('')}</section>` : ''}
+    <div class="gd-share"><b>${L.share}</b>
+      <a href="https://wa.me/?text=${share}" target="_blank" rel="noopener">${icon('chat', 'ico ico-sm')}WhatsApp</a>
+      <button type="button" data-copy-link="${esc(url)}">${L.copy}</button>
+      <a href="https://twitter.com/intent/tweet?text=${share}" target="_blank" rel="noopener" aria-label="X">X</a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+    </div>
+  </article></div>
+  <div class="gd-wrap"><div class="gd-cta">
+    <div><img src="/assets/vidvie-official-logo.png" alt="VIDVIE" width="120" height="35" /><b dir="ltr">${L.tagline}</b><span>${L.ctaSub}</span></div>
+    <a class="btn btn-primary" href="/products/">${L.shop}</a>
+  </div></div>
+  ${others.length ? `<section class="gd-wrap gd-index"><h2 class="gd-more">${L.more}</h2>${guideTiles(others.slice(0, 3), products)}</section>` : ''}
 </div>`;
 }
 
