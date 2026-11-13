@@ -25,7 +25,8 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          if git diff --quiet -- catalog.js data/details.json data/articles.json; then
+          # status, not diff: diff does not see a file that is new (data/articles.json the first time)
+          if [ -z "$(git status --porcelain -- catalog.js data/details.json data/articles.json)" ]; then
             echo "No change."
             exit 0
           fi
