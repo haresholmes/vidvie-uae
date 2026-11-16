@@ -7,7 +7,7 @@ export const SITE = 'https://vidvie.ae';
 export const CATALOG_API = 'https://begad.ae/api/agent/prices?brand=vidvie&details=1';
 export const WHATSAPP = '97148356358';
 export const PHONE_DISPLAY = '+971 4 835 6358';
-export const EMAIL = 'contact@begad.ae';
+export const EMAIL = 'contact@vidvie.ae'; // wholesale page only
 export const PAGE_SIZE = 24;
 
 // Departments and their categories. The third item of each category is the
