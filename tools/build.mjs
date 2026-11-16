@@ -163,7 +163,7 @@ const orgLd = {
   '@context': 'https://schema.org',
   '@graph': [
     { '@type': 'Organization', '@id': `${SITE}/#org`, name: 'VIDVIE UAE', url: `${SITE}/`, logo: `${SITE}/assets/vidvie-official-logo.png`,
-      contactPoint: { '@type': 'ContactPoint', telephone: '+97148356358', email: 'contact@begad.ae', contactType: 'customer service', areaServed: 'AE' } },
+      contactPoint: { '@type': 'ContactPoint', telephone: '+97148356358', email: 'contact@vidvie.ae', contactType: 'customer service', areaServed: 'AE' } },
     { '@type': 'WebSite', '@id': `${SITE}/#site`, url: `${SITE}/`, name: 'VIDVIE UAE', publisher: { '@id': `${SITE}/#org` },
       potentialAction: { '@type': 'SearchAction', target: `${SITE}/search/?q={search_term_string}`, 'query-input': 'required name=search_term_string' } }
   ]
