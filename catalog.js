@@ -2539,21 +2539,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001868,
-  "sku": "AUT1000041",
-  "name": "Vidvie CSP001 Car Jump Starter with Air Pump and Vacuum Cleaner, 8000mAh, 1000A Peak, 150PSI Digital Tyre Inflator, 4500Pa Suction, LED Display and Emergency Light",
-  "category": "Tools & Equipment",
-  "url": "https://begad.ae/product/vidvie-csp001-car-jump-starter-with-air-pump-and-vacuum-cleaner-8000mah-1000a-peak-150psi-digital-tyre-inflator-4500pa-suction-led-display-and-emergency-light",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001868.jpg.webp",
-  "image": "https://begad.ae/uploads/products/gallery-20260928140000-10001868.jpg",
-  "price": {
-   "amount": 240.06,
-   "amount_with_tax": 240.06,
-   "compare_at_amount": 288.07
-  },
-  "in_stock": true
- },
- {
   "id": 10001867,
   "sku": "ELE1000729",
   "name": "Vidvie Wall Charger XL-PLB124 Retractable Cord GaN Fast Charger",
