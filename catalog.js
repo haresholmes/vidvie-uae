@@ -214,36 +214,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10006845,
-  "sku": "ELE1001204",
-  "name": "Vidvie 12-in-1 Power Strip Extension 2500W, 4 UK AC Outlets with 4 USB-A and 4 USB-C Fast Charging Ports, Surge and Overload Protection, Heavy-Duty Copper Cord for Home and Office, White, PSB07",
-  "category": "extensions & Plugs",
-  "url": "https://begad.ae/product/vidvie-12-in-1-power-strip-extension-2500w-4-uk-ac-outlets-with-4-usb-a-and-4-usb-c-fast-charging-ports-surge-and-overload-protection-heavy-duty-copper-cord-for-home-and-office-white-psb07",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195717_68276371eb.jpg.webp",
-  "image": "https://begad.ae/uploads/products/api/20261108_195717_68276371eb.jpg",
-  "price": {
-   "amount": 53.15,
-   "amount_with_tax": 53.15,
-   "compare_at_amount": 63.78
-  },
-  "in_stock": true
- },
- {
-  "id": 10006736,
-  "sku": "ELE1001126",
-  "name": "Vidvie 38W Dual Port Car Charger, 20W USB-C PD and 18W QC 3.0 USB-A Fast Charging, Mini Zinc Alloy Metal Car Adapter for 12V-24V Vehicles, iPhone, Samsung and Android Phones, Gray, CC522C",
-  "category": "Car Chargers",
-  "url": "https://begad.ae/product/vidvie-38w-dual-port-car-charger-20w-usb-c-pd-and-18w-qc-3-0-usb-a-fast-charging-mini-zinc-alloy-metal-car-adapter-for-12v-24v-vehicles-iphone-samsung-and-android-phones-gray-cc522c",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260921184226-4315.jpg.webp",
-  "image": "https://begad.ae/uploads/products/gallery-20260921184226-4315.jpg",
-  "price": {
-   "amount": 28.65,
-   "amount_with_tax": 28.65,
-   "compare_at_amount": 34.38
-  },
-  "in_stock": true
- },
- {
   "id": 10006720,
   "sku": "ELE1001110",
   "name": "Vidvie Wireless Microphone with USB-C Receiver, AI Noise Cancelling Dual Mic Set with Charging Case, 2.4GHz 15ms Low Latency, 8H per Mic and 32H with Case, for Vlogging, Interviews and Live Streaming, Black, MC02-T",
@@ -351,9 +321,9 @@ const catalogProducts = [
  {
   "id": 10002383,
   "sku": "ELE1001370",
-  "name": "Vidvie AMOLED Smart Watch with Bluetooth Calling, Ultra-Clear Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Black, SW1617",
+  "name": "VIDVIE SW1617 Smart Watch, 1.43\" AMOLED Display, Bluetooth Calling, IP68 Waterproof, 4-7 Days Battery, Message Alerts, Arabic Support - Black",
   "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-amoled-smart-watch-with-bluetooth-calling-ultra-clear-display-heart-rate-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-black-sw1617",
+  "url": "https://begad.ae/product/vidvie-sw1617-smart-watch-1-43-amoled-display-bluetooth-calling-ip68-waterproof-4-7-days-battery-message-alerts-arabic-support-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173120-8532.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173120-8532.jpg",
   "price": {
@@ -366,9 +336,9 @@ const catalogProducts = [
  {
   "id": 10002262,
   "sku": "ELE1001365",
-  "name": "Vidvie Smart Watch with Bluetooth Calling, HD Color Display, Heart Rate, Blood Pressure, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1615",
+  "name": "VIDVIE SW1615 Smart Watch, 2.1\" IPS Full Touch Display, Bluetooth Calling, Zinc Alloy Case, Wireless Charging, 2 Straps Included",
   "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-smart-watch-with-bluetooth-calling-hd-color-display-heart-rate-blood-pressure-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-sw1615",
+  "url": "https://begad.ae/product/vidvie-sw1615-smart-watch-2-1-ips-full-touch-display-bluetooth-calling-zinc-alloy-case-wireless-charging-2-straps-included",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260810231910-9521.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260810231910-9521.jpg",
   "price": {
@@ -381,9 +351,9 @@ const catalogProducts = [
  {
   "id": 10002259,
   "sku": "ELE1001362",
-  "name": "Vidvie Ultra Smart Watch with Bluetooth Calling, Large HD Display, Metallic Frame, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, SW1608",
+  "name": "VIDVIE SW1608 Ultra Smart Watch, 1.85\" Display, Bluetooth Calling, IP67, Up to 15 Days Battery, Zinc Alloy Case, Wireless Charging - Black",
   "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-ultra-smart-watch-with-bluetooth-calling-large-hd-display-metallic-frame-heart-rate-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-sw1608",
+  "url": "https://begad.ae/product/vidvie-sw1608-ultra-smart-watch-1-85-display-bluetooth-calling-ip67-up-to-15-days-battery-zinc-alloy-case-wireless-charging-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173150-4297.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173150-4297.jpg",
   "price": {
@@ -591,9 +561,9 @@ const catalogProducts = [
  {
   "id": 10002187,
   "sku": "ELE1001348",
-  "name": "Vidvie Foldable Bluetooth 5.1 Keyboard, Portable Tri-Fold Wireless Keyboard with Aluminum Alloy Body, 140mAh Rechargeable, 45H Use and 90 Days Standby, for Windows, iOS and Android, KB03",
+  "name": "VIDVIE KB03 Foldable Bluetooth Keyboard, Tri-Fold Wireless Keyboard, Aluminum Alloy, 45H Use, 90 Days Standby, for Windows, iOS & Android",
   "category": "Keyboards",
-  "url": "https://begad.ae/product/vidvie-foldable-bluetooth-5-1-keyboard-portable-tri-fold-wireless-keyboard-with-aluminum-alloy-body-140mah-rechargeable-45h-use-and-90-days-standby-for-windows-ios-and-android-kb03",
+  "url": "https://begad.ae/product/vidvie-kb03-foldable-bluetooth-keyboard-tri-fold-wireless-keyboard-aluminum-alloy-45h-use-90-days-standby-for-windows-ios-android",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002187.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10002187.jpg",
   "price": {
@@ -666,9 +636,9 @@ const catalogProducts = [
  {
   "id": 10002182,
   "sku": "ELE1001344",
-  "name": "Vidvie 3-in-1 Magnetic Power Bank 10000mAh with Built-in USB-C and Lightning Cables and Foldable Phone Stand, 22.5W Fast Charging, 20W PD, Magnetic Wireless Charging, HD Digital Display, PB7029",
+  "name": "VIDVIE PB7029 3-in-1 Magnetic Power Bank 10000mAh, 15W Wireless Charging, 22.5W Fast Charging, Built-in Cables & Phone Holder, Digital Display",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-3-in-1-magnetic-power-bank-10000mah-with-built-in-usb-c-and-lightning-cables-and-foldable-phone-stand-22-5w-fast-charging-20w-pd-magnetic-wireless-charging-hd-digital-display-pb7029",
+  "url": "https://begad.ae/product/vidvie-pb7029-3-in-1-magnetic-power-bank-10000mah-15w-wireless-charging-22-5w-fast-charging-built-in-cables-phone-holder-digital-display",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012180034-8062.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261012180034-8062.png",
   "price": {
@@ -876,9 +846,9 @@ const catalogProducts = [
  {
   "id": 10002052,
   "sku": "ELE1001330",
-  "name": "Vidvie 10000mAh Ultra-Thin Magnetic Wireless Power Bank, MagSafe Compatible, Wireless and USB-C Wired Fast Charging, LED Battery Indicator, Overheat and Short-Circuit Protection, PB7008",
+  "name": "VIDVIE PB7008 Ultra-Thin Magnetic Wireless Power Bank 10000mAh, 15W Wireless, 20W PD USB-C Fast Charging, Aluminum Alloy Body",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-10000mah-ultra-thin-magnetic-wireless-power-bank-magsafe-compatible-wireless-and-usb-c-wired-fast-charging-led-battery-indicator-overheat-and-short-circuit-protection-pb7008",
+  "url": "https://begad.ae/product/vidvie-pb7008-ultra-thin-magnetic-wireless-power-bank-10000mah-15w-wireless-20w-pd-usb-c-fast-charging-aluminum-alloy-body",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173326-7063.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173326-7063.jpg",
   "price": {
@@ -891,9 +861,9 @@ const catalogProducts = [
  {
   "id": 10002051,
   "sku": "ELE1001329",
-  "name": "Vidvie 2-in-1 Portable Power Bank with Built-in Charging Cable, Compact Lightweight Charger with Overcharge, Overheat and Short-Circuit Protection for Smartphones, PB7036",
+  "name": "VIDVIE PB7036 2-in-1 Power Bank 20000mAh with Built-in Cables, PD 45W Fast Charging, Digital Display",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-2-in-1-portable-power-bank-with-built-in-charging-cable-compact-lightweight-charger-with-overcharge-overheat-and-short-circuit-protection-for-smartphones-pb7036",
+  "url": "https://begad.ae/product/vidvie-pb7036-2-in-1-power-bank-20000mah-with-built-in-cables-pd-45w-fast-charging-digital-display",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261021123443-5506.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261021123443-5506.png",
   "price": {
@@ -1281,9 +1251,9 @@ const catalogProducts = [
  {
   "id": 10001973,
   "sku": "ELE1001303",
-  "name": "Vidvie 2-in-1 Wireless Headphones and Speaker, Bluetooth Over-Ear Headset with Built-in Speaker Mode and Microphone for Music, Movies, Gaming and Calls, XL-BBH01",
+  "name": "VIDVIE XL-BBH01 2-in-1 Wireless Headphones & Speaker, Bluetooth 5.4, 50H Playtime, 40mm External Speaker, AUX & FM Radio",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-2-in-1-wireless-headphones-and-speaker-bluetooth-over-ear-headset-with-built-in-speaker-mode-and-microphone-for-music-movies-gaming-and-calls-xl-bbh01",
+  "url": "https://begad.ae/product/vidvie-xl-bbh01-2-in-1-wireless-headphones-speaker-bluetooth-5-4-50h-playtime-40mm-external-speaker-aux-fm-radio",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184527-9109.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261012184527-9109.jpg",
   "price": {
@@ -1311,9 +1281,9 @@ const catalogProducts = [
  {
   "id": 10001971,
   "sku": "ELE1001301",
-  "name": "Vidvie Wireless Bluetooth Over-Ear Headphones with Built-in Microphone, Clear Balanced Sound, Rechargeable, Lightweight Comfortable Fit for Music, Movies and Calls, BBH2116",
+  "name": "VIDVIE BBH2116 Wireless Over-Ear Headphones, Bluetooth 5.4, 80H Playtime, 40mm Drivers, Foldable, Type-C Charging - Black",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-wireless-bluetooth-over-ear-headphones-with-built-in-microphone-clear-balanced-sound-rechargeable-lightweight-comfortable-fit-for-music-movies-and-calls-bbh2116",
+  "url": "https://begad.ae/product/vidvie-bbh2116-wireless-over-ear-headphones-bluetooth-5-4-80h-playtime-40mm-drivers-foldable-type-c-charging-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173024-3196.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173024-3196.jpg",
   "price": {
@@ -1326,9 +1296,9 @@ const catalogProducts = [
  {
   "id": 10001970,
   "sku": "ELE1001300",
-  "name": "Vidvie ANC Wireless Headphones, Active Noise Cancelling Bluetooth Over-Ear Headphones for Music, Travel and Calls, BBH2113",
+  "name": "VIDVIE BBH2113 ANC Wireless Headphones, Active Noise Cancelling up to -20dB, Bluetooth 5.4, 37H Playtime, 40mm Drivers, Foldable, AUX - Silver",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-anc-wireless-headphones-active-noise-cancelling-bluetooth-over-ear-headphones-for-music-travel-and-calls-bbh2113",
+  "url": "https://begad.ae/product/vidvie-bbh2113-anc-wireless-headphones-active-noise-cancelling-up-to-20db-bluetooth-5-4-37h-playtime-40mm-drivers-foldable-aux-silver",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124172847-4747.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124172847-4747.jpg",
   "price": {
@@ -1341,9 +1311,9 @@ const catalogProducts = [
  {
   "id": 10001969,
   "sku": "ELE1001299",
-  "name": "Vidvie Heavy Bass Wireless Headphones, Lightweight Foldable Bluetooth Over-Ear Headphones with Built-in Mic, Cushioned Ear Cups, Rechargeable, for Music, Movies and Calls, BBH2111",
+  "name": "VIDVIE BBH2111 Heavy Bass Wireless Headphones, Bluetooth 5.3, 70H Music Playtime, 40mm Drivers, Built-in Mic, Lightweight Foldable - Beige",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-heavy-bass-wireless-headphones-lightweight-foldable-bluetooth-over-ear-headphones-with-built-in-mic-cushioned-ear-cups-rechargeable-for-music-movies-and-calls-bbh2111",
+  "url": "https://begad.ae/product/vidvie-bbh2111-heavy-bass-wireless-headphones-bluetooth-5-3-70h-music-playtime-40mm-drivers-built-in-mic-lightweight-foldable-beige",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173424-8243.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173424-8243.jpg",
   "price": {
@@ -1594,21 +1564,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001948,
-  "sku": "AUT1000055",
-  "name": "Vidvie Metal Foldable Phone Stand, Adjustable Angle Desk Holder with Silicone Anti-Slip Base, Compact and Travel-Friendly, for Video Calls, Watching and Reading, HC1575",
-  "category": "Mounts & Holders",
-  "url": "https://begad.ae/product/vidvie-metal-foldable-phone-stand-adjustable-angle-desk-holder-with-silicone-anti-slip-base-compact-and-travel-friendly-for-video-calls-watching-and-reading-hc1575",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102171852-2680.jpg.webp",
-  "image": "https://begad.ae/uploads/products/gallery-20261102171852-2680.jpg",
-  "price": {
-   "amount": 37.05,
-   "amount_with_tax": 37.05,
-   "compare_at_amount": 44.46
-  },
-  "in_stock": true
- },
- {
   "id": 10001947,
   "sku": "ELE1000782",
   "name": "Vidvie Wired Earphones with USB-C Plug, Type-C Digital In-Ear Headphones with Built-in Mic, Lightweight, Plug and Play for Phones Without Audio Jack, HS666",
@@ -1656,30 +1611,15 @@ const catalogProducts = [
  {
   "id": 10001944,
   "sku": "ELE1000779",
-  "name": "Vidvie Wired Earphones, Clear Sound Headphones with Comfortable Fit, Lightweight and Portable, Plug and Play for Music, Videos and Calls, HS655",
+  "name": "VIDVIE HS655 Wired Earphones with Mic, 3.5mm Jack, 14mm Drivers, 1.2m Cable, Lightweight",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-wired-earphones-clear-sound-headphones-with-comfortable-fit-lightweight-and-portable-plug-and-play-for-music-videos-and-calls-hs655",
+  "url": "https://begad.ae/product/vidvie-hs655-wired-earphones-with-mic-3-5mm-jack-14mm-drivers-1-2m-cable-lightweight",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_195842_abba232dae.jpg.webp",
   "image": "https://begad.ae/uploads/products/api/20261108_195842_abba232dae.jpg",
   "price": {
    "amount": 18.59,
    "amount_with_tax": 18.59,
    "compare_at_amount": 22.31
-  },
-  "in_stock": true
- },
- {
-  "id": 10001943,
-  "sku": "AUT1000054",
-  "name": "Vidvie Suction Cup Car Phone Holder, Foldable Arm with 360° Rotation for Dashboard and Windshield, Shock-Resistant Clamp Mount for 4.7-6.7 Inch Phones, HC1547",
-  "category": "Car Mounts",
-  "url": "https://begad.ae/product/vidvie-suction-cup-car-phone-holder-foldable-arm-with-360-rotation-for-dashboard-and-windshield-shock-resistant-clamp-mount-for-4-7-6-7-inch-phones-hc1547",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915172716-6806.jpg.webp",
-  "image": "https://begad.ae/uploads/products/gallery-20260915172716-6806.jpg",
-  "price": {
-   "amount": 34.27,
-   "amount_with_tax": 34.27,
-   "compare_at_amount": 41.12
   },
   "in_stock": true
  },
@@ -2134,21 +2074,6 @@ const catalogProducts = [
   "in_stock": true
  },
  {
-  "id": 10001911,
-  "sku": "ELE1000758",
-  "name": "Vidvie 12-in-1 Power Strip Extension 2500W with UK Plug, 4 AC Outlets, 4 USB-A and 4 USB-C Fast Charging Ports, Overload Protection, Black, PSB07",
-  "category": "extensions & Plugs",
-  "url": "https://begad.ae/product/vidvie-12-in-1-power-strip-extension-2500w-with-uk-plug-4-ac-outlets-4-usb-a-and-4-usb-c-fast-charging-ports-overload-protection-black-psb07",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260925015041-3432.png.webp",
-  "image": "https://begad.ae/uploads/products/gallery-20260925015041-3432.png",
-  "price": {
-   "amount": 71.25,
-   "amount_with_tax": 71.25,
-   "compare_at_amount": 85.5
-  },
-  "in_stock": true
- },
- {
   "id": 10001910,
   "sku": "ELE1000757",
   "name": "Vidvie UK Plug Wall Charger, Compact White Charger with Stable Charging and Overcharge, Overcurrent, Overvoltage and Short-Circuit Protection, XL-PSB03",
@@ -2175,21 +2100,6 @@ const catalogProducts = [
    "amount": 60.32,
    "amount_with_tax": 60.32,
    "compare_at_amount": 72.38
-  },
-  "in_stock": true
- },
- {
-  "id": 10001908,
-  "sku": "ELE1000755",
-  "name": "Vidvie Global Universal Travel Charger, International Plug Adapter for US, UK, EU and AU Sockets with Multi-Port USB Charging and Safety Protection, TA4409",
-  "category": "extensions & Plugs",
-  "url": "https://begad.ae/product/vidvie-global-universal-travel-charger-international-plug-adapter-for-us-uk-eu-and-au-sockets-with-multi-port-usb-charging-and-safety-protection-ta4409",
-  "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001908.jpg.webp",
-  "image": "https://begad.ae/uploads/products/gallery-20260928140000-10001908.jpg",
-  "price": {
-   "amount": 33.19,
-   "amount_with_tax": 33.19,
-   "compare_at_amount": 39.83
   },
   "in_stock": true
  },
@@ -2376,9 +2286,9 @@ const catalogProducts = [
  {
   "id": 10001884,
   "sku": "ELE1000738",
-  "name": "Vidvie WLC1425 4-in-1 Folding Magnetic Wireless Charging Stand",
+  "name": "VIDVIE WLC1425 Foldable Magnetic Wireless Charging Stand, 15W Fast Charging for Phone, Earbuds & Apple/Samsung Watch at Once - White",
   "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/vidvie-wlc1425-4-in-1-folding-magnetic-wireless-charging-stand",
+  "url": "https://begad.ae/product/vidvie-wlc1425-foldable-magnetic-wireless-charging-stand-15w-fast-charging-for-phone-earbuds-apple-samsung-watch-at-once-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173251-4516.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173251-4516.jpg",
   "price": {
@@ -2391,9 +2301,9 @@ const catalogProducts = [
  {
   "id": 10001881,
   "sku": "HOM1000306",
-  "name": "Vidvie FN05 Desktop Turbo Fan, 100-Speed Adjustment, LED Digital Display, Desk & Wall Mount Design, Type-C, Beige",
+  "name": "VIDVIE FN05 Turbo Desktop Fan, 100-Speed Adjustment, Digital Display, Desk & Wall Mount, 2000mAh Rechargeable - Beige",
   "category": "Fans",
-  "url": "https://begad.ae/product/vidvie-fn05-desktop-turbo-fan-100-speed-adjustment-led-digital-display-desk-wall-mount-design-type-c-beige",
+  "url": "https://begad.ae/product/vidvie-fn05-turbo-desktop-fan-100-speed-adjustment-digital-display-desk-wall-mount-2000mah-rechargeable-beige",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017164648-8749.jpg.webp",
   "image": "https://begad.ae/uploads/products/remote-20261017164648-8749.jpg",
   "price": {
@@ -2406,9 +2316,9 @@ const catalogProducts = [
  {
   "id": 10001880,
   "sku": "HOM1000305",
-  "name": "Vidvie FN04 Rechargeable Handheld Portable Fan, 1200mAh Battery, Adjustable Speeds, Lightweight Ergonomic Design, White",
+  "name": "VIDVIE FN04 Mini Handheld Fan, Rechargeable 1200mAh, 4 Speeds, Up to 10H Runtime, Built-in Stand - White",
   "category": "Fans",
-  "url": "https://begad.ae/product/vidvie-fn04-rechargeable-handheld-portable-fan-1200mah-battery-adjustable-speeds-lightweight-ergonomic-design-white",
+  "url": "https://begad.ae/product/vidvie-fn04-mini-handheld-fan-rechargeable-1200mah-4-speeds-up-to-10h-runtime-built-in-stand-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001880.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10001880.jpg",
   "price": {
@@ -2421,9 +2331,9 @@ const catalogProducts = [
  {
   "id": 10001879,
   "sku": "HOM1000304",
-  "name": "Vidvie FN03 Desktop Fan with Smart Digital Display, Adjustable Wind Speeds, Ultra-Quiet Low-Noise Motor, White",
+  "name": "VIDVIE FN03 Rechargeable Desktop Fan with Digital Display, 5 Speeds, 2000mAh Battery, Up to 9.5H Runtime - White",
   "category": "Fans",
-  "url": "https://begad.ae/product/vidvie-fn03-desktop-fan-with-smart-digital-display-adjustable-wind-speeds-ultra-quiet-low-noise-motor-white",
+  "url": "https://begad.ae/product/vidvie-fn03-rechargeable-desktop-fan-with-digital-display-5-speeds-2000mah-battery-up-to-9-5h-runtime-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155932-3411.jpg.webp",
   "image": "https://begad.ae/uploads/products/remote-20261017155932-3411.jpg",
   "price": {
@@ -2496,9 +2406,9 @@ const catalogProducts = [
  {
   "id": 10001873,
   "sku": "BEA1000178",
-  "name": "Vidvie SHD01 Universal 1400W 105,000 RPM High-Speed Hair Dryer",
+  "name": "VIDVIE SHD01 High-Speed Hair Dryer, 1400W, 105,000 RPM Brushless Motor, 30 m/s Airflow, Smoothing & Diffuser Nozzles - Grey",
   "category": "Hair Dryers & Stylers",
-  "url": "https://begad.ae/product/vidvie-shd01-universal-1400w-105-000-rpm-high-speed-hair-dryer",
+  "url": "https://begad.ae/product/vidvie-shd01-high-speed-hair-dryer-1400w-105-000-rpm-brushless-motor-30-m-s-airflow-smoothing-diffuser-nozzles-grey",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173355-8618.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173355-8618.jpg",
   "price": {
@@ -2511,9 +2421,9 @@ const catalogProducts = [
  {
   "id": 10001872,
   "sku": "BEA1000177",
-  "name": "Vidvie ES02 Metal Electric Shaver for Men, 3D Floating Rotary Heads, IPX7 Waterproof Wet & Dry Shaving, LED Digital Display, Grey",
+  "name": "VIDVIE ES02 Electric Shaver for Men, 3 Rotary Stainless Steel Blades, Fully Washable, 3H Runtime, with Sideburn, Nose Hair & Beard Heads - Grey",
   "category": "Grooming Kits",
-  "url": "https://begad.ae/product/vidvie-es02-metal-electric-shaver-for-men-3d-floating-rotary-heads-ipx7-waterproof-wet-dry-shaving-led-digital-display-grey",
+  "url": "https://begad.ae/product/vidvie-es02-electric-shaver-for-men-3-rotary-stainless-steel-blades-fully-washable-3h-runtime-with-sideburn-nose-hair-beard-heads-grey",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173552-8203.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173552-8203.jpg",
   "price": {
@@ -2736,9 +2646,9 @@ const catalogProducts = [
  {
   "id": 10001852,
   "sku": "ELE1000714",
-  "name": "Vidvie VD01 Streaming Device 4K/HDR",
+  "name": "VIDVIE VD01 Android TV Box, 4K HDR, Android TV 10, 2GB RAM + 16GB Storage, Dual-Band Wi-Fi, Bluetooth 5.0 - Black",
   "category": "Streaming Devices",
-  "url": "https://begad.ae/product/vidvie-vd01-streaming-device-4k-hdr",
+  "url": "https://begad.ae/product/vidvie-vd01-android-tv-box-4k-hdr-android-tv-10-2gb-ram-16gb-storage-dual-band-wi-fi-bluetooth-5-0-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173621-9922.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173621-9922.jpg",
   "price": {
@@ -2826,9 +2736,9 @@ const catalogProducts = [
  {
   "id": 10001770,
   "sku": "ELE1000659",
-  "name": "Vidvie PLB142 GaN 67W High Power Charger Compact Fast Charging Solution",
+  "name": "VIDVIE PLB142 67W GaN Fast Charger, 3 Ports (2 USB-C + USB-A), PD & PPS Fast Charging for iPhone, Samsung, iPad & Laptops - White",
   "category": "Wall Chargers",
-  "url": "https://begad.ae/product/vidvie-plb142-gan-67w-high-power-charger-compact-fast-charging-solution",
+  "url": "https://begad.ae/product/vidvie-plb142-67w-gan-fast-charger-3-ports-2-usb-c-usb-a-pd-pps-fast-charging-for-iphone-samsung-ipad-laptops-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261124173455-5368.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261124173455-5368.jpg",
   "price": {
