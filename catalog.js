@@ -111,9 +111,9 @@ const catalogProducts = [
  {
   "id": 10010951,
   "sku": "ELE1002403",
-  "name": "VIDVIE XL-HS604 Type-C In-Ear Wired Earphone – Black",
+  "name": "VIDVIE XL-HS604 USB-C Wired Earphones with Mic, In-Ear, 10mm Drivers, Digital Audio, 1.2m Cable - Black",
   "category": "Headphones",
-  "url": "https://begad.ae/product/vidvie-xl-hs604-type-c-in-ear-wired-earphone-black",
+  "url": "https://begad.ae/product/vidvie-xl-hs604-usb-c-wired-earphones-with-mic-in-ear-10mm-drivers-digital-audio-1-2m-cable-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261109152116-6856.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261109152116-6856.jpg",
   "price": {
@@ -141,9 +141,9 @@ const catalogProducts = [
  {
   "id": 10009867,
   "sku": "ELE1002292",
-  "name": "VIDVIE 10000mAh Power Bank 22.5W Fast Charging 2-in-1 Portable Charger with Built-In Type-C & Lightning Cables - White",
+  "name": "VIDVIE PB7017 10000mAh Power Bank with 2 Built-in Cables (Type-C + Lightning), 22.5W Fast Charging - White",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-10000mah-power-bank-22-5w-fast-charging-2-in-1-portable-charger-with-built-in-type-c-lightning-cables-white",
+  "url": "https://begad.ae/product/vidvie-pb7017-10000mah-power-bank-with-2-built-in-cables-type-c-lightning-22-5w-fast-charging-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_191931_3e78d810c0.jpg.webp",
   "image": "https://begad.ae/uploads/products/api/20261108_191931_3e78d810c0.jpg",
   "price": {
@@ -306,9 +306,9 @@ const catalogProducts = [
  {
   "id": 10002386,
   "sku": "ELE1001373",
-  "name": "Vidvie AMOLED Smart Watch with Bluetooth Calling, Ultra-Clear Display, Heart Rate, SpO2 and Sleep Monitoring, Multi-Sport Modes, Smart Notifications, Water Resistant, Rose Gold, SW1619",
+  "name": "VIDVIE SW1619 Smart Watch, 1.43\" AMOLED Display, Bluetooth Calling, 5-7 Days Battery, Aluminium Case, Arabic Support - Rose Gold",
   "category": "Smart Watches",
-  "url": "https://begad.ae/product/vidvie-amoled-smart-watch-with-bluetooth-calling-ultra-clear-display-heart-rate-spo2-and-sleep-monitoring-multi-sport-modes-smart-notifications-water-resistant-rose-gold-sw1619",
+  "url": "https://begad.ae/product/vidvie-sw1619-smart-watch-1-43-amoled-display-bluetooth-calling-5-7-days-battery-aluminium-case-arabic-support-rose-gold",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260709171837-5043.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260709171837-5043.png",
   "price": {
@@ -531,9 +531,9 @@ const catalogProducts = [
  {
   "id": 10002247,
   "sku": "ELE1001350",
-  "name": "Vidvie USB Flash Drive, USB 3.0 and USB 2.0 Compatible Memory Stick, Plug and Play Portable Storage for Laptop, PC, Smart TV and Car Stereo, USB2603",
+  "name": "VIDVIE USB2603 USB 3.0 Flash Drive, Zinc Alloy Metal Body, up to 110MB/s Read, for Laptop, PC, TV and Car",
   "category": "USB Flash Drives",
-  "url": "https://begad.ae/product/vidvie-usb-flash-drive-usb-3-0-and-usb-2-0-compatible-memory-stick-plug-and-play-portable-storage-for-laptop-pc-smart-tv-and-car-stereo-usb2603",
+  "url": "https://begad.ae/product/vidvie-usb2603-usb-3-0-flash-drive-zinc-alloy-metal-body-up-to-110mb-s-read-for-laptop-pc-tv-and-car",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260919004821-2681.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260919004821-2681.png",
   "price": {
@@ -816,9 +816,9 @@ const catalogProducts = [
  {
   "id": 10002054,
   "sku": "ELE1001332",
-  "name": "Vidvie 10000mAh Power Bank, Slim Portable Charger with Dual USB-A and USB-C Ports, LED Battery Indicator, Fast Charging External Battery for iPhone, Samsung, Huawei and Android Phones, White, PB7012",
+  "name": "VIDVIE PB7012 10000mAh Power Bank, USB-A Output, Type-C Input, LED Indicator, Slim Business Design - White",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-10000mah-power-bank-slim-portable-charger-with-dual-usb-a-and-usb-c-ports-led-battery-indicator-fast-charging-external-battery-for-iphone-samsung-huawei-and-android-phones-white-pb7012",
+  "url": "https://begad.ae/product/vidvie-pb7012-10000mah-power-bank-usb-a-output-type-c-input-led-indicator-slim-business-design-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261021123212-6589.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261021123212-6589.png",
   "price": {
@@ -2766,9 +2766,9 @@ const catalogProducts = [
  {
   "id": 10001730,
   "sku": "ELE1000630",
-  "name": "Vidvie KB05 Transparent Smart Wireless Keyboard – Sleek and Modern Typing Experience",
+  "name": "VIDVIE KB05 Transparent Wireless Bluetooth Keyboard, 78 Keys with LED Backlight, Connects 3 Devices, Rechargeable Type-C",
   "category": "Keyboards",
-  "url": "https://begad.ae/product/vidvie-kb05-transparent-smart-wireless-keyboard-sleek-and-modern-typing-experience",
+  "url": "https://begad.ae/product/vidvie-kb05-transparent-wireless-bluetooth-keyboard-78-keys-with-led-backlight-connects-3-devices-rechargeable-type-c",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260805122625-6878.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260805122625-6878.jpg",
   "price": {
