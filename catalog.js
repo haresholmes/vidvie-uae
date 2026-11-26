@@ -126,9 +126,9 @@ const catalogProducts = [
  {
   "id": 10009868,
   "sku": "ELE1002293",
-  "name": "VIDVIE 10000mAh Multifunctional Power Bank 2-in-1 Wall Charger & Portable Battery with Built-In Cables & 60W Type-C Cable - Black",
+  "name": "VIDVIE PB796 2-in-1 Power Bank and Wall Charger 10000mAh, Foldable Plug, Built-in Type-C + Lightning Cables, 22.5W - Black",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-10000mah-multifunctional-power-bank-2-in-1-wall-charger-portable-battery-with-built-in-cables-60w-type-c-cable-black",
+  "url": "https://begad.ae/product/vidvie-pb796-2-in-1-power-bank-and-wall-charger-10000mah-foldable-plug-built-in-type-c-lightning-cables-22-5w-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261013195247-2348.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261013195247-2348.jpg",
   "price": {
@@ -471,9 +471,9 @@ const catalogProducts = [
  {
   "id": 10002251,
   "sku": "ELE1001354",
-  "name": "Vidvie Transparent Wireless Mouse, 2.4GHz Rechargeable USB-C Mouse with Precise Optical Tracking, Slim Ergonomic Design for Windows, macOS, ChromeOS and Linux, Gray, KB07",
+  "name": "VIDVIE KB07 Transparent Wireless Mouse, 2.4G + Bluetooth Dual Mode, Connects 3 Devices, Rechargeable, 1600 DPI - Grey",
   "category": "Mouse",
-  "url": "https://begad.ae/product/vidvie-transparent-wireless-mouse-2-4ghz-rechargeable-usb-c-mouse-with-precise-optical-tracking-slim-ergonomic-design-for-windows-macos-chromeos-and-linux-gray-kb07",
+  "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-2-4g-bluetooth-dual-mode-connects-3-devices-rechargeable-1600-dpi-grey",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/api/20261108_200116_c71185e897.jpg.webp",
   "image": "https://begad.ae/uploads/products/api/20261108_200116_c71185e897.jpg",
   "price": {
@@ -591,9 +591,9 @@ const catalogProducts = [
  {
   "id": 10002185,
   "sku": "ELE1001346",
-  "name": "Vidvie 64GB Micro SDXC Memory Card, Upgraded High-Capacity microSD Card for Smartphones, Tablets, Cameras, Drones and Nintendo Switch, SD2502",
+  "name": "VIDVIE SD2502 64GB Micro SDXC Memory Card, U3 High Speed up to 100MB/s Read, for Phones, Tablets, Cameras and Drones",
   "category": "Memory Cards",
-  "url": "https://begad.ae/product/vidvie-64gb-micro-sdxc-memory-card-upgraded-high-capacity-microsd-card-for-smartphones-tablets-cameras-drones-and-nintendo-switch-sd2502",
+  "url": "https://begad.ae/product/vidvie-sd2502-64gb-micro-sdxc-memory-card-u3-high-speed-up-to-100mb-s-read-for-phones-tablets-cameras-and-drones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002185.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10002185.jpg",
   "price": {
@@ -666,9 +666,9 @@ const catalogProducts = [
  {
   "id": 10002180,
   "sku": "ELE1001342",
-  "name": "Vidvie Multifunctional Fast Charging Power Bank with USB-A and USB-C Ports, LED Battery Indicator, Smart Overcharge and Short-Circuit Protection, Portable Charger for Phones and Earbuds, PB796",
+  "name": "VIDVIE PB796 2-in-1 Power Bank and Wall Charger 10000mAh, Foldable Plug, Built-in Type-C + Lightning Cables, 22.5W",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-multifunctional-fast-charging-power-bank-with-usb-a-and-usb-c-ports-led-battery-indicator-smart-overcharge-and-short-circuit-protection-portable-charger-for-phones-and-earbuds-pb796",
+  "url": "https://begad.ae/product/vidvie-pb796-2-in-1-power-bank-and-wall-charger-10000mah-foldable-plug-built-in-type-c-lightning-cables-22-5w",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200007-1563.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261012200007-1563.jpg",
   "price": {
@@ -696,9 +696,9 @@ const catalogProducts = [
  {
   "id": 10002178,
   "sku": "ELE1001340",
-  "name": "Vidvie Mini Power Bank with Foldable Phone Stand, Compact Portable Charger with Fast Charging, LED Battery Indicator and Smart Protection for Smartphones and Earbuds, PB791-L",
+  "name": "VIDVIE PB791-L 5000mAh Mini Power Bank with Built-in Lightning Plug and Phone Stand, 20W Fast Charging",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-mini-power-bank-with-foldable-phone-stand-compact-portable-charger-with-fast-charging-led-battery-indicator-and-smart-protection-for-smartphones-and-earbuds-pb791-l",
+  "url": "https://begad.ae/product/vidvie-pb791-l-5000mah-mini-power-bank-with-built-in-lightning-plug-and-phone-stand-20w-fast-charging",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002178.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10002178.jpg",
   "price": {
@@ -936,9 +936,9 @@ const catalogProducts = [
  {
   "id": 10002046,
   "sku": "ELE1001324",
-  "name": "Vidvie 10000mAh Portable Power Bank, Slim Lightweight Charger with Overcharge, Overheat and Short-Circuit Protection for Phones and Tablets, PB7026",
+  "name": "VIDVIE PB7026 10000mAh Slim Power Bank, 22.5W Fast Charging, 2 USB-A + 1 Type-C, Digital Display",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-10000mah-portable-power-bank-slim-lightweight-charger-with-overcharge-overheat-and-short-circuit-protection-for-phones-and-tablets-pb7026",
+  "url": "https://begad.ae/product/vidvie-pb7026-10000mah-slim-power-bank-22-5w-fast-charging-2-usb-a-1-type-c-digital-display",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002046.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10002046.jpg",
   "price": {
@@ -951,9 +951,9 @@ const catalogProducts = [
  {
   "id": 10002045,
   "sku": "ELE1001323",
-  "name": "Vidvie 10000mAh 4-in-1 Multifunctional Power Bank, Portable Charger for Multiple Devices with Overcharge, Overheat and Short-Circuit Protection for Phones and Tablets, PB7039",
+  "name": "VIDVIE PB7039 10000mAh 4-in-1 Power Bank with 3 Built-in Cables (Type-C, Lightning, Micro USB) + USB-A, Digital Display",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-10000mah-4-in-1-multifunctional-power-bank-portable-charger-for-multiple-devices-with-overcharge-overheat-and-short-circuit-protection-for-phones-and-tablets-pb7039",
+  "url": "https://begad.ae/product/vidvie-pb7039-10000mah-4-in-1-power-bank-with-3-built-in-cables-type-c-lightning-micro-usb-usb-a-digital-display",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261021123726-3015.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261021123726-3015.png",
   "price": {
@@ -981,9 +981,9 @@ const catalogProducts = [
  {
   "id": 10002043,
   "sku": "ELE1001321",
-  "name": "Vidvie 50000mAh Extra Large Capacity Power Bank, High-Capacity Portable Charger for Multiple Devices with Overcharge, Overheat and Short-Circuit Protection, for Travel, Camping and Emergency Backup, PB7034",
+  "name": "VIDVIE PB7034 50000mAh Power Bank, 22.5W Fast Charging, Built-in Type-C + Lightning Cables, LED Light, 5 Outputs",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-50000mah-extra-large-capacity-power-bank-high-capacity-portable-charger-for-multiple-devices-with-overcharge-overheat-and-short-circuit-protection-for-travel-camping-and-emergency-backup-pb7034",
+  "url": "https://begad.ae/product/vidvie-pb7034-50000mah-power-bank-22-5w-fast-charging-built-in-type-c-lightning-cables-led-light-5-outputs",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012175150-6414.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261012175150-6414.png",
   "price": {
@@ -1206,9 +1206,9 @@ const catalogProducts = [
  {
   "id": 10001976,
   "sku": "ELE1001306",
-  "name": "Vidvie Outdoor Camping Bluetooth Speaker with Colorful Breathing Lights, Portable Rechargeable Wireless Speaker for Camping, Parties and Travel, CL01",
+  "name": "VIDVIE CL01 Camping Lantern Bluetooth Speaker, 2-in-1 Light + 5W Speaker, 8 Color Modes, Bluetooth 5.4, Type-C - Beige",
   "category": "Bluetooth Speakers",
-  "url": "https://begad.ae/product/vidvie-outdoor-camping-bluetooth-speaker-with-colorful-breathing-lights-portable-rechargeable-wireless-speaker-for-camping-parties-and-travel-cl01",
+  "url": "https://begad.ae/product/vidvie-cl01-camping-lantern-bluetooth-speaker-2-in-1-light-5w-speaker-8-color-modes-bluetooth-5-4-type-c-beige",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012184221-2366.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261012184221-2366.jpg",
   "price": {
@@ -1416,9 +1416,9 @@ const catalogProducts = [
  {
   "id": 10001960,
   "sku": "AUT1000058",
-  "name": "Vidvie Suction Cup Car Phone Holder for Center Console, Adjustable Viewing Angle, Hands-Free Mount for Navigation and Calls, Fits Most Smartphones, Black, HC1522",
+  "name": "VIDVIE HC1522 Suction Cup Car Phone Holder for Dashboard and Windshield, Fits 4.7-7 Inch Phones - Black",
   "category": "Car Mounts",
-  "url": "https://begad.ae/product/vidvie-suction-cup-car-phone-holder-for-center-console-adjustable-viewing-angle-hands-free-mount-for-navigation-and-calls-fits-most-smartphones-black-hc1522",
+  "url": "https://begad.ae/product/vidvie-hc1522-suction-cup-car-phone-holder-for-dashboard-and-windshield-fits-4-7-7-inch-phones-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915171325-4939.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260915171325-4939.png",
   "price": {
@@ -2466,9 +2466,9 @@ const catalogProducts = [
  {
   "id": 10001866,
   "sku": "ELE1000728",
-  "name": "Vidvie Wall Charger XL-PLB127 Retractable Cord GaN Fast Charger",
+  "name": "VIDVIE XL-PLB127 40W GaN Fast Charger with Retractable USB-C Cable, USB-C + USB-A Ports, PD + PPS",
   "category": "Wall Chargers",
-  "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb127-retractable-cord-gan-fast-charger",
+  "url": "https://begad.ae/product/vidvie-xl-plb127-40w-gan-fast-charger-with-retractable-usb-c-cable-usb-c-usb-a-ports-pd-pps",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001866.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10001866.jpg",
   "price": {
@@ -2496,9 +2496,9 @@ const catalogProducts = [
  {
   "id": 10001864,
   "sku": "ELE1000726",
-  "name": "Vidvie Wall Charger XL-PLB122 GaN Dual USB & Dual Type-C 70W Fast Charger",
+  "name": "VIDVIE XL-PLB122 70W GaN Wall Charger, 2 USB-C + 2 USB-A, PD 70W Fast Charging for Laptops and Phones",
   "category": "Wall Chargers",
-  "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb122-gan-dual-usb-dual-type-c-70w-fast-charger",
+  "url": "https://begad.ae/product/vidvie-xl-plb122-70w-gan-wall-charger-2-usb-c-2-usb-a-pd-70w-fast-charging-for-laptops-and-phones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001864.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10001864.jpg",
   "price": {
@@ -2601,9 +2601,9 @@ const catalogProducts = [
  {
   "id": 10001855,
   "sku": "ELE1000717",
-  "name": "Vidvie PLB167 Type-C & USB PD Fast Charger",
+  "name": "VIDVIE PLB167 20W Fast Wall Charger, USB-C PD 20W + USB-A 18W, PPS, Compact Travel Charger",
   "category": "Wall Chargers",
-  "url": "https://begad.ae/product/vidvie-plb167-type-c-usb-pd-fast-charger",
+  "url": "https://begad.ae/product/vidvie-plb167-20w-fast-wall-charger-usb-c-pd-20w-usb-a-18w-pps-compact-travel-charger",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261102162757-2081.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261102162757-2081.jpg",
   "price": {
@@ -2751,9 +2751,9 @@ const catalogProducts = [
  {
   "id": 10001735,
   "sku": "AUT1000020",
-  "name": "Vidvie VC004 Wireless Handheld Car Vacuum Cleaner, 85W Strong Suction, 3-in-1 Multi-Nozzle Design with Smart Digital Display, Black",
+  "name": "VIDVIE VC004 Cordless Car Vacuum Cleaner, 85W, up to 14000Pa Suction, 2 Power Levels, Rechargeable - Black",
   "category": "Car Care & Cleaning",
-  "url": "https://begad.ae/product/vidvie-vc004-wireless-handheld-car-vacuum-cleaner-85w-strong-suction-3-in-1-multi-nozzle-design-with-smart-digital-display-black",
+  "url": "https://begad.ae/product/vidvie-vc004-cordless-car-vacuum-cleaner-85w-up-to-14000pa-suction-2-power-levels-rechargeable-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017173645-6103.jpg.webp",
   "image": "https://begad.ae/uploads/products/remote-20261017173645-6103.jpg",
   "price": {
