@@ -426,9 +426,9 @@ const catalogProducts = [
  {
   "id": 10002254,
   "sku": "ELE1001357",
-  "name": "Vidvie Universal Active Capacitive Stylus Pen, Rechargeable USB-C Digital Pen with Precision Tip and Lightweight Aluminum Body for iOS, Android and Windows Tablets and Phones, AP06",
+  "name": "VIDVIE AP06 Universal Active Stylus Pen for Touch Screens, 1.5mm Fine Tip, 10H Use, Type-C Fast Charging, Aluminium",
   "category": "Stylus Pens",
-  "url": "https://begad.ae/product/vidvie-universal-active-capacitive-stylus-pen-rechargeable-usb-c-digital-pen-with-precision-tip-and-lightweight-aluminum-body-for-ios-android-and-windows-tablets-and-phones-ap06",
+  "url": "https://begad.ae/product/vidvie-ap06-universal-active-stylus-pen-for-touch-screens-1-5mm-fine-tip-10h-use-type-c-fast-charging-aluminium",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017155711-4071.jpg.webp",
   "image": "https://begad.ae/uploads/products/remote-20261017155711-4071.jpg",
   "price": {
@@ -486,9 +486,9 @@ const catalogProducts = [
  {
   "id": 10002250,
   "sku": "ELE1001353",
-  "name": "Vidvie Transparent Wireless Mouse, 2.4GHz Rechargeable USB-C Mouse with Precise Optical Tracking, Slim Ergonomic Design for Windows, macOS, ChromeOS and Linux, White, KB07",
+  "name": "VIDVIE KB07 Transparent Wireless Mouse, 2.4G + Bluetooth Dual Mode, Connects 3 Devices, Rechargeable, 1600 DPI - White",
   "category": "Mouse",
-  "url": "https://begad.ae/product/vidvie-transparent-wireless-mouse-2-4ghz-rechargeable-usb-c-mouse-with-precise-optical-tracking-slim-ergonomic-design-for-windows-macos-chromeos-and-linux-white-kb07",
+  "url": "https://begad.ae/product/vidvie-kb07-transparent-wireless-mouse-2-4g-bluetooth-dual-mode-connects-3-devices-rechargeable-1600-dpi-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261014202304-9635.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261014202304-9635.jpg",
   "price": {
@@ -621,9 +621,9 @@ const catalogProducts = [
  {
   "id": 10002183,
   "sku": "ELE1001345",
-  "name": "Vidvie 15W Magnetic Wireless Charger with Cooling Fan, Fast Charging Phone Cooler for Gaming and Streaming, USB-C Input, Overheat and Overcharge Protection, GM02",
+  "name": "VIDVIE GM02 15W Magnetic Wireless Charger with Cooling Fan, Phone Cooler for Gaming, 3 Cooling Modes",
   "category": "Wireless Chargers",
-  "url": "https://begad.ae/product/vidvie-15w-magnetic-wireless-charger-with-cooling-fan-fast-charging-phone-cooler-for-gaming-and-streaming-usb-c-input-overheat-and-overcharge-protection-gm02",
+  "url": "https://begad.ae/product/vidvie-gm02-15w-magnetic-wireless-charger-with-cooling-fan-phone-cooler-for-gaming-3-cooling-modes",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260915170051-9767.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260915170051-9767.jpg",
   "price": {
@@ -756,9 +756,9 @@ const catalogProducts = [
  {
   "id": 10002174,
   "sku": "ELE1001336",
-  "name": "Vidvie 2-in-1 Power Bank with Dual Built-in Charging Cables, Fast Charging Portable Charger, Charge 2 Devices at Once, LED Battery Indicator, Overcharge and Temperature Protection, PB7017",
+  "name": "VIDVIE PB7017 10000mAh Power Bank with 2 Built-in Cables (Type-C + Lightning), 22.5W Fast Charging",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-2-in-1-power-bank-with-dual-built-in-charging-cables-fast-charging-portable-charger-charge-2-devices-at-once-led-battery-indicator-overcharge-and-temperature-protection-pb7017",
+  "url": "https://begad.ae/product/vidvie-pb7017-10000mah-power-bank-with-2-built-in-cables-type-c-lightning-22-5w-fast-charging",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012200652-2022.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261012200652-2022.jpg",
   "price": {
@@ -771,9 +771,9 @@ const catalogProducts = [
  {
   "id": 10002173,
   "sku": "ELE1001335",
-  "name": "Vidvie 20000mAh Power Bank, High-Capacity Portable Charger with USB-A and USB-C Outputs, LED Battery Indicator, Smart Overcharge and Short-Circuit Protection for Phones, Tablets and Earbuds, PB7013",
+  "name": "VIDVIE PB7013 20000mAh Power Bank, USB-A Output and Type-C Input, LED Indicator, Slim Business Design",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-20000mah-power-bank-high-capacity-portable-charger-with-usb-a-and-usb-c-outputs-led-battery-indicator-smart-overcharge-and-short-circuit-protection-for-phones-tablets-and-earbuds-pb7013",
+  "url": "https://begad.ae/product/vidvie-pb7013-20000mah-power-bank-usb-a-output-and-type-c-input-led-indicator-slim-business-design",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20261012181514-9723.png.webp",
   "image": "https://begad.ae/uploads/products/gallery-20261012181514-9723.png",
   "price": {
@@ -966,9 +966,9 @@ const catalogProducts = [
  {
   "id": 10002044,
   "sku": "ELE1001322",
-  "name": "Vidvie Mini Power Bank with Built-in LED Light, Compact Lightweight Emergency Charger for Smartphones and Small USB Devices, Travel and Outdoor,30,000mAh PB7035",
+  "name": "VIDVIE PB7035 30000mAh Power Bank with Built-in LED Light, 22.5W Fast Charging, 2 USB-A + Type-C, for Travel and Camping - White",
   "category": "Power Banks",
-  "url": "https://begad.ae/product/vidvie-mini-power-bank-with-built-in-led-light-compact-lightweight-emergency-charger-for-smartphones-and-small-usb-devices-travel-and-outdoor-30-000mah-pb7035",
+  "url": "https://begad.ae/product/vidvie-pb7035-30000mah-power-bank-with-built-in-led-light-22-5w-fast-charging-2-usb-a-type-c-for-travel-and-camping-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10002044.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10002044.jpg",
   "price": {
@@ -1372,7 +1372,7 @@ const catalogProducts = [
   "id": 10001965,
   "sku": "ELE1001295",
   "name": "Vidvie Neckband Wireless Sports Earphones, Flexible Silicone Bluetooth Semi In-Ear Headphones with Built-in Mic, Lightweight, Rechargeable, for Workouts and Commuting, BT888",
-  "category": "neckbands",
+  "category": "Neckbands",
   "url": "https://begad.ae/product/vidvie-neckband-wireless-sports-earphones-flexible-silicone-bluetooth-semi-in-ear-headphones-with-built-in-mic-lightweight-rechargeable-for-workouts-and-commuting-bt888",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260804202053-8595.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260804202053-8595.jpg",
@@ -2092,7 +2092,7 @@ const catalogProducts = [
   "id": 10001909,
   "sku": "ELE1000756",
   "name": "Vidvie Global Universal Travel Adapter Charger, All-in-One International Plug Converter with USB Charging Ports for Phones, Tablets and Travel Devices, TA4404",
-  "category": "extensions & Plugs",
+  "category": "Extensions & Plugs",
   "url": "https://begad.ae/product/vidvie-global-universal-travel-adapter-charger-all-in-one-international-plug-converter-with-usb-charging-ports-for-phones-tablets-and-travel-devices-ta4404",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260916232233-8044.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260916232233-8044.jpg",
@@ -2196,9 +2196,9 @@ const catalogProducts = [
  {
   "id": 10001901,
   "sku": "BEA1000182",
-  "name": "Vidvie 3-in-1 Hair Clippers, Cordless Type-C Rechargeable Grooming Kit with Interchangeable Heads for Hair, Beard, Nose and Ear Trimming, Black, ES01",
+  "name": "VIDVIE ES01 4-in-1 Men's Grooming Kit, Cordless Shaver with Beard, Sideburn and Nose Trimmer Heads, Washable, Type-C - Black",
   "category": "Grooming Kits",
-  "url": "https://begad.ae/product/vidvie-3-in-1-hair-clippers-cordless-type-c-rechargeable-grooming-kit-with-interchangeable-heads-for-hair-beard-nose-and-ear-trimming-black-es01",
+  "url": "https://begad.ae/product/vidvie-es01-4-in-1-men-s-grooming-kit-cordless-shaver-with-beard-sideburn-and-nose-trimmer-heads-washable-type-c-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172623-4049.jpg.webp",
   "image": "https://begad.ae/uploads/products/remote-20261017172623-4049.jpg",
   "price": {
@@ -2241,9 +2241,9 @@ const catalogProducts = [
  {
   "id": 10001898,
   "sku": "BEA1000180",
-  "name": "Vidvie ET01 Sonic Electric Toothbrush, Rechargeable with Up to 38,000 Vibrations per Minute, Multiple Cleaning Modes, IPX7 Waterproof, White",
+  "name": "VIDVIE ET01 Sonic Electric Toothbrush, Rechargeable Type-C, 25 Days Battery, IPX7 Waterproof, DuPont Bristles - White",
   "category": "Electric Toothbrush",
-  "url": "https://begad.ae/product/vidvie-et01-sonic-electric-toothbrush-rechargeable-with-up-to-38-000-vibrations-per-minute-multiple-cleaning-modes-ipx7-waterproof-white",
+  "url": "https://begad.ae/product/vidvie-et01-sonic-electric-toothbrush-rechargeable-type-c-25-days-battery-ipx7-waterproof-dupont-bristles-white",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017172534-4463.jpg.webp",
   "image": "https://begad.ae/uploads/products/remote-20261017172534-4463.jpg",
   "price": {
@@ -2451,9 +2451,9 @@ const catalogProducts = [
  {
   "id": 10001867,
   "sku": "ELE1000729",
-  "name": "Vidvie Wall Charger XL-PLB124 Retractable Cord GaN Fast Charger",
+  "name": "VIDVIE XL-PLB124 67W GaN Fast Charger with Retractable USB-C Cable, USB-C + USB-A Ports, for Laptops and Phones",
   "category": "Wall Chargers",
-  "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb124-retractable-cord-gan-fast-charger",
+  "url": "https://begad.ae/product/vidvie-xl-plb124-67w-gan-fast-charger-with-retractable-usb-c-cable-usb-c-usb-a-ports-for-laptops-and-phones",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001867.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10001867.jpg",
   "price": {
@@ -2481,9 +2481,9 @@ const catalogProducts = [
  {
   "id": 10001865,
   "sku": "ELE1000727",
-  "name": "Vidvie Wall Charger XL-PLB123 GaN 70W Desktop Charger",
+  "name": "VIDVIE XL-PLB123 70W GaN Desktop Charger, 2 USB-C + 2 USB-A, PD 70W Fast Charging with 1.5m Cord",
   "category": "Wall Chargers",
-  "url": "https://begad.ae/product/vidvie-wall-charger-xl-plb123-gan-70w-desktop-charger",
+  "url": "https://begad.ae/product/vidvie-xl-plb123-70w-gan-desktop-charger-2-usb-c-2-usb-a-pd-70w-fast-charging-with-1-5m-cord",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/gallery-20260928140000-10001865.jpg.webp",
   "image": "https://begad.ae/uploads/products/gallery-20260928140000-10001865.jpg",
   "price": {
