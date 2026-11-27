@@ -2752,7 +2752,7 @@ const catalogProducts = [
   "id": 10001735,
   "sku": "AUT1000020",
   "name": "VIDVIE VC004 Cordless Car Vacuum Cleaner, 85W, up to 14000Pa Suction, 2 Power Levels, Rechargeable - Black",
-  "category": "Car Care & Cleaning",
+  "category": "Vacuum Cleaners",
   "url": "https://begad.ae/product/vidvie-vc004-cordless-car-vacuum-cleaner-85w-up-to-14000pa-suction-2-power-levels-rechargeable-black",
   "thumb": "https://begad.ae/uploads/thumbs/w400/products/remote-20261017173645-6103.jpg.webp",
   "image": "https://begad.ae/uploads/products/remote-20261017173645-6103.jpg",
